@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JD Explorer — M1 Desktop Review</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f5f5f0;--white:#fff;--border:#e0ddd5;--border2:#ccc9c0;
+  --t1:#1a1a1a;--t2:#555;--t3:#888;
+  --amber:#9a7020;--amber-bg:#f7f0e0;--amber-bdr:#e0d0a0;
+  --blue:#2060a0;--blue-bg:#e8f0fa;--blue-bdr:#a0c0e0;
+  --purple:#6d4ba0;--purple-bg:#f3eefb;--purple-bdr:#c4ace8;
+  --green:#2d7a4a;--green-bg:#e8f5ec;--green-bdr:#95d6a8;
+  --gray:#666;--gray-bg:#f0f0ec;--gray-bdr:#c8c8c0;
+  --brown:#8a6050;--brown-bg:#f7f0ed;--brown-bdr:#d4b8aa;
+  --red:#b03020;--red-bg:#fef0ee;--red-bdr:#f0b0a0;
+  --card-radius:8px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"DM Sans",-apple-system,BlinkMacSystemFont,sans-serif;background:var(--bg);color:var(--t1);font-size:15px;line-height:1.55}
+.page{max-width:1140px;margin:0 auto;padding:28px 24px}
+
+/* Header */
+.header{margin-bottom:20px}
+.header-sup{font-size:11px;font-weight:700;letter-spacing:2px;color:var(--t3);text-transform:uppercase;margin-bottom:4px}
+.header h1{font-size:28px;font-weight:700;letter-spacing:-.3px;color:var(--t1)}
+.header p{font-size:13px;color:var(--t2);margin-top:2px}
+
+/* Stats strip */
+.stats-strip{display:flex;gap:1px;margin-bottom:24px;background:var(--border);border-radius:var(--card-radius);overflow:hidden;flex-wrap:nowrap}
+.stat-box{flex:1;background:var(--white);padding:14px 14px;text-align:left;min-width:0}
+.stat-box:first-child{border-radius:var(--card-radius) 0 0 var(--card-radius)}
+.stat-box:last-child{border-radius:0 var(--card-radius) var(--card-radius) 0}
+.stat-num{font-family:"JetBrains Mono",monospace;font-size:28px;font-weight:700;color:var(--t1)}
+.stat-label{font-size:11px;font-weight:600;letter-spacing:0.5px;text-transform:uppercase;color:var(--t3);margin-top:2px}
+.stat-sub{font-size:11px;color:var(--t3);margin-top:1px}
+.stat-box.coal .stat-num{color:var(--amber)}
+.stat-box.minerals .stat-num{color:var(--blue)}
+.stat-box.quarry .stat-num{color:var(--green)}
+.stat-box.other .stat-num{color:var(--gray)}
+
+/* Tabs */
+.tabs{display:flex;gap:0;border-bottom:1px solid var(--border);margin-bottom:20px;overflow-x:auto}
+.tab{padding:10px 16px;border:none;background:0;color:var(--t3);font-size:13px;font-weight:600;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;font-family:inherit;transition:all .15s;white-space:nowrap;border-radius:6px 6px 0 0}
+.tab:hover{color:var(--t1);background:var(--gray-bg)}.tab.on{color:var(--t1);border-bottom-color:var(--t1);background:transparent}
+.tab .tab-count{font-size:11px;font-weight:700;background:var(--gray-bg);color:var(--t3);padding:1px 6px;border-radius:10px;margin-left:4px}
+.tab.on .tab-count{background:var(--t1);color:var(--white)}
+.tab-content{display:none}.tab-content.active{display:block}
+
+/* Search & filters */
+.search-box{flex:1;min-width:200px;max-width:500px;position:relative}
+.search-box input{width:100%;padding:9px 14px;border:1px solid var(--border);border-radius:6px;font-size:14px;font-family:inherit;background:var(--white);outline:none;transition:all .15s}
+.search-box input:focus{border-color:var(--t3);box-shadow:0 0 0 3px rgba(0,0,0,.05)}
+.search-box input::placeholder{color:var(--t3)}
+.controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:16px}
+.filter-chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{padding:5px 14px;border-radius:20px;font-size:12px;font-weight:600;cursor:pointer;border:1.5px solid var(--border);background:var(--white);color:var(--t2);transition:all .15s;user-select:none}
+.chip:hover{border-color:var(--t3);background:var(--gray-bg)}
+.chip.active{background:var(--t1);color:var(--white);border-color:var(--t1)}
+.chip.active:hover{opacity:.85}
+.chip.coal.active{background:var(--amber);border-color:var(--amber);color:#fff}
+.chip.minerals.active{background:var(--blue);border-color:var(--blue);color:#fff}
+.chip.quarry.active{background:var(--green);border-color:var(--green);color:#fff}
+.chip.other.active{background:var(--gray);border-color:var(--gray);color:#fff}
+
+/* Section headers */
+.scope-header{display:flex;align-items:center;gap:8px;margin:20px 0 12px;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:0.5px}
+.scope-dot{width:8px;height:8px;border-radius:50%}
+.scope-header.in .scope-dot{background:var(--green)}
+.scope-header.out .scope-dot{background:var(--t3)}
+.scope-header.out{color:var(--t3)}
+
+/* JD Cards */
+.jd-card{background:var(--white);border:1px solid var(--border);border-radius:var(--card-radius);margin-bottom:8px;overflow:hidden;transition:all .15s}
+.jd-card:hover{border-color:var(--border2);box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.jd-header{display:flex;align-items:center;padding:14px 16px;cursor:pointer;gap:12px}
+.sector-bar{width:4px;min-height:36px;border-radius:2px;flex-shrink:0;align-self:stretch}
+.jd-info{flex:1;min-width:0}
+.jd-title{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.jd-company{font-weight:700;font-size:15px;color:var(--t1)}
+.jd-role{font-size:14px;color:var(--t2);font-weight:400}
+.jd-role::before{content:"|";margin-right:8px;color:var(--border2)}
+.jd-tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:6px}
+.tag{display:inline-block;padding:2px 10px;border-radius:4px;font-size:11px;font-weight:600;line-height:1.6}
+.tag.sector{color:#fff}
+.tag.sector.coal{background:var(--amber)}
+.tag.sector.minerals{background:var(--blue)}
+.tag.sector.quarry{background:var(--green)}
+.tag.sector.underground{background:var(--purple)}
+.tag.sector.construction{background:var(--gray)}
+.tag.sector.manufacturing{background:var(--brown)}
+.tag.sector.other{background:var(--gray)}
+.tag.method{background:var(--gray-bg);color:var(--t2);border:1px solid var(--border)}
+.tag.mine{background:var(--gray-bg);color:var(--t2);border:1px solid var(--border)}
+.tag.flag{background:var(--red-bg);color:var(--red);border:1px solid var(--red-bdr);font-weight:500}
+.arrow{color:var(--t3);font-size:18px;flex-shrink:0;transition:transform .15s}
+.jd-card.open .arrow{transform:rotate(90deg)}
+.hit-count{font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:600;color:var(--blue);background:var(--blue-bg);padding:2px 8px;border-radius:4px}
+
+/* JD Body (expanded) */
+.jd-body{display:none;padding:0 16px 16px 32px;animation:fadeIn .15s}
+.jd-card.open .jd-body{display:block}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+.section-label{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;color:var(--t3);margin:14px 0 6px;padding-bottom:4px;border-bottom:1px solid var(--border)}
+.resp-item,.qual-item{font-size:13px;color:var(--t2);padding:4px 0 4px 14px;position:relative;line-height:1.5}
+.resp-item::before{content:"";position:absolute;left:0;top:11px;width:4px;height:4px;border-radius:50%;background:var(--t3)}
+.qual-item::before{content:"";position:absolute;left:0;top:11px;width:4px;height:4px;border-radius:50%;background:var(--blue)}
+.summary-note{font-size:11px;color:var(--t3);padding:8px 12px;background:var(--gray-bg);border-radius:6px;margin-bottom:10px;font-style:italic}
+.raw-btn{font-size:12px;color:var(--blue);cursor:pointer;margin-top:10px;padding:4px 0;font-weight:500;display:inline-block}
+.raw-btn:hover{text-decoration:underline;color:var(--t1)}
+.raw-text{display:none;font-size:12px;color:var(--t2);line-height:1.7;padding:12px;background:var(--gray-bg);border-radius:6px;margin-top:8px;white-space:pre-wrap;max-height:400px;overflow-y:auto;font-family:"JetBrains Mono",monospace}
+.raw-text.visible{display:block}
+.flag-note{padding:8px 12px;background:var(--red-bg);border:1px solid var(--red-bdr);border-radius:6px;font-size:12px;color:var(--red);margin-bottom:12px}
+.hl{background:#fef08a;border-radius:2px;padding:0 1px}
+.search-info{font-size:13px;color:var(--t2);margin-bottom:12px;padding:8px 12px;background:var(--blue-bg);border:1px solid var(--blue-bdr);border-radius:6px;display:none}
+.search-info.visible{display:block}
+
+/* Evidence rows */
+.card-box{background:var(--white);border:1px solid var(--border);border-radius:var(--card-radius);padding:20px;margin-bottom:16px}
+.card-box h3{font-size:16px;font-weight:700;margin-bottom:2px}
+.card-box .sub{font-size:12px;color:var(--t3);margin-bottom:14px}
+.intro{font-size:13px;color:var(--t2);margin-bottom:16px;line-height:1.6}
+.ev-row{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:6px;cursor:pointer;transition:background .1s}
+.ev-row:hover{background:var(--gray-bg)}.ev-row.open{background:var(--gray-bg)}
+.ev-arrow{color:var(--t3);font-size:14px;flex-shrink:0;transition:transform .15s;width:12px}
+.ev-row.open .ev-arrow{transform:rotate(90deg)}
+.ev-label{flex:1;font-size:13px;font-weight:600;color:var(--t1)}
+.ev-dots{display:flex;gap:3px;flex-shrink:0}
+.ev-dot{width:8px;height:8px;border-radius:50%}
+.ev-bar{display:flex;align-items:center;gap:8px;flex-shrink:0;width:160px}
+.ev-bar-track{flex:1;height:6px;background:var(--gray-bg);border-radius:3px;overflow:hidden}
+.ev-bar-fill{height:100%;border-radius:3px;transition:width .3s}
+.ev-count{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--t3);min-width:35px;text-align:right}
+.ev-panel{display:none;padding:6px 10px 10px 22px}.ev-panel.open{display:block}
+.ev-jd{margin-bottom:8px;padding:8px 10px;background:var(--white);border:1px solid var(--border);border-radius:6px;cursor:pointer;transition:all .15s}
+.ev-jd:hover{border-color:var(--blue-bdr);background:var(--blue-bg);box-shadow:0 1px 4px rgba(0,0,0,.05)}
+.ev-jd-header{display:flex;align-items:center;gap:6px;margin-bottom:4px;flex-wrap:wrap}
+.ev-jd-name{font-size:12px;font-weight:600}
+.ev-jd-text{font-size:12px;color:var(--t2);line-height:1.5;padding:2px 0 2px 10px;border-left:2px solid var(--border)}
+.ev-src{font-size:11px;color:var(--t3);font-style:italic}
+.ev-hint{font-size:10px;color:var(--blue);margin-top:4px}
+.expand-hint{font-size:11px;color:var(--t3);font-style:italic;margin-top:4px;display:flex;align-items:center;gap:4px}
+.expand-hint::before{content:"▸";font-size:9px;color:var(--t3)}
+
+/* CSV button */
+.csv-btn{padding:6px 14px;border:1px solid var(--border);border-radius:6px;background:var(--white);font-size:12px;font-weight:600;color:var(--t2);cursor:pointer;font-family:inherit;transition:all .15s}
+.csv-btn:hover{border-color:var(--t3);color:var(--t1);background:var(--gray-bg)}
+
+/* Heatmap */
+.hm-wrap{overflow-x:auto;margin-top:10px}
+.hm-table{border-collapse:collapse;width:100%;font-size:12px}
+.hm-table th,.hm-table td{border:1px solid var(--border);padding:6px 8px;text-align:center}
+.hm-table th{background:var(--gray-bg);font-weight:600;font-size:11px}
+.hm-table td:first-child,.hm-table th:first-child{text-align:left;min-width:160px;position:sticky;left:0;background:var(--white);z-index:1}
+.hm-table th:first-child{background:var(--gray-bg)}
+.hm-yes{color:var(--green);font-weight:700;font-size:14px}
+.hm-no{color:var(--border);font-size:10px}
+.hm-footer td{font-weight:700;background:var(--gray-bg)}
+
+/* Experience table */
+.exp-table{border-collapse:collapse;width:100%;font-size:13px}
+.exp-table th,.exp-table td{border:1px solid var(--border);padding:8px 10px;text-align:left}
+.exp-table th{background:var(--gray-bg);font-weight:600;font-size:12px}
+.exp-row{cursor:pointer;transition:background .1s}
+.exp-row:hover td{background:var(--gray-bg)}
+
+/* Type cards */
+.type-card{background:var(--white);border:1px solid var(--border);border-radius:var(--card-radius);padding:16px;margin-bottom:12px;transition:all .15s}
+.type-card:hover{box-shadow:0 2px 8px rgba(0,0,0,.05)}
+
+/* Gap cards */
+.gap-card{background:var(--white);border:1px solid var(--border);border-radius:var(--card-radius);margin-bottom:8px;overflow:hidden;transition:all .15s}
+.gap-card:hover{border-color:var(--border2);box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.gap-head{display:flex;align-items:center;gap:12px;padding:14px 16px;cursor:pointer;transition:background .1s}
+.gap-head:hover{background:var(--gray-bg)}
+.gap-icon{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;flex-shrink:0}
+.gap-info{flex:1}.gap-title{font-size:14px;font-weight:600;color:var(--t1)}.gap-sub{font-size:12px;color:var(--t3)}
+.gap-badge{font-family:"JetBrains Mono",monospace;font-size:12px;font-weight:600;padding:3px 10px;border-radius:12px;flex-shrink:0}
+.gap-body{display:none;padding:0 16px 16px 56px}
+.gap-card.open .gap-body{display:block}
+.gap-leg{font-size:12px;color:var(--t2);padding:8px 12px;background:var(--amber-bg);border:1px solid var(--amber-bdr);border-radius:6px;margin-bottom:10px;line-height:1.5}
+.gap-note{font-size:12px;color:var(--t1);line-height:1.6;margin-bottom:10px}
+
+/* Source text modal */
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:10000;display:flex;align-items:center;justify-content:center;padding:20px;animation:fadeIn .15s}
+.modal-box{background:var(--white);border-radius:12px;max-width:850px;width:100%;max-height:85vh;display:flex;flex-direction:column;box-shadow:0 20px 60px rgba(0,0,0,.25)}
+.modal-header{padding:16px 20px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:12px;flex-shrink:0}
+.modal-header h3{flex:1;font-size:15px;font-weight:700}
+.modal-header .modal-sub{font-size:12px;color:var(--t3)}
+.modal-close{width:32px;height:32px;border:none;background:var(--gray-bg);border-radius:6px;cursor:pointer;font-size:18px;color:var(--t2);display:flex;align-items:center;justify-content:center;transition:all .15s}
+.modal-close:hover{background:var(--border);color:var(--t1)}
+.modal-body{padding:20px;overflow-y:auto;flex:1;font-size:13px;line-height:1.8;color:var(--t2);font-family:"JetBrains Mono",monospace;white-space:pre-wrap}
+
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:11px;color:var(--t3);margin-bottom:12px;padding:6px 10px;background:var(--gray-bg);border-radius:6px;align-items:center}
+.legend-item{display:flex;align-items:center;gap:4px}
+.legend-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.scope-explain{font-size:11px;color:var(--t3);font-style:italic;margin-bottom:4px}
+.empty{text-align:center;color:var(--t3);padding:40px;font-size:14px}
+@media(max-width:900px){.ev-bar{width:100px}.stats-strip{flex-wrap:wrap}.stat-box{min-width:100px}}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="header">
+    <div class="header-sup">M1 — Desktop Review</div>
+    <h1>JD Explorer</h1>
+    <p>Queensland Mining Supervisor Competency Requirements Project</p>
+  </div>
+  <div class="stats-strip" id="statsStrip"></div>
+  <div class="tabs" id="tabBar">
+    <button class="tab on" data-t="browse">All JDs <span class="tab-count" id="tabCount"></span></button>
+    <button class="tab" data-t="types">Supervisor Types</button>
+    <button class="tab" data-t="quals">Qualifications</button>
+    <button class="tab" data-t="duties">Common Duties</button>
+    <button class="tab" data-t="experience">Experience</button>
+    <button class="tab" data-t="gaps" style="color:var(--red)">Gaps</button>
+  </div>
+  <div id="browseTab" class="tab-content active"></div>
+  <div id="typesTab" class="tab-content"></div>
+  <div id="qualsTab" class="tab-content"></div>
+  <div id="dutiesTab" class="tab-content"></div>
+  <div id="experienceTab" class="tab-content"></div>
+  <div id="gapsTab" class="tab-content"></div>
+</div>
+<div id="modalRoot"></div>
+<div id="loadingOverlay" style="position:fixed;inset:0;background:var(--bg);z-index:9999;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:12px">
+<div style="width:36px;height:36px;border:3px solid var(--border);border-top-color:var(--t1);border-radius:50%;animation:spin .8s linear infinite"></div>
+<div style="color:var(--t3);font-size:13px">Loading job descriptions...</div>
+<style>@keyframes spin{to{transform:rotate(360deg)}}</style>
+</div>
+<script>
+let RAW_TEXTS={}, CLEAN_TEXTS={}, DATA=[], GAPS=[];
+let _evTermsMap={}, _evTermsIdx=0;
+
+const SECTOR_COLORS={
+  "Coal - Surface":{label:"Coal",cls:"coal",color:"var(--amber)",bg:"var(--amber-bg)",bdr:"var(--amber-bdr)"},
+  "Minerals - Surface":{label:"Minerals",cls:"minerals",color:"var(--blue)",bg:"var(--blue-bg)",bdr:"var(--blue-bdr)"},
+  "Minerals - Underground":{label:"Minerals",cls:"underground",color:"var(--purple)",bg:"var(--purple-bg)",bdr:"var(--purple-bdr)"},
+  "Quarry":{label:"Quarry",cls:"quarry",color:"var(--green)",bg:"var(--green-bg)",bdr:"var(--green-bdr)"},
+  "Construction/Services":{label:"Construction",cls:"construction",color:"var(--gray)",bg:"var(--gray-bg)",bdr:"var(--gray-bdr)"},
+  "Manufacturing (Non-mining)":{label:"Manufacturing",cls:"manufacturing",color:"var(--brown)",bg:"var(--brown-bg)",bdr:"var(--brown-bdr)"},
+};
+function sc(s){return SECTOR_COLORS[s]||{label:s,cls:"other",color:"var(--gray)",bg:"var(--gray-bg)",bdr:"var(--gray-bdr)"}}
+function sectorGroup(s){
+  if(s.startsWith("Coal"))return "Coal";
+  if(s.startsWith("Minerals"))return "Minerals";
+  if(s==="Quarry")return "Quarry";
+  return "Other";
+}
+
+const TYPE_INFO={"Production Supervisor":{desc:"Frontline leader of production crews."},"Maintenance Supervisor":{desc:"Leads maintenance teams (often trade-qualified)."},"Mining Supervisor":{desc:"General mining supervisor."},"Underground Shift Supervisor":{desc:"Leads underground crews."},"Quarry Supervisor":{desc:"Supervises quarry ops including crushing/screening."},"Shutdown / Projects Supervisor":{desc:"Leads crews during shutdowns/projects."},"Site Services Supervisor":{desc:"Manages indirect/support services."},"Superintendent (above supervisor)":{desc:"Senior role above supervisors."},"Operator (not supervisor)":{desc:"Equipment operator — no supervisory responsibilities."}};
+
+const QUAL_KEYWORDS=[
+  {key:"S1/S2/S3 or G1/G8/G9",short:"S1/S2/S3 (G1/G8/G9)",terms:["re:\\bs1\\b","re:\\bs2\\b","re:\\bs3\\b","re:\\bg1\\b","re:\\bg8\\b","re:\\bg9\\b","qms1","qms2","qms3","mining supervisor competenc","supervisor ticket"],group:"Supervisor Competencies"},
+  {key:"G2 / Risk Management",short:"G2 Risk Mgmt",terms:["re:\\bg2\\b","riiris301","riiris402","risk management process"],group:"Supervisor Competencies"},
+  {key:"Standard 11",short:"Std 11",terms:["standard 11"],group:"Industry Requirements"},
+  {key:"Coal Board Medical",short:"Coal Medical",terms:["coal board medical","coal mine workers' health","reshealth"],group:"Industry Requirements"},
+  {key:"RIIWHS301E (S&H Investigations)",short:"RIIWHS301E",terms:["riiwhs301","safety and health investigation"],group:"Units of Competency"},
+  {key:"RIICOM301E (Communicate)",short:"RIICOM301E",terms:["riicom301","communicate information"],group:"Units of Competency"},
+  {key:"Trade Qualification",short:"Trade Qual",terms:["trade qualification","trade qual","diesel fitting","diesel fitter","mechanic trade","fitter/mechanic","mechanical fitter","trade certificate","trade qualified"],group:"Trades & Licences"},
+  {key:"Driver's Licence",short:"Drivers Lic",terms:["driver's licen","driver licen","drivers licen","c class driver"],group:"Trades & Licences"},
+  {key:"First Aid",short:"First Aid",terms:["first aid"],group:"Trades & Licences"},
+  {key:"Work at Heights",short:"Heights",terms:["work at height","working at height"],group:"Trades & Licences"},
+  {key:"Confined Space",short:"Confined Sp",terms:["confined space"],group:"Trades & Licences"},
+  {key:"Explosives",short:"Explosives",terms:["explosives"],group:"Trades & Licences"},
+  {key:"Loader / Excavator / Forklift",short:"Loader/Excav",terms:["forklift","wheel loader","excavator operation","front end loader","skid steer"],group:"Trades & Licences"},
+  {key:"SAP",short:"SAP",terms:[" sap ","sap to ","sap for ","(sap","sap)","use sap","using sap"],group:"Systems"},
+  {key:"MS Office / Computer skills",short:"MS Office",terms:["microsoft office","ms office","word processing","computer literate","computer skills"],group:"Systems"},
+  {key:"CMMS",short:"CMMS",terms:["cmms","computerised maintenance","pronto"],group:"Systems"},
+];
+const DUTY_THEMES=[
+  {label:"Safety culture & compliance",terms:["safety culture","safe work","safety compliance","safety standard","safety first","safe and efficient","safe environment","promotes safety","positive safety","safety performance","strong safety","safety excellence"],color:"var(--red)"},
+  {label:"Lead / supervise crew",terms:["lead and supervise","lead and support","lead and manage","supervise and coordinate","direct and supervise","leading and supervising","supervising a team","lead a team","lead production"],color:"var(--blue)"},
+  {label:"Production targets & planning",terms:["production target","daily production","production plan","production activities","operational targets","meet operational","output target","weekly plan","production achievements"],color:"var(--amber)"},
+  {label:"Coaching, mentoring & development",terms:["coaching","mentoring","mentor ","mentor,","develop team","develop staff","develop operator","guidance, coaching","training and development","develop others","mentor and develop","coach,"],color:"var(--purple)"},
+  {label:"Pre-starts, toolbox talks & briefings",terms:["pre-start","prestart","toolbox talk","safety briefing","safety meeting","shift handover","operational briefing"],color:"var(--green)"},
+  {label:"Incident management & investigation",terms:["incident investigation","investigate all incidents","corrective action","root cause","respond to injuries","incident report","support incident"],color:"var(--red)"},
+  {label:"Risk management & hazard ID",terms:["risk management","risk assessment","hazard identification","hazard management","job safety analysis","critical control","risk controls","proactive risk","personal risk assessment"],color:"var(--brown)"},
+  {label:"Reporting & documentation",terms:["comprehensive reporting","accurate reporting","operational records","maintenance records","daily report","maintain safety documentation","reporting requirement","production report","activity report"],color:"var(--gray)"},
+  {label:"Compliance with legislation / SHMS",terms:["legislation","statutory requirement","shms","safety and health management system","mine safety and inspection","whs legislation","compliance with site"],color:"var(--amber)"},
+  {label:"Equipment / fleet management",terms:["fleet productivity","equipment utilisation","fleet management","equipment availability","breakdown","downtime","asset reliability"],color:"var(--blue)"},
+  {label:"Continuous improvement",terms:["continuous improvement","improvement initiative","improvement opportunit","lessons learned"],color:"var(--purple)"},
+  {label:"Stakeholder relationships",terms:["stakeholder","working relationship","build and maintain relationship"],color:"var(--gray)"},
+  {label:"Resource allocation & scheduling",terms:["allocate task","scheduling the","resource allocation","manage workload","task allocation","allocate resources","assign task","labour allocation","manpower"],color:"var(--green)"},
+  {label:"Contractor management",terms:["contractor performance","contractor management","subcontractor","monitor sub-contractor","contractor compliance","contractor service","supervise and coordinate contractor"],color:"var(--brown)"},
+  {label:"Permits & work packs",terms:["work permit","work pack","isolation","permit to work"],color:"var(--red)"},
+];
+
+let S={tab:"browse",search:"",filter:"All",qualFreqFilter:"All",qualHmFilter:"All",dutyFilter:"All",expFilter:"All",open:new Set(),rawOpen:new Set(),evOpen:new Set(),gapOpen:new Set()};
+
+function esc(s){const d=document.createElement("div");d.textContent=s||"";return d.innerHTML}
+function hi(t,q){if(!q||!t)return esc(t);return esc(t).replace(new RegExp(`(${q.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")})`,"gi"),'<span class="hl">$1</span>')}
+function hiTerms(text,terms){
+  let h=esc(text);
+  terms.forEach(t=>{
+    const tt=t.trim();
+    if(tt.startsWith('re:')){
+      try{h=h.replace(new RegExp('('+tt.substring(3)+')','gi'),'<span class="hl">$1</span>')}catch(e){}
+    } else if(tt.length>1){
+      h=h.replace(new RegExp('('+tt.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi'),'<span class="hl">$1</span>');
+    }
+  });
+  return h;
+}
+function countHits(t,q){if(!q)return 0;return(t.match(new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"gi"))||[]).length}
+function getRaw(j){return RAW_TEXTS[j.source]||RAW_TEXTS[j.source.replace('.pdf','.docx')]||""}
+function getClean(j){return CLEAN_TEXTS[j.source]||CLEAN_TEXTS[j.source.replace('.pdf','.docx')]||[]}
+function inScope(j){return !j.flag}
+
+// Term matching — supports regex patterns prefixed with "re:"
+function termTest(text,term){
+  const tt=term.trim();
+  if(tt.startsWith('re:')){try{return new RegExp(tt.substring(3),'i').test(text)}catch(e){return false}}
+  return text.toLowerCase().includes(tt);
+}
+
+// Qualification and duty matching uses RAW source text for accuracy
+function jdMatches(j,terms){const t=getRaw(j);return terms.some(term=>termTest(t,term))}
+
+function findEvidence(j,terms,max){
+  max=max||5;const m=[];
+  const rl=getRaw(j).split("\n");
+  for(const l of rl){
+    if(terms.some(t=>termTest(l,t))&&m.length<max){
+      const cl=l.trim();if(cl.length>5&&!m.includes(cl))m.push(cl);
+    }
+  }
+  if(!m.length){const lines=getClean(j);for(const l of lines){if(terms.some(t=>termTest(l,t))&&m.length<max&&!m.includes(l))m.push(l)}}
+  return m;
+}
+
+function downloadCSV(filename, headers, rows) {
+  const csvContent = [headers.join(","), ...rows.map(r=>r.map(c=>'"'+(c||"").replace(/"/g,'""')+'"').join(","))].join("\n");
+  const blob = new Blob([csvContent], {type:"text/csv;charset=utf-8;"});
+  const link = document.createElement("a");link.href = URL.createObjectURL(blob);link.download = filename;link.click();
+}
+
+function extractMethod(sector){
+  if(sector.includes("Underground"))return "underground";
+  if(sector.includes("Surface"))return "open cut";
+  if(sector==="Quarry")return "quarry";
+  return "surface";
+}
+function extractMine(loc){
+  if(!loc)return "";
+  const m=loc.match(/^([^,]+(?:Mine|Project|Smelter|Dam))/i);
+  if(m)return m[1].trim();
+  const parts=loc.split(",");
+  if(parts.length>1)return parts[0].trim();
+  return loc.replace(/\s*QLD.*$/i,"").replace(/\s*SA.*$/i,"").replace(/\s*WA.*$/i,"").replace(/\(.*\)/,"").trim();
+}
+
+// ─── Source text modal ───
+function showSourceModal(j, terms){
+  const raw=getRaw(j);const c=sc(j.sector);
+  const highlighted=hiTerms(raw, terms||[]);
+  const root=document.getElementById('modalRoot');
+  root.innerHTML=`<div class="modal-overlay" id="modalOverlay">
+    <div class="modal-box">
+      <div class="modal-header">
+        <div style="width:4px;height:28px;border-radius:2px;background:${c.color};flex-shrink:0"></div>
+        <div style="flex:1"><h3>${esc(j.company)} | ${esc(j.role)}</h3>
+          <div class="modal-sub">${esc(j.sector)} · ${esc(j.location||'')}</div></div>
+        <button class="modal-close" id="modalClose">&times;</button>
+      </div>
+      <div class="modal-body">${highlighted}</div>
+    </div></div>`;
+  document.getElementById('modalClose').onclick=closeModal;
+  document.getElementById('modalOverlay').onclick=e=>{if(e.target.id==='modalOverlay')closeModal()};
+  document.addEventListener('keydown',modalEscHandler);
+}
+function closeModal(){document.getElementById('modalRoot').innerHTML='';document.removeEventListener('keydown',modalEscHandler)}
+function modalEscHandler(e){if(e.key==='Escape')closeModal()}
+
+// ─── Sector filter helper ───
+function sectorFilterHtml(stateKey){
+  const groups=["All","Coal","Minerals","Quarry"];
+  if(DATA.some(j=>inScope(j)&&!["Coal","Minerals","Quarry"].includes(sectorGroup(j.sector))))groups.push("Other");
+  const current=S[stateKey];
+  return `<div class="filter-chips" data-fkey="${stateKey}">${groups.map(g=>{
+    const cls=g==="Coal"?"coal":g==="Minerals"?"minerals":g==="Quarry"?"quarry":"";
+    return `<div class="chip ${cls} ${current===g?"active":""}" data-f="${esc(g)}">${esc(g)}</div>`}).join("")}</div>`;
+}
+function bindSectorFilter(container,stateKey,callback){
+  container.querySelectorAll(`.filter-chips[data-fkey="${stateKey}"] .chip`).forEach(c=>{
+    c.onclick=()=>{S[stateKey]=c.dataset.f;callback()}});
+}
+
+// Stats strip
+function renderStats(){
+  const total=DATA.length,inS=DATA.filter(inScope).length,outS=total-inS;
+  const coal=DATA.filter(j=>inScope(j)&&j.sector.startsWith("Coal")).length;
+  const minerals=DATA.filter(j=>inScope(j)&&j.sector.startsWith("Minerals")).length;
+  const quarry=DATA.filter(j=>inScope(j)&&j.sector==="Quarry").length;
+  document.getElementById("statsStrip").innerHTML=
+    `<div class="stat-box"><div class="stat-num">${total}</div><div class="stat-label">Total JDs</div></div>
+     <div class="stat-box"><div class="stat-num">${inS}</div><div class="stat-label">In Scope</div><div class="stat-sub">supervisor roles</div></div>
+     <div class="stat-box"><div class="stat-num">${outS}</div><div class="stat-label">Out of Scope</div><div class="stat-sub">excluded roles</div></div>
+     <div class="stat-box coal"><div class="stat-num">${coal}</div><div class="stat-label">Coal</div><div class="stat-sub">in scope</div></div>
+     <div class="stat-box minerals"><div class="stat-num">${minerals}</div><div class="stat-label">Minerals</div><div class="stat-sub">in scope</div></div>
+     <div class="stat-box quarry"><div class="stat-num">${quarry}</div><div class="stat-label">Quarry</div><div class="stat-sub">in scope</div></div>`;
+  document.getElementById("tabCount").textContent=total;
+}
+
+// Tabs
+document.getElementById("tabBar").querySelectorAll(".tab").forEach(el=>{
+  el.onclick=()=>{S.tab=el.dataset.t;S.evOpen=new Set();
+    document.querySelectorAll(".tab").forEach(t=>t.classList.remove("on"));el.classList.add("on");
+    document.querySelectorAll(".tab-content").forEach(c=>c.classList.remove("active"));
+    document.getElementById(S.tab+"Tab").classList.add("active");render()};
+});
+
+function jdCardHtml(j,q,hc){
+  const c=sc(j.sector),isOpen=S.open.has(j.id),isRaw=S.rawOpen.has(j.id),hits=hc?hc[j.id]||0:0,raw=getRaw(j);
+  const method=extractMethod(j.sector);const mine=extractMine(j.location);
+  const sectorLabel=c.label||j.sector;
+  return `<div class="jd-card ${isOpen?"open":""}" data-id="${j.id}">
+    <div class="jd-header"><div class="sector-bar" style="background:${c.color}"></div>
+      <div class="jd-info">
+        <div class="jd-title"><span class="jd-company">${hi(j.company,q)}</span><span class="jd-role">${hi(j.role,q)}</span></div>
+        <div class="jd-tags">
+          <span class="tag sector ${c.cls}">${esc(sectorLabel)}</span>
+          <span class="tag method">${esc(method)}</span>
+          ${mine?`<span class="tag mine">${hi(mine,q)}</span>`:""}
+          ${j.flag?`<span class="tag flag">${esc(j.flag)}</span>`:""}
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px">
+        ${hits>0?`<span class="hit-count">${hits}x</span>`:""}
+        <span class="arrow">&#8250;</span>
+      </div>
+    </div><div class="jd-body">
+      ${j.flag?`<div class="flag-note">Scope note: ${esc(j.flag)}</div>`:""}
+      <div class="summary-note">These sections are a summary. Click "View original text" below to see the full job description.</div>
+      ${j.responsibilities&&j.responsibilities.length?`<div class="section-label">Responsibilities (${j.responsibilities.length})</div>${j.responsibilities.map(r=>`<div class="resp-item">${hi(r,q)}</div>`).join("")}`:""}
+      ${j.qualifications&&j.qualifications.length?`<div class="section-label">Qualifications & Requirements (${j.qualifications.length})</div>${j.qualifications.map(r=>`<div class="qual-item">${hi(r,q)}</div>`).join("")}`:""}
+      <div class="raw-btn" data-id="${j.id}">${isRaw?"Hide":"View"} original text</div>
+      <div class="raw-text ${isRaw?"visible":""}">${hi(raw,q)}</div>
+    </div></div>`;
+}
+function bindCards(c){
+  c.querySelectorAll(".jd-header").forEach(el=>{el.onclick=()=>{const id=+el.closest(".jd-card").dataset.id;S.open.has(id)?S.open.delete(id):S.open.add(id);render()}});
+  c.querySelectorAll(".raw-btn").forEach(el=>{el.onclick=e=>{e.stopPropagation();const id=+el.dataset.id;S.rawOpen.has(id)?S.rawOpen.delete(id):S.rawOpen.add(id);render()}});
+}
+
+function evRowHtml(key,label,count,total,color,matchingJDs,allEvidence,terms){
+  const pct=total?(count/total)*100:0;const isOpen=S.evOpen.has(key);
+  const dots=matchingJDs.map(j=>`<div class="ev-dot" style="background:${sc(j.sector).color}" title="${esc(j.company)}"></div>`).join("");
+  // Store terms in global map for click handler
+  const tkeys=matchingJDs.map(j=>{const k='et_'+(_evTermsIdx++);_evTermsMap[k]={jdId:j.id,terms:terms||[]};return k});
+  return `<div><div class="ev-row ${isOpen?"open":""}" data-ev="${esc(key)}">
+      <span class="ev-arrow">&#8250;</span><div class="ev-label">${esc(label)}</div>
+      <div class="ev-dots">${dots}</div>
+      <div class="ev-bar"><div class="ev-bar-track"><div class="ev-bar-fill" style="width:${pct}%;background:${color}"></div></div><div class="ev-count">${count}/${total}</div></div>
+    </div><div class="ev-panel ${isOpen?"open":""}">
+      ${matchingJDs.map((j,i)=>{const c=sc(j.sector);const lines=allEvidence[i]||[];
+        return `<div class="ev-jd" data-tkey="${tkeys[i]}">
+          <div class="ev-jd-header"><div style="width:3px;height:16px;border-radius:2px;background:${c.color}"></div>
+            <span class="ev-jd-name">${esc(j.company)}</span><span style="font-size:10px;color:var(--t3)"> — ${esc(j.role)}</span>
+            <span class="tag sector ${c.cls}" style="font-size:9px;padding:1px 6px">${esc(c.label)}</span></div>
+          ${lines.length?lines.map(l=>`<div class="ev-jd-text">${hiTerms(l,terms||[])}</div>`).join(""):'<div class="ev-src">Match found but no clean line extracted.</div>'}
+          <div class="ev-hint">Click to see full job description</div>
+        </div>`}).join("")}
+    </div></div>`;
+}
+function bindEvRows(c){
+  c.querySelectorAll(".ev-row").forEach(el=>{el.onclick=()=>{const k=el.dataset.ev;S.evOpen.has(k)?S.evOpen.delete(k):S.evOpen.add(k);render()}});
+  c.querySelectorAll(".ev-jd[data-tkey]").forEach(el=>{el.onclick=e=>{
+    e.stopPropagation();
+    const info=_evTermsMap[el.dataset.tkey];if(!info)return;
+    const j=DATA.find(d=>d.id===info.jdId);if(!j)return;
+    showSourceModal(j,info.terms);
+  }});
+}
+
+// ─── TAB 1: ALL JDs ───
+function renderBrowse(){
+  const el=document.getElementById("browseTab");const q=S.search.toLowerCase();
+  let filtered=DATA;
+  if(S.filter!=="All"){filtered=DATA.filter(j=>{const g=sectorGroup(j.sector);if(S.filter==="Other")return !["Coal","Minerals","Quarry"].includes(g);return g===S.filter})}
+  let hc={};
+  if(q){filtered.forEach(j=>{hc[j.id]=countHits(getRaw(j),q)});filtered=filtered.filter(j=>hc[j.id]>0);filtered.sort((a,b)=>hc[b.id]-hc[a.id])}
+  const inScopeJDs=filtered.filter(inScope),outScopeJDs=filtered.filter(j=>!inScope(j));
+  let si="";
+  if(q&&filtered.length>0){const t=filtered.reduce((a,j)=>a+hc[j.id],0);si=`<div class="search-info visible"><strong>"${esc(S.search)}"</strong> found in <strong>${filtered.length}</strong> job descriptions (${t} matches).</div>`}
+  else if(q&&!filtered.length){si=`<div class="search-info visible">No results for <strong>"${esc(S.search)}"</strong>.</div>`}
+  const groups=["All","Coal","Minerals","Quarry"];
+  if(DATA.some(j=>!["Coal","Minerals","Quarry"].includes(sectorGroup(j.sector))))groups.push("Other");
+  el.innerHTML=`<div style="font-size:13px;color:var(--t2);margin-bottom:8px;font-weight:500">Search anything across all job descriptions</div>
+    <div class="controls"><div class="search-box"><input type="text" id="searchInput" value="${esc(S.search)}" placeholder="Search JDs..." /></div>
+    <div class="filter-chips">${groups.map(g=>{const cls=g==="Coal"?"coal":g==="Minerals"?"minerals":g==="Quarry"?"quarry":"";return `<div class="chip ${cls} ${S.filter===g?"active":""}" data-f="${esc(g)}">${esc(g)}</div>`}).join("")}</div></div>${si}
+  <div class="expand-hint">Click any card to expand it and see details</div>
+  ${inScopeJDs.length?`<div class="scope-header in"><div class="scope-dot"></div> IN SCOPE (${inScopeJDs.length})</div><div class="scope-explain">Supervisor-level roles relevant to Queensland mining</div>${inScopeJDs.map(j=>jdCardHtml(j,S.search,hc)).join("")}`:""}
+  ${outScopeJDs.length?`<div class="scope-header out"><div class="scope-dot"></div> OUT OF SCOPE (${outScopeJDs.length})</div><div class="scope-explain">Non-supervisor or non-mining roles excluded from analysis</div>${outScopeJDs.map(j=>jdCardHtml(j,S.search,hc)).join("")}`:""}
+  ${!filtered.length&&q?'<div class="empty">No matches.</div>':""}`;
+  el.querySelectorAll(".chip").forEach(c=>{c.onclick=()=>{S.filter=c.dataset.f;render()}});
+  const inp=el.querySelector("#searchInput");
+  inp.addEventListener("input",e=>{S.search=e.target.value;const pos=e.target.selectionStart;render();const ni=document.getElementById("searchInput");if(ni){ni.focus();ni.setSelectionRange(pos,pos)}});
+  bindCards(el);
+}
+
+// ─── TAB 2: SUPERVISOR TYPES ───
+function renderTypes(){
+  const el=document.getElementById("typesTab");const types=[...new Set(DATA.map(j=>j.type))];
+  const inT=types.filter(t=>!["Operator (not supervisor)","Superintendent (above supervisor)"].includes(t));
+  const flagT=types.filter(t=>["Operator (not supervisor)","Superintendent (above supervisor)"].includes(t));
+  el.innerHTML=`<p class="intro">The different supervisor types found across all ${DATA.length} job descriptions. Click any card to expand it.</p>
+  ${[...inT,...flagT].map(type=>{const info=TYPE_INFO[type]||{desc:""};const jds=DATA.filter(j=>j.type===type);
+    const isF=flagT.includes(type)||type==="Site Services Supervisor";const secs=[...new Set(jds.map(j=>j.sector))];
+    return `<div class="type-card" ${isF?'style="opacity:.55;border-style:dashed"':""}>
+      <div style="display:flex;align-items:flex-start;gap:10px;margin-bottom:8px">
+        <div style="flex:1"><h3>${esc(type)}${isF?' <span style="font-size:11px;color:var(--red)">(out of scope)</span>':""}</h3><div style="font-size:12px;color:var(--t2);margin-top:2px">${esc(info.desc)}</div></div>
+        <div style="text-align:right"><div style="font-family:'JetBrains Mono',monospace;font-size:20px;font-weight:700">${jds.length}</div><div style="font-size:10px;color:var(--t3)">JD${jds.length>1?"s":""}</div></div></div>
+      <div style="margin-bottom:10px;display:flex;gap:4px;flex-wrap:wrap">${secs.map(s=>`<span class="tag sector ${sc(s).cls}" style="font-size:10px;padding:1px 6px">${esc(s)}</span>`).join("")}</div>
+      ${jds.map(j=>jdCardHtml(j,"",null)).join("")}</div>`}).join("")}`;
+  bindCards(el);
+}
+
+// ─── TAB 3: QUALIFICATIONS ───
+function renderQuals(){
+  const el=document.getElementById("qualsTab");
+  const allScope=DATA.filter(inScope);
+  // Frequency filter
+  let freqScope=allScope;
+  if(S.qualFreqFilter!=="All"){freqScope=allScope.filter(j=>{const g=sectorGroup(j.sector);if(S.qualFreqFilter==="Other")return !["Coal","Minerals","Quarry"].includes(g);return g===S.qualFreqFilter})}
+  // Heatmap filter
+  let hmScope=allScope;
+  if(S.qualHmFilter!=="All"){hmScope=allScope.filter(j=>{const g=sectorGroup(j.sector);if(S.qualHmFilter==="Other")return !["Coal","Minerals","Quarry"].includes(g);return g===S.qualHmFilter})}
+  const groups=[...new Set(QUAL_KEYWORDS.map(q=>q.group))];
+  const hmMatrix={};hmScope.forEach(j=>{hmMatrix[j.id]={};QUAL_KEYWORDS.forEach(qk=>{hmMatrix[j.id][qk.key]=jdMatches(j,qk.terms)})});
+  const qualData=[];
+  const dotLegendHtml=`<div class="legend"><span style="font-weight:600">Sector colours:</span>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--amber)"></div>Coal</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--blue)"></div>Minerals (Surface)</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--purple)"></div>Minerals (Underground)</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--green)"></div>Quarry</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--gray)"></div>Other</div></div>`;
+  el.innerHTML=`<div style="display:flex;align-items:center;gap:10px;margin-bottom:16px;flex-wrap:wrap">
+      <p class="intro" style="margin:0;flex:1">How often each qualification appears across job descriptions. Click any row to see where it was found, then click a job description to read the original.</p>
+      <button class="csv-btn" id="csvQuals">⬇ Download as spreadsheet</button></div>
+  <div class="card-box"><h3>Qualification Frequency</h3><div class="sub">${S.qualFreqFilter!=='All'?'Showing <strong>'+esc(S.qualFreqFilter)+'</strong> sector ('+freqScope.length+' JDs).':'Across all '+freqScope.length+' in-scope job descriptions.'}</div>
+  <div style="margin-bottom:14px">${sectorFilterHtml('qualFreqFilter')}</div>
+  ${dotLegendHtml}
+  ${groups.map(g=>{const gQuals=QUAL_KEYWORDS.filter(q=>q.group===g);
+    return `<div style="margin-bottom:16px"><div style="font-size:11px;font-weight:700;color:var(--t3);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px;padding-bottom:4px;border-bottom:1px solid var(--border)">${esc(g)}</div>
+    ${gQuals.map(qk=>{const matches=[];const evidence=[];
+      freqScope.forEach(j=>{if(jdMatches(j,qk.terms)){matches.push(j);evidence.push(findEvidence(j,qk.terms,4))}});
+      qualData.push({key:qk.key,group:g,count:matches.length,jds:matches.map(j=>j.company).join("; ")});
+      const barColor=matches.length>freqScope.length/2?"var(--green)":matches.length>0?"var(--amber)":"var(--border)";
+      return evRowHtml("q_"+qk.key,qk.key,matches.length,freqScope.length,barColor,matches,evidence,qk.terms)}).join("")}</div>`}).join("")}</div>
+  <div class="card-box"><h3>Qualification Heatmap</h3><div class="sub">Shows which qualifications each job description mentions.${S.qualHmFilter!=='All'?' Showing <strong>'+esc(S.qualHmFilter)+'</strong> sector ('+hmScope.length+' JDs).':' Across all '+hmScope.length+' in-scope job descriptions.'}</div>
+  <div style="margin-bottom:14px">${sectorFilterHtml('qualHmFilter')}</div>
+  <div class="legend"><span style="font-weight:600">Legend:</span>
+    <div class="legend-item"><span class="hm-yes" style="font-size:14px">&#10003;</span> Mentioned in JD</div>
+    <div class="legend-item"><span class="hm-no" style="font-size:10px">&bull;</span> Not mentioned</div></div>
+  <div class="hm-wrap"><table class="hm-table">
+  <thead><tr><th>Role / Company</th>${QUAL_KEYWORDS.map(qk=>`<th><div style="writing-mode:vertical-lr;transform:rotate(180deg);height:120px;white-space:nowrap;font-size:11px">${esc(qk.short||qk.key)}</div></th>`).join("")}<th>Total</th></tr></thead>
+  <tbody>${hmScope.map(j=>{const c=sc(j.sector);const tot=QUAL_KEYWORDS.filter(qk=>hmMatrix[j.id][qk.key]).length;
+    return `<tr><td><div style="display:flex;align-items:center;gap:6px"><div style="width:3px;height:20px;border-radius:2px;background:${c.color};flex-shrink:0"></div><div><div style="font-weight:600;font-size:11px">${esc(j.company)}</div><div style="font-size:10px;color:var(--t3)">${esc(j.role)}</div></div></div></td>
+    ${QUAL_KEYWORDS.map(qk=>hmMatrix[j.id][qk.key]?'<td><span class="hm-yes">&#10003;</span></td>':'<td><span class="hm-no">&bull;</span></td>').join("")}<td style="font-family:'JetBrains Mono',monospace;font-weight:600;text-align:center">${tot}</td></tr>`}).join("")}
+  </tbody><tfoot><tr class="hm-footer"><td>Total</td>${QUAL_KEYWORDS.map(qk=>`<td style="text-align:center">${hmScope.filter(j=>hmMatrix[j.id][qk.key]).length}</td>`).join("")}<td></td></tr></tfoot>
+  </table></div></div>`;
+  bindEvRows(el);
+  bindSectorFilter(el,'qualFreqFilter',render);
+  bindSectorFilter(el,'qualHmFilter',render);
+  el.querySelector("#csvQuals").onclick=()=>{
+    const headers=["Qualification","Group","Count","Out of","JDs"];
+    const rows=qualData.map(q=>[q.key,q.group,q.count,freqScope.length,q.jds]);
+    const hmHeaders=["Company","Role","Sector",...QUAL_KEYWORDS.map(q=>q.key),"Total"];
+    const hmRows=hmScope.map(j=>[j.company,j.role,j.sector,...QUAL_KEYWORDS.map(qk=>hmMatrix[j.id][qk.key]?"Y":""),QUAL_KEYWORDS.filter(qk=>hmMatrix[j.id][qk.key]).length]);
+    const all=[["QUALIFICATION FREQUENCY"],...[headers],...rows,[""],["HEATMAP"],...[hmHeaders],...hmRows];
+    downloadCSV("qualifications_analysis.csv",all[0],all.slice(1));
+  };
+}
+
+// ─── TAB 4: COMMON DUTIES ───
+function renderDuties(){
+  const el=document.getElementById("dutiesTab");
+  let scope=DATA.filter(inScope);
+  if(S.dutyFilter!=="All"){scope=scope.filter(j=>{const g=sectorGroup(j.sector);if(S.dutyFilter==="Other")return !["Coal","Minerals","Quarry"].includes(g);return g===S.dutyFilter})}
+  const dutyData=[];
+  const themesWithEv=DUTY_THEMES.map(theme=>{const matches=[];const evidence=[];
+    scope.forEach(j=>{if(jdMatches(j,theme.terms)){matches.push(j);evidence.push(findEvidence(j,theme.terms,4))}});
+    dutyData.push({label:theme.label,count:matches.length,jds:matches.map(j=>j.company).join("; ")});
+    return {...theme,matches,evidence,count:matches.length};}).sort((a,b)=>b.count-a.count);
+  const dutyDotLegend=`<div class="legend"><span style="font-weight:600">Sector colours:</span>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--amber)"></div>Coal</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--blue)"></div>Minerals (Surface)</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--purple)"></div>Minerals (Underground)</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--green)"></div>Quarry</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--gray)"></div>Other</div></div>`;
+  el.innerHTML=`<div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;flex-wrap:wrap">
+      <p class="intro" style="margin:0;flex:1">Common duty themes across ${scope.length} in-scope job descriptions${S.dutyFilter!=='All'?' (showing '+esc(S.dutyFilter)+' sector)':''}. Click any row to see where it was found, then click a job description to read the original.</p>
+      <button class="csv-btn" id="csvDuties">⬇ Download as spreadsheet</button></div>
+    <div style="margin-bottom:16px">${sectorFilterHtml('dutyFilter')}</div>
+  <div class="card-box"><h3>Duty Themes by Frequency</h3><div class="sub">Click any row to expand it and see the evidence from each job description.</div>
+  ${dutyDotLegend}
+  ${themesWithEv.map(tc=>evRowHtml("d_"+tc.label,tc.label,tc.count,scope.length,tc.color,tc.matches,tc.evidence,tc.terms)).join("")}</div>
+  <div class="card-box"><h3>Key Observations</h3><div class="sub">Summary based on how often each duty appears.</div>
+  <div style="font-size:13px;line-height:1.7;color:var(--t2)">
+    <p style="margin-bottom:8px"><strong style="color:var(--green)">Universal duties</strong> (60%+): ${themesWithEv.filter(t=>t.count>=scope.length*.6).map(t=>`<strong>${esc(t.label)}</strong>`).join(", ")||"None"}.</p>
+    <p style="margin-bottom:8px"><strong style="color:var(--amber)">Common duties</strong> (30\u201360%): ${themesWithEv.filter(t=>t.count>=scope.length*.3&&t.count<scope.length*.6).map(t=>`<strong>${esc(t.label)}</strong>`).join(", ")||"None"}.</p>
+    <p><strong style="color:var(--red)">Less common</strong> (&lt;30%): ${themesWithEv.filter(t=>t.count<scope.length*.3&&t.count>0).map(t=>`<strong>${esc(t.label)}</strong>`).join(", ")||"None"}. Worth exploring in interviews.</p>
+  </div></div>`;
+  bindEvRows(el);
+  bindSectorFilter(el,'dutyFilter',render);
+  el.querySelector("#csvDuties").onclick=()=>{
+    const headers=["Duty Theme","Count","Out of","Percentage","JDs"];
+    const rows=dutyData.sort((a,b)=>b.count-a.count).map(d=>[d.label,d.count,scope.length,Math.round(d.count/scope.length*100)+"%",d.jds]);
+    downloadCSV("common_duties_analysis.csv",headers,rows);
+  };
+}
+
+// ─── TAB 5: EXPERIENCE ───
+function renderExperience(){
+  const el=document.getElementById("experienceTab");
+  let scope=DATA.filter(inScope);
+  if(S.expFilter!=="All"){scope=scope.filter(j=>{const g=sectorGroup(j.sector);if(S.expFilter==="Other")return !["Coal","Minerals","Quarry"].includes(g);return g===S.expFilter})}
+  const expData=scope.map(j=>{
+    const raw=getRaw(j).toLowerCase();const quals=(j.qualifications||[]).join(" ").toLowerCase();const combined=raw+" "+quals;
+    let mining="Not specified",supervisory="Not specified",trade="Not required",other="";
+    if(/\b(\d+)\+?\s*years?.{0,30}(?:mining|coal|open.?cut|underground|production)/i.test(combined)){mining=combined.match(/(\d+)\+?\s*years?.{0,40}(?:mining|coal|open.?cut|underground|production)/i)[0].substring(0,60)}
+    else if(/mine site experience|mining experience|mining environment/i.test(combined)){mining="Mine site experience"}
+    if(/\b(\d+)\+?\s*years?.{0,30}(?:supervis|leadership)/i.test(combined)){supervisory=combined.match(/(\d+)\+?\s*years?.{0,40}(?:supervis|leadership)/i)[0].substring(0,60)}
+    else if(/proven leadership|previous.*supervis|demonstrated.*supervis/i.test(combined)){supervisory="Proven leadership / previous supervisory"}
+    if(/trade qual|diesel fitt|mechanic trade|fitter\/mechanic|mechanical fitter|trade certificate|trade qualified/i.test(combined)){trade="Required"}
+    else if(/trade.*desirable|trade.*preferred/i.test(combined)){trade="Desirable"}
+    const otherItems=[];
+    if(/\bs1\b|\bs2\b|\bs3\b|\bg1\b|\bg8\b|\bg9\b/i.test(raw))otherItems.push("S1/S2/S3");
+    if(/\bg2\b|riiris/i.test(raw))otherItems.push("G2");
+    if(/standard 11/i.test(raw))otherItems.push("Standard 11");
+    if(/coal board medical|reshealth/i.test(raw))otherItems.push("Coal Board Medical");
+    if(/explosives/i.test(raw))otherItems.push("Explosives");
+    if(/shotfir/i.test(raw))otherItems.push("Shotfirer");
+    other=otherItems.join(", ");
+    return {id:j.id,mining:mining,supervisory:supervisory,trade:trade,other:other};
+  });
+  el.innerHTML=`<div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;flex-wrap:wrap"><p class="intro" style="margin:0;flex:1">Experience requirements from ${scope.length} in-scope job descriptions${S.expFilter!=='All'?' (showing '+esc(S.expFilter)+' sector)':''}. Click any row to expand it.</p>
+    <button class="csv-btn" id="csvExp">⬇ Download as spreadsheet</button></div>
+    <div style="margin-bottom:16px">${sectorFilterHtml('expFilter')}</div>
+  <div class="card-box"><h3>Experience Requirements by Role</h3><div class="sub">Click any row to see the full job description.</div>
+  <div style="overflow-x:auto"><table class="exp-table">
+  <thead><tr><th style="min-width:180px">Role / Company</th><th>Mining Experience</th><th>Supervisory Experience</th><th>Trade Qualification</th><th>Other</th></tr></thead>
+  <tbody>${expData.map(e=>{const j=DATA.find(d=>d.id===e.id);if(!j)return"";const c=sc(j.sector);
+    return `<tr class="exp-row" data-id="${j.id}">
+      <td><div style="display:flex;align-items:center;gap:6px"><div style="width:3px;height:28px;border-radius:2px;background:${c.color};flex-shrink:0"></div><div><div style="font-weight:600">${esc(j.company)}</div><div style="font-size:10px;color:var(--t3)">${esc(j.role)}</div>
+      <span class="tag sector ${c.cls}" style="font-size:9px;padding:1px 6px">${esc(c.label)}</span></div></div></td>
+      <td>${esc(e.mining)}</td><td>${esc(e.supervisory)}</td><td>${esc(e.trade)}</td><td style="font-size:11px">${esc(e.other)}</td></tr>
+    <tr style="${S.open.has(j.id)?"":"display:none"}"><td colspan="5" style="padding:0">${jdCardHtml(j,"",null)}</td></tr>`}).join("")}
+  </tbody></table></div></div>
+  <div class="card-box"><h3>Key Patterns</h3><div class="sub">Summary of common experience requirements across the job descriptions.</div>
+  <div style="font-size:13px;line-height:1.7;color:var(--t2)">
+    <p style="margin-bottom:8px"><strong>Mining experience:</strong> Most roles require 5+ years. Underground roles require 10+. Quarry roles focus on crushing/screening experience.</p>
+    <p style="margin-bottom:8px"><strong>Supervisory experience:</strong> Typically 2+ years, though many use vague language like "proven leadership."</p>
+    <p style="margin-bottom:8px"><strong>Trade qualifications:</strong> Required primarily for maintenance supervisor roles.</p>
+    <p><strong>Sector differences:</strong> Coal roles specify Standard 11 + Coal Board Medical + G1/G2/G8/G9. Quarry roles reference RII units directly. Minerals roles often least specific.</p>
+  </div></div>`;
+  el.querySelectorAll(".exp-row").forEach(el=>{el.onclick=()=>{const id=+el.dataset.id;S.open.has(id)?S.open.delete(id):S.open.add(id);render()}});
+  bindCards(el);
+  bindSectorFilter(el,'expFilter',render);
+  el.querySelector("#csvExp").onclick=()=>{
+    const headers=["Company","Role","Sector","Mining Experience","Supervisory Experience","Trade Qualification","Other"];
+    const rows=expData.map(e=>{const j=DATA.find(d=>d.id===e.id);return [j?j.company:"",j?j.role:"",j?j.sector:"",e.mining,e.supervisory,e.trade,e.other]});
+    downloadCSV("experience_requirements.csv",headers,rows);
+  };
+}
+
+// ─── TAB 6: GAPS ───
+function renderGaps(){
+  const el=document.getElementById("gapsTab");const scope=DATA.filter(inScope);
+  const gapResults=GAPS.map(g=>{const matches=[];const evidence=[];
+    scope.forEach(j=>{if(jdMatches(j,g.terms)){matches.push(j);evidence.push(findEvidence(j,g.terms,3))}});
+    return {...g,matches,evidence,count:matches.length};}).sort((a,b)=>a.count-b.count);
+  el.innerHTML=`<p class="intro">Important areas required by Queensland mining legislation or highlighted in reviews (Brady Review, Safety Reporting Survey) that are <strong>missing or rarely mentioned</strong> in the ${scope.length} in-scope job descriptions. These gaps help shape interview questions and identify training needs.</p>
+  ${gapResults.map(g=>{
+    const pct=Math.round(g.count/scope.length*100);
+    const severity=g.count===0?"var(--red)":g.count<=2?"var(--amber)":"var(--green)";
+    const severityBg=g.count===0?"var(--red-bg)":g.count<=2?"var(--amber-bg)":"var(--green-bg)";
+    const severityBdr=g.count===0?"var(--red-bdr)":g.count<=2?"var(--amber-bdr)":"var(--green-bdr)";
+    const severityLabel=g.count===0?"Not found":g.count<=2?"Rarely mentioned":"Some coverage";
+    const isOpen=S.gapOpen.has(g.area);
+    return `<div class="gap-card ${isOpen?"open":""}" data-gap="${esc(g.area)}">
+      <div class="gap-head">
+        <div class="gap-icon" style="background:${severityBg};color:${severity};border:1px solid ${severityBdr}">${g.count===0?"\u2716":g.count<=2?"\u26a0":"\u2714"}</div>
+        <div class="gap-info"><div class="gap-title">${esc(g.area)}</div><div class="gap-sub">${severityLabel} — ${g.count} of ${scope.length} JDs (${pct}%)</div></div>
+        <div class="gap-badge" style="color:${severity};background:${severityBg};border:1px solid ${severityBdr}">${g.count}/${scope.length}</div>
+        <span class="arrow" style="${isOpen?"transform:rotate(90deg)":""}">&#8250;</span>
+      </div>
+      <div class="gap-body">
+        <div class="gap-leg"><strong>Legislative basis:</strong> ${esc(g.legislative)}</div>
+        <div class="gap-note">${esc(g.note)}</div>
+        ${g.count>0?`<div style="font-size:11px;font-weight:600;color:var(--t3);margin-bottom:6px">JDs that mention this (${g.count}):</div>
+          ${g.matches.map((j,i)=>{const c=sc(j.sector);const lines=g.evidence[i]||[];
+            const tkey='et_'+(_evTermsIdx++);_evTermsMap[tkey]={jdId:j.id,terms:g.terms};
+            return `<div class="ev-jd" data-tkey="${tkey}">
+              <div class="ev-jd-header"><div style="width:3px;height:16px;border-radius:2px;background:${c.color}"></div>
+              <span class="ev-jd-name">${esc(j.company)}</span><span style="font-size:10px;color:var(--t3)"> — ${esc(j.role)}</span>
+              <span class="tag sector ${c.cls}" style="font-size:9px;padding:1px 6px">${esc(c.label)}</span></div>
+            ${lines.map(l=>`<div class="ev-jd-text">${hiTerms(l,g.terms)}</div>`).join("")}
+            <div class="ev-hint">Click to see full job description</div></div>`}).join("")}`
+        :`<div style="font-size:12px;color:var(--red);font-style:italic">No JDs in the dataset mention this area. This is a potential training gap to explore in supervisor interviews.</div>`}
+      </div>
+    </div>`}).join("")}
+  <div class="card-box" style="margin-top:16px;border-color:var(--amber-bdr);background:var(--amber-bg)"><h3 style="color:var(--amber)">How to use this tab</h3>
+  <div style="font-size:13px;color:var(--t2);line-height:1.7">
+    <p>These gaps highlight areas where legislation or reviews expect supervisor competency, but the job descriptions don't mention them. This doesn't mean supervisors aren't doing these tasks — it just means the JDs don't capture them. Use these gaps to:</p>
+    <p style="margin-top:6px"><strong>1.</strong> Shape interview questions for Milestone 1 qualitative interviews</p>
+    <p><strong>2.</strong> Identify where training needs may exist but aren't being recruited for</p>
+    <p><strong>3.</strong> Compare against AUSMASA and FSO unit development (Milestone 3)</p>
+  </div></div>`;
+  el.querySelectorAll(".gap-card").forEach(card=>{
+    card.querySelector(".gap-head").onclick=()=>{const a=card.dataset.gap;S.gapOpen.has(a)?S.gapOpen.delete(a):S.gapOpen.add(a);render()};
+  });
+  // Bind clickable evidence in gaps
+  el.querySelectorAll(".ev-jd[data-tkey]").forEach(el=>{el.onclick=e=>{
+    e.stopPropagation();
+    const info=_evTermsMap[el.dataset.tkey];if(!info)return;
+    const j=DATA.find(d=>d.id===info.jdId);if(!j)return;
+    showSourceModal(j,info.terms);
+  }});
+}
+
+function render(){
+  _evTermsMap={};_evTermsIdx=0;
+  renderStats();
+  ({browse:renderBrowse,types:renderTypes,quals:renderQuals,duties:renderDuties,experience:renderExperience,gaps:renderGaps})[S.tab]();
+}
+
+// Load data and initialize
+fetch('data.json').then(r=>r.json()).then(d=>{
+  RAW_TEXTS = d.raw_texts || {};
+  CLEAN_TEXTS = d.clean_texts || {};
+  DATA = d.data || [];
+  GAPS = d.gaps || [];
+  document.getElementById('loadingOverlay').remove();
+  render();
+}).catch(e=>{
+  document.getElementById('loadingOverlay').innerHTML=
+    '<div style="color:var(--red);text-align:center"><h2>Failed to load data</h2><p>'+e.message+'</p><p style="color:var(--t3);font-size:13px">Ensure data.json is in the same directory as index.html</p></div>';
+});
+</script></body></html>

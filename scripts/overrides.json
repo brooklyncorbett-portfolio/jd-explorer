@@ -1,0 +1,810 @@
+{
+  "Anglo Dragline.docx": {
+    "company": "Anglo American",
+    "role": "Mining Supervisor: Dragline",
+    "sector": "Coal - Surface",
+    "location": "Dawson Mine, Moura QLD",
+    "type": "Production Supervisor",
+    "responsibilities": [
+      "Coordinate personnel, equipment and resources for Dragline operations",
+      "Ensure safe and cost-effective execution of dragline activities",
+      "Enforce mine plan compliance and operational standards",
+      "Ensure statutory compliance and adherence to safety systems",
+      "Drive continuous improvement in dragline productivity and safety performance"
+    ],
+    "qualifications": [
+      "Supervisory experience in an open-cut coal mine (dragline operations desirable)",
+      "Operational dragline experience",
+      "S1/S2/S3 and G2 competencies (desirable)",
+      "Significant coal mining experience",
+      "Understanding of open cut mining equipment and techniques"
+    ]
+  },
+  "BHP.docx": {
+    "company": "BHP Operations Services",
+    "role": "Supervisor / Superintendent (Maintenance)",
+    "sector": "Coal - Surface",
+    "location": "Saraji/Caval Ridge/Goonyella/Peak Downs, Bowen Basin QLD",
+    "type": "Maintenance Supervisor",
+    "responsibilities": [
+      "Lead and support team to achieve operational targets safely and efficiently",
+      "Foster a positive and productive culture built on trust, respect, and accountability",
+      "Promote and uphold BHP's HSEC standards, including proactive hazard management",
+      "Identify and implement opportunities to improve performance, processes, and systems",
+      "Collaborate cross-functionally to support continuous improvement and business outcomes",
+      "Drive asset reliability and operational efficiency through effective maintenance strategies",
+      "Coach, mentor, and develop team members to reach their full potential",
+      "Utilise systems such as SAP to plan, manage, and report on operational performance"
+    ],
+    "qualifications": [
+      "Trade qualification or relevant tertiary qualification (highly desirable)",
+      "Demonstrated leadership experience in mining, maintenance, or heavy industry",
+      "SAP proficiency"
+    ],
+    "roster": "7/7 D/N (Supervisor) or 5/2 (Superintendent)"
+  },
+  "BHP_lead_supervisor.docx": {
+    "company": "BHP",
+    "role": "Lead Supervisor Shutdown",
+    "sector": "Coal - Surface",
+    "location": "Bowen Basin QLD (CQO)",
+    "type": "Shutdown / Projects Supervisor",
+    "responsibilities": [
+      "Lead and support supervisors and execution teams to deliver work safely, to plan and within schedule",
+      "Manage work fronts by escalating safety, cost or schedule risks as required",
+      "Set and communicate 24-hour priorities aligned to shutdown and project objectives",
+      "Manage emergent work, ensuring approvals are obtained and scope is captured in schedule",
+      "Ensure work packs, permits and handovers are completed and signed off",
+      "Ensure all work executed in accordance with BMA SHMS, permits and critical risk controls",
+      "Supervise high risk activities including lifts and isolations, confirming task readiness",
+      "Respond to injuries and incidents, support medical response and return to work processes",
+      "Support incident investigations and ensure corrective actions are identified and closed out",
+      "Maintain safety documentation, registers and reporting requirements",
+      "Support toolbox talks, shift handovers and operational briefings",
+      "Identify and implement opportunities to improve safety, schedule efficiency and execution outcomes",
+      "Participate in root cause analysis and continuous improvement initiatives",
+      "Capture and communicate lessons learned during execution"
+    ],
+    "qualifications": [
+      "Experience supervising or coordinating work in construction, maintenance or heavy industry",
+      "Strong leadership, organisational and communication skills",
+      "Demonstrated commitment to mine site safety systems and field leadership",
+      "Proficiency in Microsoft Office (Excel, Word, Outlook; Project desirable)",
+      "Exposure to shutdown or mining project environments (desirable)",
+      "Understanding of scheduling and work management systems e.g. SAP, Project (desirable)",
+      "Trade qualification or Engineering background (desirable)"
+    ]
+  },
+  "BUMA_Production_Supervisor_Meandu_Mine.docx": {
+    "company": "BUMA Australia",
+    "role": "Production Supervisor (Meandu Mine)",
+    "sector": "Coal - Surface",
+    "location": "Meandu Mine, Kingaroy QLD",
+    "type": "Production Supervisor",
+    "responsibilities": [
+      "Oversee daily mine operations ensuring safe and efficient production in line with Mine Safety and Inspection requirements",
+      "Lead and manage personnel and equipment to optimise production activities and meet operational targets",
+      "Effectively allocate tasks and manage workloads within the production team to achieve development goals and maintain project timelines",
+      "Ensure full compliance with the Mine Safety and Inspection Act and Regulations, fostering a strong safety culture and proactive risk management"
+    ],
+    "qualifications": [
+      "5+ years production experience in open-cut coal mining",
+      "2+ years supervisory experience in open-cut coal mining",
+      "In-depth knowledge of QLD Coal Mining legislation",
+      "Current C Class Driver's Licence",
+      "S1, S2, S3 and G2 Certificate",
+      "Proven ability to motivate teams and achieve business targets"
+    ],
+    "roster": "5/4/4/5 D/N rotating"
+  },
+  "Bechtel_.docx": {
+    "company": "Bechtel",
+    "role": "Supervisor - Site Services",
+    "sector": "Construction/Services",
+    "location": "Cloncurry QLD",
+    "type": "Site Services Supervisor",
+    "flag": "Construction/site services — not frontline mining operations",
+    "responsibilities": [
+      "Implement the project ES&H program and quality control program",
+      "Supervise, coordinate and direct craft activities for services disciplines",
+      "Coordinate craft safety training and enforce safe work practices",
+      "Plan craft manpower and interface with Industrial Relations for recruitment and training",
+      "Oversee site services crew needs for personnel, subcontractor support, equipment and consumables",
+      "Work closely with other lead discipline superintendents and supervisors",
+      "Maintain a high level of housekeeping throughout the work area"
+    ],
+    "qualifications": [
+      "10 years of related large industrial construction project services support experience",
+      "5 years of supervisory experience in a site services function",
+      "Knowledge of Bechtel ES&H Core Processes and Zero Accidents philosophy",
+      "Knowledge of Bechtel Standard Work Process Procedures (SWPPs)",
+      "Computer literate in word processing, spreadsheet, and database applications",
+      "Familiar with current industry quality standards and applicable code requirements"
+    ]
+  },
+  "Boral.docx": {
+    "company": "Boral",
+    "role": "Quarry Supervisor",
+    "sector": "Quarry",
+    "location": "Bundaberg QLD",
+    "type": "Quarry Supervisor",
+    "responsibilities": [
+      "Supervision and management of staff and contractors",
+      "Safety management including audits and compliance",
+      "Effective management of production and maintenance activities",
+      "Ensure operational targets are met safely and efficiently"
+    ],
+    "qualifications": [
+      "Hard rock quarry, mining or plant operations experience",
+      "Strong knowledge of quarrying and crushing operations",
+      "Strong leadership attributes",
+      "LEAN Manufacturing experience (desirable)"
+    ]
+  },
+  "CSI_Mining_Services.docx": {
+    "company": "CSI Mining Services (MinRes)",
+    "role": "Supervisor Mining",
+    "sector": "Minerals - Surface",
+    "location": "Weipa Project, Weipa QLD (FIFO)",
+    "type": "Mining Supervisor",
+    "responsibilities": [
+      "Organise and schedule mining crew to meet daily production targets",
+      "Management of production and mechanical breakdown issues",
+      "Provide comprehensive reporting on production achievements, challenges and issues",
+      "Provide effective guidance, coaching and mentoring to site personnel",
+      "Maintain and foster a working environment which promotes safety",
+      "Development of working relationships with key stakeholders on site",
+      "Work closely with maintenance to minimise downtime and ensure fast turnaround on breakdowns",
+      "Directly monitor fleet productivity in real time, taking immediate corrective action when output drops below plan targets",
+      "Identify and remove bottlenecks in haulage, loading, and dumping operations to maximise operating time"
+    ],
+    "qualifications": [
+      "Minimum 5 years' experience in a Mining and Production Environment",
+      "Previous experience working towards production targets",
+      "Previous experience successfully leading a team",
+      "Demonstrated strong problem solving, lateral thinking and analytical skills",
+      "Excellent time management and daily routine rituals",
+      "Strong communication skills with ability to coach and mentor others"
+    ]
+  },
+  "EPSA.docx": {
+    "company": "EPSA Pacific",
+    "role": "Maintenance Supervisor",
+    "sector": "Coal - Surface",
+    "location": "Callide Mine QLD",
+    "type": "Maintenance Supervisor",
+    "qualifications": [
+      "Trade qualification in a mechanical or electrical discipline",
+      "Demonstrated maintenance supervisory experience in mining",
+      "Strong knowledge of heavy mobile equipment maintenance",
+      "Current mining supervisor competencies",
+      "Commitment to safety and team leadership"
+    ]
+  },
+  "Glencore MPS mech.docx": {
+    "company": "Glencore",
+    "role": "Supervisor - MPS Mechanical Maintenance",
+    "sector": "Minerals - Surface",
+    "location": "Mt Isa QLD",
+    "type": "Maintenance Supervisor",
+    "responsibilities": [
+      "Ensure safe and timely completion of mechanical maintenance tasks",
+      "Manage crew performance and development",
+      "Manage shutdowns and planned maintenance activities",
+      "Plan and control maintenance operations",
+      "Conduct compliance audits",
+      "Build an effective team through coaching and mentoring"
+    ],
+    "qualifications": [
+      "Minimum 5 years trade experience",
+      "Mechanical fitter trade qualification",
+      "Experience managing contracting teams and small projects",
+      "Heavy industrial fixed plant maintenance experience",
+      "S1/S2/S3 competencies (preferred)",
+      "Strong decision-making and communication skills"
+    ]
+  },
+  "Glencore.docx": {
+    "company": "Glencore",
+    "role": "Supervisor - Primary Smelting",
+    "sector": "Minerals - Surface",
+    "location": "Mt Isa Copper Smelter QLD",
+    "type": "Production Supervisor",
+    "responsibilities": [
+      "Coordinate and manage operational safety, production and risk for IsaSmelt furnaces",
+      "Build teamwork and positive team culture",
+      "Develop skills and capability within the team",
+      "Challenge and manage operational variation",
+      "Maintain housekeeping standards"
+    ],
+    "qualifications": [
+      "Sound knowledge of Smelting (IsaSmelt advantageous)",
+      "Supervisory and leadership experience",
+      "Lead by example with strong work ethic",
+      "Safety as a core value",
+      "Minimum 4 years in smelting or mining industry",
+      "Technical knowledge and organisational skills"
+    ]
+  },
+  "LMP Project.docx": {
+    "company": "LMP Project",
+    "role": "Supervisor - Mine Site Infrastructure",
+    "sector": "Coal - Surface",
+    "location": "Moranbah QLD",
+    "type": "Shutdown / Projects Supervisor",
+    "responsibilities": [
+      "Lead and coordinate daily project activities on mine site",
+      "Ensure work completed safely and to a high standard",
+      "Drive team performance and positive safety culture",
+      "Work collaboratively with client teams and LMP leadership",
+      "Provide hands-on support to crews",
+      "Ensure compliance with site safety and quality procedures"
+    ],
+    "qualifications": [
+      "Experience leading and mentoring site crews",
+      "Ability to plan, coordinate and oversee daily site operations",
+      "Strong working relationships with clients, subcontractors and suppliers",
+      "Commitment to safety, quality and compliance standards",
+      "Experience supporting project delivery against scope, schedule and targets"
+    ]
+  },
+  "MACA.docx": {
+    "company": "MACA Mining",
+    "role": "Maintenance Supervisor",
+    "sector": "Minerals - Surface",
+    "location": "Beebyn-W11 WA",
+    "type": "Maintenance Supervisor",
+    "flag": "WA role — not Queensland",
+    "responsibilities": [
+      "Lead mobile maintenance team on site",
+      "Manage breakdowns, diagnostics and repairs",
+      "Attend pre-shift, toolbox and safety meetings",
+      "Ensure vehicles and equipment functioning correctly"
+    ],
+    "qualifications": [
+      "Trade qualified in a mechanical discipline",
+      "CMMS experience (AMT, Pronto, JDE)",
+      "Current WA drivers licence and high-risk tickets"
+    ]
+  },
+  "MacKellar Leading hand.docx": {
+    "company": "MacKellar",
+    "role": "Leading Hand",
+    "sector": "Coal - Surface",
+    "location": "Carmichael Mine QLD",
+    "type": "Operator (not supervisor)",
+    "flag": "Leading Hand — not supervisor level"
+  },
+  "MacKellar_.docx": {
+    "company": "MacKellar",
+    "role": "Production Supervisor",
+    "sector": "Coal - Surface",
+    "location": "Carmichael Mine QLD",
+    "type": "Production Supervisor",
+    "responsibilities": [
+      "Lead and supervise production crews to achieve daily safety and production targets",
+      "Promote and uphold the Site Safety Health Management System, environmental plans, and all statutory requirements",
+      "Drive operational performance and continuous improvement",
+      "Facilitate and participate in pre-starts and safety meetings",
+      "Build, coach and support high-performing teams",
+      "Monitor production results and maintain accurate operational records"
+    ],
+    "qualifications": [
+      "Current Standard 11 and Mining Supervisor competencies (G1, G2, G8, G9)",
+      "Proven leadership experience in an open cut mining environment",
+      "Strong knowledge of WHS legislation and statutory obligations",
+      "Excellent communication skills and demonstrated ability to mentor others",
+      "Competent user of Microsoft Office Suite",
+      "Strong commitment to safety with a history of positive safety outcomes"
+    ]
+  },
+  "MacKellar__Maintenance_Supervisor.docx": {
+    "company": "MacKellar",
+    "role": "Maintenance Supervisor",
+    "sector": "Coal - Surface",
+    "location": "Carmichael Mine QLD",
+    "type": "Maintenance Supervisor",
+    "responsibilities": [
+      "Lead by example to ensure maintenance activities are completed safely and effectively",
+      "Coordinate maintenance and repairs in line with safety, time, and budget requirements",
+      "Complete accurate maintenance documentation, reporting, and daily activity records",
+      "Build and maintain strong working relationships and high-performing teams",
+      "Drive continuous improvement initiatives and implement practical solutions",
+      "Promote and maintain a strong, positive safety culture across the team"
+    ],
+    "qualifications": [
+      "Trade qualification in Diesel Fitting or equivalent",
+      "Previous experience as a Maintenance Supervisor on a mine site",
+      "Current Mining Supervisor — G1, G8, G9 (formerly S1, S2, S3)",
+      "Current Carry out the Risk Management Process — G2 (RIIRIS402D)",
+      "Current Queensland Coal Board Medical (or willingness to obtain)",
+      "Current Standard 11 (or willingness to obtain)",
+      "Current Queensland Driver Licence"
+    ]
+  },
+  "Macmahon.docx": {
+    "company": "Macmahon",
+    "role": "Production Supervisor",
+    "sector": "Minerals - Surface",
+    "location": "Mt Carlton QLD",
+    "type": "Production Supervisor",
+    "responsibilities": [
+      "Lead safe work practices and a proactive safety culture",
+      "Supervise daily mining operations including digging, hauling and dumping",
+      "Execute mine plan per short-term schedules",
+      "Monitor fleet performance, cycle times, delays and utilisation",
+      "Provide leadership and coaching to operators",
+      "Ensure accurate reporting (shift logs, production data, environmental checks, incident docs)",
+      "Coordinate with Maintenance, Technical Services and Drill & Blast teams"
+    ],
+    "qualifications": [
+      "Extensive surface mining experience as Production Supervisor, Leading Hand or Senior Operator",
+      "Proven commitment to safety",
+      "Strong communication skills",
+      "Technical knowledge of a range of mining equipment",
+      "Mechanical knowledge of equipment capabilities and maintenance scheduling",
+      "Detailed knowledge of mining and safety regulations",
+      "Certification in Frontline Management"
+    ]
+  },
+  "Maintenance_Supervisor.docx": {
+    "company": "Redpath Mining",
+    "role": "Maintenance Supervisor - SMAD",
+    "sector": "Minerals - Underground",
+    "location": "Olympic Dam SA (FIFO from Brisbane)",
+    "type": "Maintenance Supervisor",
+    "responsibilities": [
+      "Lead and supervise a team of maintenance technicians, providing guidance, support and mentorship",
+      "Ensure all site and workshop activities comply with health, safety, training, environmental and statutory requirements",
+      "Manage and conduct personal risk assessments and Job Safety Analyses (JSAs)",
+      "Conduct preventative maintenance inspections proactively",
+      "Oversee maintenance execution to ensure compliance with quality standards",
+      "Assign tasks effectively to optimise resource utilisation",
+      "Maintain accurate maintenance records including work orders, daily reports and equipment history",
+      "Manage and review inventory of spare parts, tooling and equipment"
+    ],
+    "qualifications": [
+      "Heavy Duty Diesel Fitter/Mechanic trade qualifications",
+      "Demonstrated Supervisor experience with underground and heavy-duty equipment",
+      "Proficiency with Computerised Maintenance Management Systems (CMMS)",
+      "Strong planning and organisational skills",
+      "High level of initiative with ability to perform under pressure",
+      "Strong leadership capability and communication skills",
+      "Valid manual driver's licence"
+    ],
+    "roster": "2/2 even-time, 12hr shifts"
+  },
+  "Mining_Operator_The_Thiess.docx": {
+    "company": "Thiess",
+    "role": "Mining Operator",
+    "sector": "Coal - Surface",
+    "location": "Peak Downs, Moranbah QLD",
+    "type": "Operator (not supervisor)",
+    "flag": "Operator-level role — not supervisor",
+    "responsibilities": [
+      "Operating heavy machinery safely and efficiently to maximise productivity",
+      "Adhering to Thiess safety standards and operational procedures"
+    ],
+    "qualifications": [
+      "12+ months experience on production mining equipment",
+      "SSE signed competency transcript",
+      "Current open driver's licence",
+      "Valid Standard 11 Certificate"
+    ],
+    "roster": "7/7 D/N rotating"
+  },
+  "MYNDSHIFT_GROUP_.docx": {
+    "company": "MYNDSHIFT Group",
+    "role": "Production Superintendent",
+    "sector": "Coal - Surface",
+    "location": "Darling Downs QLD",
+    "type": "Superintendent (above supervisor)",
+    "flag": "Superintendent level — above frontline supervisor",
+    "responsibilities": [
+      "Lead and mentor Supervisors and frontline teams to achieve production and safety targets",
+      "Oversee daily and weekly production planning and execution",
+      "Drive a strong safety culture aligned with client and company standards",
+      "Manage equipment utilisation, availability, and productivity",
+      "Monitor costs, budgets, and operational KPIs",
+      "Build effective working relationships with clients and internal stakeholders",
+      "Ensure compliance with site procedures, statutory requirements, and company systems",
+      "Support continuous improvement initiatives across mining operations"
+    ],
+    "qualifications": [
+      "Proven experience in a Production Superintendent role",
+      "Strong background in open pit mining within a contracting environment",
+      "Demonstrated leadership capability with hands-on proactive approach",
+      "Solid understanding of production planning, cost control, and fleet management",
+      "Relevant statutory qualifications (or ability to obtain)"
+    ],
+    "roster": "8/6 roster"
+  },
+  "National Group .docx": {
+    "company": "National Group",
+    "role": "Maintenance Supervisor",
+    "sector": "Coal - Surface",
+    "location": "Dawson Mine QLD",
+    "type": "Maintenance Supervisor",
+    "responsibilities": [
+      "Deliver preventative maintenance and maximise equipment availability",
+      "Lead and supervise the maintenance team",
+      "Assist on tools as required",
+      "Demonstrate commitment to safety, continuous improvement and technical excellence",
+      "Contribute to improvements for productivity and cost management"
+    ],
+    "qualifications": [
+      "Australian trade certificate with minimum 5 years post-trade experience",
+      "S1/S2/S3 and G2 tickets",
+      "Experience on Liebherr, Komatsu, CAT mobile mining equipment (essential)",
+      "Ex-OEM experience highly regarded",
+      "Current QLD ResHealth Medical and Standard 11",
+      "Outstanding troubleshooting and diagnostic skills"
+    ]
+  },
+  "NEXUS MINING PTY LTD.docx": {
+    "company": "Nexus Mining",
+    "role": "Underground Operator and Fitters",
+    "sector": "Coal - Surface",
+    "location": "Centurion Mine QLD",
+    "type": "Operator (not supervisor)",
+    "flag": "Operator/fitter roles — not supervisor"
+  },
+  "Production_Supervisor.docx": {
+    "company": "Turner Talent",
+    "role": "Production Supervisor",
+    "sector": "Manufacturing (Non-mining)",
+    "location": "Eagle Farm, Brisbane QLD",
+    "type": "Production Supervisor",
+    "flag": "Manufacturing role — not mining",
+    "responsibilities": [
+      "Supervise production staff and coordinate daily workflow",
+      "Ensure output targets and quality standards are met",
+      "Support safe work practices and site procedures",
+      "Lead by example on the floor in a hands-on capacity",
+      "Assist with planning, shift handover and problem solving"
+    ],
+    "qualifications": [
+      "Previous experience in a Production Supervisor or Leading Hand role",
+      "Background in manufacturing or industrial production environments",
+      "Strong people leadership and communication skills",
+      "Ability to manage workflow, priorities and deadlines"
+    ],
+    "roster": "Afternoon shift"
+  },
+  "Projects_Crew_Supervisor.docx": {
+    "company": "Private Advertiser",
+    "role": "Projects Crew Supervisor",
+    "sector": "Minerals - Surface",
+    "location": "Central QLD (FIFO)",
+    "type": "Shutdown / Projects Supervisor",
+    "responsibilities": [
+      "Supervise and coordinate daily crew activities on project-specific mining operations",
+      "Lead a small team to complete tasks safely, on time, and within budget",
+      "Ensure compliance with safety procedures, environmental standards, and operational requirements",
+      "Allocate tasks and resources efficiently to optimise productivity and meet project deadlines",
+      "Conduct regular safety briefings, toolbox talks, and maintain high safety standards",
+      "Monitor progress against project plans, adjusting activities and resources",
+      "Report on team performance, safety issues, and operational concerns to senior leadership",
+      "Identify and resolve operational issues including equipment failures, safety hazards, and resource constraints"
+    ],
+    "qualifications": [
+      "Minimum 5 years of experience in mining",
+      "Previous experience as a Crew Supervisor or similar leadership role",
+      "Strong leadership and team management skills",
+      "Solid understanding of mining operations including project-based work",
+      "In-depth knowledge of safety regulations, environmental compliance, and risk management",
+      "S1, S2, S3",
+      "Work at Heights",
+      "Confined Space",
+      "Manual Drivers Licence — C class"
+    ]
+  },
+  "Quarry_Supervisor_NITRO_CRUSHING.docx": {
+    "company": "Nitro Crushing",
+    "role": "Quarry Supervisor",
+    "sector": "Quarry",
+    "location": "QLD (FIFO/DIDO)",
+    "type": "Quarry Supervisor",
+    "responsibilities": [
+      "Supervise and coordinate mobile crushing operations, ensuring efficiency and compliance with safety standards",
+      "Operate and oversee mobile crushing equipment including jaw and cone crushers, screens, and conveyors",
+      "Lead, train, and mentor a team of maintainer/operators, fostering a strong safety and performance culture",
+      "Conduct routine inspections, identify operational issues, and assist with maintenance tasks",
+      "Ensure a clean, level, and well-maintained work area, including proper material blending and effective benching",
+      "Communicate effectively with site management and stakeholders to optimise operations"
+    ],
+    "qualifications": [
+      "Previous experience in a supervisory role within mobile crushing, quarrying, or mining operations",
+      "Strong knowledge of mobile crushing equipment operation and maintenance",
+      "Current open Australian driver's license (mandatory)",
+      "Nationally accredited tickets for wheel loader and/or excavator operation",
+      "S1/S2/S3 mining supervisor ticket",
+      "Strong leadership skills",
+      "Proactive approach to safety, compliance, and operational excellence"
+    ]
+  },
+  "Regroup Australia.docx": {
+    "company": "Regroup Australia",
+    "role": "Mining Production Supervisor",
+    "sector": "Coal - Surface",
+    "location": "QLD",
+    "type": "Production Supervisor",
+    "responsibilities": [
+      "Lead and manage all aspects of mine production execution",
+      "Coordinate personnel, equipment and resources",
+      "Allocate tasks and manage shift rosters",
+      "Support continuous improvement initiatives",
+      "Supervise and coach team members",
+      "Contribute to commercial and strategic site outcomes"
+    ],
+    "qualifications": [
+      "Minimum 3 years supervisory experience in mining",
+      "Strong leadership, planning and organisational skills",
+      "Commitment to safety and positive team culture",
+      "National Police Clearance",
+      "Ability to pass pre-employment medical"
+    ]
+  },
+  "Rio_Tinto.docx": {
+    "company": "Rio Tinto",
+    "role": "Mine Operators - Weipa",
+    "sector": "Minerals - Surface",
+    "location": "Weipa QLD",
+    "type": "Operator (not supervisor)",
+    "flag": "Operator-level role — not supervisor",
+    "responsibilities": [
+      "Operating 776D Haul Trucks with further training on other machinery",
+      "Commitment to safety of yourself and your team",
+      "High degree of ownership and responsibility for equipment"
+    ],
+    "qualifications": [
+      "Valid C class driver's license",
+      "Commitment to learning and a can-do attitude"
+    ]
+  },
+  "RSA Contractors .docx": {
+    "company": "RSA Contractors",
+    "role": "Mining Supervisor",
+    "sector": "Minerals - Surface",
+    "location": "Croydon QLD",
+    "type": "Mining Supervisor",
+    "responsibilities": [
+      "Demonstrate respect and positive workplace behaviours",
+      "Prioritise safety in all operations",
+      "Be adaptable and solve operational problems",
+      "Work independently and as part of a team",
+      "Communicate clearly with crews and management"
+    ],
+    "qualifications": [
+      "Experience operating heavy mining machinery",
+      "Demonstrated experience supervising open pit mining operations (gold preferred)",
+      "Competent in reading pit/dump plans, survey data, drill and blast plans",
+      "S1/S2/S3 competencies",
+      "Standard 11",
+      "Australian Driver's Licence and White Card",
+      "Strong communication and interpersonal skills",
+      "Microsoft Office proficiency"
+    ]
+  },
+  "SEE_Group.docx": {
+    "company": "SEE Group",
+    "role": "Site Supervisor",
+    "sector": "Construction/Services",
+    "location": "Cairns QLD",
+    "type": "Site Services Supervisor",
+    "flag": "Infrastructure/construction — not mining operations",
+    "responsibilities": [
+      "Program daily site works in accordance with the construction program",
+      "Ensure project compliance with all relevant legislation, regulations and standards",
+      "Coordinate employees, subcontractors, plant and equipment for projects",
+      "Provide advice, support and assistance on technical and complex problems",
+      "Monitor sub-contractors ensuring compliance with HSEQ requirements"
+    ],
+    "qualifications": [
+      "Background in Plant Operation, Construction and Delivery processes",
+      "Proven management skills, practices and planning ability",
+      "Demonstrated experience managing multiple projects",
+      "Effective working relationships skills",
+      "Highly effective planning, organising and problem-solving skills"
+    ],
+    "roster": "Full-time"
+  },
+  "Stellar Recruitment.docx": {
+    "company": "Stellar Recruitment",
+    "role": "Field Supervisor - Exploration",
+    "sector": "Minerals - Surface",
+    "location": "Mt Isa / Cloncurry QLD",
+    "type": "Mining Supervisor",
+    "responsibilities": [
+      "Supervise and support a small team of field technicians",
+      "Participate in field work alongside the team",
+      "Coordinate logistics for field activities and mobilisation",
+      "Undertake and oversee environmental monitoring",
+      "Ensure safe activities in line with regulations",
+      "Liaise with technical and management teams"
+    ],
+    "qualifications": [
+      "Previous experience supervising small teams in exploration programs",
+      "Strong hands-on capability",
+      "Experience in small or growing organisations (mining exploration preferred)",
+      "Strong organisational and logistical coordination skills",
+      "Ability to work autonomously in remote locations"
+    ]
+  },
+  "Supervisor Blast Crew  Goonyella Mine BMA.docx": {
+    "company": "BHP/BMA",
+    "role": "Supervisor Blast Crew",
+    "sector": "Coal - Surface",
+    "location": "Goonyella Mine QLD",
+    "type": "Production Supervisor",
+    "responsibilities": [
+      "Lead and support Blast crew to deliver safe and efficient operations",
+      "Oversee daily shot preparations, timing, QA/QC and blast initiation",
+      "Collaborate with D&B Engineers, Shotfirers and Production teams",
+      "Contribute to safety, teamwork and continuous improvement culture",
+      "Support training and coaching of team members",
+      "Champion inclusive working environment"
+    ],
+    "qualifications": [
+      "Shotfirer accreditation and QLD tickets",
+      "Previous supervisory experience in D&B/blasting on a coal mine",
+      "Strong knowledge of drill & blast planning, field operations and safety",
+      "Ability to build and maintain relationships",
+      "Calm, inclusive, and proactive decision-making",
+      "Commitment to positive safety culture"
+    ]
+  },
+  "Supervisor_Rev_2_0625.pdf": {
+    "company": "BQC Quarries",
+    "role": "Supervisor",
+    "sector": "Quarry",
+    "location": "QLD",
+    "roster": "Not specified",
+    "type": "Quarry Supervisor",
+    "full_text": "POSITION DESCRIPTION - SUPERVISOR\nReportable to Site Senior Executive\n\nMAIN DUTIES AND RESPONSIBILITIES\nUndertake quarrying and sales activities to achieve key objectives in the areas of Customer Service, Quality, Workplace Health and Safety and Environmental Management.\nConduct and record prestart meeting when required.\nDirect and supervise daily roles of the workforce.\nEnsure that all workers (including contractors) have the appropriate skills, expertise and competencies to undertake the tasks and activities delegated to them.\nEnsure loader operators are aware of correct loading requirements and weights of trucks, to ensure that overloading does not occur.\nBe aware of the Chain of Responsibility Policy.\nProvide appropriate training to ensure all workers (including contractors) comply with the organisations quality, safety and environmental standards and systems.\nCarry out checks to ensure contractor plant and equipment is fit for purpose as per your obligations under Contractor Management.\nEnsure policies, procedures and objectives are implemented and observed within the operation.\nWrite purchase orders as required.\nAct as spare man and operate machines when usual operator is absent.\nOperate pugmill when required.\nSupervise and/or conduct/assist with repairs or maintenance on crushing equipment.\nOperate water truck for dust suppression when required.\nVisually monitor your surrounds at all times and report any concerns immediately.\nAssist Site Senior Executive with quarry development.\nAssist Site Senior Executive with task preparation and planning and development of Safe Work Procedures.\nSecondary support to Site Senior Executive and Weighbridge Controller in his/her absence.\nOther duties as directed or required within your field of competency.\n\nQUALIFICATIONS\nCompetencies recognised by the Mining Safety and Health Advisory Committee (MQSHA 1999 and MQSHR 2017):\nRIIRIS301E Apply risk management processes\nRIIWHS301E Conduct safety and health investigations\nRIICOM301E Communicate information\n\nSKILLS\nProven hands on experience in fixed and mobile crushing/screening and quarrying.\nStrong mechanical aptitude.\nProven leadership qualities as well as a strong commitment to safety.\nSelf-motivated, hardworking, reliable and a team player.\nExcellent verbal and written communication skills.\nComputer skills including MS Office products.\n\nPERFORMANCE GOALS\nEnsure all workers are working both efficiently and safely at all times.\nInteract with Management and other Employees with a friendly manner at all times.",
+    "responsibilities": [
+      "Undertake quarrying and sales activities to achieve key objectives in Customer Service, Quality, WHS and Environmental Management",
+      "Conduct and record prestart meetings when required",
+      "Direct and supervise daily roles of the workforce",
+      "Ensure all workers (including contractors) have appropriate skills, expertise and competencies for delegated tasks",
+      "Ensure loader operators are aware of correct loading requirements and weights of trucks (Chain of Responsibility)",
+      "Provide appropriate training to ensure workers comply with quality, safety and environmental standards",
+      "Carry out checks to ensure contractor's plant and equipment is fit for purpose",
+      "Ensure policies, procedures and objectives are implemented and observed within the operation",
+      "Assist Site Senior Executive with task preparation, planning and development of Safe Work Procedures",
+      "Act as secondary support to SSE and Weighbridge Controller in their absence"
+    ],
+    "qualifications": [
+      "RIIRIS301E Apply risk management processes",
+      "RIIWHS301E Conduct safety and health investigations",
+      "RIICOM301E Communicate information",
+      "Proven hands-on experience in fixed and mobile crushing/screening and quarrying",
+      "Strong mechanical aptitude",
+      "Excellent verbal and written communication skills",
+      "Computer skills including MS Office products"
+    ]
+  },
+  "Team_Leader_.docx": {
+    "company": "Cement Australia",
+    "role": "Team Leader - Packaged Products",
+    "sector": "Manufacturing (Non-mining)",
+    "location": "Bulwer Island, Brisbane QLD",
+    "type": "Production Supervisor",
+    "flag": "Cement manufacturing — not mining",
+    "responsibilities": [
+      "Ensure operations comply with SHEQ policies including risk assessments and corrective actions",
+      "Lead operational activities to achieve safety, quality, maintenance, and production targets",
+      "Operate dry mix bagging plant, forklift, and skid steer safely and efficiently",
+      "Supervise and coordinate contractors, including issuing work permits",
+      "Utilise SAP for maintenance notifications, work orders, production reporting",
+      "Identify and implement continuous improvement opportunities"
+    ],
+    "qualifications": [
+      "Trade qualification preferred",
+      "Minimum 5+ years experience in bagging plant operations",
+      "Team leadership and shutdown/maintenance planning experience",
+      "Forklift, Skid Steer, Confined Space & Rescue, Working at Heights",
+      "Basic computer literacy including Microsoft Office and SAP"
+    ],
+    "roster": "Full-time"
+  },
+  "TerraCom.docx": {
+    "company": "TerraCom Limited",
+    "role": "Maintenance Supervisor",
+    "sector": "Coal - Surface",
+    "location": "Blair Athol Mine QLD",
+    "type": "Maintenance Supervisor",
+    "responsibilities": [
+      "Lead and mentor maintenance trades and operators",
+      "Execute maintenance priorities safely and efficiently",
+      "Coordinate planned and breakdown maintenance activities",
+      "Task allocation and daily work planning",
+      "Drive compliance with site systems and statutory obligations",
+      "Provide performance feedback and management",
+      "Monitor attendance and leave",
+      "Contribute to continuous improvement initiatives",
+      "Work with Maintenance Superintendent and Production teams"
+    ],
+    "qualifications": [
+      "Relevant Mechanical or Electrical trade qualification",
+      "Demonstrated supervisory experience in mining maintenance",
+      "Strong experience maintaining heavy mobile mining equipment",
+      "Ability to coordinate major equipment maintenance",
+      "Strong time management and prioritisation skills",
+      "Interpersonal and communication capability",
+      "Proficiency in PRONTO and Microsoft Office",
+      "Positive, solutions-focused leadership style",
+      "Strong commitment to safety and team culture"
+    ]
+  },
+  "Thiess_supervisor_mining.docx": {
+    "company": "Thiess",
+    "role": "Supervisor, Mining",
+    "sector": "Minerals - Surface",
+    "location": "Eva Copper Mine, Cloncurry QLD",
+    "type": "Mining Supervisor",
+    "responsibilities": [
+      "Build and maintain relationships with all stakeholders including Technical Services and Maintenance teams",
+      "Manage, report, and investigate all incidents within the mining operation and apply corrective actions",
+      "Complete safety observations and critical control audits within own work area",
+      "Execute weekly plan and highlight any shortfalls that could disrupt operations",
+      "Attend daily production meeting and provide accurate summary of the previous 24 hours",
+      "Support 'Speak Up' culture, encouraging employees to align with expected behaviours",
+      "Support and develop operators ensuring competencies are kept up to date"
+    ],
+    "qualifications": [
+      "Proven leadership and people management skills",
+      "Excellent organisational, communication, and presentation skills",
+      "Prioritising and problem-solving skills",
+      "A solid understanding of the processes involved with hard rock mining"
+    ]
+  },
+  "Underground_Shift_Supervisor.docx": {
+    "company": "PYBAR (Thiess)",
+    "role": "Underground Shift Supervisor",
+    "sector": "Minerals - Underground",
+    "location": "Eloise Copper Mine, Far North QLD",
+    "type": "Underground Shift Supervisor",
+    "responsibilities": [
+      "Provide day to day supervision, mentorship and leadership to the underground team",
+      "Monitor and supervise underground mining activities",
+      "Promote positive safety behaviours and build a culture of accountability, ownership and safety first thinking",
+      "Use digital tools (e.g. INX) to record and monitor tasks",
+      "Communicate effectively with PYBAR team members and relevant stakeholders"
+    ],
+    "qualifications": [
+      "Minimum 2 years' experience as Shift Supervisor or similar",
+      "Minimum 10 years' experience in Underground Hardrock mining",
+      "Development experience (essential)",
+      "Strong stakeholder engagement and leadership capabilities",
+      "Current First Aid Certificate (advantageous)",
+      "Queensland Explosives Security Clearance",
+      "QMS123/G189"
+    ],
+    "roster": "FIFO, roster not specified"
+  },
+  "WorkPac.docx": {
+    "company": "WorkPac",
+    "role": "Production Supervisor",
+    "sector": "Coal - Surface",
+    "location": "Lake Lindsay QLD",
+    "type": "Production Supervisor",
+    "responsibilities": [
+      "Lead and supervise production crews",
+      "Promote and enforce safety systems and procedures",
+      "Drive operational performance and continuous improvement",
+      "Facilitate pre-start meetings and safety briefings",
+      "Coach and mentor team members",
+      "Monitor production outcomes and maintain accurate records"
+    ],
+    "qualifications": [
+      "Excavator and Dragline experience (minimum 5 years)",
+      "Current Standard 11",
+      "Mining Supervisor competencies (G1/G2/G8/G9)",
+      "Proven leadership in open-cut mining",
+      "Strong communication and mentoring capability",
+      "Microsoft Office Suite",
+      "Demonstrated commitment to safety"
+    ]
+  }
+}
