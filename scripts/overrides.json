@@ -20,7 +20,7 @@
       "Understanding of open cut mining equipment and techniques"
     ]
   },
-  "BHP.docx": {
+  "BHP Maintenance.docx": {
     "company": "BHP Operations Services",
     "role": "Supervisor / Superintendent (Maintenance)",
     "sector": "Coal - Surface",
@@ -204,7 +204,7 @@
       "Strong decision-making and communication skills"
     ]
   },
-  "Glencore.docx": {
+  "Glencore Primary Smelting.docx": {
     "company": "Glencore",
     "role": "Supervisor - Primary Smelting",
     "sector": "Minerals - Surface",
@@ -322,7 +322,7 @@
       "Current Queensland Driver Licence"
     ]
   },
-  "Macmahon.docx": {
+  "Macmahon Production.docx": {
     "company": "Macmahon",
     "role": "Production Supervisor",
     "sector": "Minerals - Surface",
@@ -806,5 +806,143 @@
       "Microsoft Office Suite",
       "Demonstrated commitment to safety"
     ]
+  },
+  "Achieve Group.docx": {
+    "company": "ACHIEVE Group Australia",
+    "role": "Site Supervisor - Mine Remediation",
+    "type": "Site Services Supervisor",
+    "sector": "Construction/Services",
+    "location": "Charters Towers, Northern QLD",
+    "roster": "5/2",
+    "flag": "Mine remediation/rehabilitation — not frontline mining operations"
+  },
+  "Anglo.docx": {
+    "company": "Anglo American",
+    "role": "Mining Supervisor: Dragline",
+    "type": "Mining Supervisor",
+    "sector": "Coal - Surface",
+    "location": "Moura QLD",
+    "roster": "5/4 (FIFO/Residential)"
+  },
+  "BHP.docx": {
+    "company": "BHP",
+    "role": "Operations Technology Supervisor",
+    "type": "Production Supervisor",
+    "sector": "Coal - Surface",
+    "location": "Bowen Basin QLD",
+    "roster": "8/6 (12-hour shift)"
+  },
+  "BUMA.docx": {
+    "company": "BUMA Australia",
+    "role": "Production Supervisor",
+    "type": "Production Supervisor",
+    "sector": "Coal - Surface",
+    "location": "Meandu Mine, Kingaroy QLD",
+    "roster": "Residential"
+  },
+  "Byrne Bros.docx": {
+    "company": "Byrne Bros Quarries",
+    "role": "Production Supervisor",
+    "type": "Quarry Supervisor",
+    "sector": "Quarry",
+    "location": "Takura, Hervey Bay QLD",
+    "roster": "Day shift"
+  },
+  "Evolution Mining Superinttendent.docx": {
+    "company": "Evolution Mining",
+    "role": "Underground Mining Superintendent",
+    "type": "Superintendent (above supervisor)",
+    "sector": "Minerals - Underground",
+    "location": "Mungari, Kalgoorlie WA",
+    "roster": "Not specified",
+    "flag": "WA role — not Queensland"
+  },
+  "Evolution Mining.docx": {
+    "company": "Evolution Mining",
+    "role": "Supervisor - U/G Fixed Mechanical Maintenance",
+    "type": "Maintenance Supervisor",
+    "sector": "Minerals - Underground",
+    "location": "Ernest Henry Mine, Cloncurry QLD",
+    "roster": "8/6/7/7 (12-hour day)"
+  },
+  "Foxleigh Mine.docx": {
+    "company": "Foxleigh Mine",
+    "role": "Mining Supervisor / OCE",
+    "type": "Mining Supervisor",
+    "sector": "Coal - Surface",
+    "location": "Middlemount QLD",
+    "roster": "7/7 D/N"
+  },
+  "Glencore 2.docx": {
+    "company": "Glencore Mount Isa Mines",
+    "role": "Supervisor - Services",
+    "type": "Site Services Supervisor",
+    "sector": "Minerals - Surface",
+    "location": "Mount Isa QLD",
+    "roster": "5/2 or 4/3"
+  },
+  "Glencore.docx": {
+    "company": "Glencore Coal",
+    "role": "Production Supervisor",
+    "type": "Production Supervisor",
+    "sector": "Coal - Surface",
+    "location": "Rolleston Open Cut, Springsure QLD",
+    "roster": "8/6"
+  },
+  "Golding Superintendent.docx": {
+    "company": "Golding Contractors",
+    "role": "Mining Superintendent",
+    "type": "Superintendent (above supervisor)",
+    "sector": "Coal - Surface",
+    "location": "Curragh Mine, Blackwater QLD",
+    "roster": "8/6 D/N rotating"
+  },
+  "Golding.docx": {
+    "company": "Golding Contractors",
+    "role": "Mining Production Supervisor",
+    "type": "Production Supervisor",
+    "sector": "Coal - Surface",
+    "location": "Blackwater QLD",
+    "roster": "7/7"
+  },
+  "Jennchem.docx": {
+    "company": "Jennchem Australia",
+    "role": "Underground Crew Supervisor",
+    "type": "Underground Shift Supervisor",
+    "sector": "Coal - Underground",
+    "location": "Mackay & Coalfields QLD",
+    "roster": "7/7 D/N"
+  },
+  "Macmahon.docx": {
+    "company": "Macmahon",
+    "role": "Supervisor - Production",
+    "type": "Production Supervisor",
+    "sector": "Minerals - Surface",
+    "location": "Mt Carlton QLD",
+    "roster": "7/7 DIDO"
+  },
+  "South32 Cannington Mine.docx": {
+    "company": "South32",
+    "role": "Mechanical Supervisor",
+    "type": "Maintenance Supervisor",
+    "sector": "Minerals - Underground",
+    "location": "Cannington Mine, McKinlay QLD",
+    "roster": "8/6 FIFO"
+  },
+  "Thiess.docx": {
+    "company": "Thiess",
+    "role": "Site Services Supervisor",
+    "type": "Site Services Supervisor",
+    "sector": "Coal - Surface",
+    "location": "Lake Vermont, Dysart QLD",
+    "roster": "9-day fortnight"
+  },
+  "YanCoal.docx": {
+    "company": "YanCoal",
+    "role": "CHPP Supervisor",
+    "type": "Production Supervisor",
+    "sector": "Coal - Surface",
+    "location": "Blackwater QLD",
+    "roster": "Shift work"
   }
 }

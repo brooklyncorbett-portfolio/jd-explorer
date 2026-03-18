@@ -95,6 +95,7 @@ body{font-family:"DM Sans",-apple-system,BlinkMacSystemFont,sans-serif;backgroun
 .tag.method{background:var(--gray-bg);color:var(--t2);border:1px solid var(--border)}
 .tag.mine{background:var(--gray-bg);color:var(--t2);border:1px solid var(--border)}
 .tag.flag{background:var(--red-bg);color:var(--red);border:1px solid var(--red-bdr);font-weight:500}
+.tag.statutory{background:var(--purple-bg);color:var(--purple);border:1px solid var(--purple-bdr);font-weight:600}
 .arrow{color:var(--t3);font-size:18px;flex-shrink:0;transition:transform .15s}
 .jd-card.open .arrow{transform:rotate(90deg)}
 .hit-count{font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:600;color:var(--blue);background:var(--blue-bg);padding:2px 8px;border-radius:4px}
@@ -215,6 +216,7 @@ body{font-family:"DM Sans",-apple-system,BlinkMacSystemFont,sans-serif;backgroun
     <button class="tab" data-t="quals">Qualifications</button>
     <button class="tab" data-t="duties">Common Duties</button>
     <button class="tab" data-t="experience">Experience</button>
+    <button class="tab" data-t="statutory" style="color:var(--purple)">Statutory Positions</button>
     <button class="tab" data-t="gaps" style="color:var(--red)">Gaps</button>
   </div>
   <div id="browseTab" class="tab-content active"></div>
@@ -222,6 +224,7 @@ body{font-family:"DM Sans",-apple-system,BlinkMacSystemFont,sans-serif;backgroun
   <div id="qualsTab" class="tab-content"></div>
   <div id="dutiesTab" class="tab-content"></div>
   <div id="experienceTab" class="tab-content"></div>
+  <div id="statutoryTab" class="tab-content"></div>
   <div id="gapsTab" class="tab-content"></div>
 </div>
 <div id="modalRoot"></div>
@@ -424,6 +427,7 @@ function jdCardHtml(j,q,hc){
           <span class="tag sector ${c.cls}">${esc(sectorLabel)}</span>
           <span class="tag method">${esc(method)}</span>
           ${mine?`<span class="tag mine">${hi(mine,q)}</span>`:""}
+          ${j.has_statutory?j.statutory_positions.map(p=>`<span class="tag statutory">${esc(p)}</span>`).join(""):""}
           ${j.flag?`<span class="tag flag">${esc(j.flag)}</span>`:""}
         </div>
       </div>
@@ -667,7 +671,61 @@ function renderExperience(){
   };
 }
 
-// ─── TAB 6: GAPS ───
+// ─── TAB 6: STATUTORY POSITIONS ───
+function renderStatutory(){
+  const el=document.getElementById("statutoryTab");
+  const statJDs=DATA.filter(j=>j.has_statutory);
+  const nonStatJDs=DATA.filter(j=>!j.has_statutory&&!j.flag);
+  const posTypes={};
+  statJDs.forEach(j=>{(j.statutory_positions||[]).forEach(p=>{if(!posTypes[p])posTypes[p]=[];posTypes[p].push(j)})});
+  const STAT_INFO={
+    'SSE':{full:'Site Senior Executive',desc:'The most senior person at a mine site responsible for safety and health under the Mining and Quarrying Safety and Health Act 1999 (QLD) or Coal Mining Safety and Health Act 1999 (QLD). Must hold a current certificate of competency.'},
+    'OCE':{full:'Open Cut Examiner',desc:'A statutory position under the Coal Mining Safety and Health Act 1999 (QLD). Responsible for examining and ensuring the safety of open cut mining operations. Must hold a current certificate of competency issued by the Board of Examiners.'},
+    'UMM':{full:'Underground Mine Manager',desc:'Statutory position under the Coal Mining Safety and Health Act 1999 (QLD). Responsible for safe management and operation of an underground coal mine.'},
+    'VOM':{full:'Ventilation Officer',desc:'Statutory position responsible for the ventilation system in an underground mine under Queensland mining legislation.'},
+    'EEM':{full:'Electrical Engineering Manager',desc:'Statutory position under Queensland mining legislation responsible for the safe operation of electrical systems at a mine.'},
+    'MEM':{full:'Mechanical Engineering Manager',desc:'Statutory position under Queensland mining legislation responsible for the safe operation of mechanical systems at a mine.'}
+  };
+  el.innerHTML=`<p class="intro">Job descriptions that reference <strong>designated statutory positions</strong> under Queensland mining legislation. These are legislatively mandated roles with specific certificate of competency requirements. ${statJDs.length} of ${DATA.length} JDs reference a statutory position.</p>
+  <div style="display:flex;gap:16px;flex-wrap:wrap;margin-bottom:20px">
+    <div style="background:var(--purple-bg);border:1px solid var(--purple-bdr);border-radius:var(--card-radius);padding:16px 20px;flex:1;min-width:200px">
+      <div style="font-family:'JetBrains Mono',monospace;font-size:32px;font-weight:700;color:var(--purple)">${statJDs.length}</div>
+      <div style="font-size:12px;font-weight:600;color:var(--purple)">JDs with Statutory References</div>
+    </div>
+    <div style="background:var(--white);border:1px solid var(--border);border-radius:var(--card-radius);padding:16px 20px;flex:1;min-width:200px">
+      <div style="font-family:'JetBrains Mono',monospace;font-size:32px;font-weight:700;color:var(--t1)">${Object.keys(posTypes).length}</div>
+      <div style="font-size:12px;font-weight:600;color:var(--t3)">Distinct Statutory Positions Found</div>
+    </div>
+  </div>
+  ${Object.entries(posTypes).map(([pos,jds])=>{
+    const info=STAT_INFO[pos]||{full:pos,desc:''};
+    return `<div style="margin-bottom:20px">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+        <span class="tag statutory" style="font-size:14px;padding:4px 14px">${esc(pos)}</span>
+        <span style="font-weight:700;font-size:15px">${esc(info.full)}</span>
+        <span style="font-size:12px;color:var(--t3)">(${jds.length} JD${jds.length>1?"s":""})</span>
+      </div>
+      <div style="font-size:13px;color:var(--t2);margin-bottom:12px;padding:10px 14px;background:var(--purple-bg);border-radius:6px;border:1px solid var(--purple-bdr)">${esc(info.desc)}</div>
+      ${jds.map(j=>{
+        const details=(j.statutory_details||[]).filter(d=>d.position===pos);
+        return `<div style="background:var(--white);border:1px solid var(--border);border-radius:var(--card-radius);padding:14px 16px;margin-bottom:8px">
+          <div style="display:flex;align-items:baseline;gap:8px;margin-bottom:6px">
+            <span style="font-weight:700">${esc(j.company)}</span>
+            <span style="color:var(--t2);font-size:14px">| ${esc(j.role)}</span>
+            <span class="tag sector ${sc(j.sector).cls}" style="font-size:10px;padding:1px 6px">${esc(sc(j.sector).label)}</span>
+          </div>
+          ${details.map(d=>`<div style="font-size:12px;color:var(--t2);padding:6px 10px;background:var(--gray-bg);border-radius:4px;margin-top:4px;font-family:'JetBrains Mono',monospace;line-height:1.5">...${esc(d.context)}...</div>`).join("")}
+        </div>`}).join("")}
+    </div>`}).join("")}
+  <div class="card-box" style="margin-top:16px;border-color:var(--purple-bdr);background:var(--purple-bg)"><h3 style="color:var(--purple)">About Statutory Positions</h3>
+  <div style="font-size:13px;color:var(--t2);line-height:1.7">
+    <p>Queensland mining legislation designates specific statutory positions that carry legal obligations for safety and health management at mine sites. These positions require holders to possess current certificates of competency issued by the Board of Examiners.</p>
+    <p style="margin-top:6px">Key statutory positions include: <strong>SSE</strong> (Site Senior Executive), <strong>OCE</strong> (Open Cut Examiner), <strong>UMM</strong> (Underground Mine Manager), <strong>VOM</strong> (Ventilation Officer), <strong>EEM</strong> (Electrical Engineering Manager), and <strong>MEM</strong> (Mechanical Engineering Manager).</p>
+    <p style="margin-top:6px">When a JD references a statutory position, it may indicate the role itself is a statutory position, the role reports to one, or the role requires equivalent qualifications.</p>
+  </div></div>`;
+}
+
+// ─── TAB 7: GAPS ───
 function renderGaps(){
   const el=document.getElementById("gapsTab");const scope=DATA.filter(inScope);
   const gapResults=GAPS.map(g=>{const matches=[];const evidence=[];
@@ -725,7 +783,7 @@ function renderGaps(){
 function render(){
   _evTermsMap={};_evTermsIdx=0;
   renderStats();
-  ({browse:renderBrowse,types:renderTypes,quals:renderQuals,duties:renderDuties,experience:renderExperience,gaps:renderGaps})[S.tab]();
+  ({browse:renderBrowse,types:renderTypes,quals:renderQuals,duties:renderDuties,experience:renderExperience,statutory:renderStatutory,gaps:renderGaps})[S.tab]();
 }
 
 // Load data and initialize

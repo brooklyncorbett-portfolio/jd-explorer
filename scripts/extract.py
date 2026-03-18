@@ -255,6 +255,37 @@ def extract_roster(text):
             if r: return r[:50]
     return "Not specified"
 
+STATUTORY_TERMS = {
+    'SSE': [r'\bSSE\b', r'Site Senior Executive'],
+    'OCE': [r'\bOCE\b', r'Open Cut Examiner'],
+    'UMM': [r'\bUMM\b', r'Underground Mine Manager'],
+    'VOM': [r'\bVOM\b', r'Ventilation Officer'],
+    'EEM': [r'\bEEM\b', r'Electrical Engineering Manager'],
+    'MEM': [r'\bMEM\b', r'Mechanical Engineering Manager'],
+}
+
+def detect_statutory(entry, raw_text):
+    """Detect statutory position references in a JD."""
+    search_text = raw_text + " " + entry.get('role', '')
+    search_text += " " + " ".join(entry.get('responsibilities', []))
+    search_text += " " + " ".join(entry.get('qualifications', []))
+    found_positions, found_details = [], []
+    for pos, patterns in STATUTORY_TERMS.items():
+        for pat in patterns:
+            matches = list(re.finditer(pat, search_text, re.IGNORECASE))
+            if matches:
+                for m in matches:
+                    start = max(0, m.start() - 60)
+                    end = min(len(search_text), m.end() + 60)
+                    context = search_text[start:end].replace('\n', ' ').strip()
+                    found_details.append({"position": pos, "context": context})
+                if pos not in found_positions:
+                    found_positions.append(pos)
+                break
+    entry['statutory_positions'] = found_positions
+    entry['statutory_details'] = found_details
+    entry['has_statutory'] = len(found_positions) > 0
+
 def main():
     if not os.path.isdir(JDS_DIR):
         print(f"No jds/ directory found")
@@ -294,6 +325,7 @@ def main():
         if fn in overrides:
             for k,v in overrides[fn].items(): entry[k] = v
             entry["_overridden"] = True
+        detect_statutory(entry, raw_texts[fn])
         results.append(entry)
         tag = " [override]" if fn in overrides else ""
         print(f"  {i+1:2d} | {entry['company']:<30s} | {entry['role'][:40]:<40s} | {entry['sector']:<24s} | R:{len(resp)} Q:{len(qual)} C:{len(clean_texts[fn])}{tag}")
