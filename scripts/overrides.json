@@ -272,8 +272,7 @@
     "role": "Leading Hand",
     "sector": "Coal - Surface",
     "location": "Carmichael Mine QLD",
-    "type": "Operator (not supervisor)",
-    "flag": "Leading Hand — not supervisor level"
+    "type": "Leading Hand"
   },
   "MacKellar_.docx": {
     "company": "MacKellar",
@@ -944,5 +943,165 @@
     "sector": "Coal - Surface",
     "location": "Blackwater QLD",
     "roster": "Shift work"
+  },
+  "BUMA Nanango.docx": {
+    "company": "BUMA Australia",
+    "role": "Production Supervisor",
+    "type": "Production Supervisor",
+    "sector": "Coal - Surface",
+    "location": "Nanango QLD",
+    "roster": "5/4/4/5 D/N"
+  },
+  "Betchel Supervisor - Scaffold.docx": {
+    "company": "Bechtel",
+    "role": "Supervisor - Scaffold",
+    "type": "Site Services Supervisor",
+    "sector": "Construction/Services",
+    "location": "Cloncurry QLD",
+    "roster": "2:1 FIFO",
+    "flag": "Scaffolding supervisor — not frontline mining operations"
+  },
+  "Development Supervisor.docx": {
+    "company": "BHP/BMA",
+    "role": "Development Supervisor",
+    "type": "Production Supervisor",
+    "sector": "Coal - Underground",
+    "location": "Broadmeadow Mine, Moranbah QLD",
+    "roster": "5/2 or 7/7"
+  },
+  "Glencore Light Vehicle.docx": {
+    "company": "Glencore",
+    "role": "Supervisor - Light Vehicle",
+    "type": "Maintenance Supervisor",
+    "sector": "Minerals - Surface",
+    "location": "Mount Isa QLD",
+    "roster": "7/7 day"
+  },
+  "Golding OCE Kogan.docx": {
+    "company": "Golding Contractors",
+    "role": "Mining Supervisor (OCE Qualified)",
+    "type": "Mining Supervisor",
+    "sector": "Coal - Surface",
+    "location": "Kogan QLD",
+    "roster": "7/7 rotating"
+  },
+  "Heidelberg Materials.docx": {
+    "company": "Heidelberg Materials",
+    "role": "Quarry Supervisor",
+    "type": "Quarry Supervisor",
+    "sector": "Quarry",
+    "location": "QLD"
+  },
+  "MacKellar.docx": {
+    "company": "MacKellar",
+    "role": "Production Supervisor",
+    "type": "Production Supervisor",
+    "sector": "Coal - Surface",
+    "location": "Carmichael Mine QLD",
+    "roster": "7/7 FIFO"
+  },
+  "Manuplex.docx": {
+    "company": "Manuplex",
+    "role": "Underground Operators",
+    "type": "Operator (not supervisor)",
+    "sector": "Coal - Underground",
+    "location": "Mackay QLD",
+    "roster": "7/7",
+    "flag": "Operator-level role — not supervisor"
+  },
+  "Newmont.docx": {
+    "company": "Newmont Australia",
+    "role": "Supervisor, Services and Backfill",
+    "type": "Production Supervisor",
+    "sector": "Minerals - Underground",
+    "location": "Tanami Mine, NT",
+    "roster": "14/14 FIFO",
+    "flag": "NT role — not Queensland"
+  },
+  "Production Supervisor MacKellar.docx": {
+    "company": "MacKellar",
+    "role": "Production Supervisor",
+    "type": "Production Supervisor",
+    "sector": "Coal - Surface",
+    "location": "Carmichael Mine QLD",
+    "roster": "7/7 FIFO"
+  },
+  "Production Supervisor Yancoal.docx": {
+    "company": "YanCoal",
+    "role": "Production Supervisor",
+    "type": "Production Supervisor",
+    "sector": "Coal - Surface",
+    "location": "Yarrabee Mine, Blackwater QLD",
+    "roster": "7/7"
+  },
+  "Production Supervisor.docx": {
+    "company": "Anglo American",
+    "role": "Production Supervisor",
+    "type": "Production Supervisor",
+    "sector": "Coal - Surface",
+    "location": "Dawson Mine, Moura QLD",
+    "roster": "7/7"
+  },
+  "Production supervisor copy.docx": {
+    "company": "Anglo American",
+    "role": "Production Supervisor",
+    "type": "Production Supervisor",
+    "sector": "Coal - Surface",
+    "location": "Capcoal, Middlemount QLD"
+  },
+  "Quarry Supervisor.docx": {
+    "company": "Boral",
+    "role": "Quarry Supervisor",
+    "type": "Quarry Supervisor",
+    "sector": "Quarry",
+    "location": "Narangba QLD"
+  },
+  "Quarry supervisor copy.docx": {
+    "company": "Quarrico Products",
+    "role": "Quarry Supervisor",
+    "type": "Quarry Supervisor",
+    "sector": "Quarry",
+    "location": "Moranbah QLD",
+    "roster": "14/7 12hr"
+  },
+  "Rio.docx": {
+    "company": "Rio Tinto",
+    "role": "Supervisor Plant Operations",
+    "type": "Production Supervisor",
+    "sector": "Minerals - Surface",
+    "location": "Amrun, Weipa QLD",
+    "roster": "7/7"
+  },
+  "Senior Production Supervisor MacKellar.docx": {
+    "company": "MacKellar",
+    "role": "Senior Production Supervisor",
+    "type": "Superintendent (above supervisor)",
+    "sector": "Coal - Surface",
+    "location": "Townsville QLD",
+    "roster": "7/7 day shift"
+  },
+  "Sojitz.docx": {
+    "company": "Sojitz Blue",
+    "role": "Mining Supervisor",
+    "type": "Mining Supervisor",
+    "sector": "Coal - Surface",
+    "location": "Gregory Mine, Emerald QLD",
+    "roster": "7/7 day shift"
+  },
+  "Thiess Maintenance Mackay.docx": {
+    "company": "Thiess",
+    "role": "Maintenance Supervisor",
+    "type": "Maintenance Supervisor",
+    "sector": "Coal - Surface",
+    "location": "Peak Downs, Mackay QLD",
+    "roster": "7/7"
+  },
+  "UG Supervisor.docx": {
+    "company": "Lunar Mining Services",
+    "role": "Underground Outbye Supervisor",
+    "type": "Underground Shift Supervisor",
+    "sector": "Coal - Underground",
+    "location": "Broadmeadow Mine, Moranbah QLD",
+    "roster": "7/7"
   }
 }
