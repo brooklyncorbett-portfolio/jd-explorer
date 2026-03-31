@@ -1071,9 +1071,22 @@
       "type": "Leading Hand",
       "sector": "Coal - Surface",
       "location": "Carmichael Mine QLD",
-      "roster": "7/7 rotating",
-      "responsibilities": [],
-      "qualifications": [],
+      "roster": "7/7 D/N rotating (FIFO from Rockhampton or Townsville)",
+      "responsibilities": [
+        "Operate heavy mining equipment including Excavators >400t, D10/D11 Dozers, Graders and Haul Trucks",
+        "Lead and support crew in a Leading Hand or supervisory capacity",
+        "Identify continuous improvement opportunities and work collaboratively to implement solutions",
+        "Maintain a strong commitment to safety at all times",
+        "Contribute as a valued team member with flexibility across operations"
+      ],
+      "qualifications": [
+        "Previous experience in a Leading Hand or Supervisory role",
+        "Extensive experience as a multi-skilled operator in a mining environment",
+        "Relevant RII competencies signed off within the last 5 years",
+        "S1, S2, S3 and G2 Certificates",
+        "Current Standard 11",
+        "Valid manual driver's licence"
+      ],
       "_overridden": true,
       "statutory_positions": [],
       "statutory_details": [],
