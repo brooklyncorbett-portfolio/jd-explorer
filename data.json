@@ -1100,8 +1100,8 @@
       "role": "Production Supervisor",
       "type": "Production Supervisor",
       "sector": "Coal - Surface",
-      "location": "Carmichael Mine QLD",
-      "roster": "7/7 FIFO",
+      "location": "Nambour QLD",
+      "roster": "Not specified",
       "responsibilities": [
         "Day-to-day, you’ll be:",
         "Overseeing and coordinating production activities to meet targets",
@@ -1188,39 +1188,6 @@
     },
     {
       "id": 37,
-      "filename": "Macmahon Production.docx",
-      "source": "Macmahon Production.docx",
-      "company": "Macmahon",
-      "role": "Production Supervisor",
-      "type": "Production Supervisor",
-      "sector": "Minerals - Surface",
-      "location": "Mt Carlton QLD",
-      "roster": "DIDO Only",
-      "responsibilities": [
-        "Lead safe work practices and a proactive safety culture",
-        "Supervise daily mining operations including digging, hauling and dumping",
-        "Execute mine plan per short-term schedules",
-        "Monitor fleet performance, cycle times, delays and utilisation",
-        "Provide leadership and coaching to operators",
-        "Ensure accurate reporting (shift logs, production data, environmental checks, incident docs)",
-        "Coordinate with Maintenance, Technical Services and Drill & Blast teams"
-      ],
-      "qualifications": [
-        "Extensive surface mining experience as Production Supervisor, Leading Hand or Senior Operator",
-        "Proven commitment to safety",
-        "Strong communication skills",
-        "Technical knowledge of a range of mining equipment",
-        "Mechanical knowledge of equipment capabilities and maintenance scheduling",
-        "Detailed knowledge of mining and safety regulations",
-        "Certification in Frontline Management"
-      ],
-      "_overridden": true,
-      "statutory_positions": [],
-      "statutory_details": [],
-      "has_statutory": false
-    },
-    {
-      "id": 38,
       "filename": "Macmahon.docx",
       "source": "Macmahon.docx",
       "company": "Macmahon",
@@ -1248,7 +1215,7 @@
       "has_statutory": false
     },
     {
-      "id": 39,
+      "id": 38,
       "filename": "Maintenance_Supervisor.docx",
       "source": "Maintenance_Supervisor.docx",
       "company": "Redpath Mining",
@@ -1282,7 +1249,7 @@
       "has_statutory": false
     },
     {
-      "id": 40,
+      "id": 39,
       "filename": "Manuplex.docx",
       "source": "Manuplex.docx",
       "company": "Manuplex",
@@ -1307,7 +1274,7 @@
       "has_statutory": false
     },
     {
-      "id": 41,
+      "id": 40,
       "filename": "Mining_Operator_The_Thiess.docx",
       "source": "Mining_Operator_The_Thiess.docx",
       "company": "Thiess",
@@ -1344,7 +1311,7 @@
       "has_statutory": true
     },
     {
-      "id": 42,
+      "id": 41,
       "filename": "NEXUS MINING PTY LTD.docx",
       "source": "NEXUS MINING PTY LTD.docx",
       "company": "Nexus Mining",
@@ -1362,7 +1329,7 @@
       "has_statutory": false
     },
     {
-      "id": 43,
+      "id": 42,
       "filename": "National Group .docx",
       "source": "National Group .docx",
       "company": "National Group",
@@ -1392,7 +1359,7 @@
       "has_statutory": false
     },
     {
-      "id": 44,
+      "id": 43,
       "filename": "Newmont.docx",
       "source": "Newmont.docx",
       "company": "Newmont Australia",
@@ -1410,7 +1377,7 @@
       "has_statutory": false
     },
     {
-      "id": 45,
+      "id": 44,
       "filename": "Production Supervisor MacKellar.docx",
       "source": "Production Supervisor MacKellar.docx",
       "company": "MacKellar",
@@ -1441,7 +1408,7 @@
       "has_statutory": false
     },
     {
-      "id": 46,
+      "id": 45,
       "filename": "Production Supervisor Yancoal.docx",
       "source": "Production Supervisor Yancoal.docx",
       "company": "YanCoal",
@@ -1477,7 +1444,7 @@
       "has_statutory": true
     },
     {
-      "id": 47,
+      "id": 46,
       "filename": "Production Supervisor.docx",
       "source": "Production Supervisor.docx",
       "company": "Anglo American",
@@ -1520,7 +1487,7 @@
       "has_statutory": true
     },
     {
-      "id": 48,
+      "id": 47,
       "filename": "Production supervisor copy.docx",
       "source": "Production supervisor copy.docx",
       "company": "Anglo American",
@@ -1543,7 +1510,7 @@
       "has_statutory": false
     },
     {
-      "id": 49,
+      "id": 48,
       "filename": "Production_Supervisor.docx",
       "source": "Production_Supervisor.docx",
       "company": "Turner Talent",
@@ -1572,7 +1539,7 @@
       "has_statutory": false
     },
     {
-      "id": 50,
+      "id": 49,
       "filename": "Projects_Crew_Supervisor.docx",
       "source": "Projects_Crew_Supervisor.docx",
       "company": "Private Advertiser",
@@ -1608,7 +1575,7 @@
       "has_statutory": false
     },
     {
-      "id": 51,
+      "id": 50,
       "filename": "Quarry Supervisor.docx",
       "source": "Quarry Supervisor.docx",
       "company": "Boral",
@@ -1630,7 +1597,7 @@
       "has_statutory": false
     },
     {
-      "id": 52,
+      "id": 51,
       "filename": "Quarry supervisor copy.docx",
       "source": "Quarry supervisor copy.docx",
       "company": "Quarrico Products",
@@ -1665,7 +1632,7 @@
       "has_statutory": false
     },
     {
-      "id": 53,
+      "id": 52,
       "filename": "Quarry_Supervisor_NITRO_CRUSHING.docx",
       "source": "Quarry_Supervisor_NITRO_CRUSHING.docx",
       "company": "Nitro Crushing",
@@ -1697,7 +1664,7 @@
       "has_statutory": false
     },
     {
-      "id": 54,
+      "id": 53,
       "filename": "RSA Contractors .docx",
       "source": "RSA Contractors .docx",
       "company": "RSA Contractors",
@@ -1729,7 +1696,7 @@
       "has_statutory": false
     },
     {
-      "id": 55,
+      "id": 54,
       "filename": "Regroup Australia.docx",
       "source": "Regroup Australia.docx",
       "company": "Regroup Australia",
@@ -1759,7 +1726,7 @@
       "has_statutory": false
     },
     {
-      "id": 56,
+      "id": 55,
       "filename": "Rio.docx",
       "source": "Rio.docx",
       "company": "Rio Tinto",
@@ -1795,7 +1762,7 @@
       "has_statutory": false
     },
     {
-      "id": 57,
+      "id": 56,
       "filename": "Rio_Tinto.docx",
       "source": "Rio_Tinto.docx",
       "company": "Rio Tinto",
@@ -1820,7 +1787,7 @@
       "has_statutory": false
     },
     {
-      "id": 58,
+      "id": 57,
       "filename": "SEE_Group.docx",
       "source": "SEE_Group.docx",
       "company": "SEE Group",
@@ -1850,7 +1817,7 @@
       "has_statutory": false
     },
     {
-      "id": 59,
+      "id": 58,
       "filename": "Senior Production Supervisor MacKellar.docx",
       "source": "Senior Production Supervisor MacKellar.docx",
       "company": "MacKellar",
@@ -1886,7 +1853,7 @@
       "has_statutory": false
     },
     {
-      "id": 60,
+      "id": 59,
       "filename": "Sojitz.docx",
       "source": "Sojitz.docx",
       "company": "Sojitz Blue",
@@ -1923,7 +1890,7 @@
       "has_statutory": false
     },
     {
-      "id": 61,
+      "id": 60,
       "filename": "South32 Cannington Mine.docx",
       "source": "South32 Cannington Mine.docx",
       "company": "South32",
@@ -1964,7 +1931,7 @@
       "has_statutory": false
     },
     {
-      "id": 62,
+      "id": 61,
       "filename": "Stellar Recruitment.docx",
       "source": "Stellar Recruitment.docx",
       "company": "Stellar Recruitment",
@@ -1994,7 +1961,7 @@
       "has_statutory": false
     },
     {
-      "id": 63,
+      "id": 62,
       "filename": "Supervisor Blast Crew  Goonyella Mine BMA.docx",
       "source": "Supervisor Blast Crew  Goonyella Mine BMA.docx",
       "company": "BHP/BMA",
@@ -2025,7 +1992,7 @@
       "has_statutory": false
     },
     {
-      "id": 64,
+      "id": 63,
       "filename": "Supervisor_Rev_2_0625.pdf",
       "source": "Supervisor_Rev_2_0625.pdf",
       "company": "BQC Quarries",
@@ -2069,7 +2036,7 @@
       "has_statutory": true
     },
     {
-      "id": 65,
+      "id": 64,
       "filename": "Team_Leader_.docx",
       "source": "Team_Leader_.docx",
       "company": "Cement Australia",
@@ -2100,7 +2067,7 @@
       "has_statutory": false
     },
     {
-      "id": 66,
+      "id": 65,
       "filename": "TerraCom.docx",
       "source": "TerraCom.docx",
       "company": "TerraCom Limited",
@@ -2137,7 +2104,7 @@
       "has_statutory": false
     },
     {
-      "id": 67,
+      "id": 66,
       "filename": "Thiess Maintenance Mackay.docx",
       "source": "Thiess Maintenance Mackay.docx",
       "company": "Thiess",
@@ -2169,7 +2136,7 @@
       "has_statutory": false
     },
     {
-      "id": 68,
+      "id": 67,
       "filename": "Thiess.docx",
       "source": "Thiess.docx",
       "company": "Thiess",
@@ -2195,7 +2162,7 @@
       "has_statutory": false
     },
     {
-      "id": 69,
+      "id": 68,
       "filename": "Thiess_supervisor_mining.docx",
       "source": "Thiess_supervisor_mining.docx",
       "company": "Thiess",
@@ -2225,7 +2192,7 @@
       "has_statutory": false
     },
     {
-      "id": 70,
+      "id": 69,
       "filename": "UG Supervisor.docx",
       "source": "UG Supervisor.docx",
       "company": "Lunar Mining Services",
@@ -2242,7 +2209,7 @@
       "has_statutory": false
     },
     {
-      "id": 71,
+      "id": 70,
       "filename": "Underground_Shift_Supervisor.docx",
       "source": "Underground_Shift_Supervisor.docx",
       "company": "PYBAR (Thiess)",
@@ -2273,7 +2240,7 @@
       "has_statutory": false
     },
     {
-      "id": 72,
+      "id": 71,
       "filename": "WorkPac.docx",
       "source": "WorkPac.docx",
       "company": "WorkPac",
@@ -2305,7 +2272,7 @@
       "has_statutory": false
     },
     {
-      "id": 73,
+      "id": 72,
       "filename": "YanCoal.docx",
       "source": "YanCoal.docx",
       "company": "YanCoal",
@@ -2373,7 +2340,6 @@
     "MacKellar.docx": "PRODUCTION SUPERVISOR- job post\nMacKellar Group\n2.82.8 out of 5 stars\nNambour QLD 4560\nPermanent, Full-time\nYou must create an Indeed account before continuing to the company website to apply\nJob details\nJob type\nPermanent\nFull-time\n \nLocation\nNambour QLD 4560\n \nFull job description\nMining / Oil & Gas / Utilities\nProduction\nCarmichael Mine\nPermanent / Full Time\nFIFO covered from Rockhampton or Townsville\nOngoing project with long life of mine\nCompetitive salary\nProduction Supervisor | Carmichael Mine \nIf you’re a hands-on leader who thrives in fast-paced environments, this is your chance to step into a pivotal role overseeing production in a large-scale open-cut coal operation. Backed by long-term project stability and a strong safety culture, you’ll lead from the front while continuing to grow your career.\n\nWhat’s in it for you?\nA permanent position on a long-life mining project. You’ll enjoy a balanced 7/7 roster, paid FIFO from Townsville or Rockhampton, and the convenience of a site where camp, pit and airport are all just minutes apart. Add in fully catered accommodation, gym and recreational facilities, and you’ve got a setup designed to make your swing as smooth as possible.\n\nAbout the role\nYou’ll be responsible for leading production crews to deliver safe, efficient, and high-performing outcomes on site. This is a role for someone who can balance people leadership with operational delivery—keeping safety front of mind while driving productivity and team performance.\n\nDay-to-day, you’ll be:\nOverseeing and coordinating production activities to meet targets\nLeading pre-starts and reinforcing a strong safety-first culture\nEnsuring compliance with site safety, environmental, and statutory requirements\nCoaching and mentoring crew members to build capability and engagement\nMonitoring performance and identifying opportunities for improvement\nMaintaining accurate production and operational reporting\nAbout you\nYou’re an experienced Supervisor in open-cut mining who knows how to get the best out of your team while maintaining high safety standards. You’re adaptable, solutions-focused, and confident making decisions in a dynamic environment.\n\nTo be successful, you’ll bring:\nStandard 11 and relevant Supervisor competencies \nProven experience leading crews in a production mining environment\nStrong knowledge of WHS legislation and site compliance requirements\nA genuine commitment to safety and continuous improvement\nClear communication skills and the ability to influence and develop others\nSolid computer skills, including Microsoft Office\nIf you’re ready to step into a role where you can make an impact and be part of a long-term mining operation, apply now and join the MacKellar team.",
     "MacKellar_.docx": "Production\nSupervisor\n\nMacKellar \n\nView all\njobs\n\nTownsville, Northern\nQLD\n\nMining - Operations ](https://www.seek.com.au/jobs-in-mining-resources-energy/mining-operations)\n\nFull\ntime\n\nAdd expected salary to your profile for insights\n\nPosted 5d ago\n\nYour New Company\\\nMackellar is the mining services contractor for Bravus' Carmichael Mine,\npartnering to deliver long-term employment and opportunities across\nregional Queensland. While our main recruitment hubs are Townsville and\nRockhampton, we encourage applications from all regional Queensland\ncommunities.\\\n\\\nYour New Role\\\nIn this role, you will lead production crews within a fast-paced coal\nmining environment, ensuring operations are carried out safely and\nefficiently. Key responsibilities include:\n\n-   Leading and supervising production crews to achieve daily safety and\n    production targets\n\n-   Promoting and upholding the Site Safety Health Management System,\n    environmental plans, and all statutory requirements\n\n-   Driving operational performance and continuous improvement\n\n-   Facilitating and participating in pre-starts and safety meetings\n\n-   Building, coaching and supporting high-performing teams\n\n-   Monitoring production results and maintaining accurate operational\n    records\n\nWhy Mackellar\n\n-   Permanent position on a long-term project with a strong development\n    pipeline\n\n-   Attractive salary and a 7/7 rotating roster supporting genuine\n    work--life balance\n\n-   Paid FIFO from Townsville or Rockhampton\n\n-   Camp, pit and airport all within 5 minutes -- minimal travel time\n\n-   Fully catered accommodation village with gym and recreational\n    facilities\n\nWhat You'll Need to Succeed\n\n-   Current Standard 11 and Mining Supervisor competencies \n\n-   Proven leadership experience in an open cut mining environment\n\n-   Strong knowledge of WHS legislation and statutory obligations\n\n-   A flexible, solutions-focused mindset with the ability to adapt to\n    change\n\n-   Excellent communication skills and a demonstrated ability to mentor\n    and develop others\n\n-   A strong commitment to safety with a history of positive safety\n    outcomes\n\n-   Competent user of Microsoft Office Suite\n\nOnly candidates who meet the required experience and qualifications\nwill be contacted.*",
     "MacKellar__Maintenance_Supervisor.docx": "Maintenance\nSupervisor\n\nMacKellar \n\nView all\njobs\n\nTownsville, Northern\nQLD\n\nManagement ](https://www.seek.com.au/jobs-in-mining-resources-energy/management)\n\nFull\ntime\n\nAttractive salary + super + employee benefits!\n\nYour new company:\\\n\\\nMacKellar is the mining services contractor for Bravus' Carmichael Mine.\nTogether, we're creating long-term jobs and meaningful opportunities\nacross regional Queensland.\\\n\\\nOur primary recruitment hubs are Townsville and Rockhampton, however\nwe strongly encourage applications from candidates based in all\nregional Queensland communities.\\\n\\\nWhy MacKellar:\n\n-   Competitive salary with a 7/7 day/night roster to support\n    work--life balance\n\n-   Paid flights direct to site from Townsville or Rockhampton\n\n-   Permanent role with a long-life project and job security\n\n-   Meals, camp accommodation, PPE provided, including on-site gym\n    facilities and wet mess\n\n-   At MacKellar, our core values are Integrity, Caring, Respect and\n    Courage. We take pride in our people, our safety culture, and the\n    way we work together.\n\nYour new role:\\\n\\\nJoin our on-site Maintenance team in a permanent position, working\na 7/7 day/night roster. In this leadership role, you will be\nresponsible for coordinating safe, efficient, and cost-effective\nmaintenance operations.\\\nKey responsibilities include:\n\n-   Leading by example to ensure maintenance activities are completed\n    safely and effectively\n\n-   Coordinating maintenance and repairs in line with safety, time, and\n    budget requirements\n\n-   Completing accurate maintenance documentation, reporting, and daily\n    activity records\n\n-   Building and maintaining strong working relationships and\n    high-performing teams\n\n-   Driving continuous improvement initiatives and implementing\n    practical solutions\n\n-   Promoting and maintaining a strong, positive safety culture across\n    the team\n\nWhat you'll need to succeed:\n\n-   Trade qualification in Diesel Fitting or equivalent\n\n-   Previous experience as a Maintenance Supervisor on a mine site\n\n-   Proven track record of maintaining strong safety performance within\n    teams\n\n-   Current Mining Supervisor -- G1, G8, G9 \n\n-   Current Carry out the Risk Management Process -- G2 \n\n-   Current Queensland Coal Board Medical \n\n-   Current Standard 11 \n\n-   Current Queensland Driver Licence**\n\nIf you are an experienced Maintenance Supervisor with a strong work\nethic, a proactive attitude, and a safety-first mindset, we'd love to\nhear from you.\\\nPlease note: only applicants with the relevant experience and\nqualifications will be contacted.\\\n\\\nMacKellar is committed to providing equal employment opportunities and\nembracing diversity. We encourage applications from candidates of all\nbackgrounds.",
-    "Macmahon Production.docx": "Supervisor - Production\nMacmahon\n3.8197 reviews·View all jobs\nTownsville, Northern QLD\nMining - Operations \nFull time\nAdd expected salary to your profile for insights\nPosted 11d ago\nProduction Supervisor - Mt Carlton\nMacmahon is seeking an experienced Production Supervisor to support the recommencement of operations at Mt Carlton mine. Located approximately two hours south of Townsville, Mt Carlton is a gold silver operation preparing to transition from care and maintenance back into production. This restart presents a unique opportunity to contribute to the establishment of safe, efficient and sustainable operational practices from the outset.\nThis position operates on a 7 Days on / 7 Days Off roster, followed by 7 Nights on / 7 Days off roster, DIDO Only.\nAbout The Role\nLead safe work practices by driving a proactive safety culture and ensuring full compliance with site standards.\nSupervise daily mining operations across digging, hauling and dumping activities to deliver safe and efficient outcomes.\nExecute the mine plan, ensuring production activities align with short term schedules and operational targets.\nMonitor fleet performance, including cycle times, delays and equipment utilisation, optimising outcomes in collaboration with Dispatch.\nProvide leadership and coaching to operators to build capability, maintain engagement and support performance.\nEnsure accurate reporting through shift logs, production data, environmental checks and incident documentation.\nCoordinate with site departments, including Maintenance, Technical Services and Drill & Blast, to maintain operational flow.\nAbout You\nExtensive surface mining experience as a Production Supervisor, Leading Hand or Senior Operator\nA strong, proven commitment to safety and excellent communication skills across all levels.\nBackground and technical knowledge of a range of equipment.\nMechanical knowledge to a level of understanding equipment capabilities, maintenance scheduling and preventative maintenance methods.\nDetailed knowledge of mining and safety regulations.\nCertification in Frontline Management.\nEmployee Benefits\nOngoing career development opportunities\nAccess to lifestyle, financial, and mental health support programs\nSalary sacrifice options for flights, vehicles, airport parking and more\nDiscounts across Macmahon's retail, vehicle, insurance, and banking partners\nAbout Macmahon\nMacmahon is a leading Australian contract mining company with projects throughout Australia and Southeast Asia. Delivering a comprehensive range of surface and underground mining, civil design and construction, performance enhancement, and mine site maintenance and rehabilitation services to the resources sector.\nRecruitment process\nSuccessful applicants must pass a pre-employment medical, including drug and alcohol screening, as well as criminal history and qualification checks. Proof of working rights in Australia  is also required.\nMacmahon is an equal opportunity employer and strongly encourages suitably qualified women and Aboriginal and Torres Strait Islanders to apply.\nMacmahon Winning Values\nUnited | Integrity | Courage | Pride",
     "Macmahon.docx": "Supervisor - Production\nFull job description\nProduction Supervisor - Mt Carlton\nMacmahon is seeking an experienced Production Supervisor to support the recommencement of operations at Mt Carlton mine. Located approximately two hours south of Townsville, Mt Carlton is a gold silver operation preparing to transition from care and maintenance back into production. This restart presents a unique opportunity to contribute to the establishment of safe, efficient and sustainable operational practices from the outset.\nThis position operates on a 7 Days on / 7 Days Off roster, followed by 7 Nights on / 7 Days off roster, DIDO Only.\nAbout The Role\nLead safe work practices by driving a proactive safety culture and ensuring full compliance with site standards.\nSupervise daily mining operations across digging, hauling and dumping activities to deliver safe and efficient outcomes.\nExecute the mine plan, ensuring production activities align with short term schedules and operational targets.\nMonitor fleet performance, including cycle times, delays and equipment utilisation, optimising outcomes in collaboration with Dispatch.\nProvide leadership and coaching to operators to build capability, maintain engagement and support performance.\nEnsure accurate reporting through shift logs, production data, environmental checks and incident documentation.\nCoordinate with site departments, including Maintenance, Technical Services and Drill & Blast, to maintain operational flow.\nAbout You\nExtensive surface mining experience as a Production Supervisor, Leading Hand or Senior Operator\nA strong, proven commitment to safety and excellent communication skills across all levels.\nBackground and technical knowledge of a range of equipment.\nMechanical knowledge to a level of understanding equipment capabilities, maintenance scheduling and preventative maintenance methods.\nDetailed knowledge of mining and safety regulations.\nCertification in Frontline Management.\nEmployee Benefits\nOngoing career development opportunities\nAccess to lifestyle, financial, and mental health support programs\nSalary sacrifice options for flights, vehicles, airport parking and more\nDiscounts across Macmahon's retail, vehicle, insurance, and banking partners\nAbout Macmahon\nMacmahon is a leading Australian contract mining company with projects throughout Australia and Southeast Asia. Delivering a comprehensive range of surface and underground mining, civil design and construction, performance enhancement, and mine site maintenance and rehabilitation services to the resources sector.\nRecruitment process\nSuccessful applicants must pass a pre-employment medical, including drug and alcohol screening, as well as criminal history and qualification checks. Proof of working rights in Australia  is also required.\nMacmahon is an equal opportunity employer and strongly encourages suitably qualified women and Aboriginal and Torres Strait Islanders to apply.\nMacmahon Winning Values",
     "Maintenance_Supervisor.docx": "Maintenance Supervisor -\nSMAD\n\nRedpath Mining \n\n3.554\nreviews·View\nall jobs\n\nBrisbane\nQLD\n\nOil & Gas - Engineering & Maintenance ](https://www.seek.com.au/jobs-in-mining-resources-energy/oil-gas-engineering-maintenance)\n\nFull\ntime\n\nAdd expected salary to your profile for insights\n\nAbout the Project Olympic Dam Mine, operated by BHP-one of the world\\'s\nlargest mining companies-is located approximately 550 km north‑west of\nAdelaide and produces copper, gold and uranium.\\\n\\\nAs one of the largest contractors on site, this opportunity offers\nvaluable experience to support the growth of your maintenance career\nwithin underground mining.\\\n\\\nThe Role This position operates on a 2 & 2 roster, working 12‑hour\nshifts, and is responsible for leading maintenance activities across\nunderground and surface operations.\\\n\\\nKey responsibilities include:\n\n-   Leading and supervising a team of maintenance technicians, providing\n    guidance, support and mentorship\n\n-   Ensuring all site and workshop activities comply with health,\n    safety, training, environmental and statutory requirements\n\n-   Managing and conducting personal risk assessments and Job Safety\n    Analyses  to maintain safety awareness and compliance\n\n-   Conducting preventative maintenance inspections to identify and\n    address potential issues proactively\n\n-   Overseeing maintenance execution to ensure compliance with quality\n    standards\n\n-   Assigning tasks effectively to optimise resource utilisation\n\n-   Maintaining accurate maintenance records, including work orders,\n    daily reports and equipment history\n\n-   Managing and reviewing inventory of spare parts, tooling and\n    equipment required for maintenance activities\n\nAbout You To be successful in this role, you will have:\n\n-   Heavy Duty Diesel Fitter/Mechanic trade qualifications\n\n-   Demonstrated experience in a Supervisor role working with\n    underground and heavy‑duty equipment\n\n-   Proficiency with Computerised Maintenance Management Systems \n\n-   Strong planning and organisational skills\n\n-   A high level of initiative with the ability to perform under\n    pressure\n\n-   Strong leadership capability and well‑rounded communication skills\n\n-   A valid manual driver\\'s licence\n\n-   A positive work ethic aligned with Redpath\\'s motto: \\\"Consider it\n    done - safely.\\\"\n\nWhat We Offer In return, you can expect:\n\n-   Clear career pathways and opportunities for internal promotion\n\n-   Competitive hourly rates + super paid on all hours\n\n-   Even time roster for true work life balance\n\n-   Ongoing training & OEM accredited trade courses\n\n-   Clear career progression pathways\n\n-   All PPE provided\n\n-   High‑quality camp facilities, including ensuite rooms, gym, pool and\n    wet mess\n\n-   Telstra and Optus coverage onsite\n\n-   Salary sacrifice options for superannuation and novated car leasing\n\n-   Discounted private health insurance through BUPA\n\n-   Prescription safety glasses reimbursement \n\n-   Employee Assistance Program , with wellbeing\n    support available for the whole family\n\n-   Redzone Reward Program - discounts and cashback at hundreds of\n    retailers\n\n-   Service milestone Bonuses:\n\n    -   \\$3k at 5 years\n\n    \n    -   \\$10k at 10 years\n\n    \n    -   \\$15k at 15 years\n\n    \n    -   \\$20k at 20 years\n\nIn 1962, Jim Redpath\\'s vision for the company was much the same as it\nis today; offering a high level of service to the mining industry, which\nexceeds current standards and provides challenge for its employees. With\na foundation built on global experience, adaptability and exceptional\nworkmanship, Redpath leads the industry with cutting edge innovations in\nsafety and mining practices. Services including underground\nconstruction, shaft sinking, raiseboring, mine contracting, raise\nmining, mine development, engineering and technical services and a\nvariety of specialty services are offered around the world, with the\nexpertise and qualifications in place to support any scope of work.\nGlobal experience has given Redpath expansive regulatory knowledge,\nregional expertise, and cultural sensitivity. Redpath has built a solid\nreputation for conquering tough challenges and adapting to a variety of\nenvironments. Redpath\\'s employees are the heart of the company\\'s\nsuccess, and it remains through them that the company will continue to\nexpand and flourish.\\\n\\\nRedpath is committed to an environment that is barrier-free. If you\nrequire accommodation during the hiring process, please inform us in\nadvance so that we can arrange reasonable and appropriate\naccommodation.About Redpath\\\n\\\nThe Redpath Group is a leading mining contractor with projects across\nAustralia and globally. We specialise in shaft sinking, mine\ndevelopment, contract mining, raiseboring, underground construction,\nengineering & technical services, and speciality services in the\nMetalliferous and Coal mining sectors.\\\n\\\nApply Now\\\n\\\nRedpath is an equal opportunity employer that values diversity and an\ninclusive workplace. We encourage applications from suitably qualified\ncandidates wanting to join a friendly, collaborative team in a fast\npaced business environment.\\\n\\\nWe will be shortlisting for this position immediately, so please\nsubmit your application by clicking on the \\'apply\\' button below, or\nvisit our website at Careers \\| Redpath Mining Contractors and\nEngineers\n\n-   © MapTiler © OpenStreetMap contributors Legend",
     "Manuplex.docx": "Underground Coal Mine - Experienced Operators and Supervisors\nManuplex\nView all jobs\nMackay, Mackay & Coalfields QLD\nMining - Operations \nFull time\n$140,000 – $200,000 per year\nPosted 6h ago\nSummary:\nUnlock your potential and drive your career into the future by joining our motivated teams working on projects based in the Bowen Basin.\nBENEFITS:\n7/7 Lifestyle Roster – Work and play for six months of the year\nProfessional development and personal growth opportunities\nAttractive Hourly Rates with weekly pays\nSuperannuation paid on all hours worked\nInclusive and respectful culture\nFree Meals and Accommodation supplied whilst on site\nFree Employee Assistance Program , well-being assistance for you and your family\nFree advice to maximise your income and pay less tax through SPA\nSalary Packaging Benefits\nDUTIES:\nPerforming underground mining activities with a focus on installing and maintaining ventilation devices, strata support and roof bolt installation.\nCarrying out personal risk assessment, hazard identification and other safety requirements relevant to the role.\nOperation of plant and equipment used in an underground mining environment.\nOperation of vehicles both underground and surface.\nAdherence to safety protocols and regulations to maintain a secure working environment.\nHazzard and safety awareness and reporting any potential hazards to relevant personnel.\nAdherence to the mine site safety and health system.\nEnsuring safety of self and fellow colleagues.\nABOUT YOU:\nDemonstrated Underground Coal experience as an Operator is essential.\nExperience with a focus on Ventilation work is highly desirable.\nTraining transcripts and/or qualifications & tickets.\nA passion for safety.\nAbility to work independently and as part of a team with a strong passion for safety.\nEffective communication skills and ability to follow instructions accurately.\nValid driver's licence\nHOW TO APPLY:\nTo join our experienced, respected, and well-established team please apply now or email your resume to hr@manuplex.com.au\nABOUT MANUPLEX:\nManuplex is a highly respected, and diverse industry leader in mining, fabrication, and construction. We stand out by providing innovative solutions and quality resources and are proud to be industry partners with some of the largest top-tier companies in the world. Our team of professionals fabricate, supply, and install critical infrastructure to the Australian coal markets, specialising in Underground Ventilation.\nWe value our people and recognise their importance to our success. We focus on securing long-term contracts, offering our employees stable, permanent positions so they can relax and enjoy a work life balance. Whether you like to fossick for rare gems, swim in rainforest streams or stroll along the white sandy beaches of a tropical island, our region has you covered.",
@@ -3806,38 +3772,6 @@
       "qualifications will be contacted.\\",
       "MacKellar is committed to providing equal employment opportunities and",
       "embracing diversity. We encourage applications from candidates of all"
-    ],
-    "Macmahon Production.docx": [
-      "Supervisor - Production",
-      "Townsville, Northern QLD",
-      "Mining - Operations",
-      "Production Supervisor - Mt Carlton",
-      "Macmahon is seeking an experienced Production Supervisor to support the recommencement of operations at Mt Carlton mine. Located approximately two hours south of Townsville, Mt Carlton is a gold silver operation preparing to transition from care and maintenance back into production. This restart presents a unique opportunity to contribute to the establishment of safe, efficient and sustainable operational practices from the outset.",
-      "This position operates on a 7 Days on / 7 Days Off roster, followed by 7 Nights on / 7 Days off roster, DIDO Only.",
-      "Lead safe work practices by driving a proactive safety culture and ensuring full compliance with site standards.",
-      "Supervise daily mining operations across digging, hauling and dumping activities to deliver safe and efficient outcomes.",
-      "Execute the mine plan, ensuring production activities align with short term schedules and operational targets.",
-      "Monitor fleet performance, including cycle times, delays and equipment utilisation, optimising outcomes in collaboration with Dispatch.",
-      "Provide leadership and coaching to operators to build capability, maintain engagement and support performance.",
-      "Ensure accurate reporting through shift logs, production data, environmental checks and incident documentation.",
-      "Coordinate with site departments, including Maintenance, Technical Services and Drill & Blast, to maintain operational flow.",
-      "Extensive surface mining experience as a Production Supervisor, Leading Hand or Senior Operator",
-      "A strong, proven commitment to safety and excellent communication skills across all levels.",
-      "Background and technical knowledge of a range of equipment.",
-      "Mechanical knowledge to a level of understanding equipment capabilities, maintenance scheduling and preventative maintenance methods.",
-      "Detailed knowledge of mining and safety regulations.",
-      "Certification in Frontline Management.",
-      "Employee Benefits",
-      "Ongoing career development opportunities",
-      "Access to lifestyle, financial, and mental health support programs",
-      "Salary sacrifice options for flights, vehicles, airport parking and more",
-      "Discounts across Macmahon's retail, vehicle, insurance, and banking partners",
-      "Macmahon is a leading Australian contract mining company with projects throughout Australia and Southeast Asia. Delivering a comprehensive range of surface and underground mining, civil design and construction, performance enhancement, and mine site maintenance and rehabilitation services to the resources sector.",
-      "Recruitment process",
-      "Successful applicants must pass a pre-employment medical, including drug and alcohol screening, as well as criminal history and qualification checks. Proof of working rights in Australia  is also required.",
-      "Macmahon is an equal opportunity employer and strongly encourages suitably qualified women and Aboriginal and Torres Strait Islanders to apply.",
-      "Macmahon Winning Values",
-      "United | Integrity | Courage | Pride"
     ],
     "Macmahon.docx": [
       "Supervisor - Production",
@@ -5530,7 +5464,7 @@
     }
   ],
   "meta": {
-    "total_files": 73,
-    "total_processed": 73
+    "total_files": 72,
+    "total_processed": 72
   }
 }

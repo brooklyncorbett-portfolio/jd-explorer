@@ -485,6 +485,7 @@ function renderBrowse(){
   let filtered=DATA;
   if(S.filter!=="All"){filtered=DATA.filter(j=>{const g=sectorGroup(j.sector);if(S.filter==="Other")return !["Coal","Minerals","Quarry"].includes(g);return g===S.filter})}
   let hc={};
+  filtered=[...filtered].sort((a,b)=>a.company.localeCompare(b.company));
   if(q){filtered.forEach(j=>{hc[j.id]=countHits(getRaw(j),q)});filtered=filtered.filter(j=>hc[j.id]>0);filtered.sort((a,b)=>hc[b.id]-hc[a.id])}
   const inScopeJDs=filtered.filter(inScope),outScopeJDs=filtered.filter(j=>!inScope(j));
   let si="";
