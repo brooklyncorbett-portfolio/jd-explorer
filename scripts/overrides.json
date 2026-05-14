@@ -18,7 +18,8 @@
       "S1/S2/S3 and G2 competencies (desirable)",
       "Significant coal mining experience",
       "Understanding of open cut mining equipment and techniques"
-    ]
+    ],
+    "roster": "5/4 (FIFO/Residential)"
   },
   "BHP Maintenance.docx": {
     "company": "BHP Operations Services",
@@ -74,28 +75,6 @@
       "Understanding of scheduling and work management systems e.g. SAP, Project (desirable)",
       "Trade qualification or Engineering background (desirable)"
     ]
-  },
-  "BUMA_Production_Supervisor_Meandu_Mine.docx": {
-    "company": "BUMA Australia",
-    "role": "Production Supervisor (Meandu Mine)",
-    "sector": "Coal - Surface",
-    "location": "Meandu Mine, Kingaroy QLD",
-    "type": "Production Supervisor",
-    "responsibilities": [
-      "Oversee daily mine operations ensuring safe and efficient production in line with Mine Safety and Inspection requirements",
-      "Lead and manage personnel and equipment to optimise production activities and meet operational targets",
-      "Effectively allocate tasks and manage workloads within the production team to achieve development goals and maintain project timelines",
-      "Ensure full compliance with the Mine Safety and Inspection Act and Regulations, fostering a strong safety culture and proactive risk management"
-    ],
-    "qualifications": [
-      "5+ years production experience in open-cut coal mining",
-      "2+ years supervisory experience in open-cut coal mining",
-      "In-depth knowledge of QLD Coal Mining legislation",
-      "Current C Class Driver's Licence",
-      "S1, S2, S3 and G2 Certificate",
-      "Proven ability to motivate teams and achieve business targets"
-    ],
-    "roster": "5/4/4/5 D/N rotating"
   },
   "Bechtel_.docx": {
     "company": "Bechtel",
@@ -308,29 +287,6 @@
       "S1, S2, S3 and G2 Certificates",
       "Current Standard 11",
       "Valid manual driver's licence"
-    ]
-  },
-  "MacKellar_.docx": {
-    "company": "MacKellar",
-    "role": "Production Supervisor",
-    "sector": "Coal - Surface",
-    "location": "Carmichael Mine QLD",
-    "type": "Production Supervisor",
-    "responsibilities": [
-      "Lead and supervise production crews to achieve daily safety and production targets",
-      "Promote and uphold the Site Safety Health Management System, environmental plans, and all statutory requirements",
-      "Drive operational performance and continuous improvement",
-      "Facilitate and participate in pre-starts and safety meetings",
-      "Build, coach and support high-performing teams",
-      "Monitor production results and maintain accurate operational records"
-    ],
-    "qualifications": [
-      "Current Standard 11 and Mining Supervisor competencies (G1, G2, G8, G9)",
-      "Proven leadership experience in an open cut mining environment",
-      "Strong knowledge of WHS legislation and statutory obligations",
-      "Excellent communication skills and demonstrated ability to mentor others",
-      "Competent user of Microsoft Office Suite",
-      "Strong commitment to safety with a history of positive safety outcomes"
     ]
   },
   "MacKellar__Maintenance_Supervisor.docx": {
@@ -851,14 +807,6 @@
     "roster": "5/2",
     "flag": "Mine remediation/rehabilitation — not frontline mining operations"
   },
-  "Anglo.docx": {
-    "company": "Anglo American",
-    "role": "Mining Supervisor: Dragline",
-    "type": "Mining Supervisor",
-    "sector": "Coal - Surface",
-    "location": "Moura QLD",
-    "roster": "5/4 (FIFO/Residential)"
-  },
   "BHP.docx": {
     "company": "BHP",
     "role": "Operations Technology Supervisor",
@@ -873,7 +821,21 @@
     "type": "Production Supervisor",
     "sector": "Coal - Surface",
     "location": "Meandu Mine, Kingaroy QLD",
-    "roster": "Residential"
+    "roster": "5/4/4/5 D/N rotating",
+    "responsibilities": [
+      "Oversee daily mine operations ensuring safe and efficient production in line with Mine Safety and Inspection requirements",
+      "Lead and manage personnel and equipment to optimise production activities and meet operational targets",
+      "Effectively allocate tasks and manage workloads within the production team to achieve development goals and maintain project timelines",
+      "Ensure full compliance with the Mine Safety and Inspection Act and Regulations, fostering a strong safety culture and proactive risk management"
+    ],
+    "qualifications": [
+      "5+ years production experience in open-cut coal mining",
+      "2+ years supervisory experience in open-cut coal mining",
+      "In-depth knowledge of QLD Coal Mining legislation",
+      "Current C Class Driver's Licence",
+      "S1, S2, S3 and G2 Certificate",
+      "Proven ability to motivate teams and achieve business targets"
+    ]
   },
   "Byrne Bros.docx": {
     "company": "Byrne Bros Quarries",
@@ -1005,6 +967,30 @@
     "location": "Broadmeadow Mine, Moranbah QLD",
     "roster": "5/2 or 7/7"
   },
+  "Glencore Electrical.docx": {
+    "company": "Glencore",
+    "role": "Supervisor - Electrical Maintenance",
+    "sector": "Minerals - Underground",
+    "location": "George Fisher Mine, Mount Isa QLD",
+    "type": "Maintenance Supervisor",
+    "roster": "7/7 dayshift only, 12-hour shifts (residential)",
+    "responsibilities": [
+      "Provide safety leadership and ensure compliance with electrical installation legislation and Mt Isa Mines policies",
+      "Supervise and administer the Electrical Maintenance team including contractors at George Fisher Mine",
+      "Develop and apply the weekly work schedule",
+      "Develop a positive team culture through mentoring and coaching to build employee role competency",
+      "Optimise assigned resources and drive continuous improvement to minimise cost and waste",
+      "Develop and adhere to budget; manage team administration"
+    ],
+    "qualifications": [
+      "Trade Qualification – Electrician (licensed)",
+      "S123 statutory competency",
+      "5+ years mining experience",
+      "5+ years Electrical Fixed Assets experience",
+      "Previous supervisor experience leading large work teams",
+      "Demonstrated knowledge of risk management and safety systems"
+    ]
+  },
   "Glencore Light Vehicle.docx": {
     "company": "Glencore",
     "role": "Supervisor - Light Vehicle",
@@ -1033,8 +1019,24 @@
     "role": "Production Supervisor",
     "type": "Production Supervisor",
     "sector": "Coal - Surface",
-    "location": "Nambour QLD",
-    "roster": "Not specified"
+    "location": "Carmichael Mine, Galilee Basin QLD",
+    "roster": "7/7 rotating",
+    "responsibilities": [
+      "Lead and supervise production crews to achieve daily safety and production targets",
+      "Promote and uphold the Site Safety Health Management System, environmental plans, and all statutory requirements",
+      "Drive operational performance and continuous improvement",
+      "Facilitate and participate in pre-starts and safety meetings",
+      "Build, coach and support high-performing teams",
+      "Monitor production results and maintain accurate operational records"
+    ],
+    "qualifications": [
+      "Current Standard 11 and Mining Supervisor competencies (G1, G2, G8, G9)",
+      "Proven leadership experience in an open cut mining environment",
+      "Strong knowledge of WHS legislation and statutory obligations",
+      "Excellent communication skills and demonstrated ability to mentor others",
+      "Competent user of Microsoft Office Suite",
+      "Strong commitment to safety with a history of positive safety outcomes"
+    ]
   },
   "Manuplex.docx": {
     "company": "Manuplex",
@@ -1084,13 +1086,6 @@
     "type": "Production Supervisor",
     "sector": "Coal - Surface",
     "location": "Capcoal, Middlemount QLD"
-  },
-  "Quarry Supervisor.docx": {
-    "company": "Boral",
-    "role": "Quarry Supervisor",
-    "type": "Quarry Supervisor",
-    "sector": "Quarry",
-    "location": "Narangba QLD"
   },
   "Quarry supervisor copy.docx": {
     "company": "Quarrico Products",

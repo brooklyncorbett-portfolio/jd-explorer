@@ -302,7 +302,7 @@ def main():
         with open(GAPS_PATH) as f: gaps = json.load(f)
         print(f"Loaded {len(gaps)} gap definitions")
 
-    files = sorted(f for f in os.listdir(JDS_DIR) if f.endswith((".docx",".pdf")))
+    files = sorted(f for f in os.listdir(JDS_DIR) if f.endswith((".docx",".pdf")) and os.path.getsize(os.path.join(JDS_DIR, f)) > 0)
     print(f"Found {len(files)} JD files")
 
     results, raw_texts, clean_texts = [], {}, {}
