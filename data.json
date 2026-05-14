@@ -327,6 +327,34 @@
     },
     {
       "id": 12,
+      "filename": "Boral Narangba.docx",
+      "source": "Boral Narangba.docx",
+      "company": "Boral",
+      "role": "Quarry Supervisor",
+      "type": "Quarry Supervisor",
+      "sector": "Quarry",
+      "location": "Narangba, Brisbane QLD",
+      "roster": "Full time",
+      "responsibilities": [
+        "Supervise and manage staff and contractors, including coaching, mentoring and managing shift schedules and work plans",
+        "Safety management: training staff on safe working practices and conducting regular safety audits",
+        "Effective management of production and maintenance activities",
+        "Promote and enforce safety processes and protocols to meet performance outcomes",
+        "Support key functionalities of the quarry including maintenance, plant performance, safety, environment and quality control"
+      ],
+      "qualifications": [
+        "Demonstrated experience in hard rock quarry operations, mining and/or fixed and mobile plant operations",
+        "Strong knowledge of hard rock quarrying and crushing processes",
+        "Strong leadership attributes including initiative to identify, manage and solve issues",
+        "Experience in LEAN Manufacturing (highly regarded)"
+      ],
+      "_overridden": true,
+      "statutory_positions": [],
+      "statutory_details": [],
+      "has_statutory": false
+    },
+    {
+      "id": 13,
       "filename": "Boral.docx",
       "source": "Boral.docx",
       "company": "Boral",
@@ -353,7 +381,46 @@
       "has_statutory": false
     },
     {
-      "id": 13,
+      "id": 14,
+      "filename": "Brightstar Resources.docx",
+      "source": "Brightstar Resources.docx",
+      "company": "Brightstar Resources",
+      "role": "Shift Supervisor",
+      "type": "Shift Supervisor",
+      "sector": "Minerals - Underground",
+      "location": "QLD",
+      "roster": "Full-time",
+      "responsibilities": [
+        "Supervision of underground diamond drillers",
+        "Dewatering checks",
+        "Pump maintenance",
+        "Mine site and camp inspections",
+        "All other duties as requested by SSE"
+      ],
+      "qualifications": [
+        "Experience in a similar role",
+        "Statutory Underground Shift Supervisor ticket",
+        "VOC for Integrated Tool Carrier",
+        "Ability to work independently with strong problem solving abilities",
+        "Past experience in supervising small underground crews"
+      ],
+      "statutory_positions": [
+        "SSE"
+      ],
+      "statutory_details": [
+        {
+          "position": "SSE",
+          "context": "site and camp inspections All other duties as requested by SSE About You Experience in a similar role Statutory Undergroun"
+        },
+        {
+          "position": "SSE",
+          "context": "site and camp inspections All other duties as requested by SSE Experience in a similar role Statutory Underground Shift Su"
+        }
+      ],
+      "has_statutory": true
+    },
+    {
+      "id": 15,
       "filename": "Byrne Bros.docx",
       "source": "Byrne Bros.docx",
       "company": "Byrne Bros Quarries",
@@ -399,7 +466,7 @@
       "has_statutory": true
     },
     {
-      "id": 14,
+      "id": 16,
       "filename": "CSI_Mining_Services.docx",
       "source": "CSI_Mining_Services.docx",
       "company": "CSI Mining Services (MinRes)",
@@ -433,7 +500,7 @@
       "has_statutory": false
     },
     {
-      "id": 15,
+      "id": 17,
       "filename": "Development Supervisor.docx",
       "source": "Development Supervisor.docx",
       "company": "BHP/BMA",
@@ -463,7 +530,7 @@
       "has_statutory": false
     },
     {
-      "id": 16,
+      "id": 18,
       "filename": "EPSA.docx",
       "source": "EPSA.docx",
       "company": "EPSA Pacific",
@@ -514,7 +581,7 @@
       "has_statutory": false
     },
     {
-      "id": 17,
+      "id": 19,
       "filename": "Evolution Mining Superinttendent.docx",
       "source": "Evolution Mining Superinttendent.docx",
       "company": "Evolution Mining",
@@ -558,7 +625,7 @@
       "has_statutory": false
     },
     {
-      "id": 18,
+      "id": 20,
       "filename": "Evolution Mining.docx",
       "source": "Evolution Mining.docx",
       "company": "Evolution Mining",
@@ -582,7 +649,7 @@
       "has_statutory": false
     },
     {
-      "id": 19,
+      "id": 21,
       "filename": "Foxleigh Mine.docx",
       "source": "Foxleigh Mine.docx",
       "company": "Foxleigh Mine",
@@ -625,7 +692,7 @@
       "has_statutory": true
     },
     {
-      "id": 20,
+      "id": 22,
       "filename": "Glencore 2.docx",
       "source": "Glencore 2.docx",
       "company": "Glencore Mount Isa Mines",
@@ -660,7 +727,7 @@
       "has_statutory": false
     },
     {
-      "id": 21,
+      "id": 23,
       "filename": "Glencore Light Vehicle.docx",
       "source": "Glencore Light Vehicle.docx",
       "company": "Glencore",
@@ -696,7 +763,7 @@
       "has_statutory": false
     },
     {
-      "id": 22,
+      "id": 24,
       "filename": "Glencore MPS mech.docx",
       "source": "Glencore MPS mech.docx",
       "company": "Glencore",
@@ -727,7 +794,7 @@
       "has_statutory": false
     },
     {
-      "id": 23,
+      "id": 25,
       "filename": "Glencore Primary Smelting.docx",
       "source": "Glencore Primary Smelting.docx",
       "company": "Glencore",
@@ -757,7 +824,7 @@
       "has_statutory": false
     },
     {
-      "id": 24,
+      "id": 26,
       "filename": "Glencore.docx",
       "source": "Glencore.docx",
       "company": "Glencore Coal",
@@ -790,7 +857,35 @@
       "has_statutory": false
     },
     {
-      "id": 25,
+      "id": 27,
+      "filename": "Golding Contractors.docx",
+      "source": "Golding Contractors.docx",
+      "company": "Golding Contractors",
+      "role": "Mining Supervisor",
+      "type": "Mining Supervisor",
+      "sector": "Coal - Surface",
+      "location": "QLD",
+      "roster": "Full-time",
+      "responsibilities": [
+        "Required Skills & Experience",
+        "In order to be successful in this role, it is essential that candidates have:",
+        "RIIRIS301A – Apply Risk Management Processes",
+        "RIIOHS301A – Conduct Safety & Health Investigations",
+        "RIICOM301A – Communicate Information",
+        "RIIRIS402A – Implement & Maintain Risk Management Processes",
+        "Senior First Aid Certificate",
+        "Generic Surface Induction",
+        "Current open drivers licence",
+        "Previous experience in the supervision of staff within an Open Cut mining environment",
+        "Operating skills on a wide range of Mining equipment"
+      ],
+      "qualifications": [],
+      "statutory_positions": [],
+      "statutory_details": [],
+      "has_statutory": false
+    },
+    {
+      "id": 28,
       "filename": "Golding OCE Kogan.docx",
       "source": "Golding OCE Kogan.docx",
       "company": "Golding Contractors",
@@ -837,7 +932,7 @@
       "has_statutory": true
     },
     {
-      "id": 26,
+      "id": 29,
       "filename": "Golding Superintendent.docx",
       "source": "Golding Superintendent.docx",
       "company": "Golding Contractors",
@@ -864,7 +959,7 @@
       "has_statutory": false
     },
     {
-      "id": 27,
+      "id": 30,
       "filename": "Golding.docx",
       "source": "Golding.docx",
       "company": "Golding Contractors",
@@ -899,7 +994,7 @@
       "has_statutory": false
     },
     {
-      "id": 28,
+      "id": 31,
       "filename": "Heidelberg Materials.docx",
       "source": "Heidelberg Materials.docx",
       "company": "Heidelberg Materials",
@@ -932,7 +1027,7 @@
       "has_statutory": false
     },
     {
-      "id": 29,
+      "id": 32,
       "filename": "Jennchem.docx",
       "source": "Jennchem.docx",
       "company": "Jennchem Australia",
@@ -973,7 +1068,7 @@
       "has_statutory": false
     },
     {
-      "id": 30,
+      "id": 33,
       "filename": "LMP Project.docx",
       "source": "LMP Project.docx",
       "company": "LMP Project",
@@ -1003,7 +1098,7 @@
       "has_statutory": false
     },
     {
-      "id": 31,
+      "id": 34,
       "filename": "MACA.docx",
       "source": "MACA.docx",
       "company": "MACA Mining",
@@ -1030,7 +1125,7 @@
       "has_statutory": false
     },
     {
-      "id": 32,
+      "id": 35,
       "filename": "MYNDSHIFT_GROUP_.docx",
       "source": "MYNDSHIFT_GROUP_.docx",
       "company": "MYNDSHIFT Group",
@@ -1063,7 +1158,7 @@
       "has_statutory": false
     },
     {
-      "id": 33,
+      "id": 36,
       "filename": "MacKellar Leading hand.docx",
       "source": "MacKellar Leading hand.docx",
       "company": "MacKellar",
@@ -1093,7 +1188,7 @@
       "has_statutory": false
     },
     {
-      "id": 34,
+      "id": 37,
       "filename": "MacKellar.docx",
       "source": "MacKellar.docx",
       "company": "MacKellar",
@@ -1124,7 +1219,7 @@
       "has_statutory": false
     },
     {
-      "id": 35,
+      "id": 38,
       "filename": "MacKellar_.docx",
       "source": "MacKellar_.docx",
       "company": "MacKellar",
@@ -1155,7 +1250,7 @@
       "has_statutory": false
     },
     {
-      "id": 36,
+      "id": 39,
       "filename": "MacKellar__Maintenance_Supervisor.docx",
       "source": "MacKellar__Maintenance_Supervisor.docx",
       "company": "MacKellar",
@@ -1187,7 +1282,7 @@
       "has_statutory": false
     },
     {
-      "id": 37,
+      "id": 40,
       "filename": "Macmahon.docx",
       "source": "Macmahon.docx",
       "company": "Macmahon",
@@ -1215,7 +1310,7 @@
       "has_statutory": false
     },
     {
-      "id": 38,
+      "id": 41,
       "filename": "Maintenance_Supervisor.docx",
       "source": "Maintenance_Supervisor.docx",
       "company": "Redpath Mining",
@@ -1249,7 +1344,7 @@
       "has_statutory": false
     },
     {
-      "id": 39,
+      "id": 42,
       "filename": "Manuplex.docx",
       "source": "Manuplex.docx",
       "company": "Manuplex",
@@ -1274,7 +1369,42 @@
       "has_statutory": false
     },
     {
-      "id": 40,
+      "id": 43,
+      "filename": "Metro Mining.docx",
+      "source": "Metro Mining.docx",
+      "company": "Metro Mining",
+      "role": "Production Supervisor - Mining",
+      "type": "Production Supervisor - Mining",
+      "sector": "Minerals - Surface",
+      "location": "Cairns, Cairns & Far North QLD",
+      "roster": "FIFO roster arrangement and applic",
+      "responsibilities": [
+        "Supervise and coordinate daily mining activities to meet production targets and quality standards",
+        "Ensure adherence to safety protocols, environmental regulations, and operational procedures",
+        "Monitor equipment performance and maintenance schedules to minimise downtime and optimise productivity",
+        "Maintain accurate records of production activities, equipment usage, and safety incidents",
+        "Conduct regular performance evaluations and provide feedback to team members to support their professional development"
+      ],
+      "qualifications": [
+        "To be considered for this role, you will have the following qualifications/registrations, skills and experience:",
+        "Relevant surface mining qualification or equivalent experience and knowledge",
+        "Cert IV Training & Assessment highly regarded",
+        "S1, S2 & S3 competencies required",
+        "RII Certificates in Articulated Dump Trucks, Dozer, Excavator, Grader",
+        "Minimum 5 years’ previous experience in a similar role/industry",
+        "Intermediate to advanced Microsoft Office skills",
+        "Proven work history in a mining operation with experience operating mobile mining plant",
+        "Strong knowledge of safety regulations, environmental standards, and best practices in mining operations",
+        "Ability to build positive relationships with your team and develop good team morale and engagement",
+        "Effective problem-solving skills, clear verbal communication skills and the ability to handle competing demands",
+        "Proven problem-solving abilities and the capacity to make informed decisions under pressure"
+      ],
+      "statutory_positions": [],
+      "statutory_details": [],
+      "has_statutory": false
+    },
+    {
+      "id": 44,
       "filename": "Mining_Operator_The_Thiess.docx",
       "source": "Mining_Operator_The_Thiess.docx",
       "company": "Thiess",
@@ -1311,7 +1441,7 @@
       "has_statutory": true
     },
     {
-      "id": 41,
+      "id": 45,
       "filename": "NEXUS MINING PTY LTD.docx",
       "source": "NEXUS MINING PTY LTD.docx",
       "company": "Nexus Mining",
@@ -1329,7 +1459,7 @@
       "has_statutory": false
     },
     {
-      "id": 42,
+      "id": 46,
       "filename": "National Group .docx",
       "source": "National Group .docx",
       "company": "National Group",
@@ -1359,7 +1489,7 @@
       "has_statutory": false
     },
     {
-      "id": 43,
+      "id": 47,
       "filename": "Newmont.docx",
       "source": "Newmont.docx",
       "company": "Newmont Australia",
@@ -1377,7 +1507,7 @@
       "has_statutory": false
     },
     {
-      "id": 44,
+      "id": 48,
       "filename": "Production Supervisor MacKellar.docx",
       "source": "Production Supervisor MacKellar.docx",
       "company": "MacKellar",
@@ -1408,7 +1538,7 @@
       "has_statutory": false
     },
     {
-      "id": 45,
+      "id": 49,
       "filename": "Production Supervisor Yancoal.docx",
       "source": "Production Supervisor Yancoal.docx",
       "company": "YanCoal",
@@ -1444,7 +1574,7 @@
       "has_statutory": true
     },
     {
-      "id": 46,
+      "id": 50,
       "filename": "Production Supervisor.docx",
       "source": "Production Supervisor.docx",
       "company": "Anglo American",
@@ -1487,7 +1617,7 @@
       "has_statutory": true
     },
     {
-      "id": 47,
+      "id": 51,
       "filename": "Production supervisor copy.docx",
       "source": "Production supervisor copy.docx",
       "company": "Anglo American",
@@ -1510,7 +1640,7 @@
       "has_statutory": false
     },
     {
-      "id": 48,
+      "id": 52,
       "filename": "Production_Supervisor.docx",
       "source": "Production_Supervisor.docx",
       "company": "Turner Talent",
@@ -1539,7 +1669,7 @@
       "has_statutory": false
     },
     {
-      "id": 49,
+      "id": 53,
       "filename": "Projects_Crew_Supervisor.docx",
       "source": "Projects_Crew_Supervisor.docx",
       "company": "Private Advertiser",
@@ -1575,7 +1705,7 @@
       "has_statutory": false
     },
     {
-      "id": 50,
+      "id": 54,
       "filename": "Quarry Supervisor.docx",
       "source": "Quarry Supervisor.docx",
       "company": "Boral",
@@ -1597,7 +1727,7 @@
       "has_statutory": false
     },
     {
-      "id": 51,
+      "id": 55,
       "filename": "Quarry supervisor copy.docx",
       "source": "Quarry supervisor copy.docx",
       "company": "Quarrico Products",
@@ -1632,7 +1762,7 @@
       "has_statutory": false
     },
     {
-      "id": 52,
+      "id": 56,
       "filename": "Quarry_Supervisor_NITRO_CRUSHING.docx",
       "source": "Quarry_Supervisor_NITRO_CRUSHING.docx",
       "company": "Nitro Crushing",
@@ -1664,7 +1794,7 @@
       "has_statutory": false
     },
     {
-      "id": 53,
+      "id": 57,
       "filename": "RSA Contractors .docx",
       "source": "RSA Contractors .docx",
       "company": "RSA Contractors",
@@ -1696,7 +1826,7 @@
       "has_statutory": false
     },
     {
-      "id": 54,
+      "id": 58,
       "filename": "Regroup Australia.docx",
       "source": "Regroup Australia.docx",
       "company": "Regroup Australia",
@@ -1726,7 +1856,7 @@
       "has_statutory": false
     },
     {
-      "id": 55,
+      "id": 59,
       "filename": "Rio.docx",
       "source": "Rio.docx",
       "company": "Rio Tinto",
@@ -1762,7 +1892,7 @@
       "has_statutory": false
     },
     {
-      "id": 56,
+      "id": 60,
       "filename": "Rio_Tinto.docx",
       "source": "Rio_Tinto.docx",
       "company": "Rio Tinto",
@@ -1787,7 +1917,7 @@
       "has_statutory": false
     },
     {
-      "id": 57,
+      "id": 61,
       "filename": "SEE_Group.docx",
       "source": "SEE_Group.docx",
       "company": "SEE Group",
@@ -1817,7 +1947,7 @@
       "has_statutory": false
     },
     {
-      "id": 58,
+      "id": 62,
       "filename": "Senior Production Supervisor MacKellar.docx",
       "source": "Senior Production Supervisor MacKellar.docx",
       "company": "MacKellar",
@@ -1853,7 +1983,7 @@
       "has_statutory": false
     },
     {
-      "id": 59,
+      "id": 63,
       "filename": "Sojitz.docx",
       "source": "Sojitz.docx",
       "company": "Sojitz Blue",
@@ -1890,7 +2020,7 @@
       "has_statutory": false
     },
     {
-      "id": 60,
+      "id": 64,
       "filename": "South32 Cannington Mine.docx",
       "source": "South32 Cannington Mine.docx",
       "company": "South32",
@@ -1931,7 +2061,7 @@
       "has_statutory": false
     },
     {
-      "id": 61,
+      "id": 65,
       "filename": "Stellar Recruitment.docx",
       "source": "Stellar Recruitment.docx",
       "company": "Stellar Recruitment",
@@ -1961,7 +2091,7 @@
       "has_statutory": false
     },
     {
-      "id": 62,
+      "id": 66,
       "filename": "Supervisor Blast Crew  Goonyella Mine BMA.docx",
       "source": "Supervisor Blast Crew  Goonyella Mine BMA.docx",
       "company": "BHP/BMA",
@@ -1992,7 +2122,7 @@
       "has_statutory": false
     },
     {
-      "id": 63,
+      "id": 67,
       "filename": "Supervisor_Rev_2_0625.pdf",
       "source": "Supervisor_Rev_2_0625.pdf",
       "company": "BQC Quarries",
@@ -2036,7 +2166,7 @@
       "has_statutory": true
     },
     {
-      "id": 64,
+      "id": 68,
       "filename": "Team_Leader_.docx",
       "source": "Team_Leader_.docx",
       "company": "Cement Australia",
@@ -2067,7 +2197,7 @@
       "has_statutory": false
     },
     {
-      "id": 65,
+      "id": 69,
       "filename": "TerraCom.docx",
       "source": "TerraCom.docx",
       "company": "TerraCom Limited",
@@ -2104,7 +2234,7 @@
       "has_statutory": false
     },
     {
-      "id": 66,
+      "id": 70,
       "filename": "Thiess Maintenance Mackay.docx",
       "source": "Thiess Maintenance Mackay.docx",
       "company": "Thiess",
@@ -2136,7 +2266,7 @@
       "has_statutory": false
     },
     {
-      "id": 67,
+      "id": 71,
       "filename": "Thiess.docx",
       "source": "Thiess.docx",
       "company": "Thiess",
@@ -2162,7 +2292,7 @@
       "has_statutory": false
     },
     {
-      "id": 68,
+      "id": 72,
       "filename": "Thiess_supervisor_mining.docx",
       "source": "Thiess_supervisor_mining.docx",
       "company": "Thiess",
@@ -2192,7 +2322,7 @@
       "has_statutory": false
     },
     {
-      "id": 69,
+      "id": 73,
       "filename": "UG Supervisor.docx",
       "source": "UG Supervisor.docx",
       "company": "Lunar Mining Services",
@@ -2209,7 +2339,7 @@
       "has_statutory": false
     },
     {
-      "id": 70,
+      "id": 74,
       "filename": "Underground_Shift_Supervisor.docx",
       "source": "Underground_Shift_Supervisor.docx",
       "company": "PYBAR (Thiess)",
@@ -2240,7 +2370,7 @@
       "has_statutory": false
     },
     {
-      "id": 71,
+      "id": 75,
       "filename": "WorkPac.docx",
       "source": "WorkPac.docx",
       "company": "WorkPac",
@@ -2272,7 +2402,7 @@
       "has_statutory": false
     },
     {
-      "id": 72,
+      "id": 76,
       "filename": "YanCoal.docx",
       "source": "YanCoal.docx",
       "company": "YanCoal",
@@ -2315,7 +2445,9 @@
     "BUMA_Production_Supervisor_Meandu_Mine.docx": "Production Supervisor Meandu\nMine\n\nBUMA Australia \n\n3.711\nreviews·View\nall jobs\n\nKingaroy, Toowoomba & Darling Downs\nQLD\n\nMining - Operations ](https://www.seek.com.au/jobs-in-mining-resources-energy/mining-operations)\n\nFull\ntime\n\nAdd expected salary to your profile for insights\n\nPosted 22d ago\n\nAbout Us:\n\nBUMA\\'s vision is to build a modern mining and rehabilitation company\nthat drives growth. BUMA Australia adopts a relationship-focused,\nlong-term strategy for project success. We consistently deliver value to\nclients throughout all mining stages, leveraging expertise and equipment\nfor comprehensive surface operation services.\n\nAbout the Role:\n\nJoin our established team at Meandu as a Production Supervisor and\ntake the lead in driving operational performance. In this key role,\nyou\\'ll use your leadership skills to create a strong safety culture by\nsetting a positive example and making proactive decisions. Your ability\nto prioritise tasks and support your team will be key to ensuring a safe\nand productive workplace. If you\\'re ready to make a real impact and\nwork with a highly experienced team we want to hear from you!\n\nPlease note - Meandu is a Residential Mine - no camp accommodation\nor housing provided.\n\nKey Responsibilities:\n\n-   Oversee the daily operations of the mine, ensuring safe and\n    efficient production in line with Mine Safety and Inspection\n    requirements.\n\n-   Lead and manage personnel and equipment to optimise production\n    activities and meet operational targets.\n\n-   Effectively allocate tasks and manage workloads within the\n    production team to achieve development goals and maintain project\n    timelines.\n\n-   Ensure full compliance with the Mine Safety and Inspection Act and\n    Regulations, fostering a strong safety culture and proactive risk\n    management.\n\nAbout You:\n\n-   5+ years of production experience in an open-cut coal mining\n    operation, with a strong understanding of site operations and\n    efficiencies.\n\n-   2+ years of supervisory experience in an open-cut coal mining\n    environment, demonstrating effective leadership and team management.\n\n-   In-depth knowledge of QLD Coal Mining legislation, ensuring\n    compliance and best practices in safety and operations.\n\n-   Current C Class Driver\\'s Licence.\n\n-   A proven ability to motivate teams, drive performance, and achieve\n    business targets in a dynamic mining environment.\n\n-   S1,2,3 and G2 Certificate.\n\nWorking at BUMA:\n\nBUMA Australia is a people focused business, with a strong focus on\nsafety, training, development and continuous improvement. As a BUMA\nemployee at Meandu you will have access to;\n\n-   Family-friendly lifestyle roster  - day and night rotating.\n\n-   Full-time, permanent role.\n\n-   Annual pay reviews.\n\n-   Training and development opportunities within a diverse and\n    supportive environment.\n\n-   Employee financial, lifestyle and health benefits such as discounted\n    health cover, discounted car rentals, superannuation, novated\n    leasing and an Employee Assistance Program.\n\nMeandu Mine\n\nBUMA Australia provides a total mine service to Stanwell Corporation\\'s\nMeandu Mine to deliver coal to the adjacent Tarong power station. We are\nresponsible for both managing and operating the mine.\n\nServices provided include planning, drilling, overburden removal, coal\nmining, coal processing, rehabilitation, and maintenance of mobile and\nfixed plant. The project uses a combination of dragline and truck-and\nshovel operations. Meandu Mine currently has five working pits, with\nsufficient coal to fuel the stations until at least 2037.\n\nTo be considered for this opportunity please click \\\"Apply Now\\\" to\nsubmit your application!\n\nAll final applicants for this position will be asked to consent to a\npolice check. Please note that people with criminal records are not\nautomatically barred from applying for this position. Each application\nwill be considered on its merits. For further information on careers at\nBUMA please visit our website https://buma.com.au/careers/why-join-us/**",
     "Bechtel_.docx": "Supervisor - Site Services- job post\n\nBechtel\n\n4.14.1 out of 5 stars\n\nCloncurry QLD 4824\n\nFull-time\n\nYou must create an Indeed account before continuing to the company\nwebsite to apply\n\nJob details\n\nJob type\n\n-   Full-time\n\n \n\nLocation\n\nCloncurry QLD 4824\n\n \n\nFull job description\n\nRequisition ID: 289502\n\n-   Relocation Authorized: National - Camp\n\n-   Telework Type: Full-Time Office/Project\n\n-   Work Location: Cloncurry, QLD\n\n\\\nExtraordinary teams building inspiring projects:\n\nSince 1898, we have helped customers complete more than 25,000 projects\nin 160 countries on all seven continents that have created jobs, grown\neconomies, improved the resiliency of the world\\'s infrastructure,\nincreased access to energy, resources, and vital services, and made the\nworld a safer, cleaner place.\n\nDifferentiated by the quality of our people and our relentless drive to\ndeliver the most successful outcomes, we align our capabilities to our\ncustomers\\' objectives to create a lasting positive impact. We serve the\nInfrastructure; Nuclear, Security & Environmental; Energy; Mining &\nMetals, and the Manufacturing and Technology markets. Our services span\nfrom initial planning and investment, through start-up and operations.\n\nCore to Bechtel is our Vision, Values and Commitments. They are what we\nbelieve, what customers can expect, and how we deliver. Learn more about\nour extraordinary teams building inspiring projects in our Impact\nReport.\n\nProject Overview:\n\nBechtel Mining and Metals offers engineering, procurement, and\nconstruction services for customers in the mining sector across multiple\ncommodities including Iron Ore, Bauxite, Alumina, Aluminium, Copper,\nGold, Coal, Lithium and Rare Earths markets.The M&M global business unit\nalso has offices in Brisbane, Perth and Adelaide in Australia along with\nexecution units in the United States, Peru, Kingdom of Saudi Arabia,\nIndia and other project locations around the world.\n\nJob Summary:\n\nThe Supervisor for site services is responsible for supervising and\ndirecting operations within the in directs and site support services for\nconstruction. Supervises and directs temporary facility and indirect\ncraft professionals, subordinate contractor services, and others, as\nassigned. Ensures assigned construction performance is following\nspecifications and within schedules and budgets.\n\n\\\nThis role is offered on a FIFO basis to North Queensland, operating on a\n2:1 roster\n\nMajor Responsibilities:\n\n-   Implementing the project ES&H program and quality control program.\n\n-   Supervises, coordinates and/or directs craft activities as assigned\n    for the services disciplines.\n\n-   Coordinating craft safety training and always enforcing safe work\n    practices in conjunction with the ES&H staff.\n\n-   Planning the craft manpower and interfacing with Industrial\n    Relations for craft recruitment, hiring, and skills training\n    programs.\n\n-   Oversight of the needs of the Site services crews for craft\n    personnel, subcontractor support, construction services,\n    construction equipment, tools, and consumables as well as optimizing\n    their utilization.\n\n-   Working closely with other lead discipline superintendents,\n    supervisors and coordinating efforts and activities to meet the\n    overall project requirements.\n\n-   Maintaining a high level of housekeeping throughout the work area.\n\nEducation and Experience Requirements:\n\n-   10 years of related large industrial construction project services\n    support experience.\n\n-   5 years of supervisory experience in a site services function role\n    with experience in managing and maintain temporary facilities, waste\n    management, traffic control and road and site access.\n\nRequired Knowledge and Skills:\n\n-   Must have knowledge and understanding of construction operations at\n    the jobsite\n\n-   Must have knowledge and understanding of the requirements of the\n    Bechtel Environmental, Safety & Health  Core Processes and\n    Bechtel's \"Zero Accidents\" philosophy.\n\n-   Must have knowledge and understanding of Bechtel\\'s Standard Work\n    Process Procedures .\n\n-   Must have knowledge and understanding of Bechtel Standard\n    Application Program  standards and other automation tools\n    which are used on Bechtel projects.\n\n-   Must be computer literate in word processing, spreadsheet, and\n    database applications in accordance with current BSAP standards.\n\n-   Must be familiar with current industry quality standards and\n    applicable code requirements.\n\nTotal Rewards/Benefits:\n\nFor decades, Bechtel has worked to inspire the next generation of\nemployees and beyond! Because our teams face some of the world\\'s\ntoughest challenges, we offer robust benefits to ensure our people\nthrive. Whether it is advancing careers, delivering programs to enhance\nour culture, or providing time to recharge, Bechtel has the benefits to\nbuild a legacy of sustainable growth. Learn more at Bechtel Total\nRewards\n\nDiverse teams build the extraordinary:\n\nAs a global company, Bechtel has long been home to a vibrant multitude\nof nationalities, cultures, ethnicities, and life experiences. This\ndiversity has made us a more trusted partner, more effective problem\nsolvers and innovators, and a more attractive destination for leading\ntalent.\n\nWe are committed to being a company where every colleague feels that\nthey belong-where colleagues feel part of \\\"One Team,\\\" respected and\nrewarded for what they bring, supported in pursuing their goals,\ninvested in our values and purpose, and treated equitably.\n\n\\\nBechtel is an Equal Opportunity Employer. All qualified applicants will\nreceive consideration for employment without regard to race, color,\nreligion, sex, sexual orientation, gender identity and expression, age,\nnational origin, disability, citizenship status , protected veteran status, genetic information, and any other\ncharacteristic protected by federal, state or local law. Applicants with\na disability, who require a reasonable accommodation for any part of the\napplication or hiring process, may e-mail their request\nto acesstmt@bechtel.com",
     "Betchel Supervisor - Scaffold.docx": "Supervisor - Scaffold\nBechtel\n4.14.1 out of 5 stars\nCloncurry QLD 4824\nFull-time\nYou must create an Indeed account before continuing to the company website to apply\nJob details\nJob type\nFull-time\n \nLocation\nCloncurry QLD 4824\n \nFull job description\nRequisition ID: 292380\nRelocation Authorized: National - Camp\nTelework Type: Full-Time Office/Project\nWork Location: Cloncurry, QLD\nExtraordinary teams building inspiring projects:\nSince 1898, we have helped customers complete more than 25,000 projects in 160 countries on all seven continents that have created jobs, grown economies, improved the resiliency of the world's infrastructure, increased access to energy, resources, and vital services, and made the world a safer, cleaner place.\nDifferentiated by the quality of our people and our relentless drive to deliver the most successful outcomes, we align our capabilities to our customers' objectives to create a lasting positive impact. We serve the Infrastructure; Nuclear, Security & Environmental; Energy; Mining & Metals, and the Manufacturing and Technology markets. Our services span from initial planning and investment, through start-up and operations.\nCore to Bechtel is our Vision, Values and Commitments. They are what we believe, what customers can expect, and how we deliver. Learn more about our extraordinary teams building inspiring projects in our Impact Report.\nProject Overview:\nBechtel helps customers deliver projects of purpose that create a lasting positive legacy globally. These large, complex, and multi-disciplined projects create jobs, grow economies, and provide opportunities for local and regional communities.\nThe Eva Copper Mine Project is a greenfield resource poised to become the largest new mine in Queensland, Australia. It is located in Cloncurry on the traditional lands of the Kalkadoon people. The Project is owned by Harmony, a world-class gold and copper mining and development company with assets in South Africa, Australia, and Papua New Guinea.\nBechtel is delivering the Engineering, Procurement and Construction  scope for the Eva Copper Process Plant and Non-Process Infrastructure. Bechtel is providing these EPC services across all disciplines and functions for this exciting capital project.\nJob Summary:\nIn this role, you will liaise between engineering and field operations and provide guidance on executing constructability plans. You will lead construction design decisions, interdisciplinary reviews, and project staffing. You will monitor construction performance and review deliverables. You will use your expertise to improve Bechtel’s existing methods by initiating project assessments and implementing improvements.\nThis role is offered on a FIFO basis to North Queensland, operating on a 2:1 roster\nMajor Responsibilities:\nSupervises and/or directs craft activities as assigned.\nSchedules work to be performed from 3-week lookahead scaffold requests and reviews work accomplished by each craft.\nPerforms general functions inherent in all supervisory field positions. .\nCoordinates established area operational plans.\nCoordinates activities with other disciplines or areas and clients’ resident representatives, as instructed by construction management.\nEnsures the most current design document is used to complete the work and that all design changes are approved prior to implementation.\nEnsures assigned construction operations and subcontractors’ performance are in compliance with specifications and within schedules and budgets.\nEnsures the implementation of corporate/project policies, procedures, and instructions within assigned operations.\nEducation and Experience Requirements:\nRequires 5-8 years of relevant scaffolding industrial project experience or 9 -12 years of relevant scaffolding work experience\nRequired Knowledge and Skills:\nKnowledge of a single or multi-discipline construction or engineering operation.\nPrior experience on construction projects with knowledge of supervisory functions relating to field activities.\nStrong analytical and judicious planning: able to prioritize and balance short-term and long-term priorities.\nKnowledge of the use of subcontracts, and the contractor and subcontractor’s responsibilities contained in subcontract documents.\nExperience working with, supervising and administering subcontractors and/or Direct Hire workforce.\nKnowledge and understanding of the application and requirements of the Project Environmental, Safety & Health.\nKnowledge of project-specific environmental compliance requirements.\nTotal Rewards/Benefits:\nFor decades, Bechtel has worked to inspire the next generation of employees and beyond! Because our teams face some of the world's toughest challenges, we offer robust benefits to ensure our people thrive. Whether it is advancing careers, delivering programs to enhance our culture, or providing time to recharge, Bechtel has the benefits to build a legacy of sustainable growth. Learn more at Bechtel Total Rewards\nDiverse teams build the extraordinary:\nAs a global company, Bechtel has long been home to a vibrant multitude of nationalities, cultures, ethnicities, and life experiences. This diversity has made us a more trusted partner, more effective problem solvers and innovators, and a more attractive destination for leading talent.\nWe are committed to being a company where every colleague feels that they belong-where colleagues feel part of \"One Team,\" respected and rewarded for what they bring, supported in pursuing their goals, invested in our values and purpose, and treated equitably.\n#LI-AC1\nBechtel is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity and expression, age, national origin, disability, citizenship status , protected veteran status, genetic information, and any other characteristic protected by federal, state or local law. Applicants with a disability, who require a reasonable accommodation for any part of the application or hiring process, may e-mail their request to acesstmt@bechtel.com",
+    "Boral Narangba.docx": "Quarry Supervisor\nBoral Ltd\n3.2313 reviews·View all jobs\nNarangba, Brisbane QLD\nForeperson/Supervisors \nFull time\nAdd expected salary to your profile for insights\nPosted 1d ago\nYour next opportunity\nUnique opportunity for a driven Quarry Supervisor to join our team on a permanent basis, overseeing the day-to-day operations of our Narangba Quarry north of Brisbane.\nReporting to the Quarry Manager, this dynamic and diverse role will support  various key functionalities of the Quarry, including maintenance, plant performance, safety, environment, and quality control.\nYour day will involve:\nSupervision and management of staff and contractors including coaching, mentoring and managing shift schedules & work plans\nSafety Management: training staff on safe working practices and conducting regular safety audits\nEffective management of production and maintenance activities, including promoting and enforcing safety processes and protocols to meet performance outcomes.\nWhat are we looking for?\nDemonstrated experience in hard rock quarry operations, mining and/or fixed and mobile plant operations\nStrong knowledge of hard rock quarrying and crushing processes\nStrong leadership attributes including initiative to identify, manage, and solve issues as they arise\nExperience in LEAN Manufacturing will be highly regarded.\nWhat’s on offer?\nEmployment stability – permanent role\nAttractive salary package reflective of your skills and experience\nGenuine career growth opportunities and mentoring supported by industry leaders and subject matter experts\nOpportunity for training and career development opportunities\nBroaden your horizons through exposure to our integrated operations\nWork for an Equal Opportunity Employer – At Boral, we understand that diversity brings many benefits, and we are increasingly encouraging greater diversity within our workplaces.\nAbout Boral Quarries\nBoral is Australia’s leading quarry operator, with 76 quarries, sand pits and gravel operations, supplying about 30 million tonnes of product annually. Our raw materials of stone, gravel and sand are used to build our homes, workplaces, public buildings, roads, and key infrastructure projects.\nOur people provide solutions to help customers and stakeholders build a sustainable future in a changing world. Our values are what matters to us and guide our behaviours: Safety, Teamwork, Ambition, Accountability and Respect.\nWe’re proud of our legacy as a great Australian business and have a strong foundation to improve and continue fulfilling our purpose and what we do best - building something great.\nBoral values and is committed to creating a diverse working environment and is proud to be an equal opportunity employer. All suitable applicants will receive consideration for employment without regard to race, colour, religion, gender identity or expression, sexual orientation, disability or age.",
     "Boral.docx": "Quarry Supervisor\nBoral Ltd\n3.2311 reviews·View all jobs\nBundaberg, Bundaberg & Wide Bay Burnett QLD\nForeperson/Supervisors \nFull time\nAdd expected salary to your profile for insights\nPosted 4d ago\nYour next opportunity\nUnique opportunity for a driven Quarry Supervisor to join our team on a permanent basis, overseeing the day-to-day operations of our Booyal Quarry near Bundaberg QLD. Reporting to the Quarry Manager, this dynamic and diverse role will support across various key functionalities of the Quarry, including maintenance, plant performance, safety, environment, and quality control.\nThis position will fulfill the successful candidate’s desire for responsibility and accountability in the delivery of key duties, including supervision and coordination of all daily site activities, leading safety and environmental legislation compliance and implementation of business HSE policies and procedures, promoting, facilitating and initiating LEAN activities, as well as driving customer focused product and service outcomes.\nYour day will involve:\nSupervision and management of staff and contractors including coaching, mentoring and managing shift schedules & work plans\nSafety Management: training staff on safe working practices and conducting regular safety audits\nEffective management of production and maintenance activities, including promoting and enforcing safety processes and protocols to meet performance outcomes.\nWhat are we looking for?\nDemonstrated experience in hard rock quarry operations, mining and/or fixed and mobile plant operations\nStrong knowledge of hard rock quarrying and crushing processes\nStrong leadership attributes including initiative to identify, manage, and solve issues as they arise\nExperience in LEAN Manufacturing will be highly regarded.\nWhat’s on offer?\nEmployment stability – permanent role\nAttractive salary package reflective of your skills and experience\nGenuine career growth opportunities and mentoring supported by industry leaders and subject matter experts\nOpportunity for training and career development opportunities\nBroaden your horizons through exposure to our integrated operations\nWork for an Equal Opportunity Employer – At Boral, we understand that diversity brings many benefits, and we are increasingly encouraging greater diversity within our workplaces.\nAbout Boral Quarries\nBoral is Australia’s leading quarry operator, with 76 quarries, sand pits and gravel operations, supplying about 30 million tonnes of product annually. Our raw materials of stone, gravel and sand are used to build our homes, workplaces, public buildings, roads, and key infrastructure projects.\nOur people provide solutions to help customers and stakeholders build a sustainable future in a changing world. Our values are what matters to us and guide our behaviours: Safety, Teamwork, Ambition, Accountability and Respect.\nWe’re proud of our legacy as a great Australian business and have a strong foundation to improve and continue fulfilling our purpose and what we do best - building something great.\nBoral values and is committed to creating a diverse working environment and is proud to be an equal opportunity employer. All suitable applicants will receive consideration for employment without regard to race, colour, religion, gender identity or expression, sexual orientation, disability or age.",
+    "Brightstar Resources.docx": "Shift Supervisor- job post\nBrightstar Resources\nGold Coast QLD\nFull-time\nYou must create an Indeed account before continuing to the company website to apply\nJob details\nJob type\nFull-time\nShift and schedule\nShift work\n \nLocation\nGold Coast QLD\n \nFull job description\nAbout Brightstar Resources\nBrightstar Resources is a dynamic ASX listed gold company committed to a Gold Standard of excellence, creating value through exploration, development, mining, and production across Western Australia’s premier goldfields.\nWe are the proud owner and operator of our Second Fortune Gold Mine, FISH underground mine and the expanded Sandstone district home to the region’s largest Mineral Resource inventory, in the next 12 months we have a process plant build, launching open pits and expanding our underground operations. . With a commanding land position and clear strategic growth, we’re building something significant and this is your chance to be part of shaping the future of a growing gold operation.\nWe're currently seeking an experienced Shift Supervisor for care and maintenance activities at one of Brightstar’s underground operations, Initially the role will require routine checks of the underground mine and site  then expanding to full time supervision for underground drilling activities on an even time roster.\nAbout the Role\nSupervision of underground diamond drillers\nDewatering checks\nPump maintenance\nMine site and camp inspections\nAll other duties as requested by SSE\nAbout You\nExperience in a similar role\nStatutory Underground Shift Supervisor ticket \nVOC for Integrated Tool Carrier \nAbility to work independently with strong problem solving abilities\nPast experience in supervising small underground crews\nWhat we offer\nCompetitive salary\nRoster flexibility\nNew camp and facilities\nFlying out of Jandakot",
     "Byrne Bros.docx": "Production Supervisor\nByrne Bros Pty Ltd\nTakura, Hervey Bay & Fraser Coast QLD\nMining - Operations \nFull time\nAdd expected salary to your profile for insights\nPosted 10d ago\nProduction Supervisor\nByrne Bros Quarries Pty Ltd\nByrne Bros Quarries Pty Ltd is a locally owned and operated quarrying business known for delivering quality products and reliable service. We are seeking a motivated and experienced Production Supervisor to join our team and assist in the safe and efficient operation of our quarry.\nThis is a hands-on role suited to someone who enjoys working in a practical environment while also supervising staff and coordinating daily operations.\nAbout the Role\nReporting to the Quarry Manager/SSE, the Quarry Supervisor plays a key role in supporting daily quarry operations, supervising personnel, and ensuring plant and equipment are operated safely and efficiently.\nThe successful candidate will be responsible for operating a range of plant equipment, assisting with maintenance activities, and overseeing site operations when the Quarry Manager is not present.\nKey Responsibilities\n• Safe and efficient operation of quarry plant and equipment including excavators, loaders, forklifts and water carts\n• Supervision and coordination of quarry personnel when required\n• Conducting pre-start meetings and toolbox talks\n• Ensuring compliance with company policies, safety systems and site procedures\n• Carrying out minor maintenance and assisting with repairs to plant and equipment\n• Monitoring plant performance and reporting maintenance requirements\n• Maintaining a clean, safe and organised work environment\n• Ensuring accurate recording of materials and operation of the weighbridge where required\n• Providing excellent customer service to internal and external customers\nSkills and Experience\nTo be successful in this role you will demonstrate:\n• Previous experience in quarry operations or similar heavy industry\n• Strong commitment to workplace safety\n• Experience operating heavy plant and machinery\n• Ability to supervise and support a small team\n• Good communication and organisational skills\n• Strong work ethic and positive attitude\n• Ability to work in a fast-paced environment and meet production requirements\nQualifications\n• Mining Supervisor S123 qualification \n• Current First Aid Certificate\n• Relevant High Risk Work Licences\n• Current driver’s licence\nPre-Employment Requirements\nThe successful applicant will be required to undertake and pass a pre-employment medical assessment and drug and alcohol screening prior to commencing employment.\nIf you are a motivated operator with supervisory experience and a strong commitment to safety, we would love to hear from you.\nApply now by submitting your resume",
     "CSI_Mining_Services.docx": "\\\nSupervisor\nMining\n\nCSI Mining Services \n\n3.183\nreviews·View\nall\njobs\n\nBrisbane\nQLD\n\nMining - Operations ](https://www.seek.com.au/jobs-in-mining-resources-energy/mining-operations)\n\nFull time\n\nBase + Shift Allowance + Site allowance + Bonus\n\nPosted 13d ago\n\nWhat MinRes can offer you\n\n-   Step into a key leadership role with real influence over production\n    outcomes, safety performance and day to day decision making on site.\n\n-   We invest in your career, with a focus on leadership, upskilling,\n    training and development.\n\n-   Access to a range of benefits to look after the important things in\n    life -- family, health, fun and your future.\n\n \n\nAbout the role\n\nReporting to the Mining Superintendent, this role will be responsible\nfor providing high quality guidance and leadership to the mining teams,\nthrough mentoring, coaching and for ensuring a safe work environment.\nThis role will be an 2/1 FIFO roster to Weipa Project from Brisbane or\nCairns.\n\n \n\nKey Responsibilities\n\n-   Organising and scheduling the mining crew to meet daily production\n    targets\n\n-   Management of production and mechanical break-down issues\n\n-   Accountability for providing comprehensive reporting to the\n    management team on production achievements, challenges and issues\n\n-   Providing effective guidance, coaching and mentoring to site\n    personnel\n\n-   Maintaining and fostering a working environment which prompts safety\n    in all that we do, whilst also providing outstanding service\n\n-   Development of working relationships with key stakeholders on site\n\n-   Work closely with maintenance to minimise downtime and ensure fast\n    turnaround on breakdowns\n\n-   Directly monitor fleet productivity in real time, taking immediate\n    corrective action when output drops below plan targets\n\n-   Aggressively identify and remove bottlenecks in haulage, loading,\n    and dumping operations to maximise operating time\n\n \n\nWhat you will bring to the team\n\n-   Minimum 5 years' experience working within a Mining and Production\n    Environment\n\n-   Previous experience working in mining and working towards production\n    targets\n\n-   Previous experience successfully leading a team\n\n-   Demonstrated strong problem solving, lateral thinking and analytical\n    skills\n\n-   Excellent time management and daily routine rituals\n\n-   Strong communication skills, written and verbal with an ability to\n    import knowledge, coach and mentor others\n\n \n\n**About CSI Mining Services\n\nCSI, a wholly owned subsidiary of Mineral Resources , is one of\nAustralia's largest mining services contractors. CSI provides\nworld-class tailored crushing, screening and processing solutions and\nmining services for some of the world's largest mining companies. \n\nService offerings include design, manufacture, commissioning and on-site\noperation and maintenance of plant facilities, as well as specialised\nmine services such as mine planning, drill and blast, load and haul,\nplant and equipment hire and maintenance, tails recovery, aggregate\ncrushing and mine design, as well as engineering and construction. \n\nBe part of our exciting next chapter.",
     "Development Supervisor.docx": "Development Supervisors | Broadmeadow | BMA\nBHP\n3.5843 reviews·View all jobs\nMoranbah, Mackay & Coalfields QLD\nMining - Operations \nFull time\nAdd expected salary to your profile for insights\nPosted 1h ago\nAbout BHP\nAt BHP we support our people to grow, learn, develop their skills and reach their potential. With a global portfolio of operations, we offer a diverse and inclusive environment with extraordinary career opportunities. Our strategy is to focus on creating a safe work environment where our employees feel strongly connected to our values and objectives, and where the capability of our people is key to our success.\nCome and be a part of this success.\nAbout the Role\nBroadmeadow is pleased to offer leadership development opportunities as a Development Supervisor.\nIn this position, reporting to the Manager Production, you will undertake the RII40420 Certificate IV in Underground Coal Operations and work towards achieving your Certificate of Competency, preparing you for authorisation as a Deputy in Underground Coal Mines.\nAll statutory, training, and practical experience will be delivered on site and supported through:\nMentoring from experienced leaders\nStructured study plans\nHands-on workplace exposure across key operational areas\nSpanning across 24 months, this is a unique opportunity to develop your technical capability, build leadership skills, and progress your career in underground coal operations.\nThese positions will work either 5/2 or 7/7 day/night rotating roster and will offer either residential or DIDO travel options.\nAbout You\nDemonstrated experience working in underground coal\nProven experience working in Longwall or Development environments\nA high level of interpersonal skills, including collaboration and conflict resolution\nStrong decision making and problem-solving skills\nDemonstrated leadership and team supervisory skills\nUnderstanding of risk management and how it is applied within mining\nAbout our Process\nAt BHP, we are committed to employing individuals who align with the BHP Charter Values and meet the requirements of the role. As part of the recruitment process, there are a number of checks which may be conducted to demonstrate applicants suitability for a role including police / criminal background checks, medical, drug and alcohol testing, due diligence checks, right to work checks, and/or reference checks.\nSupporting a Diverse Workforce\nThe size and magnitude of our business not only provides significant opportunity for professional development, but also attractive salary packages with performance based bonuses and unique BHP employee share program.\nAt BHP, we recognise that we are strengthened by diversity. We are committed to providing a work environment in which everyone is included, treated fairly and with respect. We are an Equal Opportunity Employer and encourage applications from all qualified applicants regardless of race, colour, sex, national origin, age, religion, people with disabilities, sexual orientation, gender identity, protected veteran status, citizenship, genetic information or other protected status under federal, state or local laws.\nWe know there are many aspects of our employees' lives that are important, and work is only one of these, so we offer benefits to enable your work to fit with your life. These benefits include flexible working options, a generous paid parental leave policy, other extended leave entitlements and parent rooms.\nAll qualified applicants will receive consideration for employment without regard to race, colour, sex, national origin, age, religion, disability, sexual orientation, gender identity, protected veteran status, citizenship, genetic information or other protected status under federal, state or local laws.\nBHP is an Equal Opportunity Employer - Minorities/Females/Veterans/Disability",
@@ -2328,6 +2460,7 @@
     "Glencore MPS mech.docx": "Supervisor - MPS Mechanical Maintenance\nGlencore\n3.3264 reviews·View all jobs\nMount Isa, Western QLD\nMining - Engineering & Maintenance \nFull time\nAdd expected salary to your profile for insights\nPosted 4d ago\nSupervisor – Mines Power Station Mechanical Maintenance\nCopper Smelter, Mines Power Station\nMount Isa, Queensland, Australia\nRef. No. 24009\n\nQueensland Metals Glencore is currently seeking a Mechanical Maintenance Supervisor within our Mines Power Station Department. Reporting to the Superintendent - MPS, you will be required to effectively co-ordinate and supervise a team of mechanical personnel carrying out maintenance, project and installation work within the Copper Smelter assets.\n\nThis is a Mount Isa residential position, and you will be required to work in accordance with a 4/3 12-hour day roster.\nThe successful candidate will be responsible for:\nEnsuring that mechanical maintenance tasks are carried out in a safe and timely manner\nManagement of your crews performance\nManage shutdowns\nAbility to plan and control maintenance operations to optimise the use of all available resources\nConduct regular compliance audits and workplace inspections\nThe ability to build and maintain an effective team through coaching and personnel role modelling\nYou will have the following skillset and attributes:\nMinimum 5 years Trade experience\nTrade qualification – Mechanical fitter\nAbility to run contracting teams and manage small projects\nPrevious experience with heavy industrial fixed plant maintenance\nS1, S2, S3 qualifications are preferred\nYou will also be able to promote a constructive culture within your team\nYou will have the ability to make decisions, work to deadlines, high level of work quality, exceptional communication skills and strive for continuous improvement\nApplications close: 8am Thursday, 12 March 2026",
     "Glencore Primary Smelting.docx": "Supervisor - Primary Smelting\nGlencore\n3.3264 reviews·View all jobs\nMount Isa, Western QLD\nMining - Operations \nFull time\nAdd expected salary to your profile for insights\nPosted 5h ago\nSupervisor – Primary Smelting  \nQLD Metallurgical Operations, Copper Smelter Primary Operations\nMount Isa, Queensland, Australia\nRef. No. 6105\n\nA vacancy currently exists for the role of Supervisor – Primary Operations Crew D within the Copper Smelter. Reporting to the Superintendent – Primary Smelting Operations, you will be required to effectively coordinate and control the shift activities of the Copper Smelter operational assets, ensuring agreed targets are achieved in a manner consistent with our values whilst engaging and developing a team of front-line operations personnel. This is a residential position in Mount Isa, working a continuous shift roster – 2 days, 2 nights, 4 days off. Occasionally you may be required to be flexible in terms of work times and rosters.  \n\nThis challenging and rewarding role will require you to:\nCoordinate and manage operational safety, production and risk in a large and complex footprint including assets associated with Concentrate Feed Preparation as well as the Copper IsaSmelt and Rotary Holding Furnaces\nBuild and promote team work within your team, across the wider Smelter department and Queensland Metals business\nDevelopment of skills and capability necessary for you and your team to recognise and control risks to drive a Safe, positive and productive culture\nChallenge and manage variation to achieve safety and production targets and challenge KPIs\nMaintain high levels of pride in the workplace including particular focus on housekeeping standards\nThe successful applicant will have:\nHave a sound knowledge of Smelting \nPrevious experience with supervising and leading teams\nThe ability to lead by example and have a strong work ethic\nHave safety as a core value and the ability to hold others accountable to it\nA minimum of 4 years working in the Smelting and Mining industry\nTechnical knowledge and organisational skills will ensure you thrive in this fantastic opportunity for career progression\nFor further information, please contact:\nBraedan Faifai on M:0448 646 001",
     "Glencore.docx": "Production Supervisor\nGlencore Coal\nSpringsure, Gladstone & Central QLD\nMining - Operations \nFull time\nCompetitive salary package and lifestyle benefits\nPosted 4d ago\nRolleston Open Cut is a 16Mtpa thermal coal mine located in the southern Bowen Basin in Central Queensland.  With a long life of mine and low operating costs, the mine has a bright outlook.  Since 2005, we have grown to become one of the largest surface mines in Australia, whilst continuing to foster a culture underpinned by safety, achievement, flexibility and teamwork to improve the skills of each and every person on the mine site every day.  We are a hands-on team who all work together to meet our objectives.  No job or day is the same with us, and we never miss an opportunity to share, learn and improve.\nGlencore is committed to providing an environment that adheres to the Respect at Work Legislation.\nJob Description\nAbout the Role\nAn exciting opportunity has become available for an experienced Production Supervisor to join our dynamic and successful team.  As a valued member of the Minning team and reporting directly to the Blast & Mine Services Superintendent, you will be responsible for:\nProviding direct supervision of employees and sub-contractors working within the area of responsibility and allocating day-to-day work priorities.\nLiaise with key personnel and share ideas for overall improvement outcomes\nDeveloping and maintaining a cohesive team.\nPromoting continuous improvement\nEngagement with Technical Services and Maintenance teams to make sure plans are accurate.\nDriving continuous improvement opportunities through innovation and collaboration.\nIdentify, assess and control workplace hazards\nAbout you\nTo be successful in this role, you will have:\nAppropriate supervisory experience for the role;\nStandout leadership capabilities that will allow you to liaise with stakeholders at all levels of our business;\nHave an extremely high drive to learn and grow your skills to be the best version of yourself;\nObtain an understanding of a SHMS;\nStrong interpersonal and negotiation skills that will allow you to positively influence our culture at Rolleston;\nAbility to maintain a high level of positive safety performance and workplace culture through teamwork, personal commitment, and application of the company values;\nHighly developed interpersonal, communication and leadership skills;\nBe open to change crews.\nAbout Rolleston Open Cut\nWe have worked hard to foster a culture that is guided by our People Values, to ensure our employees feel they belong, are recognised, feel valued and rewarded.\nHere are just some of the benefits we offer:\nWork life balance with 8/6 Day Shift work 12.5-hour shifts.\nHighly competitive remuneration package\nAnnual short term performance bonus \nBIBO options from Yeppoon, Rockhampton, Bundaberg, Gladstone\nAbove award Annual Leave entitlement\nPermanent camp rooms in the village based on the mining lease\nGym, pool, and tennis court facilities at a family friendly village\nInclusive culture that promotes real change\nPassionate and dedicated leadership team\nProfessional training and development opportunities, including upskilling, and education assistance for all positions\nGenerous annual private health insurance benefit\nFit for Life Program offers exclusive discounts and access to a range of educational tools to build the skills to help you remain fit for life.\nAVIS hire vehicle discount\nThe ability to salary sacrifice flights, super and novated leasing\nEmployee Assistance Program through Converge International\nApply now at glencore.com/careers\nFor further information please contact RollestonHR@glencore.com.au\nApplication close 14 days from the date advertised.\nAll internal applicants should discuss their interest in this position with their Manager prior to submitting an application.\nIf you value achievement, career progression, a challenge and are keen to continue to develop and learn, we welcome your application.",
+    "Golding Contractors.docx": "Mining Supervisor- job post\nGolding Contractors\n4.24.2 out of 5 stars\nStrathfield QLD\nFull-time\nYou must create an Indeed account before continuing to the company website to apply\nJob details\nJob type\nFull-time\n \nLocation\nStrathfield QLD\n \nBenefits\nPulled from the full job description\nFree food\nEmployee assistance program\n \nFull job description\nRef:2841\nMining Supervisor\nGolding are currently recruiting for a Production Mining Supervisor to join the Team on a 7:7 Day: Night rotation roster @ South Walker Creek Mine\nGolding is a successful mining, urban and civil infrastructure project management services business with projects and operations across Queensland and South Australia. We are reliable and cost effective, working hard to achieve successful outcomes for our clients by working with them in ways that create and deliver value.\nGolding is in search of a self-motivated Mining Supervisor to join our cohesive overburden and coal mining team at South Walker Creek Mine.\nThe primary function is to manage a Production Crew’s mining methods, equipment usage and labour competence to ensure a safe and efficient operating environment is maintained to support the delivery of performance targets.\nKey aspects of this role include:\nConduct shift handovers, prestart, and toolbox meetings with efficiency.\nGuide your team to execute the production plan safely and effectively\nProvide valuable technical guidance to your team members, sharing your expertise and boosting their capabilities.\nCollaborate with Maintenance Supervisors to implement maintenance plans for the shift.\nGenerate accurate and timely shift reports.\nPerform inspections and job observations as part of your responsibilities.\nRequired Skills & Experience\nIn order to be successful in this role, it is essential that candidates have:\nRIIRIS301A – Apply Risk Management Processes\nRIIOHS301A – Conduct Safety & Health Investigations\nRIICOM301A – Communicate Information\nRIIRIS402A – Implement & Maintain Risk Management Processes\nSenior First Aid Certificate\nGeneric Surface Induction.\nCurrent open drivers licence\nWorking knowledge of the Coal Mining Safety & Health Act and associated regulations and how they pertain to individual and supervisor obligations\nPrevious experience in the supervision of staff within an Open Cut mining environment\nOperating skills on a wide range of Mining equipment\nBenefits of the position\nContract at South Walker Creek awarded for another 5 years starting 2026\n7:7 Even time roster \nAll accommodation & full meals provided\nEmployee assistance program  - for you and your family\nWhy Join Golding:\nEmployee-Centric Success: Our success is driven by the diverse talents and initiatives of our employees.\nCore Values: We operate with integrity and honesty, guided by our core values.\nCommitment to Excellence: We prioritize safety, respect for the environment, and quality assurance in all our operations.\nEmbark on a fulfilling career journey with Golding by applying online below.\nWe are proud to be an equal opportunity employer, fostering a diverse and inclusive workplace.\nJob Details\nLocation:\nSouth Walker Creek",
     "Golding OCE Kogan.docx": "Mining Supervisor - job post\nGolding Contractors\n4.24.2 out of 5 stars\nKogan QLD\nFull-time\nYou must create an Indeed account before continuing to the company website to apply\nJob details\nJob type\nFull-time\nShift and schedule\nNight shift\nRotating roster\nDay shift\nShift work\n \nLocation\nKogan QLD\n \nFull job description\nRef:2826\nMining Supervisor \nGolding is currently seeking an experienced Mining Supervisor  to work at our Kogan Creek mining operation\nGolding is a successful mining, urban and civil infrastructure project management services business with projects and operations across Queensland and South Australia. We are reliable and cost effective, working hard to achieve successful outcomes for our clients by working with them in ways that create and deliver value.\nGolding is currently seeking an experienced Mining Supervisor  to work at our Kogan Creek mining operation near Chinchilla. This is a key operational role responsible for leading crews, ensuring safe production, and maintaining compliance with statutory requirements.\nReporting to the Mining Superintendent, you will be responsible for the day-to-day supervision of mining operations on site. You will play a critical role in driving safety, productivity, and team performance while ensuring all activities are carried out in accordance with legislation and site standards.\nAn attractive 7on/7off rotating day and night shift roster is on offer along with supplied accommodation.\nKey Responsibilities\nSupervise and coordinate daily mining operations to meet production targets\nExercise statutory duties as an Open Cut Examiner \nPromote and uphold a strong safety culture across crews and contractors\nEnsure compliance with site procedures, SHMS, and regulatory requirements\nMonitor equipment utilisation and operational performance\nIdentify and implement continuous improvement opportunities\nLead, mentor, and develop operators and team members\nComplete reporting, shift handovers, and documentation accurately\nAbout You\nCurrent OCE certification \nDemonstrated experience in open cut coal mining operations\nProven supervisory experience leading mining crews\nStrong understanding of mining equipment and production processes\nSolid knowledge of safety systems and legislative requirements\nEffective communication and leadership skills\nStandard 11 and relevant site inductions \nWhy Join Golding:\nEmployee-Centric Success: Our success is driven by the diverse talents and initiatives of our employees.\nCore Values: We operate with integrity and honesty, guided by our core values.\nCommitment to Excellence: We prioritise safety, respect for the environment, and quality assurance in all our operations.\nEmbark on a fulfilling career journey with Golding by applying online below\nWe are proud to be an equal opportunity employer, fostering a diverse and inclusive workplace\nJob Details\nLocation:\nKogan Creek Mine\nPositions Available:\n1",
     "Golding Superintendent.docx": "Mining Superintendent\nGolding Contractors Pty Ltd\nBlackwater, Gladstone & Central QLD\nMining - Operations \nFull time\nAdd expected salary to your profile for insights\nPosted 4d ago\nGolding is a successful mining, urban and civil infrastructure project management services business with projects and operations across Queensland and South Australia. We are reliable and cost effective, working hard to achieve successful outcomes for our clients by working with them in ways that create and deliver value.\nGolding are seeking an experienced Mining Superintendent for Curragh Mine located near Blackwater.  This position will be an integral part of our project leadership team and be responsible for effectively managing mining operations.\nThe successful candidate will hold suitable qualifications and be highly capable, possessing not only the required technical skills but also demonstrated ability in applying effective social process skills, including leadership and communication.  The successful candidate will have strong drive and energy and thrive on working in a challenging work environment.\nThis role will operate on a 8:6 roster rotating day and night.  Camp accommodation and meals is provided.\nKey Role Tasks:\nTarget zero harm in your crew through implementing all requirements of the Safety Health Management System, and active promotion of safety and risk reduction initiatives through personal leadership of lead safety indicators.\nWork with your supervisors to engage all employees and labour hire personnel to perform at their level of skill and capability.\nParticipate in the clients planning processes and be responsible for the execution of the mining plan.\nMonitor leave, turnover and individual’s performance data and authorise recruitment activity such that crew numbers and skills are maintained at required levels.\nAchieve planned productivities whilst maintaining operating standards.\nAssess the training needs of the production team against the skills required, develop and implement a training plan within the authority limits of your role.\nLiaise with the Client and other Contract partners on all issues of interaction between client and contractor work operations.\nKey Capability requirements:\nProven track record in implementing and monitoring safety standards and compliance at a mine site.\nAbility to identify and eliminate hazards in the workplace.\nExperience in leading continuous roster multi-shift teams is essential.\nLeadership skills including the ability to manage change, influence, motivate, mediate, negotiate, improve performance, satisfaction and skill level of all operators.\nExperience managing multiple truck and excavator fleets.\nAbility to work as part of a cohesive client focussed team and execute the plan.\nCommunication including verbal, written and interpersonal and the ability to interact and liaise with all levels including internal stakeholders, external stakeholders and clients.\nPrioritisation and organisational skills including the ability to meet deadlines and delegate effectively.\nAnalytical, problem-solving and decision-making skills.\nExperience and ability to use the Microsoft suite of software products; and\nFamiliarity with FPE safety management system would be advantageous.\nWhy Join Golding:\nEmployee-Centric Success: Our success is driven by the diverse talents and initiatives of our employees.\nCore Values: We operate with integrity and honesty, guided by our core values.\nCommitment to Excellence: We prioritise safety, respect for the environment, and quality assurance in all our operations.\nEmbark on a fulfilling career journey with Golding by applying online below.\nWe are proud to be an equal opportunity employer, fostering a diverse and inclusive workplace",
     "Golding.docx": "Mining Production Supervisor\nGolding Contractors Pty Ltd\nBlackwater, Gladstone & Central QLD\nMining - Operations \nFull time\nAdd expected salary to your profile for insights\nPosted 3d ago\nGolding is a successful mining, urban and civil infrastructure project management business with projects and operations across Queensland and South Australia. We are a reliable and cost effective Contractor, working hard to achieve successful outcomes for our clients by working with them in ways that create and deliver value.\nGolding are currently recruiting for a Mining Production Supervisor to join our team and drive safety and production.  If you have experience, and a passion for leadership, operational efficiency and fostering a strong safety culture, this is your opportunity to join our Team.\nYour Role & Responsibilities:\nEnsure compliance with Golding Safety and Health Management Systems.\nSupervise and mentor a 50~ person crew, promoting a culture of safety, teamwork, and performance.\nPlan and coordinate daily tasks, reinforcing key priorities in pre-start meetings.\nProvide technical guidance on truck and excavator operations to enhance team capabilities.\nOversee task execution to ensure alignment with operational goals.\nRequired Skills & Experience\nPrevious experience in a Pre-Strip Production Supervisor role on an Open Cut mine\nWorking knowledge of the Coal Mining Safety & Health Act and associated regulations and how they pertain to individual and supervisor obligations\nOperating skills on a wide range of Mining equipment\nCurrent Mining Supervisor G1, G8, G9  and G2\nCurrent Standard 11 and Coal Board Medical\nCurrent open drivers licence\nCurrent First Aid Certificate\nWhat’s on Offer:\n7/7 rotating day/night shift, providing a great work-life balance\nCamp accommodation and meals provided if required\nBe part of a company that values integrity, safety, and continuous improvement\nWork in a supportive team environment where your skills and initiative are valued\nWhy Join Golding?\nPeople First: Our success is built on the diverse talents and contributions of our people.\nStrong Values: We operate with integrity and honesty, guided by clear core values.\nExcellence & Safety: We are committed to safe operations, environmental care, and quality outcomes.\nFlexibility: We support a mature, balanced work environment with both office-based and work-from-home arrangements.\nEmbark on a rewarding career with Golding – apply online today.\nGolding is proud to be an equal opportunity employer, committed to building a diverse and inclusive workforce.",
@@ -2343,6 +2476,7 @@
     "Macmahon.docx": "Supervisor - Production\nFull job description\nProduction Supervisor - Mt Carlton\nMacmahon is seeking an experienced Production Supervisor to support the recommencement of operations at Mt Carlton mine. Located approximately two hours south of Townsville, Mt Carlton is a gold silver operation preparing to transition from care and maintenance back into production. This restart presents a unique opportunity to contribute to the establishment of safe, efficient and sustainable operational practices from the outset.\nThis position operates on a 7 Days on / 7 Days Off roster, followed by 7 Nights on / 7 Days off roster, DIDO Only.\nAbout The Role\nLead safe work practices by driving a proactive safety culture and ensuring full compliance with site standards.\nSupervise daily mining operations across digging, hauling and dumping activities to deliver safe and efficient outcomes.\nExecute the mine plan, ensuring production activities align with short term schedules and operational targets.\nMonitor fleet performance, including cycle times, delays and equipment utilisation, optimising outcomes in collaboration with Dispatch.\nProvide leadership and coaching to operators to build capability, maintain engagement and support performance.\nEnsure accurate reporting through shift logs, production data, environmental checks and incident documentation.\nCoordinate with site departments, including Maintenance, Technical Services and Drill & Blast, to maintain operational flow.\nAbout You\nExtensive surface mining experience as a Production Supervisor, Leading Hand or Senior Operator\nA strong, proven commitment to safety and excellent communication skills across all levels.\nBackground and technical knowledge of a range of equipment.\nMechanical knowledge to a level of understanding equipment capabilities, maintenance scheduling and preventative maintenance methods.\nDetailed knowledge of mining and safety regulations.\nCertification in Frontline Management.\nEmployee Benefits\nOngoing career development opportunities\nAccess to lifestyle, financial, and mental health support programs\nSalary sacrifice options for flights, vehicles, airport parking and more\nDiscounts across Macmahon's retail, vehicle, insurance, and banking partners\nAbout Macmahon\nMacmahon is a leading Australian contract mining company with projects throughout Australia and Southeast Asia. Delivering a comprehensive range of surface and underground mining, civil design and construction, performance enhancement, and mine site maintenance and rehabilitation services to the resources sector.\nRecruitment process\nSuccessful applicants must pass a pre-employment medical, including drug and alcohol screening, as well as criminal history and qualification checks. Proof of working rights in Australia  is also required.\nMacmahon is an equal opportunity employer and strongly encourages suitably qualified women and Aboriginal and Torres Strait Islanders to apply.\nMacmahon Winning Values",
     "Maintenance_Supervisor.docx": "Maintenance Supervisor -\nSMAD\n\nRedpath Mining \n\n3.554\nreviews·View\nall jobs\n\nBrisbane\nQLD\n\nOil & Gas - Engineering & Maintenance ](https://www.seek.com.au/jobs-in-mining-resources-energy/oil-gas-engineering-maintenance)\n\nFull\ntime\n\nAdd expected salary to your profile for insights\n\nAbout the Project Olympic Dam Mine, operated by BHP-one of the world\\'s\nlargest mining companies-is located approximately 550 km north‑west of\nAdelaide and produces copper, gold and uranium.\\\n\\\nAs one of the largest contractors on site, this opportunity offers\nvaluable experience to support the growth of your maintenance career\nwithin underground mining.\\\n\\\nThe Role This position operates on a 2 & 2 roster, working 12‑hour\nshifts, and is responsible for leading maintenance activities across\nunderground and surface operations.\\\n\\\nKey responsibilities include:\n\n-   Leading and supervising a team of maintenance technicians, providing\n    guidance, support and mentorship\n\n-   Ensuring all site and workshop activities comply with health,\n    safety, training, environmental and statutory requirements\n\n-   Managing and conducting personal risk assessments and Job Safety\n    Analyses  to maintain safety awareness and compliance\n\n-   Conducting preventative maintenance inspections to identify and\n    address potential issues proactively\n\n-   Overseeing maintenance execution to ensure compliance with quality\n    standards\n\n-   Assigning tasks effectively to optimise resource utilisation\n\n-   Maintaining accurate maintenance records, including work orders,\n    daily reports and equipment history\n\n-   Managing and reviewing inventory of spare parts, tooling and\n    equipment required for maintenance activities\n\nAbout You To be successful in this role, you will have:\n\n-   Heavy Duty Diesel Fitter/Mechanic trade qualifications\n\n-   Demonstrated experience in a Supervisor role working with\n    underground and heavy‑duty equipment\n\n-   Proficiency with Computerised Maintenance Management Systems \n\n-   Strong planning and organisational skills\n\n-   A high level of initiative with the ability to perform under\n    pressure\n\n-   Strong leadership capability and well‑rounded communication skills\n\n-   A valid manual driver\\'s licence\n\n-   A positive work ethic aligned with Redpath\\'s motto: \\\"Consider it\n    done - safely.\\\"\n\nWhat We Offer In return, you can expect:\n\n-   Clear career pathways and opportunities for internal promotion\n\n-   Competitive hourly rates + super paid on all hours\n\n-   Even time roster for true work life balance\n\n-   Ongoing training & OEM accredited trade courses\n\n-   Clear career progression pathways\n\n-   All PPE provided\n\n-   High‑quality camp facilities, including ensuite rooms, gym, pool and\n    wet mess\n\n-   Telstra and Optus coverage onsite\n\n-   Salary sacrifice options for superannuation and novated car leasing\n\n-   Discounted private health insurance through BUPA\n\n-   Prescription safety glasses reimbursement \n\n-   Employee Assistance Program , with wellbeing\n    support available for the whole family\n\n-   Redzone Reward Program - discounts and cashback at hundreds of\n    retailers\n\n-   Service milestone Bonuses:\n\n    -   \\$3k at 5 years\n\n    \n    -   \\$10k at 10 years\n\n    \n    -   \\$15k at 15 years\n\n    \n    -   \\$20k at 20 years\n\nIn 1962, Jim Redpath\\'s vision for the company was much the same as it\nis today; offering a high level of service to the mining industry, which\nexceeds current standards and provides challenge for its employees. With\na foundation built on global experience, adaptability and exceptional\nworkmanship, Redpath leads the industry with cutting edge innovations in\nsafety and mining practices. Services including underground\nconstruction, shaft sinking, raiseboring, mine contracting, raise\nmining, mine development, engineering and technical services and a\nvariety of specialty services are offered around the world, with the\nexpertise and qualifications in place to support any scope of work.\nGlobal experience has given Redpath expansive regulatory knowledge,\nregional expertise, and cultural sensitivity. Redpath has built a solid\nreputation for conquering tough challenges and adapting to a variety of\nenvironments. Redpath\\'s employees are the heart of the company\\'s\nsuccess, and it remains through them that the company will continue to\nexpand and flourish.\\\n\\\nRedpath is committed to an environment that is barrier-free. If you\nrequire accommodation during the hiring process, please inform us in\nadvance so that we can arrange reasonable and appropriate\naccommodation.About Redpath\\\n\\\nThe Redpath Group is a leading mining contractor with projects across\nAustralia and globally. We specialise in shaft sinking, mine\ndevelopment, contract mining, raiseboring, underground construction,\nengineering & technical services, and speciality services in the\nMetalliferous and Coal mining sectors.\\\n\\\nApply Now\\\n\\\nRedpath is an equal opportunity employer that values diversity and an\ninclusive workplace. We encourage applications from suitably qualified\ncandidates wanting to join a friendly, collaborative team in a fast\npaced business environment.\\\n\\\nWe will be shortlisting for this position immediately, so please\nsubmit your application by clicking on the \\'apply\\' button below, or\nvisit our website at Careers \\| Redpath Mining Contractors and\nEngineers\n\n-   © MapTiler © OpenStreetMap contributors Legend",
     "Manuplex.docx": "Underground Coal Mine - Experienced Operators and Supervisors\nManuplex\nView all jobs\nMackay, Mackay & Coalfields QLD\nMining - Operations \nFull time\n$140,000 – $200,000 per year\nPosted 6h ago\nSummary:\nUnlock your potential and drive your career into the future by joining our motivated teams working on projects based in the Bowen Basin.\nBENEFITS:\n7/7 Lifestyle Roster – Work and play for six months of the year\nProfessional development and personal growth opportunities\nAttractive Hourly Rates with weekly pays\nSuperannuation paid on all hours worked\nInclusive and respectful culture\nFree Meals and Accommodation supplied whilst on site\nFree Employee Assistance Program , well-being assistance for you and your family\nFree advice to maximise your income and pay less tax through SPA\nSalary Packaging Benefits\nDUTIES:\nPerforming underground mining activities with a focus on installing and maintaining ventilation devices, strata support and roof bolt installation.\nCarrying out personal risk assessment, hazard identification and other safety requirements relevant to the role.\nOperation of plant and equipment used in an underground mining environment.\nOperation of vehicles both underground and surface.\nAdherence to safety protocols and regulations to maintain a secure working environment.\nHazzard and safety awareness and reporting any potential hazards to relevant personnel.\nAdherence to the mine site safety and health system.\nEnsuring safety of self and fellow colleagues.\nABOUT YOU:\nDemonstrated Underground Coal experience as an Operator is essential.\nExperience with a focus on Ventilation work is highly desirable.\nTraining transcripts and/or qualifications & tickets.\nA passion for safety.\nAbility to work independently and as part of a team with a strong passion for safety.\nEffective communication skills and ability to follow instructions accurately.\nValid driver's licence\nHOW TO APPLY:\nTo join our experienced, respected, and well-established team please apply now or email your resume to hr@manuplex.com.au\nABOUT MANUPLEX:\nManuplex is a highly respected, and diverse industry leader in mining, fabrication, and construction. We stand out by providing innovative solutions and quality resources and are proud to be industry partners with some of the largest top-tier companies in the world. Our team of professionals fabricate, supply, and install critical infrastructure to the Australian coal markets, specialising in Underground Ventilation.\nWe value our people and recognise their importance to our success. We focus on securing long-term contracts, offering our employees stable, permanent positions so they can relax and enjoy a work life balance. Whether you like to fossick for rare gems, swim in rainforest streams or stroll along the white sandy beaches of a tropical island, our region has you covered.",
+    "Metro Mining.docx": "Production Supervisor - Mining\nMetro Mining Limited\n2.05 reviews·View all jobs\nCairns, Cairns & Far North QLD\nMining - Operations \nFull time\nAdd expected salary to your profile for insights\nMetro Mining Limited  is an Australian mining company based in Brisbane. Metro’s flagship project, the Bauxite Hills Operation, located 95km north of Weipa, is one of the largest independent projects within the internationally acclaimed Weipa Bauxite Region.\nAt Metro Mining, we are focused on working together to create sustainable value for all people, including communities and stakeholders. We are a safe and supportive community, working together to provide opportunities for sustainable benefits to Cape York.\nMetro is committed to providing a workplace where everyone works together as a community, with a role to play. Our culture supports us in delivering high-performance, high-quality, and safe outcomes, where our team is empowered to do their best work, share ideas, and continue to grow.\nAbout the role\nThe Production Supervisor is responsible in overseeing on-site production and mine services activities. This role will be responsible for aligning operations with the mine plan, achieving production and rehabilitation targets, and prioritising safety as the paramount consideration in all activities.\nKey Responsibilities\nSupervise and coordinate daily mining activities to meet production targets and quality standards.\nEnsure adherence to safety protocols, environmental regulations, and operational procedures.\nProvide leadership and guidance to a team of operators and labourers, promoting a positive work environment and high performance.\nMonitor equipment performance and maintenance schedules to minimise downtime and optimise productivity.\nCollaborate with management and other departments to address operational challenges, implement process improvements, and achieve operational excellence.\nMaintain accurate records of production activities, equipment usage, and safety incidents.\nConduct regular performance evaluations and provide feedback to team members to support their professional development.\nDemonstrating a high standard of technical knowledge and leadership when dealing with employees, client representatives, contractors, and relevant stakeholders.\nAbout you\nTo be considered for this role, you will have the following qualifications/registrations, skills and experience:\nRelevant surface mining qualification or equivalent experience and knowledge.\nCert IV Training & Assessment highly regarded\nS1, S2 & S3  competencies required\nRII Certificates in Articulated Dump Trucks, Dozer, Excavator, Grader\nMinimum 5 years’ previous experience in a similar role/industry\nIntermediate to advanced Microsoft Office skills \nProven work history in a mining operation with experience operating mobile mining plant\nStrong knowledge of safety regulations, environmental standards, and best practices in mining operations.\nWell-developed leadership skills to effectively guide and support a crew of skilled operators in order to maintain a highly productive crew\nAbility to build positive relationships with your team and develop good team morale and engagement\nEffective problem-solving skills, clear verbal communication skills and the ability to handle competing demands\nProven problem-solving abilities and the capacity to make informed decisions under pressure\nThis role is a 15:13 FIFO roster arrangement and applicants must reside in Bamaga, Mapoon, Weipa, or Cairns. Applicants located in other areas/states must be willing to self-relocate, and state this on their resume.",
     "Mining_Operator_The_Thiess.docx": "Mining\nOperator\n\nThiess \n\n3.5323\nreviews·View\nall jobs\n\nBrisbane\nQLD\n\nMining - Operations ](https://www.seek.com.au/jobs-in-mining-resources-energy/mining-operations)\n\nFull time\n\n\\$137,501.75 - \\$172,437.25 exc. super\n\nPosted 28d ago\n\nReady to take your mining career to the next level? Thiess is seeking\nTruck, Multi-Skilled & Excavator Operators to join our team at Peak\nDowns Project in the Moranbah area. Offering permanent roles on a 7/7\nDay/Night roster -- 12.5hr shifts to those operators on the lookout for\nFIFO, BIBO & DIDO opportunity.\n\nAs part of the Thiess team, you\\'ll play a crucial role in:\n\n-   Operating heavy machinery safely and efficiently to maximise\n    productivity.\n\n-   Adhering to Thiess' safety standards and operational procedures.\n\nWhy Thiess?\n\nThiess is more than just a job---it's a career built on safety, growth,\nand opportunity. As a global leader in mining services, we offer:\n\n-   Long-term job security with a company that has been at the forefront\n    of mining for over 90 years\n\n-   A strong safety-first culture, ensuring every team member goes home\n    safely\n\n-   Support to grow your career, with access to training, upskilling,\n    and development programs\n\n-   A team that values you, with leadership that listens and invests in\n    its people\n\n-   Sustainability and innovation, using the latest technology and\n    responsible mining practices to create a better future\n\nKey responsibilities and requirements\n\n-   12+ months' experience on production mining equipment \n\n-   SSE - signed competency transcript\n\n-   Current open driver's licence\n\n-   Valid Standard 11 Certificate\n\n-   A commitment to a positive safety culture\n\nWhat Thiess Can Offer You\n\n-   Competitive rates -- skill-dependent, with the opportunity to earn\n    up to \\$172,437.25 excluding superannuation\n\n-   Enjoy a great roster: Even-time 7/7 day/night rotating shifts\n    \n\n-   Thiess paid flights from Brisbane\n\n-   BIBO options available from Mackay & Proserpine\n\n-   Upskill & grow with ongoing training and career development\n\n-   Superannuation contributions to help you build your financial future\n\n-   Salary sacrifice options  to help you get\n    more from your earnings\n\n-   Exclusive corporate discounts on health insurance ,\n    travel, retail & more\n\n-   A range of corporate discounts, including health insurance\n    , travel, and retail products.",
     "NEXUS MINING PTY LTD.docx": "Experienced Underground Operator and Fitters\nNEXUS MINING PTY LTD\nView all jobs\nBrisbane QLD\nMining - Operations \nFull time\nAdd expected salary to your profile for insights\nPosted 7d ago\nNexus Mining is a leading provider of specialised services to the underground coal mining industry, with an established workforce across New South Wales and Queensland.\n\nNexus Mining is now offering an exciting long-term opportunity for Fitters and Operators to join our crew at Centurion Mine, working on a secondary support project.\n\nThis opportunity is part of a 3 year contract +2 , offering long-term stability and the chance to be part of a committed high-performing team.\nIf you are experienced and motivated, we want to hear from you.\n\nTo be successful with your application you must have the following:\nDetailed evidence of previous underground coal experience in Secondary Support, with specific competency to the below;\n- Airtrack\n- Loader\n- Personnel transporter\nProven excellent track record in safety and compliance\nTeam member work ethic\nCustomer focus\nA drive to meet high performance standards\nCurrent and valid Standard 11\nWhat we offer:\nFull Time Position\nCompetitive rates of pay\nAccommodation provided\nTransport in and out from Camp to the Mine\nMeals provided\nEmployee Assistance Program\nIf you believe you have the above qualities and values then please apply below\nTo apply, email a detailed resume with evidence of experience to this SEEK advertisement and/or email all details to hr@nexusmining.com.au\n      “Nexus Mining is an equal opportunity employer”",
     "National Group .docx": "Maintenance Supervisor | Dawson\nNational Group\nView all jobs\nBrisbane QLD\nMining - Engineering & Maintenance \nFull time\nPosted 21d ago\nThis position is an outstanding career opportunity for a Maintenance Supervisor, preferably with a background in open-cut mining. This newly acquired project will provide diverse exposure to operations at Dawson Mine and our class-leading fleet of machines.\nAbout the company\nThe National Group is a leading mining-services company in Australia. For 25 years, we have supplied heavy-earthmoving equipment and end-to-end mining services to the world’s largest resource companies. Our machinery is used at flagship Australian mines to produce iron ore, coal, gold, nickel and other commodities.\nAbout the role\nPermanent full-time role\nBased out of Dawson mine site\nReport to the Maintenance Superintendent\nPreventative maintenance and availability\nProvide leadership and supervision to our maintenance team\nAssist the team on the tools as required\nStrong commitment to workplace safety, continuous improvement and technical excellence\nContribute towards any improvements or initiatives relating to productivity or costs\nSkills & experience\nAustralian recognised trade completion certificate and minimum 5 years post trade experience\nCurrent S1, 2, 3 & G2 tickets \nExperience working on Liebherr, Komatsu and CAT mobile mining equipment is essential\nEx-OEM experience highly regarded\nCurrent QLD ResHealth Medical and Standard 11 required\nOutstanding troubleshooting / diagnostic skills\nBenefits\n7 on 7 off rotating day/night roster\nWork for a 100% privately owned Australian company\nBig company experience, with a family-owned company feel\nAccommodation and meals provided",
@@ -2887,6 +3021,35 @@
       "Knowledge and understanding of the application and requirements of the Project Environmental, Safety & Health.",
       "Knowledge of project-specific environmental compliance requirements."
     ],
+    "Boral Narangba.docx": [
+      "Quarry Supervisor",
+      "Narangba, Brisbane QLD",
+      "Foreperson/Supervisors",
+      "Your next opportunity",
+      "Unique opportunity for a driven Quarry Supervisor to join our team on a permanent basis, overseeing the day-to-day operations of our Narangba Quarry north of Brisbane.",
+      "Reporting to the Quarry Manager, this dynamic and diverse role will support  various key functionalities of the Quarry, including maintenance, plant performance, safety, environment, and quality control.",
+      "Your day will involve:",
+      "Supervision and management of staff and contractors including coaching, mentoring and managing shift schedules & work plans",
+      "Safety Management: training staff on safe working practices and conducting regular safety audits",
+      "Effective management of production and maintenance activities, including promoting and enforcing safety processes and protocols to meet performance outcomes.",
+      "What are we looking for?",
+      "Demonstrated experience in hard rock quarry operations, mining and/or fixed and mobile plant operations",
+      "Strong knowledge of hard rock quarrying and crushing processes",
+      "Strong leadership attributes including initiative to identify, manage, and solve issues as they arise",
+      "Experience in LEAN Manufacturing will be highly regarded.",
+      "What’s on offer?",
+      "Employment stability – permanent role",
+      "Attractive salary package reflective of your skills and experience",
+      "Genuine career growth opportunities and mentoring supported by industry leaders and subject matter experts",
+      "Opportunity for training and career development opportunities",
+      "Broaden your horizons through exposure to our integrated operations",
+      "Work for an Equal Opportunity Employer – At Boral, we understand that diversity brings many benefits, and we are increasingly encouraging greater diversity within our workplaces.",
+      "About Boral Quarries",
+      "Boral is Australia’s leading quarry operator, with 76 quarries, sand pits and gravel operations, supplying about 30 million tonnes of product annually. Our raw materials of stone, gravel and sand are used to build our homes, workplaces, public buildings, roads, and key infrastructure projects.",
+      "Our people provide solutions to help customers and stakeholders build a sustainable future in a changing world. Our values are what matters to us and guide our behaviours: Safety, Teamwork, Ambition, Accountability and Respect.",
+      "We’re proud of our legacy as a great Australian business and have a strong foundation to improve and continue fulfilling our purpose and what we do best - building something great.",
+      "Boral values and is committed to creating a diverse working environment and is proud to be an equal opportunity employer. All suitable applicants will receive consideration for employment without regard to race, colour, religion, gender identity or expression, sexual orientation, disability or age."
+    ],
     "Boral.docx": [
       "Quarry Supervisor",
       "Bundaberg, Bundaberg & Wide Bay Burnett QLD",
@@ -2915,6 +3078,29 @@
       "Our people provide solutions to help customers and stakeholders build a sustainable future in a changing world. Our values are what matters to us and guide our behaviours: Safety, Teamwork, Ambition, Accountability and Respect.",
       "We’re proud of our legacy as a great Australian business and have a strong foundation to improve and continue fulfilling our purpose and what we do best - building something great.",
       "Boral values and is committed to creating a diverse working environment and is proud to be an equal opportunity employer. All suitable applicants will receive consideration for employment without regard to race, colour, religion, gender identity or expression, sexual orientation, disability or age."
+    ],
+    "Brightstar Resources.docx": [
+      "Shift Supervisor- job post",
+      "Brightstar Resources",
+      "You must create an Indeed account before continuing to the company website to apply",
+      "About Brightstar Resources",
+      "Brightstar Resources is a dynamic ASX listed gold company committed to a Gold Standard of excellence, creating value through exploration, development, mining, and production across Western Australia’s premier goldfields.",
+      "We are the proud owner and operator of our Second Fortune Gold Mine, FISH underground mine and the expanded Sandstone district home to the region’s largest Mineral Resource inventory, in the next 12 months we have a process plant build, launching open pits and expanding our underground operations. . With a commanding land position and clear strategic growth, we’re building something significant and this is your chance to be part of shaping the future of a growing gold operation.",
+      "We're currently seeking an experienced Shift Supervisor for care and maintenance activities at one of Brightstar’s underground operations, Initially the role will require routine checks of the underground mine and site  then expanding to full time supervision for underground drilling activities on an even time roster.",
+      "Supervision of underground diamond drillers",
+      "Dewatering checks",
+      "Pump maintenance",
+      "Mine site and camp inspections",
+      "All other duties as requested by SSE",
+      "Experience in a similar role",
+      "Statutory Underground Shift Supervisor ticket",
+      "VOC for Integrated Tool Carrier",
+      "Ability to work independently with strong problem solving abilities",
+      "Past experience in supervising small underground crews",
+      "Competitive salary",
+      "Roster flexibility",
+      "New camp and facilities",
+      "Flying out of Jandakot"
     ],
     "Byrne Bros.docx": [
       "Production Supervisor",
@@ -3330,6 +3516,50 @@
       "Application close 14 days from the date advertised.",
       "All internal applicants should discuss their interest in this position with their Manager prior to submitting an application.",
       "If you value achievement, career progression, a challenge and are keen to continue to develop and learn, we welcome your application."
+    ],
+    "Golding Contractors.docx": [
+      "Mining Supervisor- job post",
+      "Golding Contractors",
+      "Strathfield QLD",
+      "You must create an Indeed account before continuing to the company website to apply",
+      "Strathfield QLD",
+      "Employee assistance program",
+      "Mining Supervisor",
+      "Golding are currently recruiting for a Production Mining Supervisor to join the Team on a 7:7 Day: Night rotation roster @ South Walker Creek Mine",
+      "Golding is a successful mining, urban and civil infrastructure project management services business with projects and operations across Queensland and South Australia. We are reliable and cost effective, working hard to achieve successful outcomes for our clients by working with them in ways that create and deliver value.",
+      "Golding is in search of a self-motivated Mining Supervisor to join our cohesive overburden and coal mining team at South Walker Creek Mine.",
+      "The primary function is to manage a Production Crew’s mining methods, equipment usage and labour competence to ensure a safe and efficient operating environment is maintained to support the delivery of performance targets.",
+      "Key aspects of this role include:",
+      "Conduct shift handovers, prestart, and toolbox meetings with efficiency.",
+      "Guide your team to execute the production plan safely and effectively",
+      "Provide valuable technical guidance to your team members, sharing your expertise and boosting their capabilities.",
+      "Collaborate with Maintenance Supervisors to implement maintenance plans for the shift.",
+      "Generate accurate and timely shift reports.",
+      "Perform inspections and job observations as part of your responsibilities.",
+      "Required Skills & Experience",
+      "In order to be successful in this role, it is essential that candidates have:",
+      "RIIRIS301A – Apply Risk Management Processes",
+      "RIIOHS301A – Conduct Safety & Health Investigations",
+      "RIICOM301A – Communicate Information",
+      "RIIRIS402A – Implement & Maintain Risk Management Processes",
+      "Senior First Aid Certificate",
+      "Generic Surface Induction.",
+      "Current open drivers licence",
+      "Working knowledge of the Coal Mining Safety & Health Act and associated regulations and how they pertain to individual and supervisor obligations",
+      "Previous experience in the supervision of staff within an Open Cut mining environment",
+      "Operating skills on a wide range of Mining equipment",
+      "Benefits of the position",
+      "Contract at South Walker Creek awarded for another 5 years starting 2026",
+      "7:7 Even time roster",
+      "All accommodation & full meals provided",
+      "Employee assistance program  - for you and your family",
+      "Why Join Golding:",
+      "Employee-Centric Success: Our success is driven by the diverse talents and initiatives of our employees.",
+      "Core Values: We operate with integrity and honesty, guided by our core values.",
+      "Commitment to Excellence: We prioritize safety, respect for the environment, and quality assurance in all our operations.",
+      "Embark on a fulfilling career journey with Golding by applying online below.",
+      "We are proud to be an equal opportunity employer, fostering a diverse and inclusive workplace.",
+      "South Walker Creek"
     ],
     "Golding OCE Kogan.docx": [
       "Mining Supervisor - job post",
@@ -3922,6 +4152,39 @@
       "Ability to work independently and as part of a team with a strong passion for safety.",
       "Effective communication skills and ability to follow instructions accurately.",
       "Valid driver's licence"
+    ],
+    "Metro Mining.docx": [
+      "Production Supervisor - Mining",
+      "Metro Mining Limited",
+      "Cairns, Cairns & Far North QLD",
+      "Mining - Operations",
+      "Metro Mining Limited  is an Australian mining company based in Brisbane. Metro’s flagship project, the Bauxite Hills Operation, located 95km north of Weipa, is one of the largest independent projects within the internationally acclaimed Weipa Bauxite Region.",
+      "At Metro Mining, we are focused on working together to create sustainable value for all people, including communities and stakeholders. We are a safe and supportive community, working together to provide opportunities for sustainable benefits to Cape York.",
+      "Metro is committed to providing a workplace where everyone works together as a community, with a role to play. Our culture supports us in delivering high-performance, high-quality, and safe outcomes, where our team is empowered to do their best work, share ideas, and continue to grow.",
+      "The Production Supervisor is responsible in overseeing on-site production and mine services activities. This role will be responsible for aligning operations with the mine plan, achieving production and rehabilitation targets, and prioritising safety as the paramount consideration in all activities.",
+      "Key Responsibilities",
+      "Supervise and coordinate daily mining activities to meet production targets and quality standards.",
+      "Ensure adherence to safety protocols, environmental regulations, and operational procedures.",
+      "Provide leadership and guidance to a team of operators and labourers, promoting a positive work environment and high performance.",
+      "Monitor equipment performance and maintenance schedules to minimise downtime and optimise productivity.",
+      "Collaborate with management and other departments to address operational challenges, implement process improvements, and achieve operational excellence.",
+      "Maintain accurate records of production activities, equipment usage, and safety incidents.",
+      "Conduct regular performance evaluations and provide feedback to team members to support their professional development.",
+      "Demonstrating a high standard of technical knowledge and leadership when dealing with employees, client representatives, contractors, and relevant stakeholders.",
+      "To be considered for this role, you will have the following qualifications/registrations, skills and experience:",
+      "Relevant surface mining qualification or equivalent experience and knowledge.",
+      "Cert IV Training & Assessment highly regarded",
+      "S1, S2 & S3  competencies required",
+      "RII Certificates in Articulated Dump Trucks, Dozer, Excavator, Grader",
+      "Minimum 5 years’ previous experience in a similar role/industry",
+      "Intermediate to advanced Microsoft Office skills",
+      "Proven work history in a mining operation with experience operating mobile mining plant",
+      "Strong knowledge of safety regulations, environmental standards, and best practices in mining operations.",
+      "Well-developed leadership skills to effectively guide and support a crew of skilled operators in order to maintain a highly productive crew",
+      "Ability to build positive relationships with your team and develop good team morale and engagement",
+      "Effective problem-solving skills, clear verbal communication skills and the ability to handle competing demands",
+      "Proven problem-solving abilities and the capacity to make informed decisions under pressure",
+      "This role is a 15:13 FIFO roster arrangement and applicants must reside in Bamaga, Mapoon, Weipa, or Cairns. Applicants located in other areas/states must be willing to self-relocate, and state this on their resume."
     ],
     "Mining_Operator_The_Thiess.docx": [
       "\\$137,501.75 - \\$172,437.25 exc. super",
@@ -5464,7 +5727,7 @@
     }
   ],
   "meta": {
-    "total_files": 72,
-    "total_processed": 72
+    "total_files": 76,
+    "total_processed": 76
   }
 }
