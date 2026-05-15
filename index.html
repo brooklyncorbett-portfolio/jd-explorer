@@ -509,11 +509,13 @@ function renderBrowse(){
 // ─── TAB 2: SUPERVISOR TYPES ───
 function renderTypes(){
   const el=document.getElementById("typesTab");const types=[...new Set(DATA.map(j=>j.type))];
-  const inT=types.filter(t=>!["Operator (not supervisor)","Superintendent (above supervisor)"].includes(t));
-  const flagT=types.filter(t=>["Operator (not supervisor)","Superintendent (above supervisor)"].includes(t));
+  // A type is "out of scope" only if every JD of that type has an out-of-scope flag.
+  // Types with at least one in-scope JD are shown as in-scope (individual JDs still flagged via their cards).
+  const inT=types.filter(t=>DATA.some(j=>j.type===t&&!j.flag));
+  const flagT=types.filter(t=>!DATA.some(j=>j.type===t&&!j.flag));
   el.innerHTML=`<p class="intro">The different supervisor types found across all ${DATA.length} job descriptions. Click any card to expand it.</p>
   ${[...inT,...flagT].map(type=>{const info=TYPE_INFO[type]||{desc:""};const jds=DATA.filter(j=>j.type===type);
-    const isF=flagT.includes(type)||type==="Site Services Supervisor";const secs=[...new Set(jds.map(j=>j.sector))];
+    const isF=flagT.includes(type);const secs=[...new Set(jds.map(j=>j.sector))];
     return `<div class="type-card" ${isF?'style="opacity:.55;border-style:dashed"':""}>
       <div style="display:flex;align-items:flex-start;gap:10px;margin-bottom:8px">
         <div style="flex:1"><h3>${esc(type)}${isF?' <span style="font-size:11px;color:var(--red)">(out of scope)</span>':""}</h3><div style="font-size:12px;color:var(--t2);margin-top:2px">${esc(info.desc)}</div></div>
