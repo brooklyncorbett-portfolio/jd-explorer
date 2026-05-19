@@ -562,7 +562,7 @@ function renderQuals(){
   // Build rows using coded data
   const rowsHtml=codeList.map(({code,n})=>{
     const matches=jdsWithCode(code, freqScope);
-    const evidence=matches.map(j=>evidenceForCode(j,code));
+    const evidence=matches.map(j=>{const e=evidenceForCode(j,code);return e?[e]:[]});
     const label=(typeof CODE_LABELS!=='undefined'&&CODE_LABELS[code])?`${code} \u2014 ${CODE_LABELS[code]}`:code;
     qualData.push({code, label, count:matches.length, jds:matches.map(j=>j.company).join("; ")});
     return evRowHtml("q_"+code, label, matches.length, freqScope.length, codeBarColor(matches.length, freqScope.length), matches, evidence, []);
@@ -630,7 +630,7 @@ function renderDuties(){
   const dutyData=[];
   const themesWithEv=codeList.map(({code,n})=>{
     const matches=jdsWithCode(code, scope);
-    const evidence=matches.map(j=>evidenceForCode(j,code));
+    const evidence=matches.map(j=>{const e=evidenceForCode(j,code);return e?[e]:[]});
     const label=(typeof CODE_LABELS!=='undefined'&&CODE_LABELS[code])?`${code} \u2014 ${CODE_LABELS[code]}`:code;
     dutyData.push({label, count:matches.length, jds:matches.map(j=>j.company).join("; ")});
     return {label, count:matches.length, color:codeBarColor(matches.length, scope.length), matches, evidence, terms:[]};
@@ -691,7 +691,7 @@ function renderExperience(){
   const eList=codesInCategory('EXPERIENCE', scope);
   const eRowsHtml=eList.map(({code,n})=>{
     const matches=jdsWithCode(code, scope);
-    const evidence=matches.map(j=>evidenceForCode(j,code));
+    const evidence=matches.map(j=>{const e=evidenceForCode(j,code);return e?[e]:[]});
     const label=(typeof CODE_LABELS!=='undefined'&&CODE_LABELS[code])?`${code} \u2014 ${CODE_LABELS[code]}`:code;
     return evRowHtml("e_"+code, label, matches.length, scope.length, codeBarColor(matches.length, scope.length), matches, evidence, []);
   }).join("");
