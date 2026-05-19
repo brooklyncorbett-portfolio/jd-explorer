@@ -610,8 +610,14 @@ function evidenceForCode(jd, code){
   return m?m.evidence:'';
 }
 function codesInCategory(category, scope){
+  // Count unique JDs per code (a JD with the same code applied twice counts once),
+  // matching the report's freq_*.csv files.
   const counts={};
-  scope.forEach(j=>{codesFor(j.filename,category).forEach(c=>{counts[c.code]=(counts[c.code]||0)+1});});
+  scope.forEach(j=>{
+    const seen=new Set();
+    codesFor(j.filename,category).forEach(c=>seen.add(c.code));
+    seen.forEach(code=>{counts[code]=(counts[code]||0)+1});
+  });
   return Object.entries(counts).sort((a,b)=>b[1]-a[1]).map(([code,n])=>({code,n}));
 }
 function codeBarColor(n, total){
