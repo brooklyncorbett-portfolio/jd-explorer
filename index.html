@@ -580,7 +580,7 @@ function renderQuals(){
     <div class="legend-item"><span class="hm-yes" style="font-size:14px">&#10003;</span> Mentioned in JD</div>
     <div class="legend-item"><span class="hm-no" style="font-size:10px">&bull;</span> Not mentioned</div></div>
   <div class="hm-wrap"><table class="hm-table">
-  <thead><tr><th>Role / Company</th>${qCodes.map(code=>`<th><div style="writing-mode:vertical-lr;transform:rotate(180deg);height:120px;white-space:nowrap;font-size:11px">${esc(code)}</div></th>`).join("")}<th>Total</th></tr></thead>
+  <thead><tr><th>Role / Company</th>${qCodes.map(code=>{const lbl=(typeof CODE_LABELS!=='undefined'&&CODE_LABELS[code])?`${code} — ${CODE_LABELS[code]}`:code;return `<th><div style="writing-mode:vertical-lr;transform:rotate(180deg);height:180px;white-space:nowrap;font-size:11px">${esc(lbl)}</div></th>`}).join("")}<th>Total</th></tr></thead>
   <tbody>${hmScope.map(j=>{const c=sc(j.sector);const tot=qCodes.filter(code=>hmMatrix[j.id][code]).length;
     return `<tr><td><div style="display:flex;align-items:center;gap:6px"><div style="width:3px;height:20px;border-radius:2px;background:${c.color};flex-shrink:0"></div><div><div style="font-weight:600;font-size:11px">${esc(j.company)}</div><div style="font-size:10px;color:var(--t3)">${esc(j.role)}</div></div></div></td>
     ${qCodes.map(code=>hmMatrix[j.id][code]?'<td><span class="hm-yes">&#10003;</span></td>':'<td><span class="hm-no">&bull;</span></td>').join("")}<td style="font-family:'JetBrains Mono',monospace;font-weight:600;text-align:center">${tot}</td></tr>`}).join("")}
@@ -812,6 +812,11 @@ function renderGaps(){
       <div class="gap-body">
         <div class="gap-leg"><strong>Legislative basis:</strong> ${esc(g.legislative)}</div>
         <div class="gap-note">${esc(g.note)}</div>
+        ${(g.coded_cross_check&&g.coded_cross_check.length)?`<div style="background:var(--card-alt,rgba(81,36,122,0.05));border:1px solid var(--purple,#51247A);border-radius:6px;padding:8px 10px;margin-bottom:10px;font-size:12px;line-height:1.5">
+          <div style="font-weight:600;color:var(--purple,#51247A);margin-bottom:4px">Manual-coding cross-check</div>
+          ${g.coded_cross_check.map(cc=>{const n=jdsWithCode(cc.code, scope).length;const pct=Math.round(n/scope.length*100);
+            return `<div style="margin-bottom:2px"><strong>${esc(cc.code)}</strong> — ${esc(cc.label)}: <strong>${n}/${scope.length}</strong> (${pct}%). <span style="color:var(--t3)">${esc(cc.what)}</span></div>`}).join("")}
+        </div>`:""}
         ${g.count>0?`<div style="font-size:11px;font-weight:600;color:var(--t3);margin-bottom:6px">JDs that mention this (${g.count}):</div>
           ${g.matches.map((j,i)=>{const c=sc(j.sector);const lines=g.evidence[i]||[];
             const tkey='et_'+(_evTermsIdx++);_evTermsMap[tkey]={jdId:j.id,terms:g.terms};

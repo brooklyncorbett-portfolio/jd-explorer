@@ -3,54 +3,70 @@
     "area": "Psychosocial hazard management",
     "legislative": "CMSHA s62(5)(e), MQSHA s55(5)(e) — SHMS must address psychosocial hazards. FSO developing Safe and Respectful Workplaces UoC.",
     "terms": ["psychosocial", "mental health", "bullying", "harassment", "wellbeing", "well-being", "fatigue", "stress", "respectful"],
-    "note": "Almost never mentioned in JDs despite increasing legislative focus. Key gap for training needs analysis."
+    "note": "Almost never mentioned in JDs despite increasing legislative focus. Key gap for training needs analysis.",
+    "coded_cross_check": []
   },
   {
     "area": "Critical control management",
     "legislative": "CMSHA s30(2)(d), Schedule 3; MQSHA s27(3)(d), Schedule 2 — SSE must provide for critical controls for material unwanted events.",
     "terms": ["critical control", "material unwanted event", "mue", "bow-tie", "critical risk"],
-    "note": "Rarely mentioned explicitly in JDs. AUSMASA currently reviewing training products for this area."
+    "note": "Rarely mentioned explicitly in JDs. AUSMASA currently reviewing training products for this area.",
+    "coded_cross_check": [{"code": "K6", "label": "Risk management methodology (knowledge)", "what": "Closest analogue in the manual coding."}]
   },
   {
     "area": "Emergency response",
     "legislative": "Part of SHMS requirements under both Acts. Supervisors expected to manage emergency situations on shift.",
     "terms": ["emergency response", "emergency procedure", "emergency management", "emergency readiness", "emergency plan", "evacuation"],
-    "note": "Supervisors are often the first responders on shift. Under-represented in JD responsibilities."
+    "note": "Supervisors are often the first responders on shift. Under-represented in JD responsibilities.",
+    "coded_cross_check": []
   },
   {
     "area": "Formal legislation knowledge",
     "legislative": "CMSHA Part 11; MQSHR s93 — Workers must be trained in relevant legislation. Supervisors must understand their statutory obligations.",
     "terms": ["coal mining safety and health act", "mining and quarrying safety", "mqsha", "cmsha", "statutory obligation", "legislative requirement", "acts and regulation"],
-    "note": "JDs often say 'knowledge of legislation' generically. Few specify which Acts or the depth of knowledge expected."
+    "note": "JDs often say 'knowledge of legislation' generically. Few specify which Acts or the depth of knowledge expected.",
+    "coded_cross_check": [
+      {"code": "K1", "label": "QLD CMSHA / Mine Safety Act knowledge", "what": "Manual-coded knowledge of the coal Act."},
+      {"code": "K2", "label": "QMSHA / Quarry Act knowledge", "what": "Manual-coded knowledge of the minerals/quarry Act."}
+    ]
   },
   {
     "area": "Safety and health investigations",
     "legislative": "RIIWHS301E is a required competency for supervisors (CMSHAC/MSHAC). CMSHA, MQSHA — investigations are part of SHMS.",
     "terms": ["investigation", "investigate", "riiwhs301", "safety and health investigation"],
-    "note": "Mentioned in some JDs but often at a high level. This is a formal competency requirement."
+    "note": "Mentioned in some JDs but often at a high level. This is a formal competency requirement.",
+    "coded_cross_check": [{"code": "D13", "label": "Incident investigation & root cause analysis", "what": "Manual-coded duty count for investigations."}]
   },
   {
     "area": "Risk management processes",
     "legislative": "RIIRIS301E is a required competency. Both Acts define competence as demonstrated skill and knowledge for safety.",
     "terms": ["risk management process", "riiris301", "risk assessment process", "formal risk", "systematic risk"],
-    "note": "JDs mention 'risk management' generally but rarely reference the formal competency unit or process."
+    "note": "JDs mention 'risk management' generally but rarely reference the formal competency unit or process.",
+    "coded_cross_check": [{"code": "K6", "label": "Risk management methodology (knowledge)", "what": "Manual-coded knowledge of a formal risk-management methodology."}]
   },
   {
-    "area": "Communication competency",
-    "legislative": "RIICOM301E is a required competency for supervisors (CMSHAC/MSHAC).",
+    "area": "Formal communication unit (RIICOM301E)",
+    "legislative": "RIICOM301E is a required competency for supervisors under the CMSHAC/MSHAC competency frameworks.",
     "terms": ["riicom301", "communicate information", "communication competenc"],
-    "note": "Communication is listed as a skill in most JDs but rarely linked to the formal competency unit."
+    "note": "Communication is widely listed as a desired skill — DP2 ('strong communicator') appears in roughly half of JDs — but it is rarely linked to the formal RIICOM301E competency unit. The gap is in formal unit-level training, not in the underlying expectation.",
+    "coded_cross_check": [{"code": "DP2", "label": "Strong communicator (disposition)", "what": "How many JDs name communication as a desired attribute (any wording)."}]
   },
   {
-    "area": "Leadership & management capability",
-    "legislative": "Brady Review Recommendations 2 and 4. Safety Reporting Survey findings on leadership skills.",
+    "area": "Formal leadership training / credentials",
+    "legislative": "Brady Review Recommendations 2 and 4. Safety Reporting Survey findings on leadership skills. CMSHAC/MSHAC name TAE40110 (Cert IV TAE) for trainers and various Frontline Management qualifications.",
     "terms": ["leadership training", "leadership development", "leadership capability", "management training", "leadership program", "leadership course"],
-    "note": "JDs expect leadership skills but rarely require formal leadership training or qualifications."
+    "note": "JDs widely expect leadership behaviours — D2 ('Coach, mentor, develop team capability') appears in over half of JDs — but rarely require formal leadership credentials such as a Frontline Management certificate or Cert IV TAE. The gap is in formal training/credentials, not in the leadership duty itself.",
+    "coded_cross_check": [
+      {"code": "D2", "label": "Coach, mentor, develop team capability (duty)", "what": "How many JDs name developing the team as a duty."},
+      {"code": "Q18", "label": "Cert IV TAE (TAE40110)", "what": "How many JDs name the formal training qualification."},
+      {"code": "Q19", "label": "Frontline Management certificate", "what": "How many JDs name a Frontline Management qualification."}
+    ]
   },
   {
     "area": "Supervising workers (regulatory duties)",
     "legislative": "CMSR Part 11A; MQSHR s95A, s96 — Specific regulatory duties for supervisors including checking work quality, providing time and resources.",
     "terms": ["checking work quality", "check work quality", "time and resources", "supervising workers regulation", "s95a", "s96", "part 11a"],
-    "note": "Regulatory supervisor duties are rarely reflected in JD responsibilities despite being legislated."
+    "note": "Regulatory supervisor duties are rarely reflected in JD responsibilities despite being legislated.",
+    "coded_cross_check": []
   }
 ]
