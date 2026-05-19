@@ -1,0 +1,308 @@
+---
+title: "QLD Mining Supervisor"
+subtitle: "Job Description Analysis: content analysis of 57 job descriptions across coal, minerals and quarry sectors"
+author: "Brooklyn Corbett"
+date: today
+format:
+  docx:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    reference-doc: ../templates/uq_reference.docx
+  pdf:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    geometry: margin=1in
+execute:
+  echo: false
+  warning: false
+---
+
+# Executive summary
+
+This analysis examined the content of **57 job descriptions** for frontline supervisor roles in Queensland mining, quarrying and related operations. Each JD was systematically coded against a project-specific codebook of **87 codes across 6 categories**: duties performed, personal dispositions, formal qualifications, domain knowledge, prior experience, and named statutory positions.
+
+**Headline observations:**
+
+- The most-named single expectation in the corpus is supervisory experience (E1), which appears in 43 of 57 JDs (75%).
+- The three most-named duties are: supervise and lead crews/contractors (D1) in 34 JDs (60%), promote and uphold safety culture (D6) in 30 JDs (53%), and coach, mentor and develop team capability (D2) in 28 JDs (49%).
+- The most-named disposition is strong communicator (DP2), appearing in 31 JDs (54%).
+- The most-named formal qualification is a driver's licence (Q11), appearing in 18 JDs (31%); the next most common are trade qualification (Q9) in 17 JDs (29%) and Standard 11 (Q1) in 12 JDs (20%).
+- 51 of 57 JDs (89%) contain at least one of the four safety-related codes (D4, D5, D6, DP1).
+- Statutory positions are explicitly named in only 4 of 57 JDs: Open Cut Examiner (2 JDs), Statutory Underground Shift Supervisor (1 JD), and Shotfirer (1 JD). The remaining 53 JDs require statutory tickets without explicitly being statutory positions.
+
+# Sample description
+
+## Corpus
+
+```{python}
+#| label: tbl-sample
+#| tbl-cap: "Sample of in-scope JDs by sector"
+from IPython.display import Markdown
+import pandas as pd
+df = pd.read_csv('../coded_data/coded_jds.csv')
+sample = df.drop_duplicates('jd_filename')
+by_sector = sample.groupby('sector').size().reset_index(name='n')
+by_sector['% of sample'] = (by_sector.n / by_sector.n.sum() * 100).round(1)
+Markdown(by_sector.to_markdown(index=False))
+```
+
+## Role types
+
+```{python}
+#| label: tbl-roletypes
+#| tbl-cap: "Sample of in-scope JDs by role type"
+from IPython.display import Markdown
+by_role = sample.groupby('role_type').size().sort_values(ascending=False).reset_index(name='n')
+by_role['% of sample'] = (by_role.n / by_role.n.sum() * 100).round(1)
+Markdown(by_role.to_markdown(index=False))
+```
+
+## Scope criteria
+
+JDs were included if all four criteria were met:
+
+- **Supervisor-level**: frontline supervisor role (not operator, leading hand, superintendent or manager). One exception was retained at Libby's direction: `MacKellar Leading hand.docx`, where the title is "Leading Hand" but the body describes a supervisory role.
+- **Queensland-based**: interstate roles excluded.
+- **Mining, quarrying or related contractor work**: manufacturing or unrelated industries excluded.
+- **A genuine job ad**: generic recruiter listings and reference or example documents excluded.
+
+A separate collation spreadsheet (`all-jds-archive/JD Collation.xlsx`) documents the full corpus of 97 source files, including 23 duplicate scrapes, 16 out-of-scope JDs, 2 broken files, and the 57 in-scope canonical JDs that contribute to this analysis.
+
+# Methodology
+
+## Coding scheme
+
+JDs were coded against **codebook v1.0** (see Appendix A), comprising 87 codes organised into six categories:
+
+| Category | Codes | Definition |
+|---|---|---|
+| DUTY | 18 | A discrete task the supervisor performs |
+| DISPOSITION | 16 | A personal attribute or behavioural trait |
+| QUALIFICATIONS | 20 | A formal credential, ticket, license or trade |
+| KNOWLEDGE | 10 | A specific body of domain knowledge |
+| EXPERIENCE | 14 | A statement of required prior work background |
+| STATUTORY POSITION | 9 | A named statutory role the JD appoints to |
+
+The boundaries between categories are clarified through test questions: *what does the supervisor DO* (duty); *what kind of person are they* (disposition); *what do they HOLD* (qualification); *what do they KNOW* (knowledge); *what have they DONE* (experience); *what legal ROLE are they being appointed to* (statutory position). A single sentence can produce multiple coded rows where it spans more than one category.
+
+## The `required` flag
+
+Each coded instance carries a flag indicating how the JD treats it:
+
+- `required`: explicit "must have", "essential" or "required" language.
+- `desirable`: explicit "desirable", "preferred" or "advantageous" language.
+- `not_specified`: mentioned without explicit required or desirable framing.
+
+## Coding workflow
+
+For each JD, both the curated metadata fields (from the project's `data.json`) and the full source text were read. Each codable phrase was tagged with category, code, supporting quote, required flag, and confidence rating.
+
+Output format: long-format CSV with one row per `(jd_filename, category, code, evidence_quote)` instance, plus contextual fields (sector, role type, required flag, confidence).
+
+## Limitations
+
+- **Single coder.** All 57 JDs were coded by a single analyst with LLM assistance, audited manually. Inter-coder reliability is not established.
+- **Conservative `required` coding.** The flag was applied only where JDs used explicit "must" or "essential" language. Items listed under a "Requirements" heading without those markers were coded `not_specified`. Frequencies of `required` items therefore represent a floor, not the true rate.
+- **Source text quality varies.** Some JDs preserved only their Qualifications section in extracted text; others provided a formal Position Description. The depth of coding per JD partially reflects source completeness.
+- **Coal Surface heavy.** 29 of 57 JDs (51%) are Coal Surface roles. Cross-sector comparisons should be read with the underlying sample sizes in mind.
+
+# Duties
+
+```{python}
+#| label: tbl-duty
+#| tbl-cap: "Duties: frequency across all 57 JDs"
+from IPython.display import Markdown
+freq = pd.read_csv('../coded_data/freq_duty.csv').sort_values('n_jds', ascending=False)
+Markdown(freq.to_markdown(index=False))
+```
+
+![Top 12 duties across 57 JDs](../figures/top_duty.png){#fig-duty width=85%}
+
+**Observations:**
+
+- The four most-named duties are D1 (supervise and lead crews/contractors, 34 JDs, 60%), D6 (promote and uphold safety culture, 30 JDs, 53%), D2 (coach, mentor and develop team capability, 28 JDs, 49%), and D5 (ensure statutory compliance, 27 JDs, 47%).
+- Three duties are tied at 22 JDs (39%): D7 (oversee daily operations), D10 (drive continuous improvement), and D12 (reporting, budgets and administration).
+- The least-named duties are D13 (incident investigation, 5 JDs, 9%) and D14 (permits, isolations and high-risk activity management, 3 JDs, 5%).
+- D17 (training delivery and competency assurance) is named in 6 JDs (10%): one Coal Surface (Supervisor Blast Crew Goonyella), one Coal Underground (Development Supervisor BHP/BMA), two Minerals Surface (Glencore 2, Thiess Mining), and two Quarry (Boral Narangba, BQC).
+- D13 (incident investigation) is named in 5 JDs: three Coal Surface (BHP Lead Supervisor Shutdown, Thiess Maintenance Mackay, BHP) and two Minerals Surface (Macmahon, Thiess Mining).
+
+![Duties by sector (% of JDs in each sector)](../figures/heatmap_duty.png){#fig-duty-sector width=90%}
+
+# Dispositions
+
+```{python}
+#| label: tbl-disposition
+#| tbl-cap: "Dispositions: frequency across all 57 JDs"
+from IPython.display import Markdown
+freq = pd.read_csv('../coded_data/freq_disposition.csv').sort_values('n_jds', ascending=False)
+Markdown(freq.to_markdown(index=False))
+```
+
+![Top dispositions across 57 JDs](../figures/top_disposition.png){#fig-disposition width=85%}
+
+**Observations:**
+
+- DP2 (strong communicator) appears in 31 JDs (54%), the highest count in this category.
+- DP1 (safety-focused) appears in 21 JDs (37%).
+- DP14 (relationship-building or stakeholder management) appears in 13 JDs (22%) and DP6 (problem-solver or analytical) in 12 JDs (21%).
+- DP9 (coaching or mentoring orientation as a trait) appears in 2 JDs (3%). D2 (coach, mentor and develop) as a duty appears in 29 JDs (49%). JDs more often frame mentoring as an action than as a trait.
+- DP16 (inclusive leadership) appears in 1 JD (Goonyella Blast Crew Supervisor BMA).
+
+![Dispositions by sector (% of JDs in each sector)](../figures/heatmap_disposition.png){#fig-disposition-sector width=90%}
+
+# Qualifications
+
+```{python}
+#| label: tbl-qualifications
+#| tbl-cap: "Qualifications: frequency across all 57 JDs"
+from IPython.display import Markdown
+freq = pd.read_csv('../coded_data/freq_qualifications.csv').sort_values('n_jds', ascending=False)
+Markdown(freq.to_markdown(index=False))
+```
+
+![Top qualifications across 57 JDs](../figures/top_qualifications.png){#fig-qualifications width=85%}
+
+**Observations:**
+
+- Driver's licence (Q11) appears in 18 JDs (32%), the most-named formal credential in the corpus.
+- Trade qualification (Q9) appears in 17 JDs (30%).
+- Standard 11 (Q1) appears in 11 JDs (19%) and the Coal Surface statutory ticket set S1/S2/S3/G2 (Q2) in 12 JDs (21%).
+- Coal Underground supervisor competencies (Q3, G1/G8/G9 with G2) appear in 8 JDs (14%).
+- Minerals and Quarry supervisor competencies QMS123/G189 (Q5) appear in 6 JDs (10%).
+- Open Cut Examiner (Q4) is explicitly named in 3 JDs (5%): Foxleigh Mine, Golding OCE Kogan, and Anglo Production Supervisor Dawson (listed as desirable).
+- High Risk Work Licences (Q12) appear in 4 JDs (7%); Cert IV in Training and Assessment (Q18) in 3 JDs (5%); MSIC (Q14), Generic Site Induction (Q16) and Engineering tertiary (Q10) each in 2-3 JDs.
+- Niche credentials each appearing in 1 JD: White Card (Q13), Explosives Security Clearance (Q15), Shotfirer accreditation (Q20), and Frontline Management certification (Q19).
+
+![Qualifications by sector (% of JDs in each sector)](../figures/heatmap_qualifications.png){#fig-qualifications-sector width=90%}
+
+# Knowledge
+
+```{python}
+#| label: tbl-knowledge
+#| tbl-cap: "Knowledge codes: frequency across all 57 JDs"
+from IPython.display import Markdown
+freq = pd.read_csv('../coded_data/freq_knowledge.csv').sort_values('n_jds', ascending=False)
+Markdown(freq.to_markdown(index=False))
+```
+
+![Top knowledge codes across 57 JDs](../figures/top_knowledge.png){#fig-knowledge width=85%}
+
+**Observations:**
+
+- K5 (operational systems or software knowledge) appears in 19 JDs (33%), the most-named knowledge code. Specific systems named across the corpus include Microsoft Office, SAP, PRONTO, INX, Ellipse, CMMS, and Microsoft Project.
+- K4 (equipment or plant knowledge) appears in 12 JDs (21%).
+- K1 (QLD CMSHA legislative knowledge) appears in 8 JDs (14%) and K8 (sector-specific technical knowledge) in 7 JDs (12%).
+- K6 (risk management methodology) appears in 6 JDs (10%).
+- K7 (continuous improvement methodology such as LEAN) appears in 2 JDs (3%): both Boral Quarry sites.
+
+![Knowledge codes by sector (% of JDs in each sector)](../figures/heatmap_knowledge.png){#fig-knowledge-sector width=90%}
+
+# Experience
+
+```{python}
+#| label: tbl-experience
+#| tbl-cap: "Experience codes: frequency across all 57 JDs"
+from IPython.display import Markdown
+freq = pd.read_csv('../coded_data/freq_experience.csv').sort_values('n_jds', ascending=False)
+Markdown(freq.to_markdown(index=False))
+```
+
+![Top experience codes across 57 JDs](../figures/top_experience.png){#fig-experience width=85%}
+
+**Observations:**
+
+- E1 (years of supervisory experience) appears in 43 JDs (75%), the highest count of any code in the corpus. Quantified expectations range from 2 to 10 years, with 5 years a common minimum.
+- E7 (equipment or operational specialism) appears in 17 JDs (29%).
+- E2 (years of operational or production experience) appears in 17 JDs (29%).
+- E3 (Coal Surface sector experience) appears in 16 JDs (28%); E11 (commodity or process specialism) also in 16 JDs (28%).
+- E5 (hard rock or minerals experience) appears in 10 JDs (17%).
+- E9 (project delivery or shutdown experience) appears in 4 JDs (7%): BHP Lead Supervisor Shutdown, LMP Project, Projects Crew Supervisor, and South32 Cannington Mechanical Supervisor.
+
+![Experience codes by sector (% of JDs in each sector)](../figures/heatmap_experience.png){#fig-experience-sector width=90%}
+
+# Statutory positions
+
+```{python}
+#| label: tbl-statutory
+#| tbl-cap: "Statutory positions explicitly named in the JD"
+from IPython.display import Markdown
+freq = pd.read_csv('../coded_data/freq_statutory_position.csv').sort_values('n_jds', ascending=False)
+Markdown(freq.to_markdown(index=False))
+```
+
+**Observations:**
+
+4 of 57 JDs (7%) explicitly appoint to a named statutory position:
+
+- Foxleigh Mine (Mining Supervisor / OCE): appoints to **OCE (SP2)**.
+- Golding OCE Kogan (Mining Supervisor, OCE Qualified): appoints to **OCE (SP2)**.
+- Brightstar Resources (Shift Supervisor): appoints to **Statutory Underground Shift Supervisor (SP8)**.
+- Supervisor Blast Crew Goonyella Mine BMA: appoints to **Shotfirer (SP9)**.
+
+The remaining 54 JDs (93%) require statutory tickets (coded under Qualifications) without explicitly appointing the holder to a named statutory position.
+
+# Cross-cutting observations
+
+## Safety language coverage
+
+51 of 57 JDs (89%) contain at least one of the four safety-related codes: D4 (safety leadership activities), D5 (statutory compliance), D6 (promote safety culture), or DP1 (safety-focused disposition). The 6 JDs without any of these safety codes are mostly thin source files where extracted text was limited.
+
+## The most-named codes by category
+
+The following table summarises the single most-named code in each category, with the percentage of JDs in which it appears.
+
+```{python}
+#| label: tbl-toponly
+#| tbl-cap: "Most-named code per category"
+from IPython.display import Markdown
+import pandas as pd
+df = pd.read_csv('../coded_data/coded_jds.csv')
+n = df.jd_filename.nunique()
+tops = []
+for cat in ['DUTY','DISPOSITION','QUALIFICATIONS','KNOWLEDGE','EXPERIENCE','STATUTORY_POSITION']:
+    sub = df[df.category==cat]
+    cnt = sub.groupby('code')['jd_filename'].nunique().sort_values(ascending=False)
+    if len(cnt) > 0:
+        top_code = cnt.index[0]
+        top_n = cnt.iloc[0]
+        tops.append({'Category':cat, 'Top code':top_code, 'n JDs':top_n, '% of JDs':round(top_n/n*100,1)})
+Markdown(pd.DataFrame(tops).to_markdown(index=False))
+```
+
+## Codes with sparse coverage
+
+Codes appearing in 3 or fewer JDs across the corpus:
+
+- DP9 (coaching/mentoring orientation as trait): 2 JDs
+- DP16 (inclusive leadership): 1 JD
+- DP4 (results-oriented): 2 JDs
+- K7 (continuous improvement methodology): 2 JDs
+- K3 (electrical legislation knowledge): 1 JD
+- K10 (product specifications): 1 JD
+- E12 (equipment brand specialism): 1 JD
+- E14 (multi-shift roster experience): 1 JD
+- Q13 (White Card): 1 JD
+- Q15 (Explosives Security Clearance): 1 JD
+- Q19 (Frontline Management certification): 1 JD
+- Q20 (Shotfirer accreditation): 1 JD
+- SP8 (Statutory UG Shift Supervisor): 1 JD
+- SP9 (Shotfirer position): 1 JD
+
+These codes are retained in the codebook for completeness but should be treated as illustrative rather than typical.
+
+# Appendix A: Codebook v1.0 (summary)
+
+The full codebook is available at `analysis/codebook/codebook_v1.0.md`. The 87 codes are organised as follows:
+
+- **Duties (18):** leadership and people management (D1 to D3), safety and compliance (D4 to D6), operations and production (D7 to D9), strategy and admin (D10 to D12), specialised functions (D13 to D18).
+- **Dispositions (16):** DP1 to DP16, ordered roughly by frequency in the corpus.
+- **Qualifications (20):** statutory tickets (Q1 to Q5), medical and first aid (Q6 to Q7), training and certifications (Q8 to Q10), licences and clearances (Q11 to Q15), site and equipment (Q16 to Q17), leadership credentials (Q18 to Q20).
+- **Knowledge (10):** legislative (K1 to K3), equipment and systems (K4 to K5), methodology (K6 to K7), domain-specific (K8 to K10).
+- **Experience (14):** quantified background (E1 to E2), sector experience (E3 to E6), context (E7 to E14).
+- **Statutory positions (9):** CMSHA-defined (SP1 to SP5), QMSHA-defined and other (SP6 to SP9).
+
+# Appendix B: Coding sheet
+
+The full coding sheet is available at `analysis/coded_data/coded_jds.csv`. Each row is one `(JD, category, code, evidence)` instance with sector, role type, required flag, and confidence. Total: 812 rows across 57 JDs.

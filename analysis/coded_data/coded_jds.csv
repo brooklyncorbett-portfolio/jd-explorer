@@ -1,0 +1,790 @@
+jd_filename,sector,role_type,category,code,evidence_quote,required,confidence
+Anglo Dragline.docx,Coal - Surface,Production Supervisor,DUTY,D9,"Coordinate personnel, equipment and resources for Dragline operations",not_specified,high
+Anglo Dragline.docx,Coal - Surface,Production Supervisor,DUTY,D6,Ensure safe and cost-effective execution of dragline activities,not_specified,high
+Anglo Dragline.docx,Coal - Surface,Production Supervisor,DUTY,D5,Enforce mine plan compliance and operational standards,not_specified,high
+Anglo Dragline.docx,Coal - Surface,Production Supervisor,DUTY,D5,Ensure statutory compliance and adherence to safety systems,not_specified,high
+Anglo Dragline.docx,Coal - Surface,Production Supervisor,DUTY,D10,Drive continuous improvement in dragline productivity and safety performance,not_specified,high
+Anglo Dragline.docx,Coal - Surface,Production Supervisor,QUALIFICATIONS,Q2,S1/S2/S3 and G2 competencies (desirable),desirable,high
+Anglo Dragline.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E1,Supervisory experience in an open-cut coal mine,required,high
+Anglo Dragline.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E3,Significant coal mining experience,required,high
+Anglo Dragline.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E7,Operational dragline experience,desirable,high
+Anglo Dragline.docx,Coal - Surface,Production Supervisor,KNOWLEDGE,K4,Understanding of open cut mining equipment and techniques,required,high
+Anglo Dragline.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP2,exceptional communication and people skills,required,high
+Anglo Dragline.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP10,positive culture of continuous improvement,not_specified,high
+BHP Maintenance.docx,Coal - Surface,Maintenance Supervisor,DUTY,D1,Lead and support team to achieve operational targets safely and efficiently,not_specified,high
+BHP Maintenance.docx,Coal - Surface,Maintenance Supervisor,DUTY,D6,"Foster a positive and productive culture built on trust, respect, and accountability",not_specified,high
+BHP Maintenance.docx,Coal - Surface,Maintenance Supervisor,DUTY,D4,"Promote and uphold BHP's HSEC standards, including proactive hazard management",not_specified,high
+BHP Maintenance.docx,Coal - Surface,Maintenance Supervisor,DUTY,D10,"Identify and implement opportunities to improve performance, processes, and systems",not_specified,high
+BHP Maintenance.docx,Coal - Surface,Maintenance Supervisor,DUTY,D16,Collaborate cross-functionally to support continuous improvement and business outcomes,not_specified,high
+BHP Maintenance.docx,Coal - Surface,Maintenance Supervisor,DUTY,D8,Drive asset reliability and operational efficiency through effective maintenance strategies,not_specified,high
+BHP Maintenance.docx,Coal - Surface,Maintenance Supervisor,DUTY,D2,"Coach, mentor, and develop team members to reach their full potential",not_specified,high
+BHP Maintenance.docx,Coal - Surface,Maintenance Supervisor,DUTY,D12,"Utilise systems such as SAP to plan, manage, and report on operational performance",not_specified,high
+BHP Maintenance.docx,Coal - Surface,Maintenance Supervisor,QUALIFICATIONS,Q9,Trade qualification or relevant tertiary qualification,desirable,high
+BHP Maintenance.docx,Coal - Surface,Maintenance Supervisor,QUALIFICATIONS,Q10,tertiary qualification (highly desirable),desirable,high
+BHP Maintenance.docx,Coal - Surface,Maintenance Supervisor,EXPERIENCE,E1,"Demonstrated leadership experience in mining, maintenance, or heavy industry",required,high
+BHP Maintenance.docx,Coal - Surface,Maintenance Supervisor,EXPERIENCE,E10,"mining, maintenance, or heavy industry",required,high
+BHP Maintenance.docx,Coal - Surface,Maintenance Supervisor,KNOWLEDGE,K5,SAP proficiency,required,high
+BHP_lead_supervisor.docx,Coal - Surface,Shutdown / Projects Supervisor,DUTY,D1,"Lead and support supervisors and execution teams to deliver work safely, to plan and within schedule",not_specified,high
+BHP_lead_supervisor.docx,Coal - Surface,Shutdown / Projects Supervisor,DUTY,D11,"Manage work fronts by escalating safety, cost or schedule risks as required",not_specified,high
+BHP_lead_supervisor.docx,Coal - Surface,Shutdown / Projects Supervisor,DUTY,D18,Set and communicate 24-hour priorities aligned to shutdown and project objectives,not_specified,high
+BHP_lead_supervisor.docx,Coal - Surface,Shutdown / Projects Supervisor,DUTY,D11,"Manage emergent work, ensuring approvals are obtained and scope is captured in schedule",not_specified,high
+BHP_lead_supervisor.docx,Coal - Surface,Shutdown / Projects Supervisor,DUTY,D14,"Ensure work packs, permits and handovers are completed and signed off",not_specified,high
+BHP_lead_supervisor.docx,Coal - Surface,Shutdown / Projects Supervisor,DUTY,D5,"Ensure all work executed in accordance with BMA SHMS, permits and critical risk controls",not_specified,high
+BHP_lead_supervisor.docx,Coal - Surface,Shutdown / Projects Supervisor,DUTY,D14,"Supervise high risk activities including lifts and isolations, confirming task readiness",not_specified,high
+BHP_lead_supervisor.docx,Coal - Surface,Shutdown / Projects Supervisor,DUTY,D6,"Respond to injuries and incidents, support medical response and return to work processes",not_specified,high
+BHP_lead_supervisor.docx,Coal - Surface,Shutdown / Projects Supervisor,DUTY,D13,Support incident investigations and ensure corrective actions are identified and closed out,not_specified,high
+BHP_lead_supervisor.docx,Coal - Surface,Shutdown / Projects Supervisor,DUTY,D12,"Maintain safety documentation, registers and reporting requirements",not_specified,high
+BHP_lead_supervisor.docx,Coal - Surface,Shutdown / Projects Supervisor,DUTY,D18,"Support toolbox talks, shift handovers and operational briefings",not_specified,high
+BHP_lead_supervisor.docx,Coal - Surface,Shutdown / Projects Supervisor,DUTY,D10,"Identify and implement opportunities to improve safety, schedule efficiency and execution outcomes",not_specified,high
+BHP_lead_supervisor.docx,Coal - Surface,Shutdown / Projects Supervisor,DUTY,D13,Participate in root cause analysis and continuous improvement initiatives,not_specified,high
+BHP_lead_supervisor.docx,Coal - Surface,Shutdown / Projects Supervisor,DUTY,D13,Capture and communicate lessons learned during execution,not_specified,high
+BHP_lead_supervisor.docx,Coal - Surface,Shutdown / Projects Supervisor,EXPERIENCE,E1,"Experience supervising or coordinating work in construction, maintenance or heavy industry",required,high
+BHP_lead_supervisor.docx,Coal - Surface,Shutdown / Projects Supervisor,EXPERIENCE,E10,"construction, maintenance or heavy industry",required,high
+BHP_lead_supervisor.docx,Coal - Surface,Shutdown / Projects Supervisor,EXPERIENCE,E9,Exposure to shutdown or mining project environments,desirable,high
+BHP_lead_supervisor.docx,Coal - Surface,Shutdown / Projects Supervisor,DISPOSITION,DP2,"Strong leadership, organisational and communication skills",required,high
+BHP_lead_supervisor.docx,Coal - Surface,Shutdown / Projects Supervisor,DISPOSITION,DP1,Demonstrated commitment to mine site safety systems and field leadership,required,high
+BHP_lead_supervisor.docx,Coal - Surface,Shutdown / Projects Supervisor,QUALIFICATIONS,Q9,Trade qualification or Engineering background,desirable,high
+BHP_lead_supervisor.docx,Coal - Surface,Shutdown / Projects Supervisor,QUALIFICATIONS,Q10,Engineering background,desirable,high
+BHP_lead_supervisor.docx,Coal - Surface,Shutdown / Projects Supervisor,KNOWLEDGE,K5,"Proficiency in Microsoft Office (Excel, Word, Outlook; Project desirable)",required,high
+BHP_lead_supervisor.docx,Coal - Surface,Shutdown / Projects Supervisor,KNOWLEDGE,K9,"Understanding of scheduling and work management systems e.g. SAP, Project",desirable,high
+BUMA.docx,Coal - Surface,Production Supervisor,DUTY,D7,Oversee daily mine operations ensuring safe and efficient production in line with Mine Safety and Inspection requirements,not_specified,high
+BUMA.docx,Coal - Surface,Production Supervisor,DUTY,D5,full compliance with the Mine Safety and Inspection Act and Regulations,not_specified,high
+BUMA.docx,Coal - Surface,Production Supervisor,DUTY,D1,Lead and manage personnel and equipment to optimise production activities and meet operational targets,not_specified,high
+BUMA.docx,Coal - Surface,Production Supervisor,DUTY,D3,Effectively allocate tasks and manage workloads within the production team,not_specified,high
+BUMA.docx,Coal - Surface,Production Supervisor,DUTY,D6,fostering a strong safety culture and proactive risk management,not_specified,high
+BUMA.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E2,5+ years production experience in open-cut coal mining,required,high
+BUMA.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E1,2+ years supervisory experience in open-cut coal mining,required,high
+BUMA.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E3,open-cut coal mining,required,high
+BUMA.docx,Coal - Surface,Production Supervisor,KNOWLEDGE,K1,In-depth knowledge of QLD Coal Mining legislation,required,high
+BUMA.docx,Coal - Surface,Production Supervisor,QUALIFICATIONS,Q11,Current C Class Driver's Licence,required,high
+BUMA.docx,Coal - Surface,Production Supervisor,QUALIFICATIONS,Q2,"S1, S2, S3 and G2 Certificate",required,high
+BUMA.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP4,Proven ability to motivate teams and achieve business targets,required,high
+EPSA.docx,Coal - Surface,Maintenance Supervisor,DUTY,D4,"Ensure maintenance activities prioritise safety, through effective hazard identification and risk management",not_specified,high
+EPSA.docx,Coal - Surface,Maintenance Supervisor,DUTY,D12,Ensure work order feedback and closeouts are completed accurately to improve maintenance efficiencies,not_specified,high
+EPSA.docx,Coal - Surface,Maintenance Supervisor,DUTY,D1,Provide leadership to the workshop maintenance crews to achieve the maintenance plan,not_specified,high
+EPSA.docx,Coal - Surface,Maintenance Supervisor,DUTY,D6,Assist the Maintenance Manager & Superintendents in implementing safety plans,not_specified,high
+EPSA.docx,Coal - Surface,Maintenance Supervisor,DUTY,D8,Track maintenance performance and ensure operational issues are managed and communicated in a timely manner,not_specified,high
+EPSA.docx,Coal - Surface,Maintenance Supervisor,QUALIFICATIONS,Q1,Certificate Standard 11,required,high
+EPSA.docx,Coal - Surface,Maintenance Supervisor,QUALIFICATIONS,Q11,Current Australian Drivers Licence,required,high
+EPSA.docx,Coal - Surface,Maintenance Supervisor,QUALIFICATIONS,Q6,"Current Coal Board Medical, or willingness to complete",required,high
+EPSA.docx,Coal - Surface,Maintenance Supervisor,QUALIFICATIONS,Q7,First Aid Certificate,required,high
+EPSA.docx,Coal - Surface,Maintenance Supervisor,QUALIFICATIONS,Q3,"G1, G8, G9 and G2 tickets",required,high
+EPSA.docx,Coal - Surface,Maintenance Supervisor,QUALIFICATIONS,Q9,Australian trade qualified … mechanical or electrical discipline,required,high
+EPSA.docx,Coal - Surface,Maintenance Supervisor,EXPERIENCE,E1,Previous experience in supervisory roles,required,high
+EPSA.docx,Coal - Surface,Maintenance Supervisor,EXPERIENCE,E7,extensive experience in the maintenance of mining plant and equipment,required,high
+EPSA.docx,Coal - Surface,Maintenance Supervisor,EXPERIENCE,E1,Effective people management and development experience and skills,required,high
+EPSA.docx,Coal - Surface,Maintenance Supervisor,EXPERIENCE,E3,Experience working for a medium to large mine operator/contractor,required,high
+EPSA.docx,Coal - Surface,Maintenance Supervisor,DISPOSITION,DP1,Demonstrate positive safety leadership skills and safety behaviour,required,high
+EPSA.docx,Coal - Surface,Maintenance Supervisor,DISPOSITION,DP2,Well-developed verbal and written communication skills,required,high
+EPSA.docx,Coal - Surface,Maintenance Supervisor,KNOWLEDGE,K9,Work Planning and scheduling skills,required,high
+EPSA.docx,Coal - Surface,Maintenance Supervisor,KNOWLEDGE,K4,Strong knowledge of heavy mobile equipment maintenance,required,high
+Foxleigh Mine.docx,Coal - Surface,Mining Supervisor,DUTY,D2,Leading and mentoring a crew of operators to deliver the plan and build a positive caring culture,not_specified,high
+Foxleigh Mine.docx,Coal - Surface,Mining Supervisor,DUTY,D1,Leading and mentoring a crew of operators,not_specified,high
+Foxleigh Mine.docx,Coal - Surface,Mining Supervisor,DUTY,D5,Ensure compliance with all statutory requirements and company policies and procedures,not_specified,high
+Foxleigh Mine.docx,Coal - Surface,Mining Supervisor,DUTY,D6,Ensure the work area and mining activities are conducted in accordance with the sites safety and health system,not_specified,high
+Foxleigh Mine.docx,Coal - Surface,Mining Supervisor,QUALIFICATIONS,Q4,Open Cut Examiner qualifications,required,high
+Foxleigh Mine.docx,Coal - Surface,Mining Supervisor,STATUTORY_POSITION,SP2,Mining Supervisor / OCE … Open Cut Examiner qualifications,required,high
+Foxleigh Mine.docx,Coal - Surface,Mining Supervisor,EXPERIENCE,E1,Leadership experience within the mining environment,required,high
+Foxleigh Mine.docx,Coal - Surface,Mining Supervisor,EXPERIENCE,E7,Experience operating and/or supervising heavy earthmoving equipment,required,high
+Foxleigh Mine.docx,Coal - Surface,Mining Supervisor,DISPOSITION,DP2,Effective communicator,required,high
+Foxleigh Mine.docx,Coal - Surface,Mining Supervisor,DISPOSITION,DP3,genuinely cares about the people you work with,required,high
+Glencore.docx,Coal - Surface,Production Supervisor,DUTY,D16,Liaise with key personnel and share ideas for overall improvement outcomes,not_specified,high
+Glencore.docx,Coal - Surface,Production Supervisor,DUTY,D2,Developing and maintaining a cohesive team,not_specified,high
+Glencore.docx,Coal - Surface,Production Supervisor,DUTY,D10,Promoting continuous improvement,not_specified,high
+Glencore.docx,Coal - Surface,Production Supervisor,DUTY,D16,Engagement with Technical Services and Maintenance teams to make sure plans are accurate,not_specified,high
+Glencore.docx,Coal - Surface,Production Supervisor,DUTY,D10,Driving continuous improvement opportunities through innovation and collaboration,not_specified,high
+Glencore.docx,Coal - Surface,Production Supervisor,DUTY,D4,"Identify, assess and control workplace hazards",not_specified,high
+Glencore.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP14,Standout leadership capabilities that will allow you to liaise with stakeholders at all levels,required,high
+Glencore.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP10,extremely high drive to learn and grow your skills,required,high
+Glencore.docx,Coal - Surface,Production Supervisor,KNOWLEDGE,K6,Obtain an understanding of a SHMS,required,high
+Glencore.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP2,"Highly developed interpersonal, communication and leadership skills",required,high
+Glencore.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP11,Be open to change crews,required,high
+Golding Contractors.docx,Coal - Surface,Mining Supervisor,QUALIFICATIONS,Q8,RIIRIS301A – Apply Risk Management Processes,required,high
+Golding Contractors.docx,Coal - Surface,Mining Supervisor,QUALIFICATIONS,Q8,RIIOHS301A – Conduct Safety & Health Investigations,required,high
+Golding Contractors.docx,Coal - Surface,Mining Supervisor,QUALIFICATIONS,Q8,RIICOM301A – Communicate Information,required,high
+Golding Contractors.docx,Coal - Surface,Mining Supervisor,QUALIFICATIONS,Q8,RIIRIS402A – Implement & Maintain Risk Management Processes,required,high
+Golding Contractors.docx,Coal - Surface,Mining Supervisor,QUALIFICATIONS,Q7,Senior First Aid Certificate,required,high
+Golding Contractors.docx,Coal - Surface,Mining Supervisor,QUALIFICATIONS,Q16,Generic Surface Induction,required,high
+Golding Contractors.docx,Coal - Surface,Mining Supervisor,QUALIFICATIONS,Q11,Current open drivers licence,required,high
+Golding Contractors.docx,Coal - Surface,Mining Supervisor,EXPERIENCE,E1,Previous experience in the supervision of staff within an Open Cut mining environment,required,high
+Golding Contractors.docx,Coal - Surface,Mining Supervisor,EXPERIENCE,E3,Open Cut mining environment,required,high
+Golding Contractors.docx,Coal - Surface,Mining Supervisor,EXPERIENCE,E7,Operating skills on a wide range of Mining equipment,required,high
+Golding OCE Kogan.docx,Coal - Surface,Mining Supervisor,DUTY,D7,Supervise and coordinate daily mining operations to meet production targets,not_specified,high
+Golding OCE Kogan.docx,Coal - Surface,Mining Supervisor,DUTY,D8,meet production targets,not_specified,high
+Golding OCE Kogan.docx,Coal - Surface,Mining Supervisor,DUTY,D5,Exercise statutory duties as an Open Cut Examiner,not_specified,high
+Golding OCE Kogan.docx,Coal - Surface,Mining Supervisor,DUTY,D6,Promote and uphold a strong safety culture across crews and contractors,not_specified,high
+Golding OCE Kogan.docx,Coal - Surface,Mining Supervisor,DUTY,D9,Monitor equipment utilisation and operational performance,not_specified,high
+Golding OCE Kogan.docx,Coal - Surface,Mining Supervisor,DUTY,D10,Identify and implement continuous improvement opportunities,not_specified,high
+Golding OCE Kogan.docx,Coal - Surface,Mining Supervisor,DUTY,D2,"Lead, mentor, and develop operators and team members",not_specified,high
+Golding OCE Kogan.docx,Coal - Surface,Mining Supervisor,DUTY,D12,"Complete reporting, shift handovers, and documentation accurately",not_specified,high
+Golding OCE Kogan.docx,Coal - Surface,Mining Supervisor,STATUTORY_POSITION,SP2,Exercise statutory duties as an Open Cut Examiner,required,high
+Golding OCE Kogan.docx,Coal - Surface,Mining Supervisor,QUALIFICATIONS,Q4,Current OCE certification,required,high
+Golding OCE Kogan.docx,Coal - Surface,Mining Supervisor,QUALIFICATIONS,Q1,Standard 11 and relevant site inductions,required,high
+Golding OCE Kogan.docx,Coal - Surface,Mining Supervisor,EXPERIENCE,E3,Demonstrated experience in open cut coal mining operations,required,high
+Golding OCE Kogan.docx,Coal - Surface,Mining Supervisor,EXPERIENCE,E1,Proven supervisory experience leading mining crews,required,high
+Golding OCE Kogan.docx,Coal - Surface,Mining Supervisor,KNOWLEDGE,K4,Strong understanding of mining equipment and production processes,required,high
+Golding OCE Kogan.docx,Coal - Surface,Mining Supervisor,DISPOSITION,DP2,Effective communication and leadership skills,required,high
+Golding.docx,Coal - Surface,Production Supervisor,DUTY,D5,Ensure compliance with Golding Safety and Health Management Systems,not_specified,high
+Golding.docx,Coal - Surface,Production Supervisor,DUTY,D1,"Supervise and mentor a 50~ person crew, promoting a culture of safety, teamwork, and performance",not_specified,high
+Golding.docx,Coal - Surface,Production Supervisor,DUTY,D2,Supervise and mentor a 50~ person crew,not_specified,high
+Golding.docx,Coal - Surface,Production Supervisor,DUTY,D11,"Plan and coordinate daily tasks, reinforcing key priorities in pre-start meetings",not_specified,high
+Golding.docx,Coal - Surface,Production Supervisor,DUTY,D4,reinforcing key priorities in pre-start meetings,not_specified,high
+Golding.docx,Coal - Surface,Production Supervisor,DUTY,D2,Provide technical guidance on truck and excavator operations to enhance team capabilities,not_specified,high
+Golding.docx,Coal - Surface,Production Supervisor,DUTY,D7,Oversee task execution to ensure alignment with operational goals,not_specified,high
+Golding.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E1,Previous experience in a Pre-Strip Production Supervisor role on an Open Cut mine,required,high
+Golding.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E3,Open Cut mine,required,high
+Golding.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E7,Operating skills on a wide range of Mining equipment,required,high
+Golding.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E8,50~ person crew,required,high
+Golding.docx,Coal - Surface,Production Supervisor,QUALIFICATIONS,Q3,"Current Mining Supervisor G1, G8, G9 and G2",required,high
+Golding.docx,Coal - Surface,Production Supervisor,QUALIFICATIONS,Q1,Current Standard 11,required,high
+Golding.docx,Coal - Surface,Production Supervisor,QUALIFICATIONS,Q6,Coal Board Medical,required,high
+Golding.docx,Coal - Surface,Production Supervisor,QUALIFICATIONS,Q11,Current open drivers licence,required,high
+Golding.docx,Coal - Surface,Production Supervisor,QUALIFICATIONS,Q7,Current First Aid Certificate,required,high
+LMP Project.docx,Coal - Surface,Shutdown / Projects Supervisor,DUTY,D1,Lead and coordinate daily project activities on mine site,not_specified,high
+LMP Project.docx,Coal - Surface,Shutdown / Projects Supervisor,DUTY,D6,Ensure work completed safely and to a high standard,not_specified,high
+LMP Project.docx,Coal - Surface,Shutdown / Projects Supervisor,DUTY,D6,Drive team performance and positive safety culture,not_specified,high
+LMP Project.docx,Coal - Surface,Shutdown / Projects Supervisor,DUTY,D16,Work collaboratively with client teams and LMP leadership,not_specified,high
+LMP Project.docx,Coal - Surface,Shutdown / Projects Supervisor,DUTY,D5,Provide hands-on support to crews; Ensure compliance with site safety and quality procedures,not_specified,high
+LMP Project.docx,Coal - Surface,Shutdown / Projects Supervisor,EXPERIENCE,E1,Experience leading and mentoring site crews,required,high
+LMP Project.docx,Coal - Surface,Shutdown / Projects Supervisor,EXPERIENCE,E9,"Experience supporting project delivery against scope, schedule and targets",required,high
+LMP Project.docx,Coal - Surface,Shutdown / Projects Supervisor,DISPOSITION,DP14,"Strong working relationships with clients, subcontractors and suppliers",required,high
+LMP Project.docx,Coal - Surface,Shutdown / Projects Supervisor,DISPOSITION,DP1,"Commitment to safety, quality and compliance standards",required,high
+MacKellar Leading hand.docx,Coal - Surface,Leading Hand,DUTY,D7,"Operate heavy mining equipment including Excavators >400t, D10/D11 Dozers, Graders and Haul Trucks",not_specified,high
+MacKellar Leading hand.docx,Coal - Surface,Leading Hand,DUTY,D1,Lead and support crew in a Leading Hand or supervisory capacity,not_specified,high
+MacKellar Leading hand.docx,Coal - Surface,Leading Hand,DUTY,D10,Identify continuous improvement opportunities and work collaboratively to implement solutions,not_specified,high
+MacKellar Leading hand.docx,Coal - Surface,Leading Hand,DUTY,D6,Maintain a strong commitment to safety at all times,not_specified,high
+MacKellar Leading hand.docx,Coal - Surface,Leading Hand,EXPERIENCE,E1,Previous experience in a Leading Hand or Supervisory role,required,high
+MacKellar Leading hand.docx,Coal - Surface,Leading Hand,EXPERIENCE,E7,Extensive experience as a multi-skilled operator in a mining environment,required,high
+MacKellar Leading hand.docx,Coal - Surface,Leading Hand,EXPERIENCE,E3,mining environment,required,high
+MacKellar Leading hand.docx,Coal - Surface,Leading Hand,QUALIFICATIONS,Q8,Relevant RII competencies signed off within the last 5 years,required,high
+MacKellar Leading hand.docx,Coal - Surface,Leading Hand,QUALIFICATIONS,Q2,"S1, S2, S3 and G2 Certificates",required,high
+MacKellar Leading hand.docx,Coal - Surface,Leading Hand,QUALIFICATIONS,Q1,Current Standard 11,required,high
+MacKellar Leading hand.docx,Coal - Surface,Leading Hand,QUALIFICATIONS,Q11,Valid manual driver's licence,required,high
+MacKellar Leading hand.docx,Coal - Surface,Leading Hand,DISPOSITION,DP11,Contribute as a valued team member with flexibility across operations,required,high
+MacKellar.docx,Coal - Surface,Production Supervisor,DUTY,D1,Lead and supervise production crews to achieve daily safety and production targets,not_specified,high
+MacKellar.docx,Coal - Surface,Production Supervisor,DUTY,D8,daily safety and production targets,not_specified,high
+MacKellar.docx,Coal - Surface,Production Supervisor,DUTY,D5,"Promote and uphold the Site Safety Health Management System, environmental plans, and all statutory requirements",not_specified,high
+MacKellar.docx,Coal - Surface,Production Supervisor,DUTY,D15,environmental plans,not_specified,high
+MacKellar.docx,Coal - Surface,Production Supervisor,DUTY,D10,Drive operational performance and continuous improvement,not_specified,high
+MacKellar.docx,Coal - Surface,Production Supervisor,DUTY,D4,Facilitate and participate in pre-starts and safety meetings,not_specified,high
+MacKellar.docx,Coal - Surface,Production Supervisor,DUTY,D2,"Build, coach and support high-performing teams",not_specified,high
+MacKellar.docx,Coal - Surface,Production Supervisor,DUTY,D12,Monitor production results and maintain accurate operational records,not_specified,high
+MacKellar.docx,Coal - Surface,Production Supervisor,QUALIFICATIONS,Q1,Current Standard 11 and Mining Supervisor competencies,required,high
+MacKellar.docx,Coal - Surface,Production Supervisor,QUALIFICATIONS,Q3,"Mining Supervisor competencies (G1, G2, G8, G9)",required,high
+MacKellar.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E1,Proven leadership experience in an open cut mining environment,required,high
+MacKellar.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E3,open cut mining environment,required,high
+MacKellar.docx,Coal - Surface,Production Supervisor,KNOWLEDGE,K1,Strong knowledge of WHS legislation and statutory obligations,required,high
+MacKellar.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP2,Excellent communication skills and demonstrated ability to mentor others,required,high
+MacKellar.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP9,demonstrated ability to mentor others,required,high
+MacKellar.docx,Coal - Surface,Production Supervisor,KNOWLEDGE,K5,Competent user of Microsoft Office Suite,required,high
+MacKellar.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP1,Strong commitment to safety with a history of positive safety outcomes,required,high
+MacKellar__Maintenance_Supervisor.docx,Coal - Surface,Maintenance Supervisor,DUTY,D5,Lead by example to ensure maintenance activities are completed safely and effectively,not_specified,high
+MacKellar__Maintenance_Supervisor.docx,Coal - Surface,Maintenance Supervisor,DUTY,D11,"Coordinate maintenance and repairs in line with safety, time, and budget requirements",not_specified,high
+MacKellar__Maintenance_Supervisor.docx,Coal - Surface,Maintenance Supervisor,DUTY,D12,"Complete accurate maintenance documentation, reporting, and daily activity records",not_specified,high
+MacKellar__Maintenance_Supervisor.docx,Coal - Surface,Maintenance Supervisor,DUTY,D14,"maintenance and repairs in line with safety, time, and budget requirements",not_specified,high
+MacKellar__Maintenance_Supervisor.docx,Coal - Surface,Maintenance Supervisor,DUTY,D2,Build and maintain strong working relationships and high-performing teams,not_specified,high
+MacKellar__Maintenance_Supervisor.docx,Coal - Surface,Maintenance Supervisor,DUTY,D10,Drive continuous improvement initiatives and implement practical solutions,not_specified,high
+MacKellar__Maintenance_Supervisor.docx,Coal - Surface,Maintenance Supervisor,DUTY,D6,"Promote and maintain a strong, positive safety culture across the team",not_specified,high
+MacKellar__Maintenance_Supervisor.docx,Coal - Surface,Maintenance Supervisor,QUALIFICATIONS,Q9,Trade qualification in Diesel Fitting or equivalent,required,high
+MacKellar__Maintenance_Supervisor.docx,Coal - Surface,Maintenance Supervisor,EXPERIENCE,E1,Previous experience as a Maintenance Supervisor on a mine site,required,high
+MacKellar__Maintenance_Supervisor.docx,Coal - Surface,Maintenance Supervisor,QUALIFICATIONS,Q3,"Current Mining Supervisor — G1, G8, G9 (formerly S1, S2, S3)",required,high
+MacKellar__Maintenance_Supervisor.docx,Coal - Surface,Maintenance Supervisor,QUALIFICATIONS,Q8,Current Carry out the Risk Management Process — G2 (RIIRIS402D),required,high
+MacKellar__Maintenance_Supervisor.docx,Coal - Surface,Maintenance Supervisor,QUALIFICATIONS,Q6,Current Queensland Coal Board Medical (or willingness to obtain),required,high
+MacKellar__Maintenance_Supervisor.docx,Coal - Surface,Maintenance Supervisor,QUALIFICATIONS,Q1,Current Standard 11 (or willingness to obtain),required,high
+MacKellar__Maintenance_Supervisor.docx,Coal - Surface,Maintenance Supervisor,QUALIFICATIONS,Q11,Current Queensland Driver Licence,required,high
+MacKellar__Maintenance_Supervisor.docx,Coal - Surface,Maintenance Supervisor,DISPOSITION,DP5,Lead by example,required,high
+National Group .docx,Coal - Surface,Maintenance Supervisor,DUTY,D8,Deliver preventative maintenance and maximise equipment availability,not_specified,high
+National Group .docx,Coal - Surface,Maintenance Supervisor,DUTY,D1,Lead and supervise the maintenance team,not_specified,high
+National Group .docx,Coal - Surface,Maintenance Supervisor,DUTY,D5,Assist on tools as required,not_specified,high
+National Group .docx,Coal - Surface,Maintenance Supervisor,DUTY,D10,"Demonstrate commitment to safety, continuous improvement and technical excellence",not_specified,high
+National Group .docx,Coal - Surface,Maintenance Supervisor,DUTY,D12,Contribute to improvements for productivity and cost management,not_specified,high
+National Group .docx,Coal - Surface,Maintenance Supervisor,QUALIFICATIONS,Q9,Australian trade certificate,required,high
+National Group .docx,Coal - Surface,Maintenance Supervisor,EXPERIENCE,E1,minimum 5 years post-trade experience,required,high
+National Group .docx,Coal - Surface,Maintenance Supervisor,EXPERIENCE,E2,minimum 5 years post-trade experience,required,high
+National Group .docx,Coal - Surface,Maintenance Supervisor,QUALIFICATIONS,Q2,S1/S2/S3 and G2 tickets,required,high
+National Group .docx,Coal - Surface,Maintenance Supervisor,EXPERIENCE,E12,"Experience on Liebherr, Komatsu, CAT mobile mining equipment",required,high
+National Group .docx,Coal - Surface,Maintenance Supervisor,EXPERIENCE,E7,"Liebherr, Komatsu, CAT mobile mining equipment",required,high
+National Group .docx,Coal - Surface,Maintenance Supervisor,QUALIFICATIONS,Q6,Current QLD ResHealth Medical,required,high
+National Group .docx,Coal - Surface,Maintenance Supervisor,QUALIFICATIONS,Q1,Standard 11,required,high
+National Group .docx,Coal - Surface,Maintenance Supervisor,DISPOSITION,DP6,Outstanding troubleshooting and diagnostic skills,required,high
+Production Supervisor Yancoal.docx,Coal - Surface,Production Supervisor,DUTY,D5,Ensuring compliance with the requirements of the Mine Safety and Inspection Act and Mines Safety Inspection Regulations,not_specified,high
+Production Supervisor Yancoal.docx,Coal - Surface,Production Supervisor,DUTY,D6,Focus on creating a culture of care by being a visible safety leader,not_specified,high
+Production Supervisor Yancoal.docx,Coal - Surface,Production Supervisor,DUTY,D2,"engaging, developing and coaching your team",not_specified,high
+Production Supervisor Yancoal.docx,Coal - Surface,Production Supervisor,DUTY,D10,Promoting continuous improvement by challenging work practices and encouraging employee participation,not_specified,high
+Production Supervisor Yancoal.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP2,Well-developed written and verbal communication skills,required,high
+Production Supervisor Yancoal.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP14,Ability to create positive working relationships and be adaptable to various communication styles,required,high
+Production Supervisor Yancoal.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP11,adaptable to various communication styles,required,high
+Production Supervisor Yancoal.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E7,Previous experience in the operation of plant and machinery within a mining or heavy industry environment,required,high
+Production Supervisor Yancoal.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E10,mining or heavy industry environment,required,high
+Production Supervisor Yancoal.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E1,Previous Supervisory experience within an open cut mining environment,required,high
+Production Supervisor Yancoal.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E3,open cut mining environment,required,high
+Production Supervisor Yancoal.docx,Coal - Surface,Production Supervisor,KNOWLEDGE,K5,"Intermediate computer skills with proficiency in Microsoft Office suite, SAP and similar systems",required,high
+Production Supervisor Yancoal.docx,Coal - Surface,Production Supervisor,QUALIFICATIONS,Q11,Possess and maintain a current drivers licence,required,high
+Regroup Australia.docx,Coal - Surface,Production Supervisor,DUTY,D1,Lead and manage all aspects of mine production execution,not_specified,high
+Regroup Australia.docx,Coal - Surface,Production Supervisor,DUTY,D9,"Coordinate personnel, equipment and resources",not_specified,high
+Regroup Australia.docx,Coal - Surface,Production Supervisor,DUTY,D3,Allocate tasks and manage shift rosters,not_specified,high
+Regroup Australia.docx,Coal - Surface,Production Supervisor,DUTY,D18,manage shift rosters,not_specified,high
+Regroup Australia.docx,Coal - Surface,Production Supervisor,DUTY,D10,Support continuous improvement initiatives,not_specified,high
+Regroup Australia.docx,Coal - Surface,Production Supervisor,DUTY,D2,Supervise and coach team members,not_specified,high
+Regroup Australia.docx,Coal - Surface,Production Supervisor,DUTY,D16,Contribute to commercial and strategic site outcomes,not_specified,high
+Regroup Australia.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E1,Minimum 3 years supervisory experience in mining,required,high
+Regroup Australia.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E3,supervisory experience in mining,required,high
+Regroup Australia.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP2,"Strong leadership, planning and organisational skills",required,high
+Regroup Australia.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP1,Commitment to safety and positive team culture,required,high
+Regroup Australia.docx,Coal - Surface,Production Supervisor,QUALIFICATIONS,Q14,National Police Clearance,required,high
+Senior Production Supervisor MacKellar.docx,Coal - Surface,Production Supervisor,DUTY,D1,Lead and coordinate multiple Production Supervisors to deliver daily mine plans and production targets,not_specified,high
+Senior Production Supervisor MacKellar.docx,Coal - Surface,Production Supervisor,DUTY,D8,daily mine plans and production targets,not_specified,high
+Senior Production Supervisor MacKellar.docx,Coal - Surface,Production Supervisor,DUTY,D12,"Analyse daily performance results and work with supervisors to address productivity, utilisation, and compliance gaps",not_specified,high
+Senior Production Supervisor MacKellar.docx,Coal - Surface,Production Supervisor,DUTY,D2,"Provide hands-on leadership, coaching, and mentoring to Production Supervisors and Leading Hands",not_specified,high
+Senior Production Supervisor MacKellar.docx,Coal - Surface,Production Supervisor,DUTY,D5,Ensure all work areas operate in line with the site Safety and Health Management System,not_specified,high
+Senior Production Supervisor MacKellar.docx,Coal - Surface,Production Supervisor,DUTY,D11,"Contribute operational insights into short- and medium-term planning, including scheduling, resourcing, and constraints",not_specified,high
+Senior Production Supervisor MacKellar.docx,Coal - Surface,Production Supervisor,DUTY,D16,"Work closely with Technical Services, Drill & Blast, and Maintenance to align operational readiness and priorities",not_specified,high
+Senior Production Supervisor MacKellar.docx,Coal - Surface,Production Supervisor,DUTY,D6,"Build a high-performance culture through strong people leadership, communication, and accountability",not_specified,high
+Senior Production Supervisor MacKellar.docx,Coal - Surface,Production Supervisor,DUTY,D18,"Maintain clear, consistent communication between site leadership and frontline teams",not_specified,high
+Senior Production Supervisor MacKellar.docx,Coal - Surface,Production Supervisor,DUTY,D10,Drive continuous improvement by identifying inefficiencies and implementing practical solutions,not_specified,high
+Senior Production Supervisor MacKellar.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E1,Experience in a comparable role within a large-scale mining operation,required,high
+Senior Production Supervisor MacKellar.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E8,large-scale mining operation,required,high
+Senior Production Supervisor MacKellar.docx,Coal - Surface,Production Supervisor,QUALIFICATIONS,Q3,"Current G1, G2, G8, and G9 Supervisor competencies",required,high
+Senior Production Supervisor MacKellar.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E3,Proven leadership experience in an open-cut mining environment,required,high
+Senior Production Supervisor MacKellar.docx,Coal - Surface,Production Supervisor,KNOWLEDGE,K1,Strong knowledge of WHS legislation and statutory obligations,required,high
+Senior Production Supervisor MacKellar.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP11,"A flexible, solutions-focused mindset with strong problem-solving capability",required,high
+Senior Production Supervisor MacKellar.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP6,strong problem-solving capability,required,high
+Senior Production Supervisor MacKellar.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP14,"The ability to mentor, influence, and lead teams effectively",required,high
+Senior Production Supervisor MacKellar.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP2,Well-developed written and verbal communication skills,required,high
+Senior Production Supervisor MacKellar.docx,Coal - Surface,Production Supervisor,KNOWLEDGE,K5,Confidence using the Microsoft Office suite,required,high
+Sojitz.docx,Coal - Surface,Mining Supervisor,DUTY,D7,Direct supervision of Run of Mine activities ensuring safe and productive execution of scheduled works,not_specified,high
+Sojitz.docx,Coal - Surface,Mining Supervisor,DUTY,D9,"Ensure pit set up including traffic management, lighting and dump conditions is in place",not_specified,high
+Sojitz.docx,Coal - Surface,Mining Supervisor,DUTY,D15,Pit walls are kept on design and tidy,not_specified,high
+Sojitz.docx,Coal - Surface,Mining Supervisor,DUTY,D15,Pit floors are level and on grade,not_specified,high
+Sojitz.docx,Coal - Surface,Mining Supervisor,DUTY,D15,Haul roads maintained in good condition,not_specified,high
+Sojitz.docx,Coal - Surface,Mining Supervisor,DUTY,D18,Minimal delay to the shift handover by actively monitoring and motivating crews,not_specified,high
+Sojitz.docx,Coal - Surface,Mining Supervisor,DUTY,D9,Monitor plant and equipment to ensure operated in a manner to prevent damage and abuse,not_specified,high
+Sojitz.docx,Coal - Surface,Mining Supervisor,QUALIFICATIONS,Q16,Current Queensland Generic Induction,required,high
+Sojitz.docx,Coal - Surface,Mining Supervisor,QUALIFICATIONS,Q11,Current Drivers Licence,required,high
+Sojitz.docx,Coal - Surface,Mining Supervisor,DISPOSITION,DP14,Strong interpersonal & negotiation skills to successfully liaise with stakeholders,required,high
+Sojitz.docx,Coal - Surface,Mining Supervisor,DISPOSITION,DP1,Excellent safety mindset with the ability to positively influence the culture on-site,required,high
+Supervisor Blast Crew  Goonyella Mine BMA.docx,Coal - Surface,Production Supervisor,DUTY,D1,Lead and support Blast crew to deliver safe and efficient operations,not_specified,high
+Supervisor Blast Crew  Goonyella Mine BMA.docx,Coal - Surface,Production Supervisor,DUTY,D7,"Oversee daily shot preparations, timing, QA/QC and blast initiation",not_specified,high
+Supervisor Blast Crew  Goonyella Mine BMA.docx,Coal - Surface,Production Supervisor,DUTY,D15,QA/QC and blast initiation,not_specified,high
+Supervisor Blast Crew  Goonyella Mine BMA.docx,Coal - Surface,Production Supervisor,DUTY,D16,"Collaborate with D&B Engineers, Shotfirers and Production teams",not_specified,high
+Supervisor Blast Crew  Goonyella Mine BMA.docx,Coal - Surface,Production Supervisor,DUTY,D10,"Contribute to safety, teamwork and continuous improvement culture",not_specified,high
+Supervisor Blast Crew  Goonyella Mine BMA.docx,Coal - Surface,Production Supervisor,DUTY,D17,Support training and coaching of team members,not_specified,high
+Supervisor Blast Crew  Goonyella Mine BMA.docx,Coal - Surface,Production Supervisor,DUTY,D2,training and coaching of team members,not_specified,high
+Supervisor Blast Crew  Goonyella Mine BMA.docx,Coal - Surface,Production Supervisor,DUTY,D6,Champion inclusive working environment,not_specified,high
+Supervisor Blast Crew  Goonyella Mine BMA.docx,Coal - Surface,Production Supervisor,QUALIFICATIONS,Q20,Shotfirer accreditation and QLD tickets,required,high
+Supervisor Blast Crew  Goonyella Mine BMA.docx,Coal - Surface,Production Supervisor,STATUTORY_POSITION,SP9,Shotfirer accreditation,required,high
+Supervisor Blast Crew  Goonyella Mine BMA.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E1,Previous supervisory experience in D&B/blasting on a coal mine,required,high
+Supervisor Blast Crew  Goonyella Mine BMA.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E11,D&B/blasting,required,high
+Supervisor Blast Crew  Goonyella Mine BMA.docx,Coal - Surface,Production Supervisor,KNOWLEDGE,K8,"Strong knowledge of drill & blast planning, field operations and safety",required,high
+Supervisor Blast Crew  Goonyella Mine BMA.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP14,Ability to build and maintain relationships,required,high
+Supervisor Blast Crew  Goonyella Mine BMA.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP12,"Calm, inclusive, and proactive decision-making",required,high
+Supervisor Blast Crew  Goonyella Mine BMA.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP16,inclusive working environment,required,high
+Supervisor Blast Crew  Goonyella Mine BMA.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP1,Commitment to positive safety culture,required,high
+TerraCom.docx,Coal - Surface,Maintenance Supervisor,DUTY,D2,Lead and mentor maintenance trades and operators,not_specified,high
+TerraCom.docx,Coal - Surface,Maintenance Supervisor,DUTY,D1,Lead and mentor maintenance trades and operators,not_specified,high
+TerraCom.docx,Coal - Surface,Maintenance Supervisor,DUTY,D7,Execute maintenance priorities safely and efficiently,not_specified,high
+TerraCom.docx,Coal - Surface,Maintenance Supervisor,DUTY,D11,Coordinate planned and breakdown maintenance activities,not_specified,high
+TerraCom.docx,Coal - Surface,Maintenance Supervisor,DUTY,D3,Task allocation and daily work planning,not_specified,high
+TerraCom.docx,Coal - Surface,Maintenance Supervisor,DUTY,D5,Drive compliance with site systems and statutory obligations,not_specified,high
+TerraCom.docx,Coal - Surface,Maintenance Supervisor,DUTY,D12,Provide performance feedback and management; Monitor attendance and leave,not_specified,high
+TerraCom.docx,Coal - Surface,Maintenance Supervisor,DUTY,D10,Contribute to continuous improvement initiatives,not_specified,high
+TerraCom.docx,Coal - Surface,Maintenance Supervisor,DUTY,D16,Work with Maintenance Superintendent and Production teams,not_specified,high
+TerraCom.docx,Coal - Surface,Maintenance Supervisor,QUALIFICATIONS,Q9,Relevant Mechanical or Electrical trade qualification,required,high
+TerraCom.docx,Coal - Surface,Maintenance Supervisor,EXPERIENCE,E1,Demonstrated supervisory experience in mining maintenance,required,high
+TerraCom.docx,Coal - Surface,Maintenance Supervisor,EXPERIENCE,E7,Strong experience maintaining heavy mobile mining equipment,required,high
+TerraCom.docx,Coal - Surface,Maintenance Supervisor,EXPERIENCE,E11,Ability to coordinate major equipment maintenance,required,high
+TerraCom.docx,Coal - Surface,Maintenance Supervisor,DISPOSITION,DP13,Strong time management and prioritisation skills,required,high
+TerraCom.docx,Coal - Surface,Maintenance Supervisor,DISPOSITION,DP2,Interpersonal and communication capability,required,high
+TerraCom.docx,Coal - Surface,Maintenance Supervisor,KNOWLEDGE,K5,Proficiency in PRONTO and Microsoft Office,required,high
+TerraCom.docx,Coal - Surface,Maintenance Supervisor,DISPOSITION,DP6,"Positive, solutions-focused leadership style",required,high
+TerraCom.docx,Coal - Surface,Maintenance Supervisor,DISPOSITION,DP1,Strong commitment to safety and team culture,required,high
+Thiess Maintenance Mackay.docx,Coal - Surface,Maintenance Supervisor,DUTY,D12,Ensure maintenance activities are delivered within allocated budgets and resource constraints,not_specified,high
+Thiess Maintenance Mackay.docx,Coal - Surface,Maintenance Supervisor,DUTY,D6,Support the Maintenance Manager and Superintendents in the implementation of safety initiatives and plans,not_specified,high
+Thiess Maintenance Mackay.docx,Coal - Surface,Maintenance Supervisor,DUTY,D13,Actively participate in incident investigations and the implementation of corrective actions,not_specified,high
+Thiess Maintenance Mackay.docx,Coal - Surface,Maintenance Supervisor,DUTY,D16,Build and maintain strong relationships with key internal and external stakeholders,not_specified,high
+Thiess Maintenance Mackay.docx,Coal - Surface,Maintenance Supervisor,QUALIFICATIONS,Q9,A mechanical trade certificate,required,high
+Thiess Maintenance Mackay.docx,Coal - Surface,Maintenance Supervisor,QUALIFICATIONS,Q10,tertiary qualification in Mechanical Engineering,desirable,high
+Thiess Maintenance Mackay.docx,Coal - Surface,Maintenance Supervisor,EXPERIENCE,E2,Extensive post-trade or relevant mobile maintenance experience within a mining environment,required,high
+Thiess Maintenance Mackay.docx,Coal - Surface,Maintenance Supervisor,EXPERIENCE,E3,mining environment,required,high
+Thiess Maintenance Mackay.docx,Coal - Surface,Maintenance Supervisor,EXPERIENCE,E1,Previous experience in a supervisory or leadership role,required,high
+Thiess Maintenance Mackay.docx,Coal - Surface,Maintenance Supervisor,DISPOSITION,DP1,"strong commitment to health, safety, environment and community standards",required,high
+Thiess Maintenance Mackay.docx,Coal - Surface,Maintenance Supervisor,DISPOSITION,DP2,Well-developed written and verbal communication skills,required,high
+Thiess Maintenance Mackay.docx,Coal - Surface,Maintenance Supervisor,KNOWLEDGE,K9,Proven capability in maintenance planning and condition monitoring,required,high
+Thiess Maintenance Mackay.docx,Coal - Surface,Maintenance Supervisor,DISPOSITION,DP12,The ability to perform effectively in a high-pressure operational environment,required,high
+Thiess.docx,Coal - Surface,Site Services Supervisor,QUALIFICATIONS,Q9,A trade qualification or equivalent experience,required,high
+Thiess.docx,Coal - Surface,Site Services Supervisor,EXPERIENCE,E2,Substantial experience in infrastructure maintenance within a mining or camp environment,required,high
+Thiess.docx,Coal - Surface,Site Services Supervisor,EXPERIENCE,E1,Demonstrated leadership experience in a site-based maintenance team,required,high
+Thiess.docx,Coal - Surface,Site Services Supervisor,KNOWLEDGE,K9,Exposure to maintenance planning and scheduling,desirable,high
+Thiess.docx,Coal - Surface,Site Services Supervisor,QUALIFICATIONS,Q2,Required Coal Mining competencies,required,high
+Thiess.docx,Coal - Surface,Site Services Supervisor,KNOWLEDGE,K1,Strong understanding of the Coal Mining Safety and Health Act 1999,required,high
+Thiess.docx,Coal - Surface,Site Services Supervisor,DISPOSITION,DP2,"Excellent communication, problem-solving and stakeholder engagement skills",required,high
+Thiess.docx,Coal - Surface,Site Services Supervisor,DISPOSITION,DP6,problem-solving,required,high
+Thiess.docx,Coal - Surface,Site Services Supervisor,DISPOSITION,DP14,stakeholder engagement skills,required,high
+WorkPac.docx,Coal - Surface,Production Supervisor,DUTY,D1,Lead and supervise production crews,not_specified,high
+WorkPac.docx,Coal - Surface,Production Supervisor,DUTY,D6,Promote and enforce safety systems and procedures,not_specified,high
+WorkPac.docx,Coal - Surface,Production Supervisor,DUTY,D10,Drive operational performance and continuous improvement,not_specified,high
+WorkPac.docx,Coal - Surface,Production Supervisor,DUTY,D4,Facilitate pre-start meetings and safety briefings,not_specified,high
+WorkPac.docx,Coal - Surface,Production Supervisor,DUTY,D2,Coach and mentor team members,not_specified,high
+WorkPac.docx,Coal - Surface,Production Supervisor,DUTY,D12,Monitor production outcomes and maintain accurate records,not_specified,high
+WorkPac.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E7,Excavator and Dragline experience (minimum 5 years),required,high
+WorkPac.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E2,minimum 5 years,required,high
+WorkPac.docx,Coal - Surface,Production Supervisor,QUALIFICATIONS,Q1,Current Standard 11,required,high
+WorkPac.docx,Coal - Surface,Production Supervisor,QUALIFICATIONS,Q3,Mining Supervisor competencies (G1/G2/G8/G9),required,high
+WorkPac.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E1,Proven leadership in open-cut mining,required,high
+WorkPac.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E3,open-cut mining,required,high
+WorkPac.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP2,Strong communication and mentoring capability,required,high
+WorkPac.docx,Coal - Surface,Production Supervisor,KNOWLEDGE,K5,Microsoft Office Suite,required,high
+WorkPac.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP1,Demonstrated commitment to safety,required,high
+YanCoal.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP2,"Sound communication, analytical and problem solving skills",required,high
+YanCoal.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP6,analytical and problem solving skills,required,high
+YanCoal.docx,Coal - Surface,Production Supervisor,KNOWLEDGE,K5,Basic computer literacy,required,high
+YanCoal.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP15,Ability to self-manage and prioritise work load,required,high
+YanCoal.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP13,prioritise work load,required,high
+YanCoal.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP7,Ability to exercise initiative and work both independently and co-operatively,required,high
+YanCoal.docx,Coal - Surface,Production Supervisor,DUTY,D4,Skilled in hazard identification and responsive to safety issues,not_specified,high
+YanCoal.docx,Coal - Surface,Production Supervisor,KNOWLEDGE,K6,"Sound understanding of risk awareness, hazard identification",required,high
+YanCoal.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP1,strong commitment to safety performance,required,high
+YanCoal.docx,Coal - Surface,Production Supervisor,KNOWLEDGE,K4,Well-developed knowledge of equipment maintenance practices,required,high
+YanCoal.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E1,Previous experience in the supervision of staff within a mining or heavy industry environment,required,high
+YanCoal.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E10,mining or heavy industry environment,required,high
+YanCoal.docx,Coal - Surface,Production Supervisor,DUTY,D3,Experienced at prioritising tasks and allocation of same to crew members,not_specified,high
+YanCoal.docx,Coal - Surface,Production Supervisor,QUALIFICATIONS,Q2,Current or willing to obtain Supervisor competencies,required,high
+YanCoal.docx,Coal - Surface,Production Supervisor,QUALIFICATIONS,Q1,Current Standard 11 Mine Induction,required,high
+YanCoal.docx,Coal - Surface,Production Supervisor,QUALIFICATIONS,Q11,Current Queensland Driver's licence,required,high
+YanCoal.docx,Coal - Surface,Production Supervisor,QUALIFICATIONS,Q9,Trade Qualification,required,high
+Development Supervisor.docx,Coal - Underground,Production Supervisor,DUTY,D17,Broadmeadow is pleased to offer leadership development opportunities as a Development Supervisor,not_specified,high
+Development Supervisor.docx,Coal - Underground,Production Supervisor,EXPERIENCE,E4,Demonstrated experience working in underground coal,required,high
+Development Supervisor.docx,Coal - Underground,Production Supervisor,EXPERIENCE,E11,Proven experience working in Longwall or Development environments,required,high
+Development Supervisor.docx,Coal - Underground,Production Supervisor,DISPOSITION,DP2,"high level of interpersonal skills, including collaboration and conflict resolution",required,high
+Development Supervisor.docx,Coal - Underground,Production Supervisor,DISPOSITION,DP6,Strong decision making and problem-solving skills,required,high
+Development Supervisor.docx,Coal - Underground,Production Supervisor,EXPERIENCE,E1,Demonstrated leadership and team supervisory skills,required,high
+Development Supervisor.docx,Coal - Underground,Production Supervisor,KNOWLEDGE,K6,Understanding of risk management and how it is applied within mining,required,high
+Jennchem.docx,Coal - Underground,Underground Shift Supervisor,DUTY,D1,assist in pumpable crib and ventilation work,not_specified,high
+Jennchem.docx,Coal - Underground,Underground Shift Supervisor,QUALIFICATIONS,Q1,Current Standard 11 Statement of Attainment,required,high
+Jennchem.docx,Coal - Underground,Underground Shift Supervisor,QUALIFICATIONS,Q6,Current QLD Coal Board Medical,required,high
+Jennchem.docx,Coal - Underground,Underground Shift Supervisor,QUALIFICATIONS,Q11,Current Drivers Licence,required,high
+Jennchem.docx,Coal - Underground,Underground Shift Supervisor,QUALIFICATIONS,Q9,Trade Certificate,required,high
+Jennchem.docx,Coal - Underground,Underground Shift Supervisor,QUALIFICATIONS,Q3,G1-G8-G9 & G2 (Supervisors),required,high
+Jennchem.docx,Coal - Underground,Underground Shift Supervisor,EXPERIENCE,E4,Operator experience in underground coal,required,high
+Jennchem.docx,Coal - Underground,Underground Shift Supervisor,EXPERIENCE,E11,Installation of Ventilation Control Devices; Pumpable Cribs; Secondary Support; Backfilling Operations,desirable,high
+CSI_Mining_Services.docx,Minerals - Surface,Mining Supervisor,DUTY,D3,Organise and schedule mining crew to meet daily production targets,not_specified,high
+CSI_Mining_Services.docx,Minerals - Surface,Mining Supervisor,DUTY,D8,daily production targets,not_specified,high
+CSI_Mining_Services.docx,Minerals - Surface,Mining Supervisor,DUTY,D7,Management of production and mechanical breakdown issues,not_specified,high
+CSI_Mining_Services.docx,Minerals - Surface,Mining Supervisor,DUTY,D12,"Provide comprehensive reporting on production achievements, challenges and issues",not_specified,high
+CSI_Mining_Services.docx,Minerals - Surface,Mining Supervisor,DUTY,D2,"Provide effective guidance, coaching and mentoring to site personnel",not_specified,high
+CSI_Mining_Services.docx,Minerals - Surface,Mining Supervisor,DUTY,D6,Maintain and foster a working environment which promotes safety,not_specified,high
+CSI_Mining_Services.docx,Minerals - Surface,Mining Supervisor,DUTY,D16,Development of working relationships with key stakeholders on site,not_specified,high
+CSI_Mining_Services.docx,Minerals - Surface,Mining Supervisor,DUTY,D16,Work closely with maintenance to minimise downtime and ensure fast turnaround on breakdowns,not_specified,high
+CSI_Mining_Services.docx,Minerals - Surface,Mining Supervisor,DUTY,D8,"Directly monitor fleet productivity in real time, taking immediate corrective action when output drops below plan targets",not_specified,high
+CSI_Mining_Services.docx,Minerals - Surface,Mining Supervisor,DUTY,D10,"Identify and remove bottlenecks in haulage, loading, and dumping operations to maximise operating time",not_specified,high
+CSI_Mining_Services.docx,Minerals - Surface,Mining Supervisor,EXPERIENCE,E2,Minimum 5 years' experience in a Mining and Production Environment,required,high
+CSI_Mining_Services.docx,Minerals - Surface,Mining Supervisor,EXPERIENCE,E5,Mining and Production Environment,required,high
+CSI_Mining_Services.docx,Minerals - Surface,Mining Supervisor,EXPERIENCE,E1,Previous experience successfully leading a team,required,high
+CSI_Mining_Services.docx,Minerals - Surface,Mining Supervisor,DISPOSITION,DP6,"Demonstrated strong problem solving, lateral thinking and analytical skills",required,high
+CSI_Mining_Services.docx,Minerals - Surface,Mining Supervisor,DISPOSITION,DP13,Excellent time management and daily routine rituals,required,high
+CSI_Mining_Services.docx,Minerals - Surface,Mining Supervisor,DISPOSITION,DP2,Strong communication skills with ability to coach and mentor others,required,high
+CSI_Mining_Services.docx,Minerals - Surface,Mining Supervisor,DISPOSITION,DP9,ability to coach and mentor others,required,high
+Glencore 2.docx,Minerals - Surface,Site Services Supervisor,DUTY,D1,Manage a team of approximately 10 employees and contractors,not_specified,high
+Glencore 2.docx,Minerals - Surface,Site Services Supervisor,DUTY,D9,Ensuring reagent is available for both concentrators,not_specified,high
+Glencore 2.docx,Minerals - Surface,Site Services Supervisor,DUTY,D9,Mill media addition and management for the zinc concentrator,not_specified,high
+Glencore 2.docx,Minerals - Surface,Site Services Supervisor,DUTY,D9,Ownership and management of a small fleet of vehicles and equipment,not_specified,high
+Glencore 2.docx,Minerals - Surface,Site Services Supervisor,DUTY,D8,Take ownership and accountability to meet agreed targets,not_specified,high
+Glencore 2.docx,Minerals - Surface,Site Services Supervisor,DUTY,D2,Provide mentoring to and effectively communicate with your crew,not_specified,high
+Glencore 2.docx,Minerals - Surface,Site Services Supervisor,DUTY,D17,Oversee and maintain compliance for the services crew with safety and training,not_specified,high
+Glencore 2.docx,Minerals - Surface,Site Services Supervisor,EXPERIENCE,E1,Previous experience with frontline leadership,required,high
+Glencore 2.docx,Minerals - Surface,Site Services Supervisor,EXPERIENCE,E2,minimum of 5 years working in the operational side of the mining industry,required,high
+Glencore 2.docx,Minerals - Surface,Site Services Supervisor,EXPERIENCE,E5,operational side of the mining industry,required,high
+Glencore 2.docx,Minerals - Surface,Site Services Supervisor,DISPOSITION,DP5,ability to lead by example and a strong work ethic,required,high
+Glencore 2.docx,Minerals - Surface,Site Services Supervisor,DISPOSITION,DP1,genuine interest in leading safe teams,required,high
+Glencore 2.docx,Minerals - Surface,Site Services Supervisor,KNOWLEDGE,K5,"Experience in budget control, Microsoft Office Suite, Ellipse, SAP and/or similar software",required,high
+Glencore 2.docx,Minerals - Surface,Site Services Supervisor,KNOWLEDGE,K8,Technical knowledge in Filtration plant operations,desirable,high
+Glencore 2.docx,Minerals - Surface,Site Services Supervisor,EXPERIENCE,E11,Filtration plant operations,desirable,high
+Glencore Light Vehicle.docx,Minerals - Surface,Maintenance Supervisor,DUTY,D18,Responsible for ensuring shift handover is successfully managed,not_specified,high
+Glencore Light Vehicle.docx,Minerals - Surface,Maintenance Supervisor,DUTY,D10,optimization of assigned resources and continuous improvement to minimize cost and waste,not_specified,high
+Glencore Light Vehicle.docx,Minerals - Surface,Maintenance Supervisor,QUALIFICATIONS,Q9,Trade Qualified,required,high
+Glencore Light Vehicle.docx,Minerals - Surface,Maintenance Supervisor,KNOWLEDGE,K4,Thorough knowledge of asset maintenance methodologies,required,high
+Glencore Light Vehicle.docx,Minerals - Surface,Maintenance Supervisor,KNOWLEDGE,K4,Working knowledge of contemporary equipment,required,high
+Glencore Light Vehicle.docx,Minerals - Surface,Maintenance Supervisor,EXPERIENCE,E11,Demonstrated experience in Light Vehicle Repair Industry,required,high
+Glencore Light Vehicle.docx,Minerals - Surface,Maintenance Supervisor,EXPERIENCE,E5,5 years underground mining experience,required,high
+Glencore Light Vehicle.docx,Minerals - Surface,Maintenance Supervisor,KNOWLEDGE,K5,Proficient in Microsoft Office Suite,required,high
+Glencore Light Vehicle.docx,Minerals - Surface,Maintenance Supervisor,KNOWLEDGE,K6,"Demonstrated knowledge of risk management, safety systems and legislative requirements for mining operations",required,high
+Glencore Light Vehicle.docx,Minerals - Surface,Maintenance Supervisor,EXPERIENCE,E8,Experience supervising and developing large work teams,required,high
+Glencore MPS mech.docx,Minerals - Surface,Maintenance Supervisor,DUTY,D6,Ensure safe and timely completion of mechanical maintenance tasks,not_specified,high
+Glencore MPS mech.docx,Minerals - Surface,Maintenance Supervisor,DUTY,D8,Manage crew performance and development,not_specified,high
+Glencore MPS mech.docx,Minerals - Surface,Maintenance Supervisor,DUTY,D11,Manage shutdowns and planned maintenance activities,not_specified,high
+Glencore MPS mech.docx,Minerals - Surface,Maintenance Supervisor,DUTY,D11,Plan and control maintenance operations,not_specified,high
+Glencore MPS mech.docx,Minerals - Surface,Maintenance Supervisor,DUTY,D5,Conduct compliance audits,not_specified,high
+Glencore MPS mech.docx,Minerals - Surface,Maintenance Supervisor,DUTY,D2,Build an effective team through coaching and mentoring,not_specified,high
+Glencore MPS mech.docx,Minerals - Surface,Maintenance Supervisor,EXPERIENCE,E2,Minimum 5 years trade experience,required,high
+Glencore MPS mech.docx,Minerals - Surface,Maintenance Supervisor,QUALIFICATIONS,Q9,Mechanical fitter trade qualification,required,high
+Glencore MPS mech.docx,Minerals - Surface,Maintenance Supervisor,EXPERIENCE,E13,Experience managing contracting teams and small projects,required,high
+Glencore MPS mech.docx,Minerals - Surface,Maintenance Supervisor,EXPERIENCE,E7,Heavy industrial fixed plant maintenance experience,required,high
+Glencore MPS mech.docx,Minerals - Surface,Maintenance Supervisor,QUALIFICATIONS,Q2,S1/S2/S3 competencies,desirable,high
+Glencore MPS mech.docx,Minerals - Surface,Maintenance Supervisor,DISPOSITION,DP2,Strong decision-making and communication skills,required,high
+Glencore MPS mech.docx,Minerals - Surface,Maintenance Supervisor,DISPOSITION,DP12,Strong decision-making,required,high
+Glencore Primary Smelting.docx,Minerals - Surface,Production Supervisor,DUTY,D7,"Coordinate and manage operational safety, production and risk for IsaSmelt furnaces",not_specified,high
+Glencore Primary Smelting.docx,Minerals - Surface,Production Supervisor,DUTY,D6,Build teamwork and positive team culture,not_specified,high
+Glencore Primary Smelting.docx,Minerals - Surface,Production Supervisor,DUTY,D2,Develop skills and capability within the team,not_specified,high
+Glencore Primary Smelting.docx,Minerals - Surface,Production Supervisor,DUTY,D8,Challenge and manage operational variation,not_specified,high
+Glencore Primary Smelting.docx,Minerals - Surface,Production Supervisor,DUTY,D15,Maintain housekeeping standards,not_specified,high
+Glencore Primary Smelting.docx,Minerals - Surface,Production Supervisor,KNOWLEDGE,K8,Sound knowledge of Smelting (IsaSmelt advantageous),required,high
+Glencore Primary Smelting.docx,Minerals - Surface,Production Supervisor,EXPERIENCE,E11,IsaSmelt,desirable,high
+Glencore Primary Smelting.docx,Minerals - Surface,Production Supervisor,EXPERIENCE,E1,Supervisory and leadership experience,required,high
+Glencore Primary Smelting.docx,Minerals - Surface,Production Supervisor,DISPOSITION,DP5,Lead by example with strong work ethic,required,high
+Glencore Primary Smelting.docx,Minerals - Surface,Production Supervisor,DISPOSITION,DP1,Safety as a core value,required,high
+Glencore Primary Smelting.docx,Minerals - Surface,Production Supervisor,EXPERIENCE,E2,Minimum 4 years in smelting or mining industry,required,high
+Glencore Primary Smelting.docx,Minerals - Surface,Production Supervisor,EXPERIENCE,E5,smelting or mining industry,required,high
+Glencore Primary Smelting.docx,Minerals - Surface,Production Supervisor,KNOWLEDGE,K8,Technical knowledge and organisational skills,required,high
+Macmahon.docx,Minerals - Surface,Production Supervisor,DUTY,D6,Lead safe work practices by driving a proactive safety culture and ensuring full compliance with site standards,not_specified,high
+Macmahon.docx,Minerals - Surface,Production Supervisor,DUTY,D5,full compliance with site standards,not_specified,high
+Macmahon.docx,Minerals - Surface,Production Supervisor,DUTY,D11,"Execute the mine plan, ensuring production activities align with short term schedules and operational targets",not_specified,high
+Macmahon.docx,Minerals - Surface,Production Supervisor,DUTY,D2,"Provide leadership and coaching to operators to build capability, maintain engagement and support performance",not_specified,high
+Macmahon.docx,Minerals - Surface,Production Supervisor,DUTY,D12,"Ensure accurate reporting through shift logs, production data, environmental checks and incident documentation",not_specified,high
+Macmahon.docx,Minerals - Surface,Production Supervisor,DUTY,D15,environmental checks,not_specified,high
+Macmahon.docx,Minerals - Surface,Production Supervisor,DUTY,D13,incident documentation,not_specified,high
+Macmahon.docx,Minerals - Surface,Production Supervisor,EXPERIENCE,E1,"Extensive surface mining experience as a Production Supervisor, Leading Hand or Senior Operator",required,high
+Macmahon.docx,Minerals - Surface,Production Supervisor,EXPERIENCE,E5,surface mining experience,required,high
+Macmahon.docx,Minerals - Surface,Production Supervisor,DISPOSITION,DP1,"strong, proven commitment to safety",required,high
+Macmahon.docx,Minerals - Surface,Production Supervisor,DISPOSITION,DP2,excellent communication skills across all levels,required,high
+Macmahon.docx,Minerals - Surface,Production Supervisor,KNOWLEDGE,K4,Background and technical knowledge of a range of equipment,required,high
+Macmahon.docx,Minerals - Surface,Production Supervisor,KNOWLEDGE,K1,Detailed knowledge of mining and safety regulations,required,high
+Macmahon.docx,Minerals - Surface,Production Supervisor,QUALIFICATIONS,Q19,Certification in Frontline Management,required,high
+Metro Mining.docx,Minerals - Surface,Production Supervisor - Mining,DUTY,D7,Supervise and coordinate daily mining activities to meet production targets and quality standards,not_specified,high
+Metro Mining.docx,Minerals - Surface,Production Supervisor - Mining,DUTY,D15,quality standards,not_specified,high
+Metro Mining.docx,Minerals - Surface,Production Supervisor - Mining,DUTY,D5,"Ensure adherence to safety protocols, environmental regulations, and operational procedures",not_specified,high
+Metro Mining.docx,Minerals - Surface,Production Supervisor - Mining,DUTY,D15,environmental regulations,not_specified,high
+Metro Mining.docx,Minerals - Surface,Production Supervisor - Mining,DUTY,D8,Monitor equipment performance and maintenance schedules to minimise downtime,not_specified,high
+Metro Mining.docx,Minerals - Surface,Production Supervisor - Mining,DUTY,D12,"Maintain accurate records of production activities, equipment usage, and safety incidents",not_specified,high
+Metro Mining.docx,Minerals - Surface,Production Supervisor - Mining,DUTY,D2,Conduct regular performance evaluations and provide feedback to team members to support their professional development,not_specified,high
+Metro Mining.docx,Minerals - Surface,Production Supervisor - Mining,EXPERIENCE,E5,Relevant surface mining qualification or equivalent experience and knowledge,required,high
+Metro Mining.docx,Minerals - Surface,Production Supervisor - Mining,QUALIFICATIONS,Q18,Cert IV Training & Assessment,desirable,high
+Metro Mining.docx,Minerals - Surface,Production Supervisor - Mining,QUALIFICATIONS,Q2,"S1, S2 & S3 competencies required",required,high
+Metro Mining.docx,Minerals - Surface,Production Supervisor - Mining,QUALIFICATIONS,Q8,"RII Certificates in Articulated Dump Trucks, Dozer, Excavator, Grader",required,high
+Metro Mining.docx,Minerals - Surface,Production Supervisor - Mining,EXPERIENCE,E2,Minimum 5 years' previous experience in a similar role/industry,required,high
+Metro Mining.docx,Minerals - Surface,Production Supervisor - Mining,KNOWLEDGE,K5,Intermediate to advanced Microsoft Office skills,required,high
+Metro Mining.docx,Minerals - Surface,Production Supervisor - Mining,EXPERIENCE,E7,Proven work history in a mining operation with experience operating mobile mining plant,required,high
+Metro Mining.docx,Minerals - Surface,Production Supervisor - Mining,KNOWLEDGE,K1,"Strong knowledge of safety regulations, environmental standards, and best practices in mining operations",required,high
+Metro Mining.docx,Minerals - Surface,Production Supervisor - Mining,DISPOSITION,DP14,Ability to build positive relationships with your team,required,high
+Metro Mining.docx,Minerals - Surface,Production Supervisor - Mining,DISPOSITION,DP6,"Effective problem-solving skills, clear verbal communication skills",required,high
+Metro Mining.docx,Minerals - Surface,Production Supervisor - Mining,DISPOSITION,DP12,make informed decisions under pressure,required,high
+Projects_Crew_Supervisor.docx,Minerals - Surface,Shutdown / Projects Supervisor,DUTY,D1,Supervise and coordinate daily crew activities on project-specific mining operations,not_specified,high
+Projects_Crew_Supervisor.docx,Minerals - Surface,Shutdown / Projects Supervisor,DUTY,D1,"Lead a small team to complete tasks safely, on time, and within budget",not_specified,high
+Projects_Crew_Supervisor.docx,Minerals - Surface,Shutdown / Projects Supervisor,DUTY,D5,"Ensure compliance with safety procedures, environmental standards, and operational requirements",not_specified,high
+Projects_Crew_Supervisor.docx,Minerals - Surface,Shutdown / Projects Supervisor,DUTY,D15,environmental standards,not_specified,high
+Projects_Crew_Supervisor.docx,Minerals - Surface,Shutdown / Projects Supervisor,DUTY,D3,Allocate tasks and resources efficiently to optimise productivity and meet project deadlines,not_specified,high
+Projects_Crew_Supervisor.docx,Minerals - Surface,Shutdown / Projects Supervisor,DUTY,D4,"Conduct regular safety briefings, toolbox talks, and maintain high safety standards",not_specified,high
+Projects_Crew_Supervisor.docx,Minerals - Surface,Shutdown / Projects Supervisor,DUTY,D8,"Monitor progress against project plans, adjusting activities and resources",not_specified,high
+Projects_Crew_Supervisor.docx,Minerals - Surface,Shutdown / Projects Supervisor,DUTY,D12,"Report on team performance, safety issues, and operational concerns to senior leadership",not_specified,high
+Projects_Crew_Supervisor.docx,Minerals - Surface,Shutdown / Projects Supervisor,DUTY,D6,"Identify and resolve operational issues including equipment failures, safety hazards, and resource constraints",not_specified,high
+Projects_Crew_Supervisor.docx,Minerals - Surface,Shutdown / Projects Supervisor,EXPERIENCE,E2,Minimum 5 years of experience in mining,required,high
+Projects_Crew_Supervisor.docx,Minerals - Surface,Shutdown / Projects Supervisor,EXPERIENCE,E5,experience in mining,required,high
+Projects_Crew_Supervisor.docx,Minerals - Surface,Shutdown / Projects Supervisor,EXPERIENCE,E1,Previous experience as a Crew Supervisor or similar leadership role,required,high
+Projects_Crew_Supervisor.docx,Minerals - Surface,Shutdown / Projects Supervisor,DISPOSITION,DP2,Strong leadership and team management skills,required,high
+Projects_Crew_Supervisor.docx,Minerals - Surface,Shutdown / Projects Supervisor,KNOWLEDGE,K8,Solid understanding of mining operations including project-based work,required,high
+Projects_Crew_Supervisor.docx,Minerals - Surface,Shutdown / Projects Supervisor,KNOWLEDGE,K6,"In-depth knowledge of safety regulations, environmental compliance, and risk management",required,high
+Projects_Crew_Supervisor.docx,Minerals - Surface,Shutdown / Projects Supervisor,QUALIFICATIONS,Q2,"S1, S2, S3",required,high
+Projects_Crew_Supervisor.docx,Minerals - Surface,Shutdown / Projects Supervisor,QUALIFICATIONS,Q12,Work at Heights; Confined Space,required,high
+Projects_Crew_Supervisor.docx,Minerals - Surface,Shutdown / Projects Supervisor,QUALIFICATIONS,Q11,Manual Drivers Licence — C class,required,high
+Projects_Crew_Supervisor.docx,Minerals - Surface,Shutdown / Projects Supervisor,EXPERIENCE,E9,project-specific mining operations,required,high
+RSA Contractors .docx,Minerals - Surface,Mining Supervisor,DISPOSITION,DP3,Demonstrate respect and positive workplace behaviours,not_specified,high
+RSA Contractors .docx,Minerals - Surface,Mining Supervisor,DUTY,D6,Prioritise safety in all operations,not_specified,high
+RSA Contractors .docx,Minerals - Surface,Mining Supervisor,DISPOSITION,DP11,Be adaptable and solve operational problems,not_specified,high
+RSA Contractors .docx,Minerals - Surface,Mining Supervisor,DISPOSITION,DP15,Work independently and as part of a team,not_specified,high
+RSA Contractors .docx,Minerals - Surface,Mining Supervisor,DISPOSITION,DP2,Communicate clearly with crews and management,not_specified,high
+RSA Contractors .docx,Minerals - Surface,Mining Supervisor,EXPERIENCE,E7,Experience operating heavy mining machinery,required,high
+RSA Contractors .docx,Minerals - Surface,Mining Supervisor,EXPERIENCE,E1,Demonstrated experience supervising open pit mining operations (gold preferred),required,high
+RSA Contractors .docx,Minerals - Surface,Mining Supervisor,EXPERIENCE,E11,gold preferred,desirable,high
+RSA Contractors .docx,Minerals - Surface,Mining Supervisor,KNOWLEDGE,K8,"Competent in reading pit/dump plans, survey data, drill and blast plans",required,high
+RSA Contractors .docx,Minerals - Surface,Mining Supervisor,QUALIFICATIONS,Q2,S1/S2/S3 competencies,required,high
+RSA Contractors .docx,Minerals - Surface,Mining Supervisor,QUALIFICATIONS,Q1,Standard 11,required,high
+RSA Contractors .docx,Minerals - Surface,Mining Supervisor,QUALIFICATIONS,Q11,Australian Driver's Licence,required,high
+RSA Contractors .docx,Minerals - Surface,Mining Supervisor,QUALIFICATIONS,Q13,White Card,required,high
+RSA Contractors .docx,Minerals - Surface,Mining Supervisor,DISPOSITION,DP2,Strong communication and interpersonal skills,required,high
+RSA Contractors .docx,Minerals - Surface,Mining Supervisor,KNOWLEDGE,K5,Microsoft Office proficiency,required,high
+Rio.docx,Minerals - Surface,Production Supervisor,DUTY,D7,Maintaining a strong level of control over daily operating tasks,not_specified,high
+Rio.docx,Minerals - Surface,Production Supervisor,DUTY,D8,"Working towards increasing equipment productivity, reliability and availability to achieve production targets",not_specified,high
+Rio.docx,Minerals - Surface,Production Supervisor,DUTY,D11,Focusing on executing the weekly operational plan,not_specified,high
+Rio.docx,Minerals - Surface,Production Supervisor,DUTY,D2,"Coaching, mentoring and developing team members",not_specified,high
+Rio.docx,Minerals - Surface,Production Supervisor,DUTY,D6,establishing a strong culture of operational excellence,not_specified,high
+Rio.docx,Minerals - Surface,Production Supervisor,EXPERIENCE,E1,Previous leadership experience in a highly regulated operational environment,required,high
+Rio.docx,Minerals - Surface,Production Supervisor,EXPERIENCE,E11,Sizing and Beneficiation plant experience with exposure across ship loading operations,required,high
+Rio.docx,Minerals - Surface,Production Supervisor,QUALIFICATIONS,Q14,Marine Security Identification Card or the ability to obtain one,required,high
+Rio.docx,Minerals - Surface,Production Supervisor,DISPOSITION,DP14,"Strong stakeholder engagement, communication and interpersonal skills",required,high
+Rio.docx,Minerals - Surface,Production Supervisor,KNOWLEDGE,K5,"Intermediate computer skills, including experience using Microsoft Office Suite applications as well as SAP",required,high
+Rio.docx,Minerals - Surface,Production Supervisor,QUALIFICATIONS,Q8,RIIWHS301 Conduct Safety and Health Investigations,desirable,high
+Rio.docx,Minerals - Surface,Production Supervisor,QUALIFICATIONS,Q8,RIICOM301 Communicate Information,desirable,high
+Rio.docx,Minerals - Surface,Production Supervisor,QUALIFICATIONS,Q18,Certificate IV in Training and Assessment - TAE40110,desirable,high
+Stellar Recruitment.docx,Minerals - Surface,Mining Supervisor,DUTY,D1,Supervise and support a small team of field technicians,not_specified,high
+Stellar Recruitment.docx,Minerals - Surface,Mining Supervisor,DUTY,D7,Participate in field work alongside the team,not_specified,high
+Stellar Recruitment.docx,Minerals - Surface,Mining Supervisor,DUTY,D11,Coordinate logistics for field activities and mobilisation,not_specified,high
+Stellar Recruitment.docx,Minerals - Surface,Mining Supervisor,DUTY,D15,Undertake and oversee environmental monitoring,not_specified,high
+Stellar Recruitment.docx,Minerals - Surface,Mining Supervisor,DUTY,D5,Ensure safe activities in line with regulations,not_specified,high
+Stellar Recruitment.docx,Minerals - Surface,Mining Supervisor,DUTY,D16,Liaise with technical and management teams,not_specified,high
+Stellar Recruitment.docx,Minerals - Surface,Mining Supervisor,EXPERIENCE,E1,Previous experience supervising small teams in exploration programs,required,high
+Stellar Recruitment.docx,Minerals - Surface,Mining Supervisor,EXPERIENCE,E11,exploration programs,required,high
+Stellar Recruitment.docx,Minerals - Surface,Mining Supervisor,DISPOSITION,DP5,Strong hands-on capability,required,high
+Stellar Recruitment.docx,Minerals - Surface,Mining Supervisor,EXPERIENCE,E5,Experience in small or growing organisations (mining exploration preferred),desirable,high
+Stellar Recruitment.docx,Minerals - Surface,Mining Supervisor,DISPOSITION,DP13,Strong organisational and logistical coordination skills,required,high
+Stellar Recruitment.docx,Minerals - Surface,Mining Supervisor,DISPOSITION,DP15,Ability to work autonomously in remote locations,required,high
+Thiess_supervisor_mining.docx,Minerals - Surface,Mining Supervisor,DUTY,D16,Build and maintain relationships with all stakeholders including Technical Services and Maintenance teams,not_specified,high
+Thiess_supervisor_mining.docx,Minerals - Surface,Mining Supervisor,DUTY,D13,"Manage, report, and investigate all incidents within the mining operation and apply corrective actions",not_specified,high
+Thiess_supervisor_mining.docx,Minerals - Surface,Mining Supervisor,DUTY,D4,Complete safety observations and critical control audits within own work area,not_specified,high
+Thiess_supervisor_mining.docx,Minerals - Surface,Mining Supervisor,DUTY,D11,Execute weekly plan and highlight any shortfalls that could disrupt operations,not_specified,high
+Thiess_supervisor_mining.docx,Minerals - Surface,Mining Supervisor,DUTY,D18,Attend daily production meeting and provide accurate summary of the previous 24 hours,not_specified,high
+Thiess_supervisor_mining.docx,Minerals - Surface,Mining Supervisor,DUTY,D6,"Support 'Speak Up' culture, encouraging employees to align with expected behaviours",not_specified,high
+Thiess_supervisor_mining.docx,Minerals - Surface,Mining Supervisor,DUTY,D17,Support and develop operators ensuring competencies are kept up to date,not_specified,high
+Thiess_supervisor_mining.docx,Minerals - Surface,Mining Supervisor,DISPOSITION,DP2,Proven leadership and people management skills,required,high
+Thiess_supervisor_mining.docx,Minerals - Surface,Mining Supervisor,DISPOSITION,DP13,"Excellent organisational, communication, and presentation skills",required,high
+Thiess_supervisor_mining.docx,Minerals - Surface,Mining Supervisor,DISPOSITION,DP6,Prioritising and problem-solving skills,required,high
+Thiess_supervisor_mining.docx,Minerals - Surface,Mining Supervisor,KNOWLEDGE,K8,A solid understanding of the processes involved with hard rock mining,required,high
+Brightstar Resources.docx,Minerals - Underground,Shift Supervisor,DUTY,D1,Supervision of underground diamond drillers,not_specified,high
+Brightstar Resources.docx,Minerals - Underground,Shift Supervisor,DUTY,D7,Dewatering checks; Pump maintenance,not_specified,high
+Brightstar Resources.docx,Minerals - Underground,Shift Supervisor,DUTY,D7,Mine site and camp inspections,not_specified,high
+Brightstar Resources.docx,Minerals - Underground,Shift Supervisor,EXPERIENCE,E1,Experience in a similar role,required,high
+Brightstar Resources.docx,Minerals - Underground,Shift Supervisor,QUALIFICATIONS,Q5,Statutory Underground Shift Supervisor ticket,required,high
+Brightstar Resources.docx,Minerals - Underground,Shift Supervisor,STATUTORY_POSITION,SP8,Statutory Underground Shift Supervisor ticket,required,high
+Brightstar Resources.docx,Minerals - Underground,Shift Supervisor,QUALIFICATIONS,Q17,VOC for Integrated Tool Carrier,required,high
+Brightstar Resources.docx,Minerals - Underground,Shift Supervisor,DISPOSITION,DP15,Ability to work independently with strong problem solving abilities,required,high
+Brightstar Resources.docx,Minerals - Underground,Shift Supervisor,DISPOSITION,DP6,strong problem solving abilities,required,high
+Brightstar Resources.docx,Minerals - Underground,Shift Supervisor,EXPERIENCE,E8,Past experience in supervising small underground crews,required,high
+Evolution Mining.docx,Minerals - Underground,Maintenance Supervisor,QUALIFICATIONS,Q9,Certificate III in Engineering - Mechanical Trade,required,high
+Evolution Mining.docx,Minerals - Underground,Maintenance Supervisor,QUALIFICATIONS,Q5,S123 Supervisor training,required,high
+Evolution Mining.docx,Minerals - Underground,Maintenance Supervisor,DISPOSITION,DP1,commitment to safety. You have a sharp eye for hazards and risk mitigation,required,high
+Evolution Mining.docx,Minerals - Underground,Maintenance Supervisor,DISPOSITION,DP12,Strong execution skills. You make smart tactical decisions in a dynamic environment,required,high
+Evolution Mining.docx,Minerals - Underground,Maintenance Supervisor,EXPERIENCE,E1,Solid supervisory experience,required,high
+Evolution Mining.docx,Minerals - Underground,Maintenance Supervisor,DISPOSITION,DP3,lead and motivate a crew in an industrial setting,required,high
+Evolution Mining.docx,Minerals - Underground,Maintenance Supervisor,QUALIFICATIONS,Q11,current C Class Driver's License,required,high
+Glencore Electrical.docx,Minerals - Underground,Maintenance Supervisor,DUTY,D6,Provide safety leadership and ensure compliance with electrical installation legislation and Mt Isa Mines policies,not_specified,high
+Glencore Electrical.docx,Minerals - Underground,Maintenance Supervisor,DUTY,D5,ensure compliance with electrical installation legislation,not_specified,high
+Glencore Electrical.docx,Minerals - Underground,Maintenance Supervisor,DUTY,D1,Supervise and administer the Electrical Maintenance team including contractors at George Fisher Mine,not_specified,high
+Glencore Electrical.docx,Minerals - Underground,Maintenance Supervisor,DUTY,D11,Develop and apply the weekly work schedule,not_specified,high
+Glencore Electrical.docx,Minerals - Underground,Maintenance Supervisor,DUTY,D2,Develop a positive team culture through mentoring and coaching to build employee role competency,not_specified,high
+Glencore Electrical.docx,Minerals - Underground,Maintenance Supervisor,DUTY,D10,Optimise assigned resources and drive continuous improvement to minimise cost and waste,not_specified,high
+Glencore Electrical.docx,Minerals - Underground,Maintenance Supervisor,DUTY,D12,Develop and adhere to budget; manage team administration,not_specified,high
+Glencore Electrical.docx,Minerals - Underground,Maintenance Supervisor,QUALIFICATIONS,Q9,Trade Qualification – Electrician (licensed),required,high
+Glencore Electrical.docx,Minerals - Underground,Maintenance Supervisor,QUALIFICATIONS,Q5,S123 statutory competency,required,high
+Glencore Electrical.docx,Minerals - Underground,Maintenance Supervisor,EXPERIENCE,E2,5+ years mining experience,required,high
+Glencore Electrical.docx,Minerals - Underground,Maintenance Supervisor,EXPERIENCE,E11,5+ years Electrical Fixed Assets experience,required,high
+Glencore Electrical.docx,Minerals - Underground,Maintenance Supervisor,EXPERIENCE,E1,Previous supervisor experience leading large work teams,required,high
+Glencore Electrical.docx,Minerals - Underground,Maintenance Supervisor,EXPERIENCE,E8,leading large work teams,required,high
+Glencore Electrical.docx,Minerals - Underground,Maintenance Supervisor,KNOWLEDGE,K3,Demonstrated knowledge of risk management and safety systems,required,high
+Glencore Electrical.docx,Minerals - Underground,Maintenance Supervisor,KNOWLEDGE,K6,risk management,required,high
+Maintenance_Supervisor.docx,Minerals - Underground,Maintenance Supervisor,DUTY,D1,"Lead and supervise a team of maintenance technicians, providing guidance, support and mentorship",not_specified,high
+Maintenance_Supervisor.docx,Minerals - Underground,Maintenance Supervisor,DUTY,D2,"providing guidance, support and mentorship",not_specified,high
+Maintenance_Supervisor.docx,Minerals - Underground,Maintenance Supervisor,DUTY,D5,"Ensure all site and workshop activities comply with health, safety, training, environmental and statutory requirements",not_specified,high
+Maintenance_Supervisor.docx,Minerals - Underground,Maintenance Supervisor,DUTY,D15,environmental and statutory requirements,not_specified,high
+Maintenance_Supervisor.docx,Minerals - Underground,Maintenance Supervisor,DUTY,D6,Manage and conduct personal risk assessments and Job Safety Analyses (JSAs),not_specified,high
+Maintenance_Supervisor.docx,Minerals - Underground,Maintenance Supervisor,DUTY,D14,Conduct preventative maintenance inspections proactively,not_specified,high
+Maintenance_Supervisor.docx,Minerals - Underground,Maintenance Supervisor,DUTY,D8,Oversee maintenance execution to ensure compliance with quality standards,not_specified,high
+Maintenance_Supervisor.docx,Minerals - Underground,Maintenance Supervisor,DUTY,D15,compliance with quality standards,not_specified,high
+Maintenance_Supervisor.docx,Minerals - Underground,Maintenance Supervisor,DUTY,D3,Assign tasks effectively to optimise resource utilisation,not_specified,high
+Maintenance_Supervisor.docx,Minerals - Underground,Maintenance Supervisor,DUTY,D12,"Maintain accurate maintenance records including work orders, daily reports and equipment history",not_specified,high
+Maintenance_Supervisor.docx,Minerals - Underground,Maintenance Supervisor,DUTY,D12,"Manage and review inventory of spare parts, tooling and equipment",not_specified,high
+Maintenance_Supervisor.docx,Minerals - Underground,Maintenance Supervisor,QUALIFICATIONS,Q9,Heavy Duty Diesel Fitter/Mechanic trade qualifications,required,high
+Maintenance_Supervisor.docx,Minerals - Underground,Maintenance Supervisor,EXPERIENCE,E1,Demonstrated Supervisor experience with underground and heavy-duty equipment,required,high
+Maintenance_Supervisor.docx,Minerals - Underground,Maintenance Supervisor,EXPERIENCE,E7,underground and heavy-duty equipment,required,high
+Maintenance_Supervisor.docx,Minerals - Underground,Maintenance Supervisor,KNOWLEDGE,K5,Proficiency with Computerised Maintenance Management Systems (CMMS),required,high
+Maintenance_Supervisor.docx,Minerals - Underground,Maintenance Supervisor,DISPOSITION,DP13,Strong planning and organisational skills,required,high
+Maintenance_Supervisor.docx,Minerals - Underground,Maintenance Supervisor,DISPOSITION,DP7,High level of initiative with ability to perform under pressure,required,high
+Maintenance_Supervisor.docx,Minerals - Underground,Maintenance Supervisor,DISPOSITION,DP12,ability to perform under pressure,required,high
+Maintenance_Supervisor.docx,Minerals - Underground,Maintenance Supervisor,DISPOSITION,DP2,Strong leadership capability and communication skills,required,high
+Maintenance_Supervisor.docx,Minerals - Underground,Maintenance Supervisor,QUALIFICATIONS,Q11,Valid manual driver's licence,required,high
+South32 Cannington Mine.docx,Minerals - Underground,Maintenance Supervisor,DUTY,D1,Supervise mechanical construction and installation activities across underground and surface capital projects,not_specified,high
+South32 Cannington Mine.docx,Minerals - Underground,Maintenance Supervisor,DUTY,D9,Coordinate contractors and site crews to deliver works safely and in line with approved schedules,not_specified,high
+South32 Cannington Mine.docx,Minerals - Underground,Maintenance Supervisor,DUTY,D8,"Oversee installation of mechanical equipment, piping systems, structural components and ventilation infrastructure",not_specified,high
+South32 Cannington Mine.docx,Minerals - Underground,Maintenance Supervisor,DUTY,D15,"Monitor quality control, alignment, installation tolerances and commissioning readiness",not_specified,high
+South32 Cannington Mine.docx,Minerals - Underground,Maintenance Supervisor,DUTY,D12,Manage work orders and track progress using SAP and reporting systems,not_specified,high
+South32 Cannington Mine.docx,Minerals - Underground,Maintenance Supervisor,DUTY,D16,"Participate in planning and coordination meetings with engineering, operations and project stakeholders",not_specified,high
+South32 Cannington Mine.docx,Minerals - Underground,Maintenance Supervisor,DUTY,D6,"Identify and mitigate execution risks impacting schedule, cost or safety",not_specified,high
+South32 Cannington Mine.docx,Minerals - Underground,Maintenance Supervisor,DUTY,D8,Drive strong contractor performance and accountability on site,not_specified,high
+South32 Cannington Mine.docx,Minerals - Underground,Maintenance Supervisor,DUTY,D10,Promote a culture of safety leadership and continuous improvement,not_specified,high
+South32 Cannington Mine.docx,Minerals - Underground,Maintenance Supervisor,DISPOSITION,DP1,"practical, safety-focused mechanical leader",required,high
+South32 Cannington Mine.docx,Minerals - Underground,Maintenance Supervisor,EXPERIENCE,E2,Minimum 5+ years experience within a mining mechanical environment,required,high
+South32 Cannington Mine.docx,Minerals - Underground,Maintenance Supervisor,EXPERIENCE,E5,mining mechanical environment,required,high
+South32 Cannington Mine.docx,Minerals - Underground,Maintenance Supervisor,EXPERIENCE,E1,5+ years experience in a supervisory or leading hand role,required,high
+South32 Cannington Mine.docx,Minerals - Underground,Maintenance Supervisor,EXPERIENCE,E9,Proven experience supervising underground capital projects,required,high
+South32 Cannington Mine.docx,Minerals - Underground,Maintenance Supervisor,EXPERIENCE,E11,"Experience delivering ventilation systems, pump stations, or fixed plant installations",required,high
+South32 Cannington Mine.docx,Minerals - Underground,Maintenance Supervisor,QUALIFICATIONS,Q9,Trade qualification in Mechanical Fitting / Boilermaking / Heavy Mechanical or equivalent,required,high
+South32 Cannington Mine.docx,Minerals - Underground,Maintenance Supervisor,KNOWLEDGE,K8,Strong understanding of mechanical installation standards and QA/QC processes,required,high
+South32 Cannington Mine.docx,Minerals - Underground,Maintenance Supervisor,EXPERIENCE,E13,Experience working with contractors in a project delivery environment,required,high
+South32 Cannington Mine.docx,Minerals - Underground,Maintenance Supervisor,KNOWLEDGE,K5,Working knowledge of SAP and Microsoft Office systems,required,high
+South32 Cannington Mine.docx,Minerals - Underground,Maintenance Supervisor,DISPOSITION,DP6,Ability to resolve day-to-day technical and site coordination challenges,required,high
+South32 Cannington Mine.docx,Minerals - Underground,Maintenance Supervisor,DISPOSITION,DP2,Strong communication skills across multidisciplinary project teams,required,high
+Underground_Shift_Supervisor.docx,Minerals - Underground,Underground Shift Supervisor,DUTY,D1,"Provide day to day supervision, mentorship and leadership to the underground team",not_specified,high
+Underground_Shift_Supervisor.docx,Minerals - Underground,Underground Shift Supervisor,DUTY,D2,mentorship and leadership,not_specified,high
+Underground_Shift_Supervisor.docx,Minerals - Underground,Underground Shift Supervisor,DUTY,D7,Monitor and supervise underground mining activities,not_specified,high
+Underground_Shift_Supervisor.docx,Minerals - Underground,Underground Shift Supervisor,DUTY,D6,"Promote positive safety behaviours and build a culture of accountability, ownership and safety first thinking",not_specified,high
+Underground_Shift_Supervisor.docx,Minerals - Underground,Underground Shift Supervisor,DUTY,D12,Use digital tools (e.g. INX) to record and monitor tasks,not_specified,high
+Underground_Shift_Supervisor.docx,Minerals - Underground,Underground Shift Supervisor,DUTY,D16,Communicate effectively with PYBAR team members and relevant stakeholders,not_specified,high
+Underground_Shift_Supervisor.docx,Minerals - Underground,Underground Shift Supervisor,EXPERIENCE,E1,Minimum 2 years' experience as Shift Supervisor or similar,required,high
+Underground_Shift_Supervisor.docx,Minerals - Underground,Underground Shift Supervisor,EXPERIENCE,E2,Minimum 10 years' experience in Underground Hardrock mining,required,high
+Underground_Shift_Supervisor.docx,Minerals - Underground,Underground Shift Supervisor,EXPERIENCE,E5,Underground Hardrock mining,required,high
+Underground_Shift_Supervisor.docx,Minerals - Underground,Underground Shift Supervisor,EXPERIENCE,E11,Development experience (essential),required,high
+Underground_Shift_Supervisor.docx,Minerals - Underground,Underground Shift Supervisor,DISPOSITION,DP14,Strong stakeholder engagement and leadership capabilities,required,high
+Underground_Shift_Supervisor.docx,Minerals - Underground,Underground Shift Supervisor,QUALIFICATIONS,Q7,Current First Aid Certificate,desirable,high
+Underground_Shift_Supervisor.docx,Minerals - Underground,Underground Shift Supervisor,QUALIFICATIONS,Q15,Queensland Explosives Security Clearance,required,high
+Underground_Shift_Supervisor.docx,Minerals - Underground,Underground Shift Supervisor,QUALIFICATIONS,Q5,QMS123/G189,required,high
+Underground_Shift_Supervisor.docx,Minerals - Underground,Underground Shift Supervisor,KNOWLEDGE,K5,digital tools (e.g. INX),not_specified,high
+Boral Narangba.docx,Quarry,Quarry Supervisor,DUTY,D1,"Supervise and manage staff and contractors, including coaching, mentoring and managing shift schedules and work plans",not_specified,high
+Boral Narangba.docx,Quarry,Quarry Supervisor,DUTY,D2,"coaching, mentoring",not_specified,high
+Boral Narangba.docx,Quarry,Quarry Supervisor,DUTY,D3,managing shift schedules and work plans,not_specified,high
+Boral Narangba.docx,Quarry,Quarry Supervisor,DUTY,D17,Safety management: training staff on safe working practices and conducting regular safety audits,not_specified,high
+Boral Narangba.docx,Quarry,Quarry Supervisor,DUTY,D4,conducting regular safety audits,not_specified,high
+Boral Narangba.docx,Quarry,Quarry Supervisor,DUTY,D7,Effective management of production and maintenance activities,not_specified,high
+Boral Narangba.docx,Quarry,Quarry Supervisor,DUTY,D6,Promote and enforce safety processes and protocols to meet performance outcomes,not_specified,high
+Boral Narangba.docx,Quarry,Quarry Supervisor,DUTY,D15,"Support key functionalities of the quarry including maintenance, plant performance, safety, environment and quality control",not_specified,high
+Boral Narangba.docx,Quarry,Quarry Supervisor,EXPERIENCE,E6,"Demonstrated experience in hard rock quarry operations, mining and/or fixed and mobile plant operations",required,high
+Boral Narangba.docx,Quarry,Quarry Supervisor,KNOWLEDGE,K4,Strong knowledge of hard rock quarrying and crushing processes,required,high
+Boral Narangba.docx,Quarry,Quarry Supervisor,DISPOSITION,DP7,"Strong leadership attributes including initiative to identify, manage and solve issues",required,high
+Boral Narangba.docx,Quarry,Quarry Supervisor,KNOWLEDGE,K7,Experience in LEAN Manufacturing (highly regarded),desirable,high
+Boral.docx,Quarry,Quarry Supervisor,DUTY,D1,Supervision and management of staff and contractors,not_specified,high
+Boral.docx,Quarry,Quarry Supervisor,DUTY,D4,Safety management including audits and compliance,not_specified,high
+Boral.docx,Quarry,Quarry Supervisor,DUTY,D5,audits and compliance,not_specified,high
+Boral.docx,Quarry,Quarry Supervisor,DUTY,D7,Effective management of production and maintenance activities,not_specified,high
+Boral.docx,Quarry,Quarry Supervisor,DUTY,D8,Ensure operational targets are met safely and efficiently,not_specified,high
+Boral.docx,Quarry,Quarry Supervisor,EXPERIENCE,E6,"Hard rock quarry, mining or plant operations experience",required,high
+Boral.docx,Quarry,Quarry Supervisor,KNOWLEDGE,K4,Strong knowledge of quarrying and crushing operations,required,high
+Boral.docx,Quarry,Quarry Supervisor,DISPOSITION,DP2,Strong leadership attributes,required,high
+Boral.docx,Quarry,Quarry Supervisor,KNOWLEDGE,K7,LEAN Manufacturing experience (desirable),desirable,high
+Byrne Bros.docx,Quarry,Quarry Supervisor,DUTY,D7,"Safe and efficient operation of quarry plant and equipment including excavators, loaders, forklifts and water carts",not_specified,high
+Byrne Bros.docx,Quarry,Quarry Supervisor,DUTY,D1,Supervision and coordination of quarry personnel when required,not_specified,high
+Byrne Bros.docx,Quarry,Quarry Supervisor,DUTY,D4,Conducting pre-start meetings and toolbox talks,not_specified,high
+Byrne Bros.docx,Quarry,Quarry Supervisor,DUTY,D5,"Ensuring compliance with company policies, safety systems and site procedures",not_specified,high
+Byrne Bros.docx,Quarry,Quarry Supervisor,DUTY,D7,Carrying out minor maintenance and assisting with repairs to plant and equipment,not_specified,high
+Byrne Bros.docx,Quarry,Quarry Supervisor,DUTY,D15,"Maintaining a clean, safe and organised work environment",not_specified,high
+Byrne Bros.docx,Quarry,Quarry Supervisor,DUTY,D12,Ensuring accurate recording of materials and operation of the weighbridge where required,not_specified,high
+Byrne Bros.docx,Quarry,Quarry Supervisor,DUTY,D16,Providing excellent customer service to internal and external customers,not_specified,high
+Byrne Bros.docx,Quarry,Quarry Supervisor,EXPERIENCE,E6,Previous experience in quarry operations or similar heavy industry,required,high
+Byrne Bros.docx,Quarry,Quarry Supervisor,DISPOSITION,DP1,Strong commitment to workplace safety,required,high
+Byrne Bros.docx,Quarry,Quarry Supervisor,EXPERIENCE,E7,Experience operating heavy plant and machinery,required,high
+Byrne Bros.docx,Quarry,Quarry Supervisor,DISPOSITION,DP2,Good communication and organisational skills,required,high
+Byrne Bros.docx,Quarry,Quarry Supervisor,QUALIFICATIONS,Q5,Mining Supervisor S123 qualification,required,high
+Byrne Bros.docx,Quarry,Quarry Supervisor,QUALIFICATIONS,Q7,Current First Aid Certificate,required,high
+Byrne Bros.docx,Quarry,Quarry Supervisor,QUALIFICATIONS,Q12,Relevant High Risk Work Licences,required,high
+Byrne Bros.docx,Quarry,Quarry Supervisor,QUALIFICATIONS,Q11,Current driver's licence,required,high
+Heidelberg Materials.docx,Quarry,Quarry Supervisor,DUTY,D11,Coordinate all maintenance activities including shutdowns with internal and external teams,not_specified,high
+Heidelberg Materials.docx,Quarry,Quarry Supervisor,DUTY,D5,Ensure all plant and equipment are operating well within the statutory requirements,not_specified,high
+Heidelberg Materials.docx,Quarry,Quarry Supervisor,DUTY,D10,Monitor improvements to maintenance tasks and processes and plant performance,not_specified,high
+Heidelberg Materials.docx,Quarry,Quarry Supervisor,DUTY,D12,Be responsible for Fixed Plant budget and cost control,not_specified,high
+Heidelberg Materials.docx,Quarry,Quarry Supervisor,DUTY,D2,Mentor and develop a team of established apprentices,not_specified,high
+Heidelberg Materials.docx,Quarry,Quarry Supervisor,KNOWLEDGE,K4,Possess a strong mechanical aptitude in crushing plants and equipment,required,high
+Heidelberg Materials.docx,Quarry,Quarry Supervisor,EXPERIENCE,E1,Previous experience in a similar role,required,high
+Heidelberg Materials.docx,Quarry,Quarry Supervisor,QUALIFICATIONS,Q9,Have a Boilermaker/Fitter qualification,required,high
+Heidelberg Materials.docx,Quarry,Quarry Supervisor,EXPERIENCE,E11,Have experience in pneumatic and hydraulic systems,required,high
+Heidelberg Materials.docx,Quarry,Quarry Supervisor,KNOWLEDGE,K5,familiar with using SAP and have a strong grasp of MS Excel,required,high
+Heidelberg Materials.docx,Quarry,Quarry Supervisor,DISPOSITION,DP12,team player who can multi-task and make quick effective decisions under pressure,required,high
+Heidelberg Materials.docx,Quarry,Quarry Supervisor,DISPOSITION,DP14,positive presence in building strong and effective relationships with key internal and external stakeholders,required,high
+Heidelberg Materials.docx,Quarry,Quarry Supervisor,DISPOSITION,DP6,natural problem solver and enjoy carrying out root cause analysis and troubleshooting,required,high
+Heidelberg Materials.docx,Quarry,Quarry Supervisor,QUALIFICATIONS,Q12,Competencies in Confined Spaces/Working at Heights/EWP and Forklift/High Risk Work licences,required,high
+Quarry supervisor copy.docx,Quarry,Quarry Supervisor,DUTY,D1,Lead and motivate a medium-sized team of quarry workers and subcontractors to work safely and productively,not_specified,high
+Quarry supervisor copy.docx,Quarry,Quarry Supervisor,DUTY,D8,"Make sensible, safe and efficient decisions to optimize quarry resource and equipment efficiencies",not_specified,high
+Quarry supervisor copy.docx,Quarry,Quarry Supervisor,DUTY,D8,"Monitor material flow and quality, adjusting processes to meet production targets and maintain product specifications",not_specified,high
+Quarry supervisor copy.docx,Quarry,Quarry Supervisor,DUTY,D15,maintain product specifications,not_specified,high
+Quarry supervisor copy.docx,Quarry,Quarry Supervisor,DUTY,D6,Contribute to a positive safety culture by ensuring procedures are followed and documented,not_specified,high
+Quarry supervisor copy.docx,Quarry,Quarry Supervisor,DUTY,D10,Strive to improve production processes and the quality of materials produced,not_specified,high
+Quarry supervisor copy.docx,Quarry,Quarry Supervisor,DISPOSITION,DP5,Hands on - lead by example,required,high
+Quarry supervisor copy.docx,Quarry,Quarry Supervisor,EXPERIENCE,E1,Greater than 5 years of hands-on supervisory experience working in a quarry,desirable,high
+Quarry supervisor copy.docx,Quarry,Quarry Supervisor,EXPERIENCE,E6,quarry,required,high
+Quarry supervisor copy.docx,Quarry,Quarry Supervisor,QUALIFICATIONS,Q12,"Certification in different types of plant and equipment, health and safety, and risk management systems",required,high
+Quarry supervisor copy.docx,Quarry,Quarry Supervisor,KNOWLEDGE,K10,Familiarity with TMR quarry product specifications,required,high
+Quarry supervisor copy.docx,Quarry,Quarry Supervisor,EXPERIENCE,E11,Experience in crushing and screening plants,required,high
+Quarry supervisor copy.docx,Quarry,Quarry Supervisor,KNOWLEDGE,K4,Strong mechanical aptitude and a mechanical trade background,required,high
+Quarry supervisor copy.docx,Quarry,Quarry Supervisor,DISPOSITION,DP13,"Ability to lead by example, prioritize tasks, and meet timeframes and deadlines",required,high
+Quarry supervisor copy.docx,Quarry,Quarry Supervisor,DISPOSITION,DP2,Excellent communication and leadership skills,required,high
+Quarry supervisor copy.docx,Quarry,Quarry Supervisor,DISPOSITION,DP1,Strong safety focus and a proactive approach to maintaining a positive safety culture,required,high
+Quarry_Supervisor_NITRO_CRUSHING.docx,Quarry,Quarry Supervisor,DUTY,D7,"Supervise and coordinate mobile crushing operations, ensuring efficiency and compliance with safety standards",not_specified,high
+Quarry_Supervisor_NITRO_CRUSHING.docx,Quarry,Quarry Supervisor,DUTY,D5,compliance with safety standards,not_specified,high
+Quarry_Supervisor_NITRO_CRUSHING.docx,Quarry,Quarry Supervisor,DUTY,D7,"Operate and oversee mobile crushing equipment including jaw and cone crushers, screens, and conveyors",not_specified,high
+Quarry_Supervisor_NITRO_CRUSHING.docx,Quarry,Quarry Supervisor,DUTY,D2,"Lead, train, and mentor a team of maintainer/operators, fostering a strong safety and performance culture",not_specified,high
+Quarry_Supervisor_NITRO_CRUSHING.docx,Quarry,Quarry Supervisor,DUTY,D4,"Conduct routine inspections, identify operational issues, and assist with maintenance tasks",not_specified,high
+Quarry_Supervisor_NITRO_CRUSHING.docx,Quarry,Quarry Supervisor,DUTY,D15,"Ensure a clean, level, and well-maintained work area, including proper material blending and effective benching",not_specified,high
+Quarry_Supervisor_NITRO_CRUSHING.docx,Quarry,Quarry Supervisor,DUTY,D16,Communicate effectively with site management and stakeholders to optimise operations,not_specified,high
+Quarry_Supervisor_NITRO_CRUSHING.docx,Quarry,Quarry Supervisor,EXPERIENCE,E1,"Previous experience in a supervisory role within mobile crushing, quarrying, or mining operations",required,high
+Quarry_Supervisor_NITRO_CRUSHING.docx,Quarry,Quarry Supervisor,EXPERIENCE,E6,"mobile crushing, quarrying",required,high
+Quarry_Supervisor_NITRO_CRUSHING.docx,Quarry,Quarry Supervisor,KNOWLEDGE,K4,Strong knowledge of mobile crushing equipment operation and maintenance,required,high
+Quarry_Supervisor_NITRO_CRUSHING.docx,Quarry,Quarry Supervisor,QUALIFICATIONS,Q11,Current open Australian driver's license,required,high
+Quarry_Supervisor_NITRO_CRUSHING.docx,Quarry,Quarry Supervisor,QUALIFICATIONS,Q17,Nationally accredited tickets for wheel loader and/or excavator operation,required,high
+Quarry_Supervisor_NITRO_CRUSHING.docx,Quarry,Quarry Supervisor,QUALIFICATIONS,Q5,S1/S2/S3 mining supervisor ticket,required,high
+Quarry_Supervisor_NITRO_CRUSHING.docx,Quarry,Quarry Supervisor,DISPOSITION,DP2,Strong leadership skills,required,high
+Quarry_Supervisor_NITRO_CRUSHING.docx,Quarry,Quarry Supervisor,DISPOSITION,DP7,"Proactive approach to safety, compliance, and operational excellence",required,high
+Supervisor_Rev_2_0625.pdf,Quarry,Quarry Supervisor,DUTY,D7,"Undertake quarrying and sales activities to achieve key objectives in Customer Service, Quality, WHS and Environmental Management",not_specified,high
+Supervisor_Rev_2_0625.pdf,Quarry,Quarry Supervisor,DUTY,D15,"Quality, WHS and Environmental Management",not_specified,high
+Supervisor_Rev_2_0625.pdf,Quarry,Quarry Supervisor,DUTY,D4,Conduct and record prestart meetings when required,not_specified,high
+Supervisor_Rev_2_0625.pdf,Quarry,Quarry Supervisor,DUTY,D1,Direct and supervise daily roles of the workforce,not_specified,high
+Supervisor_Rev_2_0625.pdf,Quarry,Quarry Supervisor,DUTY,D17,"Ensure all workers (including contractors) have appropriate skills, expertise and competencies for delegated tasks",not_specified,high
+Supervisor_Rev_2_0625.pdf,Quarry,Quarry Supervisor,DUTY,D5,Ensure loader operators are aware of correct loading requirements and weights of trucks (Chain of Responsibility),not_specified,high
+Supervisor_Rev_2_0625.pdf,Quarry,Quarry Supervisor,DUTY,D17,"Provide appropriate training to ensure workers comply with quality, safety and environmental standards",not_specified,high
+Supervisor_Rev_2_0625.pdf,Quarry,Quarry Supervisor,DUTY,D9,Carry out checks to ensure contractor's plant and equipment is fit for purpose,not_specified,high
+Supervisor_Rev_2_0625.pdf,Quarry,Quarry Supervisor,DUTY,D5,"Ensure policies, procedures and objectives are implemented and observed within the operation",not_specified,high
+Supervisor_Rev_2_0625.pdf,Quarry,Quarry Supervisor,DUTY,D16,"Assist Site Senior Executive with task preparation, planning and development of Safe Work Procedures",not_specified,high
+Supervisor_Rev_2_0625.pdf,Quarry,Quarry Supervisor,DUTY,D1,Act as secondary support to SSE and Weighbridge Controller in their absence,not_specified,high
+Supervisor_Rev_2_0625.pdf,Quarry,Quarry Supervisor,QUALIFICATIONS,Q8,RIIRIS301E Apply risk management processes,required,high
+Supervisor_Rev_2_0625.pdf,Quarry,Quarry Supervisor,QUALIFICATIONS,Q8,RIIWHS301E Conduct safety and health investigations,required,high
+Supervisor_Rev_2_0625.pdf,Quarry,Quarry Supervisor,QUALIFICATIONS,Q8,RIICOM301E Communicate information,required,high
+Supervisor_Rev_2_0625.pdf,Quarry,Quarry Supervisor,EXPERIENCE,E6,Proven hands-on experience in fixed and mobile crushing/screening and quarrying,required,high
+Supervisor_Rev_2_0625.pdf,Quarry,Quarry Supervisor,KNOWLEDGE,K4,Strong mechanical aptitude,required,high
+Supervisor_Rev_2_0625.pdf,Quarry,Quarry Supervisor,DISPOSITION,DP2,Excellent verbal and written communication skills,required,high
+Supervisor_Rev_2_0625.pdf,Quarry,Quarry Supervisor,KNOWLEDGE,K5,Computer skills including MS Office products,required,high
+UG Supervisor.docx,Coal - Underground,Underground Shift Supervisor,DUTY,D1,Underground Outbye Supervisors … to complement our elite team at Broadmeadow Mine in Outbye Services,not_specified,high
+UG Supervisor.docx,Coal - Underground,Underground Shift Supervisor,DUTY,D7,"Outbye Services (Ventilation, Secondary support & Road works)",not_specified,high
+UG Supervisor.docx,Coal - Underground,Underground Shift Supervisor,EXPERIENCE,E2,Minimum 12mths installing & maintaining VCDs/ Secondary support or UG Roadworks experience,required,high
+UG Supervisor.docx,Coal - Underground,Underground Shift Supervisor,EXPERIENCE,E4,underground coal operations … Broadmeadow Mine,required,high
+UG Supervisor.docx,Coal - Underground,Underground Shift Supervisor,EXPERIENCE,E11,installing & maintaining VCDs/ Secondary support or UG Roadworks,required,high
+UG Supervisor.docx,Coal - Underground,Underground Shift Supervisor,QUALIFICATIONS,Q3,"S1, S2, S3 and G2 (Supervisors)",required,high
+UG Supervisor.docx,Coal - Underground,Underground Shift Supervisor,DISPOSITION,DP1,demonstrate a strong safety focus,required,high
+UG Supervisor.docx,Coal - Underground,Underground Shift Supervisor,DISPOSITION,DP3,Positive attitude,required,high
+UG Supervisor.docx,Coal - Underground,Underground Shift Supervisor,QUALIFICATIONS,Q17,Relevant underground equipment tickets and signed off training transcript,required,high
+UG Supervisor.docx,Coal - Underground,Underground Shift Supervisor,DISPOSITION,DP2,Good communication skills,required,high
+UG Supervisor.docx,Coal - Underground,Underground Shift Supervisor,QUALIFICATIONS,Q6,QLD Coal Board Medical or Ability to Obtain,required,high
+UG Supervisor.docx,Coal - Underground,Underground Shift Supervisor,QUALIFICATIONS,Q11,Valid Driver's License or ID,required,high
+BHP.docx,Coal - Surface,Production Supervisor,DUTY,D1,Site Responsible Person for Technology resources on site (permanent and contractors),not_specified,high
+BHP.docx,Coal - Surface,Production Supervisor,DUTY,D5,ensures your team works within Safe Systems of Work in a changing work environment,not_specified,high
+BHP.docx,Coal - Surface,Production Supervisor,DUTY,D3,Manages and coordinates tasks and resources available on site to ensure incidents and events can be resolved,not_specified,high
+BHP.docx,Coal - Surface,Production Supervisor,DUTY,D11,Review Maintenance work tasks/schedules and work with planners ensuring good work management practices are followed,not_specified,high
+BHP.docx,Coal - Surface,Production Supervisor,DUTY,D16,"Collaborate with other departments (Security, Infrastructure, Workshops, Remote Teams, Applications, Networks and vendors)",not_specified,high
+BHP.docx,Coal - Surface,Production Supervisor,DUTY,D16,"Works with the Mineral Australia Coal Technology Delivery Team representatives, Project Managers and I&S Engineering",not_specified,high
+BHP.docx,Coal - Surface,Production Supervisor,DUTY,D13,Acts as the escalation contact for Technology site operations issues,not_specified,high
+BHP.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E10,"background in Operations Technology in large-scale environments, preferably mining",required,high
+BHP.docx,Coal - Surface,Production Supervisor,KNOWLEDGE,K5,"SAP Work Management, Standardised Work, BHP Operating System and cost-control",desirable,high
+Production Supervisor.docx,Coal - Surface,Production Supervisor,DUTY,D1,managing and leading a large team of operators,not_specified,high
+Production Supervisor.docx,Coal - Surface,Production Supervisor,DUTY,D8,ensure operational production standards are met,not_specified,high
+Production Supervisor.docx,Coal - Surface,Production Supervisor,DUTY,D11,"effectively plan, monitor and coordinate personnel, equipment and resources to achieve Dawson's set targets and schedules",not_specified,high
+Production Supervisor.docx,Coal - Surface,Production Supervisor,DUTY,D9,"coordinate personnel, equipment and resources",not_specified,high
+Production Supervisor.docx,Coal - Surface,Production Supervisor,DUTY,D2,coaching and mentoring an established crew,not_specified,high
+Production Supervisor.docx,Coal - Surface,Production Supervisor,DUTY,D16,effectively working with other departments on site whilst maintaining strong relationships,not_specified,high
+Production Supervisor.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E7,Demonstrated experience with Truck and Shovel operations,required,high
+Production Supervisor.docx,Coal - Surface,Production Supervisor,KNOWLEDGE,K1,working knowledge of relevant legislation,required,high
+Production Supervisor.docx,Coal - Surface,Production Supervisor,QUALIFICATIONS,Q2,"Supervisor & Risk Facilitator competencies (S1, 2, 3 & G2)",required,high
+Production Supervisor.docx,Coal - Surface,Production Supervisor,QUALIFICATIONS,Q4,OCE ticket is desirable but not mandatory,desirable,high
+Production Supervisor.docx,Coal - Surface,Production Supervisor,QUALIFICATIONS,Q18,Trainer & Assessor certification is desirable,desirable,high
+Production Supervisor.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E8,running a large team within an open cut mining operation,required,high
+Production Supervisor.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E3,open cut mining operation,required,high
+Production Supervisor.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP14,strong interpersonal and leadership skills,required,high
+Production Supervisor.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP1,drive for safety,required,high
+Production supervisor copy.docx,Coal - Surface,Production Supervisor,DUTY,D1,lead a crew of around 20 operators within our truck and shovel mining operations,not_specified,high
+Production supervisor copy.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E8,crew of around 20 operators,required,high
+Production supervisor copy.docx,Coal - Surface,Production Supervisor,DUTY,D11,"coordinating and monitoring personnel, equipment and resources to meet site targets and schedules",not_specified,high
+Production supervisor copy.docx,Coal - Surface,Production Supervisor,DUTY,D8,ensure production targets and operational standards are consistently achieved,not_specified,high
+Production supervisor copy.docx,Coal - Surface,Production Supervisor,DUTY,D2,guide and develop your team … coaching and mentoring a skilled team,not_specified,high
+Production supervisor copy.docx,Coal - Surface,Production Supervisor,DUTY,D16,collaborating closely with other departments on site,not_specified,high
+Production supervisor copy.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E1,Experience running a large team within an open cut mining operation,required,high
+Production supervisor copy.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E3,open cut mining operation,required,high
+Production supervisor copy.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E7,Demonstrated background operating heavy machinery including shovels and / or excavators,required,high
+Production supervisor copy.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP1,Unwavering commitment to safety,required,high
+Production supervisor copy.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP2,exceptional interpersonal skills,required,high
+BUMA Nanango.docx,Coal - Surface,Production Supervisor,DUTY,D7,"Oversee the daily operations of the mine, ensuring safe and efficient production in line with Mine Safety and Inspection requirements",not_specified,high
+BUMA Nanango.docx,Coal - Surface,Production Supervisor,DUTY,D6,create a strong safety culture by setting a positive example and making proactive decisions,not_specified,high
+BUMA Nanango.docx,Coal - Surface,Production Supervisor,DUTY,D5,ensure full compliance with the Mine Safety and Inspection Act and Regulations,not_specified,high
+BUMA Nanango.docx,Coal - Surface,Production Supervisor,DUTY,D1,Lead and manage personnel and equipment to optimise production activities and meet operational targets,not_specified,high
+BUMA Nanango.docx,Coal - Surface,Production Supervisor,DUTY,D8,optimise production activities and meet operational targets,not_specified,high
+BUMA Nanango.docx,Coal - Surface,Production Supervisor,DUTY,D3,Effectively allocate tasks and manage workloads within the production team,not_specified,high
+BUMA Nanango.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E2,5+ years of production experience in an open-cut coal mining operation,required,high
+BUMA Nanango.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E1,2+ years of supervisory experience in an open-cut coal mining environment,required,high
+BUMA Nanango.docx,Coal - Surface,Production Supervisor,EXPERIENCE,E3,open-cut coal mining,required,high
+BUMA Nanango.docx,Coal - Surface,Production Supervisor,KNOWLEDGE,K1,In-depth knowledge of QLD Coal Mining legislation,required,high
+BUMA Nanango.docx,Coal - Surface,Production Supervisor,QUALIFICATIONS,Q11,Current C Class Driver's Licence,required,high
+BUMA Nanango.docx,Coal - Surface,Production Supervisor,QUALIFICATIONS,Q2,"S1,2,3 and G2 Certificate",required,high
+BUMA Nanango.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP5,Lead from the front as a Production Supervisor at Meandu Mine,required,high
+BUMA Nanango.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP4,"proven ability to motivate teams, drive performance, and achieve business targets",required,high
+BUMA Nanango.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP7,making proactive decisions,required,high
+BUMA Nanango.docx,Coal - Surface,Production Supervisor,DISPOSITION,DP13,ability to prioritise tasks,required,high

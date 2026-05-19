@@ -927,6 +927,7 @@
         "Experience and ability to use the Microsoft suite of software products; and",
         "Familiarity with FPE safety management system would be advantageous"
       ],
+      "flag": "Superintendent level — above frontline supervisor",
       "_overridden": true,
       "statutory_positions": [],
       "statutory_details": [],
@@ -1451,37 +1452,6 @@
     },
     {
       "id": 46,
-      "filename": "Production Supervisor MacKellar.docx",
-      "source": "Production Supervisor MacKellar.docx",
-      "company": "MacKellar",
-      "role": "Production Supervisor",
-      "type": "Production Supervisor",
-      "sector": "Coal - Surface",
-      "location": "Carmichael Mine QLD",
-      "roster": "7/7 FIFO",
-      "responsibilities": [
-        "Day-to-day, you’ll be:",
-        "Overseeing and coordinating production activities to meet targets",
-        "Leading pre-starts and reinforcing a strong safety-first culture"
-      ],
-      "qualifications": [
-        "Coaching and mentoring crew members to build capability and engagement",
-        "Monitoring performance and identifying opportunities for improvement",
-        "Maintaining accurate production and operational reporting",
-        "To be successful, you’ll bring:",
-        "Standard 11 and relevant Supervisor competencies",
-        "Proven experience leading crews in a production mining environment",
-        "A genuine commitment to safety and continuous improvement",
-        "Clear communication skills and the ability to influence and develop others",
-        "Solid computer skills, including Microsoft Office"
-      ],
-      "_overridden": true,
-      "statutory_positions": [],
-      "statutory_details": [],
-      "has_statutory": false
-    },
-    {
-      "id": 47,
       "filename": "Production Supervisor Yancoal.docx",
       "source": "Production Supervisor Yancoal.docx",
       "company": "YanCoal",
@@ -1517,7 +1487,7 @@
       "has_statutory": true
     },
     {
-      "id": 48,
+      "id": 47,
       "filename": "Production Supervisor.docx",
       "source": "Production Supervisor.docx",
       "company": "Anglo American",
@@ -1560,7 +1530,7 @@
       "has_statutory": true
     },
     {
-      "id": 49,
+      "id": 48,
       "filename": "Production supervisor copy.docx",
       "source": "Production supervisor copy.docx",
       "company": "Anglo American",
@@ -1583,7 +1553,7 @@
       "has_statutory": false
     },
     {
-      "id": 50,
+      "id": 49,
       "filename": "Production_Supervisor.docx",
       "source": "Production_Supervisor.docx",
       "company": "Turner Talent",
@@ -1612,7 +1582,7 @@
       "has_statutory": false
     },
     {
-      "id": 51,
+      "id": 50,
       "filename": "Projects_Crew_Supervisor.docx",
       "source": "Projects_Crew_Supervisor.docx",
       "company": "Private Advertiser",
@@ -1648,7 +1618,7 @@
       "has_statutory": false
     },
     {
-      "id": 52,
+      "id": 51,
       "filename": "Quarry supervisor copy.docx",
       "source": "Quarry supervisor copy.docx",
       "company": "Quarrico Products",
@@ -1683,7 +1653,7 @@
       "has_statutory": false
     },
     {
-      "id": 53,
+      "id": 52,
       "filename": "Quarry_Supervisor_NITRO_CRUSHING.docx",
       "source": "Quarry_Supervisor_NITRO_CRUSHING.docx",
       "company": "Nitro Crushing",
@@ -1715,7 +1685,7 @@
       "has_statutory": false
     },
     {
-      "id": 54,
+      "id": 53,
       "filename": "RSA Contractors .docx",
       "source": "RSA Contractors .docx",
       "company": "RSA Contractors",
@@ -1747,7 +1717,7 @@
       "has_statutory": false
     },
     {
-      "id": 55,
+      "id": 54,
       "filename": "Regroup Australia.docx",
       "source": "Regroup Australia.docx",
       "company": "Regroup Australia",
@@ -1777,7 +1747,7 @@
       "has_statutory": false
     },
     {
-      "id": 56,
+      "id": 55,
       "filename": "Rio.docx",
       "source": "Rio.docx",
       "company": "Rio Tinto",
@@ -1813,7 +1783,7 @@
       "has_statutory": false
     },
     {
-      "id": 57,
+      "id": 56,
       "filename": "Rio_Tinto.docx",
       "source": "Rio_Tinto.docx",
       "company": "Rio Tinto",
@@ -1838,7 +1808,7 @@
       "has_statutory": false
     },
     {
-      "id": 58,
+      "id": 57,
       "filename": "SEE_Group.docx",
       "source": "SEE_Group.docx",
       "company": "SEE Group",
@@ -1868,12 +1838,12 @@
       "has_statutory": false
     },
     {
-      "id": 59,
+      "id": 58,
       "filename": "Senior Production Supervisor MacKellar.docx",
       "source": "Senior Production Supervisor MacKellar.docx",
       "company": "MacKellar",
       "role": "Senior Production Supervisor",
-      "type": "Superintendent (above supervisor)",
+      "type": "Production Supervisor",
       "sector": "Coal - Surface",
       "location": "Townsville QLD",
       "roster": "7/7 day shift",
@@ -1904,7 +1874,7 @@
       "has_statutory": false
     },
     {
-      "id": 60,
+      "id": 59,
       "filename": "Sojitz.docx",
       "source": "Sojitz.docx",
       "company": "Sojitz Blue",
@@ -1941,7 +1911,7 @@
       "has_statutory": false
     },
     {
-      "id": 61,
+      "id": 60,
       "filename": "South32 Cannington Mine.docx",
       "source": "South32 Cannington Mine.docx",
       "company": "South32",
@@ -1982,7 +1952,7 @@
       "has_statutory": false
     },
     {
-      "id": 62,
+      "id": 61,
       "filename": "Stellar Recruitment.docx",
       "source": "Stellar Recruitment.docx",
       "company": "Stellar Recruitment",
@@ -2012,7 +1982,7 @@
       "has_statutory": false
     },
     {
-      "id": 63,
+      "id": 62,
       "filename": "Supervisor Blast Crew  Goonyella Mine BMA.docx",
       "source": "Supervisor Blast Crew  Goonyella Mine BMA.docx",
       "company": "BHP/BMA",
@@ -2043,7 +2013,7 @@
       "has_statutory": false
     },
     {
-      "id": 64,
+      "id": 63,
       "filename": "Supervisor_Rev_2_0625.pdf",
       "source": "Supervisor_Rev_2_0625.pdf",
       "company": "BQC Quarries",
@@ -2087,7 +2057,7 @@
       "has_statutory": true
     },
     {
-      "id": 65,
+      "id": 64,
       "filename": "Team_Leader_.docx",
       "source": "Team_Leader_.docx",
       "company": "Cement Australia",
@@ -2118,7 +2088,7 @@
       "has_statutory": false
     },
     {
-      "id": 66,
+      "id": 65,
       "filename": "TerraCom.docx",
       "source": "TerraCom.docx",
       "company": "TerraCom Limited",
@@ -2155,7 +2125,7 @@
       "has_statutory": false
     },
     {
-      "id": 67,
+      "id": 66,
       "filename": "Thiess Maintenance Mackay.docx",
       "source": "Thiess Maintenance Mackay.docx",
       "company": "Thiess",
@@ -2187,7 +2157,7 @@
       "has_statutory": false
     },
     {
-      "id": 68,
+      "id": 67,
       "filename": "Thiess.docx",
       "source": "Thiess.docx",
       "company": "Thiess",
@@ -2213,7 +2183,7 @@
       "has_statutory": false
     },
     {
-      "id": 69,
+      "id": 68,
       "filename": "Thiess_supervisor_mining.docx",
       "source": "Thiess_supervisor_mining.docx",
       "company": "Thiess",
@@ -2243,7 +2213,7 @@
       "has_statutory": false
     },
     {
-      "id": 70,
+      "id": 69,
       "filename": "UG Supervisor.docx",
       "source": "UG Supervisor.docx",
       "company": "Lunar Mining Services",
@@ -2260,7 +2230,7 @@
       "has_statutory": false
     },
     {
-      "id": 71,
+      "id": 70,
       "filename": "Underground_Shift_Supervisor.docx",
       "source": "Underground_Shift_Supervisor.docx",
       "company": "PYBAR (Thiess)",
@@ -2291,7 +2261,7 @@
       "has_statutory": false
     },
     {
-      "id": 72,
+      "id": 71,
       "filename": "WorkPac.docx",
       "source": "WorkPac.docx",
       "company": "WorkPac",
@@ -2323,7 +2293,7 @@
       "has_statutory": false
     },
     {
-      "id": 73,
+      "id": 72,
       "filename": "YanCoal.docx",
       "source": "YanCoal.docx",
       "company": "YanCoal",
@@ -2400,7 +2370,6 @@
     "NEXUS MINING PTY LTD.docx": "Experienced Underground Operator and Fitters\nNEXUS MINING PTY LTD\nView all jobs\nBrisbane QLD\nMining - Operations \nFull time\nAdd expected salary to your profile for insights\nPosted 7d ago\nNexus Mining is a leading provider of specialised services to the underground coal mining industry, with an established workforce across New South Wales and Queensland.\n\nNexus Mining is now offering an exciting long-term opportunity for Fitters and Operators to join our crew at Centurion Mine, working on a secondary support project.\n\nThis opportunity is part of a 3 year contract +2 , offering long-term stability and the chance to be part of a committed high-performing team.\nIf you are experienced and motivated, we want to hear from you.\n\nTo be successful with your application you must have the following:\nDetailed evidence of previous underground coal experience in Secondary Support, with specific competency to the below;\n- Airtrack\n- Loader\n- Personnel transporter\nProven excellent track record in safety and compliance\nTeam member work ethic\nCustomer focus\nA drive to meet high performance standards\nCurrent and valid Standard 11\nWhat we offer:\nFull Time Position\nCompetitive rates of pay\nAccommodation provided\nTransport in and out from Camp to the Mine\nMeals provided\nEmployee Assistance Program\nIf you believe you have the above qualities and values then please apply below\nTo apply, email a detailed resume with evidence of experience to this SEEK advertisement and/or email all details to hr@nexusmining.com.au\n      “Nexus Mining is an equal opportunity employer”",
     "National Group .docx": "Maintenance Supervisor | Dawson\nNational Group\nView all jobs\nBrisbane QLD\nMining - Engineering & Maintenance \nFull time\nPosted 21d ago\nThis position is an outstanding career opportunity for a Maintenance Supervisor, preferably with a background in open-cut mining. This newly acquired project will provide diverse exposure to operations at Dawson Mine and our class-leading fleet of machines.\nAbout the company\nThe National Group is a leading mining-services company in Australia. For 25 years, we have supplied heavy-earthmoving equipment and end-to-end mining services to the world’s largest resource companies. Our machinery is used at flagship Australian mines to produce iron ore, coal, gold, nickel and other commodities.\nAbout the role\nPermanent full-time role\nBased out of Dawson mine site\nReport to the Maintenance Superintendent\nPreventative maintenance and availability\nProvide leadership and supervision to our maintenance team\nAssist the team on the tools as required\nStrong commitment to workplace safety, continuous improvement and technical excellence\nContribute towards any improvements or initiatives relating to productivity or costs\nSkills & experience\nAustralian recognised trade completion certificate and minimum 5 years post trade experience\nCurrent S1, 2, 3 & G2 tickets \nExperience working on Liebherr, Komatsu and CAT mobile mining equipment is essential\nEx-OEM experience highly regarded\nCurrent QLD ResHealth Medical and Standard 11 required\nOutstanding troubleshooting / diagnostic skills\nBenefits\n7 on 7 off rotating day/night roster\nWork for a 100% privately owned Australian company\nBig company experience, with a family-owned company feel\nAccommodation and meals provided",
     "Newmont.docx": "Supervisor, Services and Backfill\nNewmont Australia\n3.5111 reviews·View all jobs\nAshgrove, Brisbane QLD\nMining - Operations \nFull time\nAdd expected salary to your profile for insights\nPosted 8h ago\nCompany description:\nWorkplace Type: Onsite\nAt Newmont, people create the value in the metals we mine and are ambassadors in the communities where they live and work. As a team, we foster an environment in support of our people vision, where everyone belongs, thrives and is valued. We have built a diverse and inclusive workplace where our people can bring their differences to support delivering results together.\nNewmont Tanami is on Aboriginal freehold land 540km northwest of Alice Springs. It is a long-life, low-cost, world-class asset in a core Newmont region. The Tanami Expansion 2 project, aims to extend the mine life beyond 2040, investing in a hoisting shaft which will increase the production of the underground mine from 2.6 Mtpa to 3.2 Mtpa. Both the successful exploration within the underground operation and implementation of the first Tanami Expansion has laid the foundation to further develop the operation to remain a major contributor to the Newmont portfolio. A fully equipped camp is located 40km from the site offering leisure facilities for those flying in from Perth, Brisbane, Alice Springs or Darwin.\nJoin us and unearth your potential in a global company that is at the forefront of shaping the future of the mining industry.\nJob description:\nYour Impact\nReporting to the Superintendent, Mine Services and Backfill, you will lead and supervise underground mining crews to safely deliver targets while maintaining high standards of safety, quality and performance.\nThis is a hands-on leadership role where you will coordinate daily activities, manage crew performance and ensure compliance with site procedures, while driving a strong safety culture and continuous improvement across underground operations.\nWorking closely with technical services, maintenance and operational teams, you will play a key role in achieving outcomes and supporting the success of Tanami's underground mine.\nProfile description:\nAs part of our team, you will\n• Lead and supervise underground crews to achieve safe targets\n• Coordinate daily activities in line with mine plans and schedules\n• Ensure compliance with safety standards, procedures and HSLP programs\n• Monitor performance and drive continuous improvement initiatives\n• Support and develop team capability through coaching and guidance\n• Identify risks and implement effective control measures\n• Collaborate with technical, maintenance and operational teams\n• Oversee safe and efficient use of mining equipment\n• Manage workforce activities including timekeeping and reporting\nPrerequisites for your success in this role:\n• Demonstrated experience in underground Paste fill , Mine services and Shotcrete\n• Previous supervisory or leadership experience \n• Strong understanding of safety and mining practices\n• Proven ability to lead, motivate and develop teams\n• Experience managing risk and maintaining compliance with safety systems\n• Strong communication and stakeholder engagement skills\n• Ability to work in a fast-paced, dynamic underground environment\n• Commitment to continuous improvement and operational excellence\n• Current Australian driver's licence\n• Mask fit ready\nWe offer:\nYour Work Environment\nFIFO 14 / 14 Roster\nReside in our fully equipped accommodation village\nApproved point-of-hire locations: Darwin, Alice Springs, Perth and Brisbane\nWhat's on Offer\nIndustry-competitive remuneration package\nAnnual performance incentives\nFIFO allowance\nHealth & Wellbeing Allowance\nAccess to employee benefits, career development and progression opportunities with a global organisation\nJoin us and play a critical role in maintaining a safe, reliable and high-performing underground operation.\nApply now and be part of a team committed to safety, performance and excellence.",
-    "Production Supervisor MacKellar.docx": "Production Supervisor\nMacKellar\n3.04 reviews·View all jobs\nRockhampton, Rockhampton & Capricorn Coast QLD\nMining - Operations \nFull time\nAdd expected salary to your profile for insights\nPosted 1d ago\nProduction Supervisor | Carmichael Mine \nIf you’re a hands-on leader who thrives in fast-paced environments, this is your chance to step into a pivotal role overseeing production in a large-scale open-cut coal operation. Backed by long-term project stability and a strong safety culture, you’ll lead from the front while continuing to grow your career.\n\nWhat’s in it for you?\nA permanent position on a long-life mining project. You’ll enjoy a balanced 7/7 roster, paid FIFO from Townsville or Rockhampton, and the convenience of a site where camp, pit and airport are all just minutes apart. Add in fully catered accommodation, gym and recreational facilities, and you’ve got a setup designed to make your swing as smooth as possible.\n\nAbout the role\nYou’ll be responsible for leading production crews to deliver safe, efficient, and high-performing outcomes on site. This is a role for someone who can balance people leadership with operational delivery—keeping safety front of mind while driving productivity and team performance.\n\nDay-to-day, you’ll be:\nOverseeing and coordinating production activities to meet targets\nLeading pre-starts and reinforcing a strong safety-first culture\nEnsuring compliance with site safety, environmental, and statutory requirements\nCoaching and mentoring crew members to build capability and engagement\nMonitoring performance and identifying opportunities for improvement\nMaintaining accurate production and operational reporting\nAbout you\nYou’re an experienced Supervisor in open-cut mining who knows how to get the best out of your team while maintaining high safety standards. You’re adaptable, solutions-focused, and confident making decisions in a dynamic environment.\n\nTo be successful, you’ll bring:\nStandard 11 and relevant Supervisor competencies \nProven experience leading crews in a production mining environment\nStrong knowledge of WHS legislation and site compliance requirements\nA genuine commitment to safety and continuous improvement\nClear communication skills and the ability to influence and develop others\nSolid computer skills, including Microsoft Office\nIf you’re ready to step into a role where you can make an impact and be part of a long-term mining operation, apply now and join the MacKellar team.",
     "Production Supervisor Yancoal.docx": "Production Supervisor- job post\nYanCoal\n4.54.5 out of 5 stars\nQueensland\nYou must create an Indeed account before continuing to the company website to apply\nJob details\nShift and schedule\n12 hour shift\nDay shift\nShift work\n \nLocation\nQueensland\n \nBenefits\nPulled from the full job description\nParental leave\nHealth insurance\nLife insurance\nEmployee assistance program\nSalary packaging\nEmployee rewards program\n \nFull job description\nRoster: 7/7, 12.5 hour shifts, Day/Night\nLocation: Blackwater, QLD 4717\nAbout the Business\nOwned by Yancoal, Yarrabee is based in Blackwater QLD which is 200 km west of the Capricorn Coast. Yarrabee is a proud producer of high-quality PCI coal since 1982. We employ approximately 500 people, who are our most valuable asset and we invest in developing our management and leadership talent throughout our operations.\n\nYancoal Australia is Australia's largest pure play coal producer. It boasts three tier one thermal coal mines in New South Wales together with interests in three other metallurgical and thermal coal mines located in New South Wales and Queensland. Yancoal Australia also manages five other Australian coal mines on behalf of related parties. Yancoal currently employs over 3,000 people across its operations.\n\nIf you are looking for an opportunity to join a great team and have previous experience Supervising in the Mining industry, we would love to hear from you!\nJob Tasks and Responsibilities\nThe Production Supervisor, reporting to the Production Superintendent, will be responsible for the management and oversight of a production crew in conjunction with an OCE.\nThis includes ensuring the safe execution of the mine plan in accordance with operating standards, procedures, and defined processes to deliver optimal production outcomes.\nIn this role your key responsibilities will include:\nEnsuring compliance with the requirements of the Mine Safety and Inspection Act and Mines Safety Inspection Regulations\nProviding direct supervision of employees and sub-contractors working within the area of responsibility and allocating day-to-day work priorities\nFocus on creating a culture of care by being a visible safety leader, engaging, developing and coaching your team\nManaging workloads and allocating duties across the production team to deliver the plan and ensure all development targets are achieved\nPromoting continuous improvement by challenging work practices and encouraging employee participation in new concepts\nSkills and Experience\nThe ideal candidate will have the proven ability to lead positive change and support the continual development of a high performing team, dedicated to working safely, complying with all site safety standards, mine working procedures and ensure a safe and environmentally healthy workplace.\nIn addition, the ideal candidate will meet the following:\nThorough understanding of individual responsibilities in relation to the Coal Mining Safety & Health Act and associated regulations\nWell-developed written and verbal communication skills\nAbility to create positive working relationships and be adaptable to various communication styles\nPrevious experience in the operation of plant and machinery within a mining or heavy industry environment\nPrevious Supervisory experience within an open cut mining environment\nIntermediate computer skills with proficiency in Microsoft Office suite, SAP and similar systems and databases\nS1,2,3 Supervisor and G2 Qualifications are essential\nPossess and maintain a current drivers licence\nBenefits\nYancoal provides a range of benefits to appeal to the diverse needs of our employees. The following benefits are available to eligible employees:\nSalary continuance and life insurance\n20 weeks paid primary carers parental leave with no waiting period\nSubsidised private health insurance\nFitness Passport - discounted workplace health and fitness program\nStudy assistance\nFlexible work arrangements\nEmployee Assistance Program\nAccess to financial education and banking discounts\nSalary packaging including novated leasing and remote area benefits\nService recognition rewards\nDiscounts program including major department stores, cinemas, restaurants\nYancoal Australia values diversity and inclusion and encourages applications from people with diverse backgrounds including First Nations people, people with disability, people from diverse cultural and linguistic backgrounds, and people that identify as LGBTQIA+.\nYancoal Australia is a Work180 Endorsed Employer and is committed to ensuring all employees can thrive in an inclusive workplace.\nIf this sounds like the opportunity you've been looking for, apply today and take the first step toward an exciting new journey with us!\nBe careful of scams\nYancoal will never ask you to make any payment or to provide credit card details when applying for any of our positions. If you have any concerns regarding the authenticity of communications received representing Yancoal, please email recruitment@yancoal.com.au with the subject “Fraud Query”, outlining your concern.",
     "Production Supervisor.docx": "Production Supervisor\nAnglo American\n3.4117 reviews·View all jobs\nMoura, Gladstone & Central QLD\nMining - Operations \nFull time\nCompetitive Salary + 12% Super + Annual Bonus\nPosted 6d ago\nDue to expansion and growth at Dawson, we are on the look-out for multiple Production Supervisors to join the team!\nDawson Mine\nSteelmaking Coal is an essential ingredient in blast-furnace steel manufacture, producing steel used for critical building and infrastructure around the world.\nDawson Mine, located near Moura, is only a 2-hour drive from Rockhampton & Gladstone. It is a large and dynamic open cut steelmaking coal mine operation made up of two operating pits - Central and South. It commenced operations in 1961 and is one of the oldest coal mining operations in Central Queensland with no signs of slowing down. Dawson Mine is rich in history, it was the first mine in Australia to export coal to Japan in 1961 and was the first mine to introduce draglines into its operation in 1963 – join the legacy today!\nJob Description\nWe are currently seeking an experienced Production Supervisor with a passion for Truck and Shovel Operations whilst maintaining safe production at Dawson Mine.\nReporting through to the Mining Superintendent, you will demonstrate a drive for safety as well as strong interpersonal and leadership skills. As an experienced supervisor, you will be responsible for managing and leading a large team of operators to ensure operational production standards are met.\nYou will effectively plan, monitor and coordinate personnel, equipment and resources to achieve Dawson’s set targets and schedules. This role will be of interest to those who enjoy coaching and mentoring an established crew, interesting investigative challenges and effectively working with other departments on site whilst maintaining strong relationships.\nQualifications\nRelevant skills, knowledge and experience required for this role include:\nTo be successful in the role, you will have supervisor experience running a large team within an open cut mining operation.\nDemonstrated experience with Truck and Shovel operations and a working knowledge of relevant legislation.\nHold the Supervisor & Risk Facilitator competencies .\nOCE ticket is desirable but not mandatory.\nTrainer & Assessor certification is desirable.\nAdditional information\nDue to expansion, multiple full-time permanent positions based at Dawson Mine, Moura QLD\nAttractive 7 on, 7 off day/night roster\nCompetitive Salary Packaging + 12% Superannuation\nAnnual bonus incentive program\nResidential, FIFO  & DIDO options\nSubsidised accommodation and company funded camp options provided\nRelocation Assistance available\nGym/Health incentives, On-site Physio, On-site EAP\nAnglo American company benefits\nWhat we Offer\nWhen you join Anglo American, you can expect to enjoy a competitive salary and benefits package. But more than this, you’ll find yourself in an environment where the opportunities for learning and growth are second to none. From technical training to leadership programmes, we bring out the best in our people. There are plenty of opportunities to move onwards and upwards too. We’re a large, successful multinational company – and we’re still growing all the time.\nWho we are\nWe aim to lead the industry by pursuing ever safer and more responsible ways of working, demonstrating integrity, and showing care and respect for people and the planet. That means we are constantly seeking new opportunities to mine and process our products sustainably, using less water, less energy and more precise extraction technologies.  As the custodians of coal and other precious natural resources – diamonds , copper, platinum and other precious metals, iron ore and nickel – our extraordinary teams work safely and collaboratively, with the utmost consideration for local communities, our customers and the world at large.\n\nBackground checks\nSuccessful candidates will be required to complete background screening which may include a criminal check and validation of qualifications.\n\nInclusion and Diversity\nAt Anglo American, we embrace change and promote an inclusive and diverse environment where you can bring your whole self to work, every day. We are adopting new approaches to recruitment, talent development, mentoring, parental leave, and flexible working to further support diversity across our business.\n\nHow we are committed to your safety\nNothing is more important to us than ensuring you return home safely after a day’s work. To make that happen, we have the most rigorous safety standards in the industry. Not only that, we’re also continually investing in new technologies – from drones to data analytics – that are helping to make mining safer.\nHow to apply\nTo apply for this role, please complete our online application form. You will have the opportunity to upload your CV and other relevant documentation as part of this process.\nREF77114X\nCLOSING DATE \n14 April 2026\nPlease note, screening and interviews may take place prior to closing date – applications may also close before this date.\nRecruitment Agencies\nAnglo American Steelmaking Coal does not accept unsolicited applications from Recruitment Agencies.",
     "Production supervisor copy.docx": "Production Supervisor\nAnglo American\nMiddlemount, Mackay & Coalfields QLD\nMining - Operations \nFull time\nAdd expected salary to your profile for insights\nPosted 4d ago\nAnglo American Steelmaking Coal\nSteelmaking coal is an essential ingredient in blast-furnace steel manufacture, producing steel used for critical building and infrastructure around the world.  In Australia, we operate five steelmaking coal mines in Queensland’s Bowen Basin, and have additional joint venture interests in steelmaking coal and manganese, as well as copper exploration projects underway in North West Queensland and Western Australia.\nJob Description\nWe are seeking a dedicated Production Supervisor to join our team at Capcoal Surface Operations in Middlemount, Queensland.  Capcoal Surface is an open-cut coal operation producing approximately 5.1 Mtpa, utilising a fleet that includes a rope shovel, five excavators, two draglines and three drills.\nIn this role, you will lead a crew of around 20 operators within our truck and shovel mining operations.  Reporting to the Mining Superintendent, you will bring a strong commitment to safety, effective leadership and exceptional interpersonal skills.  As an experienced supervisor, you will guide and develop your team to ensure production targets and operational standards are consistently achieved.\nYou will be responsible for coordinating and monitoring personnel, equipment and resources to meet site targets and schedules.  This role is well suited to someone who enjoys coaching and mentoring a skilled team, tackling investigative and operational challenges, and collaborating closely with other departments on site.\nQualifications\nRelevant skills, knowledge and experience required for this role include:\nExperience running a large team within an open cut mining operation\nDemonstrated background operating heavy machinery including shovels and / or excavators\nUnwavering commitment to safety\nAdditional information\nWhat we offer\nWhen you join Anglo American, you can expect to enjoy a competitive salary and benefits package and a range of flexible work arrangements that support the balance of work, family and individual circumstances. But more than this, you’ll find yourself in an environment where the opportunities for learning and growth are second to none. From technical training to leadership programmes, we bring out the best in our people. There are plenty of opportunities to move onwards and upwards too. We’re a large, successful multinational company – and we’re still growing all the time.\nWho we are\nWe aim to lead the industry by pursuing ever safer and more responsible ways of working, demonstrating integrity, and showing care and respect for people and the planet. That means we are constantly seeking new opportunities to mine and process our products sustainably, using less water, less energy and more precise extraction technologies.  As the custodians of coal and other precious natural resources – diamonds , copper, platinum and other precious metals, iron ore and nickel – our extraordinary teams work safely and collaboratively, with the utmost consideration for local communities, our customers and the world at large.\n\nBackground checks\nSuccessful candidates will be required to complete background screening which may include a criminal check and validation of qualifications.\n\nInclusion and Diversity\nAt Anglo American, we embrace change and promote an inclusive and diverse environment where you can bring your whole self to work, every day. We are adopting new approaches to recruitment, talent development, mentoring, parental leave, and flexible working to further support diversity across our business.\nAnglo American is an equal opportunities employer. We are committed to promoting an inclusive and diverse workplace where we value and respect every colleague for who they are and provide equality of opportunity so that everyone can fulfil their potential.\n\nHow we are committed to your safety\nNothing is more important to us than ensuring you return home safely after a day’s work. To make that happen, we have the most rigorous safety standards in the industry. Not only that, we’re also continually investing in new technologies – from drones to data analytics – that are helping to make mining safer.\nHow to apply\nTo apply for this role, please complete our online application form. You will have the opportunity to upload your CV and other relevant documentation as part of this process.\nREF78347S\n\nCLOSING DATE \n12 April 2026\nPlease note, screening and interviews may take place prior to closing date – applications may also close before this date.\nRecruitment Agencies\nAnglo American Steelmaking Coal does not accept unsolicited applications from Recruitment Agencies.",
@@ -4143,31 +4112,6 @@
       "Access to employee benefits, career development and progression opportunities with a global organisation",
       "Join us and play a critical role in maintaining a safe, reliable and high-performing underground operation."
     ],
-    "Production Supervisor MacKellar.docx": [
-      "Production Supervisor",
-      "Rockhampton, Rockhampton & Capricorn Coast QLD",
-      "Mining - Operations",
-      "Production Supervisor | Carmichael Mine",
-      "If you’re a hands-on leader who thrives in fast-paced environments, this is your chance to step into a pivotal role overseeing production in a large-scale open-cut coal operation. Backed by long-term project stability and a strong safety culture, you’ll lead from the front while continuing to grow your career.",
-      "What’s in it for you?",
-      "A permanent position on a long-life mining project. You’ll enjoy a balanced 7/7 roster, paid FIFO from Townsville or Rockhampton, and the convenience of a site where camp, pit and airport are all just minutes apart. Add in fully catered accommodation, gym and recreational facilities, and you’ve got a setup designed to make your swing as smooth as possible.",
-      "You’ll be responsible for leading production crews to deliver safe, efficient, and high-performing outcomes on site. This is a role for someone who can balance people leadership with operational delivery—keeping safety front of mind while driving productivity and team performance.",
-      "Day-to-day, you’ll be:",
-      "Overseeing and coordinating production activities to meet targets",
-      "Leading pre-starts and reinforcing a strong safety-first culture",
-      "Ensuring compliance with site safety, environmental, and statutory requirements",
-      "Coaching and mentoring crew members to build capability and engagement",
-      "Monitoring performance and identifying opportunities for improvement",
-      "Maintaining accurate production and operational reporting",
-      "You’re an experienced Supervisor in open-cut mining who knows how to get the best out of your team while maintaining high safety standards. You’re adaptable, solutions-focused, and confident making decisions in a dynamic environment.",
-      "To be successful, you’ll bring:",
-      "Standard 11 and relevant Supervisor competencies",
-      "Proven experience leading crews in a production mining environment",
-      "Strong knowledge of WHS legislation and site compliance requirements",
-      "A genuine commitment to safety and continuous improvement",
-      "Clear communication skills and the ability to influence and develop others",
-      "Solid computer skills, including Microsoft Office"
-    ],
     "Production Supervisor Yancoal.docx": [
       "Production Supervisor- job post",
       "You must create an Indeed account before continuing to the company website to apply",
@@ -5519,7 +5463,7 @@
     }
   ],
   "meta": {
-    "total_files": 73,
-    "total_processed": 73
+    "total_files": 72,
+    "total_processed": 72
   }
 }

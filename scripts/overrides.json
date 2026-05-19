@@ -892,7 +892,8 @@
     "type": "Superintendent (above supervisor)",
     "sector": "Coal - Surface",
     "location": "Curragh Mine, Blackwater QLD",
-    "roster": "8/6 D/N rotating"
+    "roster": "8/6 D/N rotating",
+    "flag": "Superintendent level — above frontline supervisor"
   },
   "Golding.docx": {
     "company": "Golding Contractors",
@@ -1056,14 +1057,6 @@
     "roster": "14/14 FIFO",
     "flag": "NT role — not Queensland"
   },
-  "Production Supervisor MacKellar.docx": {
-    "company": "MacKellar",
-    "role": "Production Supervisor",
-    "type": "Production Supervisor",
-    "sector": "Coal - Surface",
-    "location": "Carmichael Mine QLD",
-    "roster": "7/7 FIFO"
-  },
   "Production Supervisor Yancoal.docx": {
     "company": "YanCoal",
     "role": "Production Supervisor",
@@ -1106,7 +1099,7 @@
   "Senior Production Supervisor MacKellar.docx": {
     "company": "MacKellar",
     "role": "Senior Production Supervisor",
-    "type": "Superintendent (above supervisor)",
+    "type": "Production Supervisor",
     "sector": "Coal - Surface",
     "location": "Townsville QLD",
     "roster": "7/7 day shift"
