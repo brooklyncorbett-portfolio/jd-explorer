@@ -509,19 +509,32 @@ function renderBrowse(){
 // ─── TAB 2: SUPERVISOR TYPES ───
 function renderTypes(){
   const el=document.getElementById("typesTab");const types=[...new Set(DATA.map(j=>j.type))];
-  // A type is "out of scope" only if every JD of that type has an out-of-scope flag.
-  // Types with at least one in-scope JD are shown as in-scope (individual JDs still flagged via their cards).
-  const inT=types.filter(t=>DATA.some(j=>j.type===t&&!j.flag));
-  const flagT=types.filter(t=>!DATA.some(j=>j.type===t&&!j.flag));
-  el.innerHTML=`<p class="intro">The different supervisor types found across all ${DATA.length} job descriptions. Click any card to expand it.</p>
-  ${[...inT,...flagT].map(type=>{const info=TYPE_INFO[type]||{desc:""};const jds=DATA.filter(j=>j.type===type);
-    const isF=flagT.includes(type);const secs=[...new Set(jds.map(j=>j.sector))];
-    return `<div class="type-card" ${isF?'style="opacity:.55;border-style:dashed"':""}>
+  // Split each type's JDs into in-scope and out-of-scope. A type appears in the
+  // IN SCOPE section if it has any in-scope JDs, and in the OUT OF SCOPE section
+  // (greyed out) if it has any out-of-scope JDs. Types can appear in both sections,
+  // with only the matching JDs shown in each.
+  const inTypes=types.filter(t=>DATA.some(j=>j.type===t&&!j.flag));
+  const outTypes=types.filter(t=>DATA.some(j=>j.type===t&&j.flag));
+  const renderCard=(type,isOOS)=>{
+    const info=TYPE_INFO[type]||{desc:""};
+    const jds=DATA.filter(j=>j.type===type && (isOOS?!!j.flag:!j.flag));
+    if(jds.length===0) return '';
+    const secs=[...new Set(jds.map(j=>j.sector))];
+    const styleAttr=isOOS?'style="opacity:.55;border-style:dashed"':'';
+    const oosTag=isOOS?' <span style="font-size:11px;color:var(--red)">(out of scope)</span>':'';
+    return `<div class="type-card" ${styleAttr}>
       <div style="display:flex;align-items:flex-start;gap:10px;margin-bottom:8px">
-        <div style="flex:1"><h3>${esc(type)}${isF?' <span style="font-size:11px;color:var(--red)">(out of scope)</span>':""}</h3><div style="font-size:12px;color:var(--t2);margin-top:2px">${esc(info.desc)}</div></div>
+        <div style="flex:1"><h3>${esc(type)}${oosTag}</h3><div style="font-size:12px;color:var(--t2);margin-top:2px">${esc(info.desc)}</div></div>
         <div style="text-align:right"><div style="font-family:'JetBrains Mono',monospace;font-size:20px;font-weight:700">${jds.length}</div><div style="font-size:10px;color:var(--t3)">JD${jds.length>1?"s":""}</div></div></div>
       <div style="margin-bottom:10px;display:flex;gap:4px;flex-wrap:wrap">${secs.map(s=>`<span class="tag sector ${sc(s).cls}" style="font-size:10px;padding:1px 6px">${esc(s)}</span>`).join("")}</div>
-      ${jds.map(j=>jdCardHtml(j,"",null)).join("")}</div>`}).join("")}`;
+      ${jds.map(j=>jdCardHtml(j,"",null)).join("")}</div>`;};
+  const inHtml=inTypes.map(t=>renderCard(t,false)).join("");
+  const outHtml=outTypes.map(t=>renderCard(t,true)).join("");
+  const inCount=DATA.filter(j=>!j.flag).length;
+  const outCount=DATA.filter(j=>!!j.flag).length;
+  el.innerHTML=`<p class="intro">The different supervisor types found across all ${DATA.length} job descriptions. Click any card to expand it.</p>
+    ${inHtml?`<div class="scope-header in"><div class="scope-dot"></div> IN SCOPE (${inCount} JDs across ${inTypes.length} type${inTypes.length>1?"s":""})</div><div class="scope-explain">Supervisor-level roles relevant to Queensland mining</div>${inHtml}`:""}
+    ${outHtml?`<div class="scope-header out"><div class="scope-dot"></div> OUT OF SCOPE (${outCount} JDs across ${outTypes.length} type${outTypes.length>1?"s":""})</div><div class="scope-explain">Non-supervisor, interstate, or non-mining roles excluded from the analysis</div>${outHtml}`:""}`;
   bindCards(el);
 }
 
