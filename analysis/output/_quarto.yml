@@ -1,0 +1,8 @@
+project:
+  type: default
+  # Auto-run after every render. Strips borders from the single-cell
+  # caption tables pandoc generates for figure and table captions,
+  # which otherwise show as extra horizontal lines in the docx.
+  # Only runs when a .docx output exists (skipped silently otherwise).
+  post-render:
+    - python3 fix_tables.py

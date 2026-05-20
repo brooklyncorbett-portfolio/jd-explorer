@@ -67,7 +67,7 @@ def main():
         by_jd[r['jd_filename']].append({
             'category': r['category'],
             'code': r['code'],
-            'evidence': r['evidence_quote'][:400],
+            'evidence': r['evidence'][:400],
             'required': r['required'],
         })
 

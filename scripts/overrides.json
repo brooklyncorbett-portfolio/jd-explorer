@@ -82,7 +82,7 @@
     "sector": "Construction/Services",
     "location": "Cloncurry QLD",
     "type": "Site Services Supervisor",
-    "flag": "Construction/site services — not frontline mining operations",
+    "flag": "Construction/site services \u2014 not frontline mining operations",
     "responsibilities": [
       "Implement the project ES&H program and quality control program",
       "Supervise, coordinate and direct craft activities for services disciplines",
@@ -253,7 +253,7 @@
     "sector": "Minerals - Surface",
     "location": "Beebyn-W11 WA",
     "type": "Maintenance Supervisor",
-    "flag": "WA role — not Queensland",
+    "flag": "WA role \u2014 not Queensland",
     "responsibilities": [
       "Lead mobile maintenance team on site",
       "Manage breakdowns, diagnostics and repairs",
@@ -306,8 +306,8 @@
     "qualifications": [
       "Trade qualification in Diesel Fitting or equivalent",
       "Previous experience as a Maintenance Supervisor on a mine site",
-      "Current Mining Supervisor — G1, G8, G9 (formerly S1, S2, S3)",
-      "Current Carry out the Risk Management Process — G2 (RIIRIS402D)",
+      "Current Mining Supervisor \u2014 G1, G8, G9 (formerly S1, S2, S3)",
+      "Current Carry out the Risk Management Process \u2014 G2 (RIIRIS402D)",
       "Current Queensland Coal Board Medical (or willingness to obtain)",
       "Current Standard 11 (or willingness to obtain)",
       "Current Queensland Driver Licence"
@@ -363,7 +363,8 @@
       "Strong leadership capability and communication skills",
       "Valid manual driver's licence"
     ],
-    "roster": "2/2 even-time, 12hr shifts"
+    "roster": "2/2 even-time, 12hr shifts",
+    "flag": "Olympic Dam SA \u2014 Queensland scope only"
   },
   "Mining_Operator_The_Thiess.docx": {
     "company": "Thiess",
@@ -371,7 +372,7 @@
     "sector": "Coal - Surface",
     "location": "Peak Downs, Moranbah QLD",
     "type": "Operator (not supervisor)",
-    "flag": "Operator-level role — not supervisor",
+    "flag": "Operator-level role \u2014 not supervisor",
     "responsibilities": [
       "Operating heavy machinery safely and efficiently to maximise productivity",
       "Adhering to Thiess safety standards and operational procedures"
@@ -390,7 +391,7 @@
     "sector": "Coal - Surface",
     "location": "Darling Downs QLD",
     "type": "Superintendent (above supervisor)",
-    "flag": "Superintendent level — above frontline supervisor",
+    "flag": "Superintendent level \u2014 above frontline supervisor",
     "responsibilities": [
       "Lead and mentor Supervisors and frontline teams to achieve production and safety targets",
       "Oversee daily and weekly production planning and execution",
@@ -438,7 +439,7 @@
     "sector": "Coal - Surface",
     "location": "Centurion Mine QLD",
     "type": "Operator (not supervisor)",
-    "flag": "Operator/fitter roles — not supervisor"
+    "flag": "Operator/fitter roles \u2014 not supervisor"
   },
   "Production_Supervisor.docx": {
     "company": "Turner Talent",
@@ -446,7 +447,7 @@
     "sector": "Manufacturing (Non-mining)",
     "location": "Eagle Farm, Brisbane QLD",
     "type": "Production Supervisor",
-    "flag": "Manufacturing role — not mining",
+    "flag": "Manufacturing role \u2014 not mining",
     "responsibilities": [
       "Supervise production staff and coordinate daily workflow",
       "Ensure output targets and quality standards are met",
@@ -487,7 +488,7 @@
       "S1, S2, S3",
       "Work at Heights",
       "Confined Space",
-      "Manual Drivers Licence — C class"
+      "Manual Drivers Licence \u2014 C class"
     ]
   },
   "Quarry_Supervisor_NITRO_CRUSHING.docx": {
@@ -542,7 +543,7 @@
     "sector": "Minerals - Surface",
     "location": "Weipa QLD",
     "type": "Operator (not supervisor)",
-    "flag": "Operator-level role — not supervisor",
+    "flag": "Operator-level role \u2014 not supervisor",
     "responsibilities": [
       "Operating 776D Haul Trucks with further training on other machinery",
       "Commitment to safety of yourself and your team",
@@ -583,7 +584,7 @@
     "sector": "Construction/Services",
     "location": "Cairns QLD",
     "type": "Site Services Supervisor",
-    "flag": "Infrastructure/construction — not mining operations",
+    "flag": "Infrastructure/construction \u2014 not mining operations",
     "responsibilities": [
       "Program daily site works in accordance with the construction program",
       "Ensure project compliance with all relevant legislation, regulations and standards",
@@ -681,7 +682,7 @@
     "sector": "Manufacturing (Non-mining)",
     "location": "Bulwer Island, Brisbane QLD",
     "type": "Production Supervisor",
-    "flag": "Cement manufacturing — not mining",
+    "flag": "Cement manufacturing \u2014 not mining",
     "responsibilities": [
       "Ensure operations comply with SHEQ policies including risk assessments and corrective actions",
       "Lead operational activities to achieve safety, quality, maintenance, and production targets",
@@ -805,7 +806,7 @@
     "sector": "Construction/Services",
     "location": "Charters Towers, Northern QLD",
     "roster": "5/2",
-    "flag": "Mine remediation/rehabilitation — not frontline mining operations"
+    "flag": "Mine remediation/rehabilitation \u2014 not frontline mining operations"
   },
   "BHP.docx": {
     "company": "BHP",
@@ -852,7 +853,7 @@
     "sector": "Minerals - Underground",
     "location": "Mungari, Kalgoorlie WA",
     "roster": "Not specified",
-    "flag": "WA role — not Queensland"
+    "flag": "WA role \u2014 not Queensland"
   },
   "Evolution Mining.docx": {
     "company": "Evolution Mining",
@@ -893,7 +894,7 @@
     "sector": "Coal - Surface",
     "location": "Curragh Mine, Blackwater QLD",
     "roster": "8/6 D/N rotating",
-    "flag": "Superintendent level — above frontline supervisor"
+    "flag": "Superintendent level \u2014 above frontline supervisor"
   },
   "Golding.docx": {
     "company": "Golding Contractors",
@@ -958,7 +959,7 @@
     "sector": "Construction/Services",
     "location": "Cloncurry QLD",
     "roster": "2:1 FIFO",
-    "flag": "Scaffolding supervisor — not frontline mining operations"
+    "flag": "Scaffolding supervisor \u2014 not frontline mining operations"
   },
   "Development Supervisor.docx": {
     "company": "BHP/BMA",
@@ -984,7 +985,7 @@
       "Develop and adhere to budget; manage team administration"
     ],
     "qualifications": [
-      "Trade Qualification – Electrician (licensed)",
+      "Trade Qualification \u2013 Electrician (licensed)",
       "S123 statutory competency",
       "5+ years mining experience",
       "5+ years Electrical Fixed Assets experience",
@@ -1046,7 +1047,7 @@
     "sector": "Coal - Underground",
     "location": "Mackay QLD",
     "roster": "7/7",
-    "flag": "Operator-level role — not supervisor"
+    "flag": "Operator-level role \u2014 not supervisor"
   },
   "Newmont.docx": {
     "company": "Newmont Australia",
@@ -1055,7 +1056,7 @@
     "sector": "Minerals - Underground",
     "location": "Tanami Mine, NT",
     "roster": "14/14 FIFO",
-    "flag": "NT role — not Queensland"
+    "flag": "NT role \u2014 not Queensland"
   },
   "Production Supervisor Yancoal.docx": {
     "company": "YanCoal",

@@ -1,10 +1,11 @@
 code,label,n_jds,pct_jds
-K5,Operational systems / software,19,33.3
-K4,Equipment / plant knowledge,12,21.1
-K1,QLD CMSHA knowledge,8,14.0
-K8,Sector technical knowledge,7,12.3
-K6,Risk management methodology,6,10.5
-K9,Maintenance planning,4,7.0
-K7,Continuous improvement methodology,2,3.5
+K5,Operational systems / software,18,32.1
+K1,QLD CMSHA knowledge,13,23.2
+K6,Risk management methodology,12,21.4
+K4,Equipment / plant knowledge,10,17.9
+K8,Sector technical knowledge,7,12.5
+K9,Maintenance planning,7,12.5
+K2,K2,4,7.1
+K7,Continuous improvement methodology,2,3.6
 K10,Product specifications,1,1.8
 K3,Electrical legislation,1,1.8

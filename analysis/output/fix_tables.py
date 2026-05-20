@@ -2,9 +2,11 @@
 Post-process the rendered jd_analysis.docx to strip borders from single-cell
 caption tables (which pandoc generates for every figure/table caption).
 
-Run after `quarto render`:
+Wired as a Quarto post-render hook in _quarto.yml — runs automatically
+after `quarto render`. Can also be run manually:
     python3 fix_tables.py
 """
+import os
 import sys
 from docx import Document
 from docx.oxml.ns import qn
@@ -43,6 +45,10 @@ def strip_table_borders(tbl):
             tcPr.append(tcBorders)
 
 def main():
+    if not os.path.exists(DOCX):
+        # No .docx produced by this render (e.g. PDF-only). Skip silently.
+        print(f"fix_tables: no {DOCX} found in cwd, skipping.")
+        return
     doc = Document(DOCX)
     fixed = 0
     for tbl in doc.tables:

@@ -1,6 +1,0 @@
-sector,Leading Hand,Maintenance Supervisor,Mining Supervisor,Production Supervisor,Production Supervisor - Mining,Quarry Supervisor,Shift Supervisor,Shutdown / Projects Supervisor,Site Services Supervisor,Superintendent (above supervisor),Underground Shift Supervisor
-Coal - Surface,1,6,4,15,0,0,0,2,1,2,0
-Coal - Underground,0,0,0,1,0,0,0,0,0,0,2
-Minerals - Surface,0,2,4,3,1,0,0,1,1,0,0
-Minerals - Underground,0,4,0,0,0,0,1,0,0,0,1
-Quarry,0,0,0,0,0,7,0,0,0,0,0

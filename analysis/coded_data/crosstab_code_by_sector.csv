@@ -1,79 +1,79 @@
 code,Coal - Surface,Coal - Underground,Minerals - Surface,Minerals - Underground,Quarry,label
-D1,19,2,3,5,5,Supervise & lead crews
-D10,15,0,2,2,2,Continuous improvement
-D11,8,0,5,1,1,Plan & schedule work
-D12,11,0,4,4,2,Reporting & admin
-D13,3,0,2,0,0,Incident investigation
-D14,2,0,0,1,0,Permits & high-risk activities
-D15,3,0,5,2,5,Environmental & quality
-D16,11,0,3,2,3,Cross-functional collaboration
-D17,1,1,2,0,2,Training & competency assurance
-D18,4,0,2,0,0,Shift handover
-D2,15,0,7,3,3,Coach & mentor
-D3,6,0,2,1,1,Allocate tasks
-D4,7,0,2,0,5,Safety leadership activities
-D5,15,0,5,2,5,Statutory compliance
-D6,16,0,8,4,2,Promote safety culture
-D7,8,1,5,2,5,Oversee daily operations
-D8,9,0,7,2,2,Manage production/targets
-D9,5,0,1,1,1,Coordinate resources
-DP1,13,1,3,2,2,Safety-focused
-DP10,2,0,0,0,0,Continuous improvement mindset
-DP11,4,0,1,0,0,Adaptable / flexible
-DP12,2,0,2,2,1,Decision-making under pressure
-DP13,3,0,3,1,1,Time management
-DP14,8,0,2,1,1,Relationship-building
-DP15,1,0,2,1,0,Self-management
+D1,21,0,7,5,6,Supervise & lead crews
+D10,14,0,4,3,3,Continuous improvement
+D11,12,0,7,3,3,Plan & schedule work
+D12,9,0,7,3,3,Reporting & admin
+D13,2,0,1,0,1,Incident investigation
+D14,2,0,0,0,0,Permits & high-risk activities
+D15,4,0,4,1,2,Environmental & quality
+D16,10,0,6,2,2,Cross-functional collaboration
+D17,3,0,3,1,4,Training & competency assurance
+D18,4,0,1,0,0,Shift handover
+D2,17,0,7,3,4,Coach & mentor
+D3,7,0,2,0,2,Allocate tasks
+D4,9,0,4,3,4,Safety leadership activities
+D5,14,0,6,2,3,Statutory compliance
+D6,13,0,6,3,6,Promote safety culture
+D7,16,0,6,3,5,Oversee daily operations
+D8,12,0,6,0,3,Manage production/targets
+D9,6,0,6,2,2,Coordinate resources
+DP1,11,1,4,1,5,Safety-focused
+DP10,3,0,2,0,0,Continuous improvement mindset
+DP11,6,0,3,0,0,Adaptable / flexible
+DP12,3,0,3,1,1,Decision-making under pressure
+DP13,5,0,3,0,2,Time management
+DP14,9,1,1,2,1,Relationship-building
+DP15,1,0,1,1,2,Self-management
 DP16,1,0,0,0,0,Inclusive leadership
-DP2,16,2,6,2,5,Strong communicator
-DP3,1,1,1,1,0,People-focused / caring
-DP4,2,0,0,0,0,Results-oriented
-DP5,2,0,3,0,1,"Hands-on, lead by example"
-DP6,5,1,3,2,1,Problem-solver
-DP7,2,0,0,1,2,Initiative / proactive
-DP9,1,0,1,0,0,Coaching/mentoring trait
-E1,25,1,8,6,3,Supervisory experience
-E10,5,0,0,0,0,Industry breadth
-E11,2,3,6,3,2,Commodity/process specialism
-E12,1,0,0,0,0,Equipment brand
-E13,0,0,1,1,0,Contractor mgmt
-E2,6,1,6,3,0,Operational experience
-E3,16,0,0,0,0,Sector: Coal Surface
+DP2,14,2,8,1,3,Strong communicator
+DP3,4,1,1,2,5,People-focused / caring
+DP4,2,0,0,0,1,Results-oriented
+DP5,5,0,5,3,1,"Hands-on, lead by example"
+DP6,5,1,4,1,1,Problem-solver
+DP7,1,0,1,0,4,Initiative / proactive
+DP8,0,0,2,0,0,DP8
+DP9,1,0,0,0,0,Coaching/mentoring trait
+E1,27,1,10,5,3,Supervisory experience
+E10,5,0,1,1,1,Industry breadth
+E11,2,1,4,3,0,Commodity/process specialism
+E12,2,0,0,0,0,Equipment brand
+E13,2,0,1,1,0,Contractor mgmt
+E2,10,2,7,3,0,Operational experience
+E3,12,0,0,0,0,Sector: Coal Surface
 E4,0,3,0,0,0,Sector: Coal UG
-E5,0,0,8,2,0,Sector: Minerals
+E5,0,0,7,5,0,Sector: Minerals
 E6,0,0,0,0,6,Sector: Quarry
-E7,12,0,3,1,1,Equipment specialism
-E8,4,0,1,2,0,Workforce context
-E9,2,0,1,1,0,Project delivery experience
-K1,6,0,2,0,0,QLD CMSHA knowledge
+E7,13,1,5,4,7,Equipment specialism
+E8,5,0,4,3,0,Workforce context
+E9,2,0,2,1,0,Project delivery experience
+K1,13,0,0,0,0,QLD CMSHA knowledge
 K10,0,0,0,0,1,Product specifications
+K2,0,0,4,0,0,K2
 K3,0,0,0,1,0,Electrical legislation
-K4,4,0,2,0,6,Equipment / plant knowledge
-K5,9,0,5,3,2,Operational systems / software
-K6,2,1,2,1,0,Risk management methodology
+K4,3,0,2,1,4,Equipment / plant knowledge
+K5,9,0,5,2,2,Operational systems / software
+K6,3,1,3,3,2,Risk management methodology
 K7,0,0,0,0,2,Continuous improvement methodology
-K8,1,0,5,1,0,Sector technical knowledge
-K9,4,0,0,0,0,Maintenance planning
-Q1,9,1,1,0,0,Standard 11
+K8,1,1,5,0,0,Sector technical knowledge
+K9,5,0,2,0,0,Maintenance planning
+Q1,10,1,1,0,0,Standard 11
 Q10,3,0,0,0,0,Engineering tertiary
-Q11,10,2,2,2,2,Driver's licence
-Q12,0,0,1,0,3,High Risk Work Licences
+Q11,11,2,2,1,2,Driver's licence
+Q12,1,0,1,0,2,High Risk Work Licences
 Q13,0,0,1,0,0,White Card
-Q14,1,0,1,0,0,MSIC
+Q14,0,0,1,0,0,MSIC
 Q15,0,0,0,1,0,Explosives Security Clearance
-Q16,2,0,0,0,0,Generic Site Induction
-Q17,0,1,0,1,1,VOC for equipment
+Q16,3,0,0,0,0,Generic Site Induction
+Q17,0,1,1,1,2,VOC for equipment
 Q18,1,0,2,0,0,Cert IV TAE
 Q19,0,0,1,0,0,Frontline Management
-Q2,8,0,4,0,0,Coal Surface S1/S2/S3/G2
+Q2,15,0,0,0,0,Coal Surface S1/S2/S3/G2
 Q20,1,0,0,0,0,Shotfirer accreditation
-Q3,6,2,0,0,0,Coal UG G1/G8/G9
+Q3,0,2,0,0,0,Coal UG G1/G8/G9
 Q4,3,0,0,0,0,OCE
-Q5,0,0,0,4,2,Minerals/Quarry QMS123/G189
-Q6,4,2,0,0,0,Coal Board Medical
+Q5,0,0,5,4,2,Minerals/Quarry QMS123/G189
+Q6,6,2,0,0,0,Coal Board Medical
 Q7,3,0,0,1,1,First Aid
-Q8,3,0,2,0,1,RII units (named)
-Q9,9,1,2,4,1,Trade qualification
-SP2,2,0,0,0,0,OCE position
-SP8,0,0,0,1,0,Statutory UG Shift Sup
-SP9,1,0,0,0,0,Shotfirer position
+Q8,4,1,1,0,1,RII units (named)
+Q9,10,0,2,3,2,Trade qualification
+SP2,1,0,0,0,0,OCE position
